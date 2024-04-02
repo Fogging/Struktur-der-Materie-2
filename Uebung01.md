@@ -30,7 +30,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
 ## Aufgabe 1
-                                      {{0}}
+
 > Die Energielücke zwischen Valenz- und Leitungsband liegt in der Größenordnung von $\mathrm{1~eV}$. Wie stark muss ein von außen angelegtes elektrisches Feld sein, um einen Elektronenübergang vom Valenz- zum Leitungsband zu erzeugen? Nehmen Sie eine mittlere Elektronengeschwindigkeit von $\mathrm{10^6~m/s}$ und eine Relaxationszeit von $\mathrm{10^{-14}~s}$ an.
 
                                       {{1}}
@@ -40,7 +40,7 @@ Ein elektrisches Feld führt zur Verkippung der Bänder (allgemein gültig, nich
 Kann das Elektron ausreichend weit springen, kann es die Bandlücke $E_\mathrm{g}$ zwischen Valenzband und Leitungsband überwinden.
 
                                       {{3}}
-![Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld](Bilder/Elektrisches_Feld_Valenzband_Leitungsband.png "Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld. Das Elektron (blauer Kreis) bewegt sich vom Valenzband zum Leitungsband. *Quelle: Hartmut Stöcker [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld](Bilder/Elektrisches_Feld_Valenzband_Leitungsband.png "Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld. Das Elektron (blauer Kreis) bewegt sich vom Valenzband zum Leitungsband. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
                                       {{4}}
 Die Sprungweite $s$ ergibt sich aus Geschwindigkeit $v$ und Relaxationszeit $t$ (Lebensdauer):
@@ -55,12 +55,11 @@ $$E = \frac{U}{s} = \frac{\mathrm{1~V}}{\mathrm{10^{-8}~m}} = \mathrm{10^8~\frac
 
 ## Aufgabe 2 
 
-                                      {{0}}
-> __2.__ Berechnen Sie unter Annahme eines freien Elektronengases die Fermi-Energie, die Fermi-Wellenzahl, die Fermi-Temperatur und die Fermi- Geschwindigkeit für Silber. Silber hat eine Dichte von $10,5\,\mathrm{\frac{g}{cm^3}}$, eine molare Masse von $\mathrm{107,8682 \frac{g}{mol}}$ und liefert ein Elektron pro Atom.
-
+> Zeichnen Sie schematisch die Bandstruktur $E(k)$ für einen direkten und einen indirekten Halbleiter. Wo befindet sich das Fermi-Niveau $E_\mathrm{F}$ bei Raumtemperatur für einen intrinsischen, Donator- oder Akzeptor-dotierten Halbleiter?
 
                                       {{1}}
-**Lösung Aufgabe 2:**
+**Bandstrukturen:**
+![Bandstrukturen für zwei direkte Halbleiter](Bilder/Bandschema_direkte_Halbleiter.png "Bandstrukturen $E(k)$ für zwei direkte Halbleiter. Das Valenzbandmaximum und das Leitungsbandminimum liegen genau beim gleichen $k$-Wert. *Quelle: Helmut Föll, [Matwiss II](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_4/backbone/r4_3_2.html)*") ![Bandstrukturen für zwei indirekte Halbleiter](Bilder/Bandschema_indirekte_Halbleiter.png "Bandstrukturen $E(k)$ für zwei indirekte Halbleiter. Das Valenzbandmaximum und das Leitungsbandminimum befinden sich bei unterschiedlichen $k$-Werten. *Quelle: Helmut Föll, [Matwiss II](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_4/backbone/r4_3_2.html)*")
 
                                       {{2}}
 Für die Elektronenkonzentration $n$ in Ag gilt:                                            
