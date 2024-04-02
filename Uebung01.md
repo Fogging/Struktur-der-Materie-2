@@ -1,7 +1,7 @@
 <!--
-author:   Claudia Funke
+author:   Hartmut Stöcker
 
-email:    claudia.funke@physik.tu-freiberg.de
+email:    hartmut.stoecker@physik.tu-freiberg.de
 
 version:  0.0.1
 
@@ -9,7 +9,7 @@ language: de
 
 narrator: Deutsch Female
 
-comment:  Struktur der Materie Übung 13
+comment:  Struktur der Materie 2 - Übung 01
 @style
 .lia-toc__bottom {
     display: none;
@@ -26,23 +26,32 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 13: 
+# Übung 1
 
 
 ## Aufgabe 1
                                       {{0}}
-> __1.__ Warum ist kondensierte Materie für Leitungselektronen so durchlässig?
+> Die Energielücke zwischen Valenz- und Leitungsband liegt in der Größenordnung von $\mathrm{1~eV}$. Wie stark muss ein von außen angelegtes elektrisches Feld sein, um einen Elektronenübergang vom Valenz- zum Leitungsband zu erzeugen? Nehmen Sie eine mittlere Elektronengeschwindigkeit von $\mathrm{10^6~m/s}$ und eine Relaxationszeit von $\mathrm{10^{-14}~s}$ an.
 
                                       {{1}}
-**Lösung Aufgabe 1:**
+Ein elektrisches Feld führt zur Verkippung der Bänder (allgemein gültig, nicht nur bei Halbleitern).
 
                                       {{2}}
-Kondensierte Materie ist für Elektronen aus zwei Günden "durchässig". 
+Kann das Elektron ausreichend weit springen, kann es die Bandlücke $E_\mathrm{g}$ zwischen Valenzband und Leitungsband überwinden.
 
-                                      {{2}}
-- Erstens wird ein Leitungselektron von den Ionenrümpfen eines periodischen Gitters nicht abgelenkt, da seine Ausbreitung auf einer Wellenbewegung beruht, die an das periodische Potential der Ionenrümpfe im Kristallgitter angepaßt ist. 
-- Zweitens wird ein Elektron nur selten an einem anderen gestreut, da zwei Elektronen aufgrund des Pauli Prinzips nie auf dem selben Elektronenniveau sind.
+                                      {{3}}
+![Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld](Bilder/Elektrisches_Feld_Valenzband_Leitungsband.png "Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld. Das Elektron (blauer Kreis) bewegt sich vom Valenzband zum Leitungsband. *Quelle: Hartmut Stöcker [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
+                                      {{4}}
+Die Sprungweite $s$ ergibt sich aus Geschwindigkeit $v$ und Relaxationszeit $t$ (Lebensdauer):
+$$s = v \cdot t = \mathrm{10^6~\frac{m}{s}} \cdot \mathrm{10^{-14}~s} = \mathrm{10^{-8}~m}$$
+
+                                      {{5}}
+Die Bandlücke $E_\mathrm{g} = \mathrm{1~eV}$ entspricht für das Elektron einer Potentialbarriere von $U = \mathrm{1~V}$.
+
+                                      {{6}}
+Für das elektrische Feld $E$ folgt:
+$$E = \frac{U}{s} = \frac{\mathrm{1~V}}{\mathrm{10^{-8}~m}} = \mathrm{10^8~\frac{V}{m}} = \mathrm{10^5~\frac{V}{mm}} = \mathrm{100~\frac{kV}{mm}}$$
 
 ## Aufgabe 2 
 
