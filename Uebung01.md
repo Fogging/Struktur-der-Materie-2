@@ -84,24 +84,24 @@ $$E = \frac{U}{s} = \frac{\mathrm{1~V}}{\mathrm{10^{-8}~m}} = \mathrm{10^8~\frac
 
 ![Bandstruktur eines indirekten Halbleiters](Bilder/Bandstruktur_Bandlücke.png)
 
-                                      {{1}}
-**a Wie groß ist die Energie der Bandlücke?**
+**a) Wie groß ist die Energie der Bandlücke?**
 
+                                      {{1}}
 Der Abstand zwischen Valenzbandmaximum und Leitungsbandminimum beträgt $\mathrm{0,\!5~eV}$.
 
-                                      {{2}}
-**b Markieren Sie die niedrigste Energie eines Elektrons im Leitungsband.**
+**b) Markieren Sie die niedrigste Energie eines Elektrons im Leitungsband.**
 
+                                      {{2}}
 Das Leitungsbandminimum liegt bei $k = \frac{8}{11}\,\frac{\pi}{a}$.
 
-                                      {{3}}
-**c Markieren Sie die höchste Energie eines Loches im Valenzband.**
+**c) Markieren Sie die höchste Energie eines Loches im Valenzband.**
 
+                                      {{3}}
 Das Valenzbandmaximum liegt bei $k = 0$.
 
-                                      {{4}}
-**d Ist die Energielücke direkt oder indirekt? Warum?**
+**d) Ist die Energielücke direkt oder indirekt? Warum?**
 
+                                      {{4}}
 Die Energielücke ist indirekt, da Leitungsbandminimum und Valenzbandmaximum bei unterschiedlichen $k$-Werten liegen.
 
 
