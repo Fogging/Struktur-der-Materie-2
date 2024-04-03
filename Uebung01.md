@@ -256,7 +256,7 @@ Dotierte Halbleiter zeigen eine ausgeprägte Temperaturabhängigkeit der Fermi-E
 Da sich $\mu$ ungefähr in der Mitte der Bandlücke befindet, gilt $(E −\mu) \gg 𝑘_\mathrm{B} 𝑇$.
 
                                       {{2}}
-Damit gilt auch $\mathrm{e}^{(𝐸−\mu)/𝑘_\mathrm{B} 𝑇} \gg 1$.
+Damit gilt auch $\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} \gg 1$.
 
                                       {{3}}
 Der Summand $+1$ im Nenner kann also vernachlässigt werden:
@@ -267,12 +267,16 @@ Für die Besetzung der Elektronen im Leitungsband erhalten wir also den vereinfa
 $$f(E,T) \approx \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right)$$
 
                                       {{5}}
-Für die Besetzung der Löcher im Valenzband folgt entsprechend:
-$$1 - f(E,T) \approx 1 - \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right)$$
+Für die Besetzung der Löcher im Valenzband beginnen wir noch einmal beim ursprünglichen Ausdruck:
+$$1 - f(E,T) = 1 - \frac{1}{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} + 1} = \frac{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} + 1 - 1}{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} + 1} = \frac{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T}}{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} + 1}$$
 
                                       {{6}}
-Dieser Ausdruck kann weiter vereinfacht werden:
-$$1 - f(E,T) \approx 1 - \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right) \approx \exp \left( \frac{E−\mu}{k_\mathrm{B} T} \right)$$
+Wir teilen im letzten Ausdruck durch den Term mit der $\mathrm{e}$-Funktion:
+$$1 - f(E,T) = \frac{1}{1 + \mathrm{e}^{-(E−\mu)/k_\mathrm{B} T}} = \frac{1}{\mathrm{e}^{(\mu - E)/k_\mathrm{B} T} + 1}$$
+
+                                      {{7}}
+Auch hier ist $\mathrm{e}^{(\mu - E)/k_\mathrm{B} T} \gg 1$ und der Summand $+1$ im Nenner kann vernachlässigt werden:
+$$1 - f(E,T) \approx \exp \left( -\frac{\mu - E}{k_\mathrm{B} T} \right)$$
 
 
 ## Aufgabe 10
