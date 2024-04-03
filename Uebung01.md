@@ -106,85 +106,42 @@ Die Energielücke ist indirekt, da Leitungsbandminimum und Valenzbandmaximum bei
 
 
 ## Aufgabe 4 
-                                      {{0}}
-> __4.__ Zeigen Sie, dass die mittlere (kinetische) Energie von freien Elektronen in einem dreidimensionalen Elektronengas aus $N$ Elektronen bei $T=0\,\mathrm{K}$ gleich $\overline{E}=\frac{3}{5}E_\mathrm{F}$ ist.
 
-
+> Wie ist die effektive Masse von Elektronen bzw. Löchern in Halbleitern definiert?
 
                                       {{1}}
-**Lösung Aufgabe 4:**
+Die effektive Masse wird als $m^*$ oder $m^\mathrm{eff}$ bezeichnet und ergibt sich aus der inversen Krümmung des Bandes $E(k)$. Die Krümmung wird über die zweite Ableitung berechnet:
+$$m^\mathrm{eff} = \hbar^2 \left( \frac{\mathrm{d}^2 E}{\mathrm{d} k^2} \right)^{-1}$$
 
                                       {{2}}
+Für Elektronen wird für $E(k)$ das Leitungsband genutzt, für Löcher das Valenzband.
 
-Die Elektronen befolgen auf Grund ihres halbzahligen Spins die Fermi-Dirac-Statistic mit der Verteilungsfunktion
-
-                                      {{2}}
-$$f(E,T)=\frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}$$
-
-
-
-                                      {{3}}
-Die Gesamtenergie der Elektronen ist gegeben durch
-$$E_\mathrm{ges}=\int_0^{\infin}E\cdot D(E)\cdot f(E,T)\cdot dE $$
-
-                                      {{4}}
-Die mittlere Energie pro Elekron läßt sich berechnen zu:
-$$\begin{align*}\overline{E}&=\frac{E_\mathrm{ges}}{N}\\
-&=\frac{\int_0^{\infin}E\cdot D(E)\cdot f(E,T)\cdot dE}{\int_0^{\infin} D(E)\cdot f(E,T)\cdot dE}\\
-\end{align*}$$
-
-                                      {{5}}
-Jetzt können die Zustandsdichte $D(E)$ (siehe Aufgabe 3) und die Verteilungsfunktion $f(E,T)$ eingesetzt werden:
-
-                                      {{6}}
-$$\begin{align*}\overline{E}
-&=\frac{\int_0^{\infin}E\cdot \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot dE}{\int_0^{\infin} \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot dE}\\
-\end{align*}$$
-
-{{7}}       
-Für $T=0\,\mathrm{K}$ ist die Verteilungsfunktion eine Stufenfunktion mit Sprung bei $E_\mathrm{F}$, unterhalb von $E_\mathrm{F}$ ist der Wert 1, oberhalb Null.
-$$\begin{align*}
-\overline{E}
-&=\frac{\int_0^{E_\mathrm{F}}E^{\frac{3}{2}}dE}{\int_0^{E_\mathrm{F}}E^{\frac{1}{2}}dE}\\
-&=\frac{\frac{2}{5}E_\mathrm{F}^{\frac{5}{2}}}{\frac{2}{3}E_\mathrm{F}^{\frac{3}{2}}}\\
-&=\frac{3}{5}E_\mathrm{F}
-\end{align*}$$
 
 ## Aufgabe 5 
 
-                                      {{0}}
-> __5.__ Zeigen Sie, dass ein Fermi-Gas mit der Fermi-Energie $E_\mathrm{F}$ auch am Temperaturnullpunkt einen Fermi-Druck besitzt. Vergleichen Sie das Ergebnis mit dem eines klassischen idealen Gases.
+> Gibt es Unterschiede in der effektiven Elektronenmasse von direkten und indirekten Halbleitern?
 
                                       {{1}}
-**Lösung Aufgabe 5:**
+**Direkte Halbleiter** (z. B. GaAs, GaN, InP) haben ein Leitungsbandminimum bei $k = 0$. Dort ist die effektive Masse isotrop, d. h. in allen Richtungen gleich:
+$$m^\mathrm{eff} = m_x^\mathrm{eff} = m_y^\mathrm{eff} = m_z^\mathrm{eff}$$
 
                                       {{2}}
-Die innere Energie $U$ eines Fermigases bei $T=0\, \mathrm{K}$ ist (siehe Aufgabe 4)
-$$U=N\cdot \overline{E}=N\cdot \frac{3}{5}E_\mathrm{F}$$
+An diesem Punkt kann die Energie $E(k)$ durch eine isotrope Parabel mit nur einer Masse $m^\mathrm{eff}$ angenähert werden:
+$$E(k) = \frac{\hbar^2 k^2}{2 m^\mathrm{eff}}$$
 
-                                       {{3}}
-Mit der Fermienergie $E_\mathrm{F}=\frac{\hbar^2}{2m_\mathrm{e}}\big(3\pi^2\frac{N}{V}\big)^{\frac{2}{3}}$ ergibt sich:
+                                      {{3}}
+************************************
+**Indirekte Halbleiter** (z. B. Si, Ge, GaP) haben ein Leitungsbandminimum bei $k \neq 0$. Dort ist die effektive Masse richtungsabhängig. Man unterscheidet zwei effektive Massen:
+
+- die longitudinale $m_l^\mathrm{eff}$ (entlang der $k$-Richtung)
+- die transversale $m_t^\mathrm{eff}$ (senkrecht zu $k$)
+************************************
 
                                       {{4}}
-$$U=N\cdot \frac{3}{5}E_\mathrm{F}=N\cdot \frac{3}{5}\frac{\hbar^2}{2m_\mathrm{e}}\bigg(3\pi^2 \frac{N}{V}\bigg)^{\frac{2}{3}}$$
+Die Energieparabel $E(k)$ hängt dann von zwei Massen ab, zum Beispiel:
+$$E(k) = \frac{\hbar^2}{2} \left( \frac{k_x^2}{m_t^\mathrm{eff}} + \frac{k_y^2}{m_t^\mathrm{eff}} + \frac{k_z^2}{m_l^\mathrm{eff}} \right)$$
 
-                                      {{5}}
-Der Druck ist definiert als $p=-\frac{\partial U}{\partial V}$, also gilt
 
-                                      {{6}}
-$$\begin{align*}
-p&=-\frac{\partial U}{\partial V}\\
-&=-\frac{\partial }{\partial V}\bigg(N\cdot \frac{3}{5}\frac{\hbar^2}{2m_\mathrm{e}}\bigg(3\pi^2 \frac{N}{V}\bigg)^{\frac{2}{3}}\bigg)\\
-&=N\cdot \frac{3}{5}\frac{\hbar^2(3\pi^2N)^{\frac{2}{3}}}{2m_\mathrm{e}}\cdot (-\frac{2}{3})V^{-\frac{5}{3}}\\
-&=N\cdot V^{-1}\cdot \frac{2}{5}\frac{\hbar^2}{2m_\mathrm{e}}\cdot (\frac{3\pi^2N}{V})^{\frac{2}{3}}\\
-&=\frac{2}{5}\frac{N}{V}\cdot E_\mathrm{F}
-\end{align*}$$
-
-                                      {{7}}
-Der Fermi-Druck ist nicht von der Temperatur abhängig und auch bei $T=0\, \mathrm{K}$ vorhanden. Ein klassisches ideales Gas mit $N$ Teilchen hat den Druck 
-
-                                      {{8}}
-$$p_\mathrm{Gas}=N\cdot k_\mathrm{B} \frac{T}{V}$$
 ## Aufgabe 6 
 
                                       {{0}}
