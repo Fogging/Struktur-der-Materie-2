@@ -214,32 +214,39 @@ Das bedeutet:
 ************************************
 
                                       {{9}}
-Für $m_\mathrm{h}^\mathrm{eff} < m_\mathrm{e}^\mathrm{eff}$ ist das Valenzband stärker gekrümmt als das Leitungsband. Bei gleicher Ladungsträgerdichte ($n=p$) im intrinsischen Halbleiter, muss sich die Fermi-Energie $E_\mathrm{F}$ leicht nach unten verschieben. Dies ist notwendig um die ungleiche Besetzung der Zustände richtig zu beschreiben. Diese Verschiebung steigt mit der Temperatur, da immer mehr Elektronen und Löcher entstehen und damit die Besetzung der Bänder zunimmt.
+Für $m_\mathrm{h}^\mathrm{eff} < m_\mathrm{e}^\mathrm{eff}$ ist das Valenzband stärker gekrümmt als das Leitungsband. Bei gleicher Ladungsträgerdichte ($n=p$) im intrinsischen Halbleiter muss sich die Fermi-Energie $E_\mathrm{F}$ leicht nach unten verschieben. Dies ist notwendig um die ungleiche Besetzung der Zustände richtig zu beschreiben. Diese Verschiebung steigt mit der Temperatur, da immer mehr Elektronen und Löcher entstehen und damit die Besetzung der Bänder zunimmt.
 
 
 ## Aufgabe 8
 
-                                      {{0}}
->__8.__ Wie groß ist das Verhältnis  der kinetischen Energien eines freien Elektrons an einer Ecke der ersten Brillouin-Zone zu der eines Elektrons im Mittelpunkt einer Seitenfläche der Zone im einfachen dreidimensionalen kubischen Gitter?
+> Diskutieren Sie die Abhängigkeit des Fermi-Niveaus von der Temperatur bei Eigen- und bei Störstellenleitung.
 
                                       {{1}}
-**Lösung Aufgabe 8**
+************************************
+**Eigenleitung:**
+
+- Bei $T = 0~\mathrm{K}$ liegt die Fermi-Energie genau in der Mitte der Bandlücke: $E_\mathrm{F} = \frac{E_\mathrm{g}}{2}$.
+- Bei höheren Temperaturen verschiebt sich die Fermi-Energie leicht nach oben oder unten (je nach dem Verhältnis der effektiven Massen).
+- Der Zusammenhang lautet (siehe Aufgabe 7):
+$$E_\mathrm{F} = \frac{E_\mathrm{g}}{2} + \frac{3}{4} k_\mathrm{B} T \cdot \ln \left( \frac{m_\mathrm{h}^\mathrm{eff}}{m_\mathrm{e}^\mathrm{eff}} \right)$$
+************************************
 
                                       {{2}}
-Die 1. Brillouin- Zone eines sc-Gitters im 3D mit Gitterkonstante $a$ ist ein Würfel mit der Kantenlänge $\frac{2\pi}{a}$
+************************************
+**Störstellenleitung:**
+
+Dotierte Halbleiter zeigen eine ausgeprägte Temperaturabhängigkeit der Fermi-Energie (bzw. des chemischen Potentials). Daran gekoppelt ändert sich auch die Ladungsträgerkonzentration.
+************************************
 
                                       {{3}}
-Die [Raumdiagonale vom Würfel](https://www.matheretter.de/wiki/wurfel-raumdiagonale) errechnet sich mit Hilfe vom Satz des Pythagoras, wobei die Raumdiagonale durch eine Flächendiagonale und eine Kantenlänge aufgespannt wird. 
-Die Raumdiagonale im Impulsraum hat damit die Länge
+![Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $µ$ in einem dotierten n-Typ-Halbleiter](Bilder/Fermienergie_n-Typ_Temperatur.png "Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $µ$ in einem dotierten n-Typ-Halbleiter. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
                                       {{4}}
-$$\sqrt{3}\cdot \frac{\pi}{a}$$
+- Im Bereich I liegt Störstellenkompensation durch eine endliche Akzeptordichte vor.
+- Im Bereich II dominiert reine Störstellenleitung.
+- Im Bereich III der Störstellenerschöpfung sind sämtliche Störstellen ionisiert, so dass die Ladungsträgerdichte etwa konstant bleibt.
+- Im Bereich IV tritt die Eigenleitung gegenüber der Störstellenleitung in den Vordergrund.
 
-                                      {{5}}
-Damit gilt für die Energie in der Ecke des 3D-Würfels ([111]-Richtung) im Verhältnis fur Energie in [100]-Richtung:
-
-                                      {{6}}
-$$E_{[111]} = 3 \cdot E_{[100]}$$
 
 ## Aufgabe 9
 
