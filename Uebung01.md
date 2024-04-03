@@ -40,7 +40,7 @@ Ein elektrisches Feld führt zur Verkippung der Bänder (allgemein gültig, nich
 Kann das Elektron ausreichend weit springen, kann es die Bandlücke $E_\mathrm{g}$ zwischen Valenzband und Leitungsband überwinden.
 
                                       {{3}}
-![Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld](Bilder/Elektrisches_Feld_Valenzband_Leitungsband.png "Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld. Das Elektron (blauer Kreis) bewegt sich vom Valenzband zum Leitungsband. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 200px;" -->
+![Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld](Bilder/Elektrisches_Feld_Valenzband_Leitungsband.png "Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld. Das Elektron (blauer Kreis) bewegt sich vom Valenzband zum Leitungsband. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 250px;" -->
 
                                       {{4}}
 Die Sprungweite $s$ ergibt sich aus Geschwindigkeit $v$ und Relaxationszeit $t$ (Lebensdauer):
@@ -67,15 +67,15 @@ $$E = \frac{U}{s} = \frac{\mathrm{1~V}}{\mathrm{10^{-8}~m}} = \mathrm{10^8~\frac
 
                                       {{3}}
 **Fermi-Niveau intrinsischer Halbleiter:**
-![Fermi-Niveau für einen intrinsischen Halbleiter](Bilder/Ferminiveau_Raumtemperatur_intrinsisch.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen intrinsischen Halbleiter liegt ungefähr in der Mitte der Bandlücke. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*") 
+![Fermi-Niveau für einen intrinsischen Halbleiter](Bilder/Ferminiveau_Raumtemperatur_intrinsisch.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen intrinsischen Halbleiter liegt ungefähr in der Mitte der Bandlücke. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "height: 200px;" -->
 
                                       {{4}}
 **Fermi-Niveau Donator-dotierter Halbleiter:**
-![Fermi-Niveau für einen Donator-dotierten Halbleiter](Bilder/Ferminiveau_Raumtemperatur_Donator.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen Donator-dotierten Halbleiter liegt ungefähr beim Donator-Niveau $E_\mathrm{D}$. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*") 
+![Fermi-Niveau für einen Donator-dotierten Halbleiter](Bilder/Ferminiveau_Raumtemperatur_Donator.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen Donator-dotierten Halbleiter liegt ungefähr beim Donator-Niveau $E_\mathrm{D}$. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "height: 200px;" --> 
 
                                       {{5}}
 **Fermi-Niveau Akzeptor-dotierter Halbleiter:**
-![Fermi-Niveau für einen Akzeptor-dotierten Halbleiter](Bilder/Ferminiveau_Raumtemperatur_Akzeptor.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen Akzeptor-dotierten Halbleiter liegt ungefähr beim Akzeptor-Niveau $E_\mathrm{A}$. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![Fermi-Niveau für einen Akzeptor-dotierten Halbleiter](Bilder/Ferminiveau_Raumtemperatur_Akzeptor.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen Akzeptor-dotierten Halbleiter liegt ungefähr beim Akzeptor-Niveau $E_\mathrm{A}$. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "height: 200px;" -->
 
 
 ## Aufgabe 3
@@ -270,22 +270,41 @@ $$f(E,T) \approx \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right)$$
 Für die Besetzung der Löcher im Valenzband folgt entsprechend:
 $$1 - f(E,T) \approx 1 - \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right)$$
 
+                                      {{6}}
+Dieser Ausdruck kann weiter vereinfacht werden:
+$$1 - f(E,T) \approx 1 - \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right) \approx \exp \left( \frac{E−\mu}{k_\mathrm{B} T} \right)$$
+
 
 ## Aufgabe 10
 
-                                      {{0}}
->__10.__ Was beschreiben die Sommerfeld- Parameter?
+> In der folgenden Abbildung sehen Sie den Verlauf des Absorptionskoeffizienten in Abhängigkeit der Wellenlänge für verschiedene Halbleiter. Welche Halbleiter sind direkt und welche indirekt? Warum? Nennen Sie häufig eingesetzte Element- und Verbindungshalbleiter und ihre Anwendungen!
 
+![Absorptionskoeffizient in Abhängigkeit der Wellenlänge für verschiedene Halbleiter](Bilder/Absorptionskoeffizient_Wellenlänge.png)
 
                                       {{1}}
-**Lösung Aufgabe 10**
+Direkte Halbleiter: $\mathrm{GaAs, InP, In_{0.7}Ga_{0.3}As_{0.64}P_{0.36}, In_{0.53}Ga_{0.47}As}$
 
                                       {{2}}
-Für die spezifische Wärme von Metallen gilt bei tiefen Temperaturen:
-$$C_p = \underbrace{\gamma \cdot T}_\text{elektronischer Anteil} + \underbrace{A\cdot T^3}_\text{Phononenanteil}$$
+Indirekte Halbleiter: $\mathrm{Si, Ge}$
 
                                       {{3}}
-In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der Schnittpunkt dieser Gerade mit der $y$-Achse ist der Sommerfeld-Koeffizient $\gamma$.
+************************************
+Erklärung:
 
-{{4}}
-![Spezifische Wärme von Kalium bei tiefen Temperaturen](media/spezifische_Wärme_Kalium.png "*Spezifische Wärme von Kalium bei tiefen Temperaturen. Geplottet ist $C_p(T)$ gegen $T^2$ (Daten aus W.H. Lien, N.E. Phillips, Phys. Rev. 133, A1370 (1964)); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut *")
+- Für $E>E_\mathrm{g}$ steigt die Absorption der direkten Halbleiter mit abnehmender Wellenlänge $\lambda$ steil an. 
+- Für indirekte Halbleiter sind nur indirekte Übergänge unter Mitwirken eines Phonons möglich. Die Absorption steigt wesentlich langsamer an.
+- Nach dem Einsetzen des direkten Prozesses steigt die Absorption noch einmal deutlich an (siehe $\mathrm{Ge}$).
+************************************
+
+                                      {{4}}
+************************************
+Beispiele:
+
+| Material | Anwendung |
+| -------- | --------- |
+| GaAs | Hochfrequenzbauteile (Mobiltelefone und Satellitenkommunikation) |
+| GaN  | Leuchtdioden |
+| Ge   | Fotodioden |
+| InSb | Infrarotsensoren |
+| Si   | Mikrochips, Prozessoren, Solarzellen |
+************************************
