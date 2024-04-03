@@ -79,61 +79,28 @@ $$E = \frac{U}{s} = \frac{\mathrm{1~V}}{\mathrm{10^{-8}~m}} = \mathrm{10^8~\frac
 
 
 ## Aufgabe 3
-                                      {{0}}
-> __3.__ Wie groß ist die Zustandsdichte eines dreidimensionalen freien Elektronengases im reziproken Raum ($D(k)$) und  im realen Raum ($D(E)$)?
 
+> Beantworten Sie mit Hilfe der nebenstehenden Grafik die folgenden Fragen: ![Bandstruktur eines indirekten Halbleiters](Bilder/Bandstruktur_Bandlücke.png)
 
                                       {{1}}
+**a) Wie groß ist die Energie der Bandlücke?**
 
-
-
-**Lösung Aufgabe 3:**
+Der Abstand zwischen Valenzbandmaximum und Leitungsbandminimum beträgt $\mathrm{0,\!5~eV}$.
 
                                       {{2}}
-Es gilt wieder:
-$$\int_{k(E)}^{k(E+\Delta E)} D(k)dk^3=\int_{E}^{E+\Delta E}D(E)dE$$
+**b) Markieren Sie die niedrigste Energie eines Elektrons im Leitungsband.**
+
+Das Leitungsbandminimum liegt bei $k = \frac{8}{11}\,\frac{\pi}{a}$.
 
                                       {{3}}
-Die periodischen Randbedingungen für die ebenen Wellen (Knotenpunkte am Kristallrand) bedingen wieder (wie bei den Phononen) eine Quantelung der erlaubten Zustände (Wellenvektoren). Das Volumen pro Zustand im 3D-Impulsraum ist $\frac{(2\pi)^3}{V}$. Da jeder $k$-Wellenvektor von 2 Elektronen mit entgegengesetztem Spin besetzt werden kann, ist die Zustandsdichte im Impulsraum damit 
+**c) Markieren Sie die höchste Energie eines Loches im Valenzband.**
+
+Das Valenzbandmaximum liegt bei $k = 0$.
 
                                       {{4}}
-$$D(k)=2\cdot \frac{V}{(2\pi)^3}$$
+**d) Ist die Energielücke direkt oder indirekt? Warum?**
 
-                                      {{5}}
-Damit kann die linke Seite der obigen Gleichung umgestellt werden:
-$$\int_{k(E)}^{k(E+\Delta E)} D(k)dk^3=\int_{k(E)}^{k(E+\Delta E)} 2\cdot \frac{V}{(2\pi)^3}dk^3=2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} dk^3$$
-
-                                      {{6}}
-Die Flächen konstanter Energie im $k$-Raum sind wegen der Dispersionsrelation $E(k)=\frac{\hbar^2 k^2}{2m}$ Kugeloberflächen. $\Delta k$ sei die zu $\Delta E$ gehörige Änderung des Wellenvektors.  
-Für einen dreidimensionalen Festkörper erhalten wir für den Ausruck 
-
-                                      {{7}}
-$$2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} dk^3=2\cdot \frac{V}{(2\pi)^3} \cdot \overbrace{4\pi k^2 \Delta k}^\text{Volumen von Kugelschale im k-Raum}$$
-
-                                      {{8}}
-Damit ergibt sich mit für $\Delta k$ insgesamt: 
-$$2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2 \Delta k=D(E)\Delta E$$
-
-                                      {{9}}
-Und damit 
-$$D(E)=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\frac{ \Delta k}{\Delta E}$$
-Aus der bekannten Dispersionsrelation $E=\frac{\hbar^2 k^2}{2m}$ für freie Elektonen ergibt sich:
-
-                                      {{10}}
-$$k=\sqrt{\frac{2mE}{\hbar^2}}$$
-
-                                      {{11}}
-Für die Ableitung gilt damit:
-$$\frac{dk}{dE}=\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}$$
-
-                                      {{12}}
-Damit gilt für $D(E)$:
-$$\begin{align*}D(E)&=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}\\
-&=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi \frac{2mE}{\hbar^2}\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}\\
-&=\frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\end{align*}$$
-
-
-
+Die Energielücke ist indirekt, da Leitungsbandminimum und Valenzbandmaximum bei unterschiedlichen $k$-Werten liegen.
 
 
 ## Aufgabe 4 
@@ -307,91 +274,3 @@ In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der S
 
 {{4}}
 ![Spezifische Wärme von Kalium bei tiefen Temperaturen](media/spezifische_Wärme_Kalium.png "*Spezifische Wärme von Kalium bei tiefen Temperaturen. Geplottet ist $C_p(T)$ gegen $T^2$ (Daten aus W.H. Lien, N.E. Phillips, Phys. Rev. 133, A1370 (1964)); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut *")
-
-
-
-
-## Aufgabe 11
-
-                                      {{0}}
->__11.__ Welche Gründe kann es für Abweichungen der theoretischen Sommerfeld-Koeffizienten $\gamma_\mathrm{theo}$ und dem dazugehörigen gemessenen Koeffizienten $\gamma_\mathrm{exp}$ geben?
-
-                                      {{1}}
-**Lösung Aufgabe 11**
-
-                                      {{2}}
-Der theoretische Sommerfeld-Koeffizent $\gamma_\mathrm{theo}$ ergibt sich aus der aus der inneren Energie $U$ eines Elektonengases abgeleiteten spezifischen Wärmekapazität des Elektronengases:
-
-                                      {{3}}
-$$C_V=\frac{\pi^2}{3}k_\mathrm{B}^2 T D(E_\mathrm{F})=\frac{\pi^2}{2}Nk_\mathrm{B}\frac{T}{T_\mathrm{F}}=\gamma_\mathrm{theo}\cdot T$$
-
-                                      {{3}}
-mit dem Sommerfeld Koeffizienten 
-$$\gamma_\mathrm{theo}=\frac{\pi^2}{3}k_\mathrm{B}^2  D(E_\mathrm{F})=\frac{\pi^2Nk_\mathrm{B}}{2T_\mathrm{F}}$$
-
-                                      {{4}}
-Die beobachteten Abweichungen zwischen $\gamma_\mathrm{theo}$ und $\gamma_\mathrm{exp}$ können folgende Ursachen haben:
-
-                                      {{5}}
-- Wechselwirkung der Elektronen mit dem Kristallpotential. Das Elektron ist also nicht richtig "frei".
-- Wechselwirkung der Elektronen mit Phononen. Anschaulich gesprochen verformen die Elektronen bei ihrer Bewegung durch das Kristallgitter das Kristallgitter und müssen bei ihrer Bewegung diese Verformung mitschleppen. Dadurch werden sie gebremst (höhere effektive Masse).
-- Die Wechselwirkung von Elektronen untereinander führt ebenfalls zu einer höheren effektiven Masse.
-
-                                      {{6}}
-Insbesondere die 3d-Übergangsmetalle liefern große Abweichungen, weil die 3d-Elektronen zwar wesentlich zur Zustandsdichte an der Fermi-Kante beitragen, aber stark lokalisiert sind und schlecht durch freie Elektronen beschrieben werden.
-
-
-## Aufgabe 12
-
-                                      {{0}}
->__12.__ Welcher Sachverhalt wird mit der Matthiesenschen Regel beschrieben?
-
-                                      {{1}}
-**Lösung Aufgabe 12**
-
-                                      {{2}}
-Die mittlere Stoßzeit $\tau$ der Elektronen ergibt sich aus der Stoßzeit für Stöße mit Phononen $\tau_\text{P}$ und der Stoßzeit für Stöße mit Gitterfehlern $\tau_\text{i}$ zu:
-
-                                      {{3}}
-$$\frac{1}{\tau }=\frac{1}{{ \tau}_\text{P}} +{\frac{1}{\tau_\text{i}}}$$
-
-                                      {{4}}
-(Hinweis: bei der Addition der reziproken Terme "übernimmt der keinste Term das Kommando")
-
-                                      {{5}}
-Für die spezifischen Widerstände von Metallen folgt dann:
-$$\rho\ = \rho_\text{P} + \rho_\text{i}$$
-
-                                      {{6}}
-Dabei ist $\rho_\text{i}$ der Restwiderstand (unabhängig von $T$) und $\rho_\text{P}$ der  durch Gitterschwingungen verursachte Widerstand (für höhere Temperaturen       proportional zu T)
-
-                                      {{7}}
-Die verschiedenen Stoßprozesse 1, 2, 3, ... können näherungsweise als von- einander unabhängig betrachtet werden. Es gilt allgemein:
-
-                                      {{8}}
-$$\frac{1}{\tau} =\frac{1}{\tau_1} +\frac{1}{\tau}_2+\frac{1}{\ \tau_3}\ +\ ....$$
-
-
-
-## Aufgabe 13
-
-                                      {{0}}
->__13.__ Geben Sie eine anschauliche Erklärung dafür, dass Umklapp-Streuungen von Elektronen durch Phononen bei niedrigeren Temperaturen unwahrscheinlicher werden.
-
-                                      {{1}}
-**Lösung Aufgabe 13**
-
-                                      {{2}}
-Umklapp-Streuung: Elektron-Phonon-Streuung
-
-                                      {{3}}
-Es gilt der Impulserhaltungssatz, wobei $G$ ein reziproker Gittervektor ist, $k$ und $k'$ Wellenvektoren des Elektrons und $K$ der Wellenvektor des Phonons:
-$$k' = k + K+ G  $$
-
-                                      {{4}}
-![Elektron-Phonon-Streung: Umklappprozess](media/Umklappstreuung_Elektronen.png "Elektron-Phonon-Streung: Umklappprozess ($q=K$); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")
-
-                                      {{5}}
-Nur Elektronen nahe der Fermikante $E_\mathrm{F}$ können (in freie Zustände) gestreut werden. Für eine Umpkappstreuung eines Elektrons an einen Phonon wird aber eine minimales $K_0=q_\text{min}$ benötigt. Bei tiefen Temperaturen wird diese Anregung unwahrscheinlicher.
-
-
