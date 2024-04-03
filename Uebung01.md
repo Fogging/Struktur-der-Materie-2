@@ -80,7 +80,8 @@ $$E = \frac{U}{s} = \frac{\mathrm{1~V}}{\mathrm{10^{-8}~m}} = \mathrm{10^8~\frac
 
 ## Aufgabe 3
 
-> Beantworten Sie mit Hilfe der nebenstehenden Grafik die folgenden Fragen: ![Bandstruktur eines indirekten Halbleiters](Bilder/Bandstruktur_Bandlücke.png)
+> Beantworten Sie mit Hilfe der nebenstehenden Grafik die folgenden Fragen: 
+![Bandstruktur eines indirekten Halbleiters](Bilder/Bandstruktur_Bandlücke.png)
 
                                       {{1}}
 **a) Wie groß ist die Energie der Bandlücke?**
