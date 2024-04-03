@@ -144,15 +144,24 @@ $$E(k) = \frac{\hbar^2}{2} \left( \frac{k_x^2}{m_t^\mathrm{eff}} + \frac{k_y^2}{
 
 ## Aufgabe 6 
 
-                                      {{0}}
-> __6.__ Konstruieren Sie die ersten drei Brillouin-Zonen eines ebenen quadratischen Gitters.
-
-![quadratisches Gitter](media/quadratisches_Gitter.png)
+> Was sind leichte, schwere und abgespaltene Löcher?
 
                                       {{1}}
-**Lösung Aufgabe 6:**
-![Abbildung der erste, zweiten und dritten Brioullin-Zone eines ebenen quadratischen Gitters](media/quadratisches_Gitter_BZ.png "*Erste (gelb), zweite (grün) und dritte (rot) Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![Qualitativer Verlauf der Bandstruktur von Si und Ge in der Nähe des Γ-Punktes](Bilder/Massen_Löcher.png "Qualitativer Verlauf der Bandstruktur von Si und Ge in der Nähe des Γ-Punktes. ∆ ist die Spin-Bahn-Aufspaltung. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
+                                      {{2}}
+Das Valenzband entsteht aus einem $p^3$-Orbital, d. h. die Drehimpulsquantenzahl beträgt $l=1$. Die Spin-Bahn-Kopplung $j = l \pm s$ (mit $s = \frac{1}{2}$) verursacht eine Energieaufspaltung um $\Delta$. 
+
+                                      {{3}}
+Die energetisch nach unten abgespaltenen Löcher besitzen den Gesamtdrehimpuls $j = l - s = \frac{1}{2}$ und die Masse $m_\mathrm{soh}^*$ (*split-off holes*).
+
+                                      {{4}}
+************************************
+Die energetisch nach oben abgespaltenen Löcher besitzen den Gesamtdrehimpuls $j = l + s = \frac{3}{2}$. Dieser Gesamtdrehimpuls ermöglich zwei unterschiedliche magnetische Quantenzahlen $m_j$:
+
+- $m_j = \frac{3}{2}$ => schwere Löcher mit $m_\mathrm{hh}^*$ (*heavy holes*)
+- $m_j = \frac{1}{2}$ => leichte Löcher mit $m_\mathrm{lh}^*$ (*light holes*)
+************************************
 
 ## Aufgabe 7
 
