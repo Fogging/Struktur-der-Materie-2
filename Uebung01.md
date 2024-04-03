@@ -40,7 +40,7 @@ Ein elektrisches Feld führt zur Verkippung der Bänder (allgemein gültig, nich
 Kann das Elektron ausreichend weit springen, kann es die Bandlücke $E_\mathrm{g}$ zwischen Valenzband und Leitungsband überwinden.
 
                                       {{3}}
-![Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld](Bilder/Elektrisches_Feld_Valenzband_Leitungsband.png "Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld. Das Elektron (blauer Kreis) bewegt sich vom Valenzband zum Leitungsband. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld](Bilder/Elektrisches_Feld_Valenzband_Leitungsband.png "Energieschema eines Halbleiters über dem Ort mit angelegtem elektrischen Feld. Das Elektron (blauer Kreis) bewegt sich vom Valenzband zum Leitungsband. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 200px;" -->
 
                                       {{4}}
 Die Sprungweite $s$ ergibt sich aus Geschwindigkeit $v$ und Relaxationszeit $t$ (Lebensdauer):
@@ -239,7 +239,7 @@ Dotierte Halbleiter zeigen eine ausgeprägte Temperaturabhängigkeit der Fermi-E
 ************************************
 
                                       {{3}}
-![Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $µ$ in einem dotierten n-Typ-Halbleiter](Bilder/Fermienergie_n-Typ_Temperatur.png "Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $µ$ in einem dotierten n-Typ-Halbleiter. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter](Bilder/Fermienergie_n-Typ_Temperatur.png "Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
                                       {{4}}
 - Im Bereich I liegt Störstellenkompensation durch eine endliche Akzeptordichte vor. Die Fermi-Energie liegt nahe des Störstellenniveaus: $E_\mathrm{F} \approx E_\mathrm{D}$
@@ -250,17 +250,25 @@ Dotierte Halbleiter zeigen eine ausgeprägte Temperaturabhängigkeit der Fermi-E
 
 ## Aufgabe 9
 
-                                      {{0}}
->__9.__ Warum tragen nicht alle Leitungselektronen im Metall mit $\frac{1}{2}k_\mathrm{B}$ pro Freiheitsgrad zur spezifischen Wärme bei?
+> Leiten Sie einen vereinfachten Ausdruck für die Fermi-Dirac-Verteilung bei der Besetzung der Elektronen im Leitungsband $f(E,T) = \frac{1}{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} + 1}$ bzw. Löcher im Valenzband $1 - f(E,T) = 1 - \frac{1}{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} + 1}$ eines nicht-degenerierten Halbleiters her. Nehmen Sie dabei an, dass sich das chemische Potential $\mu$ ungefähr in der Mitte der Bandlücke befindet.
 
                                       {{1}}
-**Lösung Aufgabe 9**
+Da sich $\mu$ ungefähr in der Mitte der Bandlücke befindet, gilt $(E −\mu) \gg 𝑘_\mathrm{B} 𝑇$.
 
                                       {{2}}
-![freie Elektronen: Zustandsdichte mal Fermiverteilung](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/waermekapazitaet1.png "*Freie Elektronen: Zustandsdichte mal Fermiverteilung (rot); Quelle [H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/backbone/r2_4_1.html)*")
+Damit gilt auch $\mathrm{e}^{(𝐸−\mu)/𝑘_\mathrm{B} 𝑇} \gg 1$.
 
                                       {{3}}
-Im Modell des freien Elektronengases sitzen die meisten der Elektronen auf vollbesetzten Zuständen oder anders ausgedrückt, auf Plätzen im $k$-Raum, bei denen alle Nachbarplätze besetzt sind.  Wegen des Pauli-Prinzips können nur solche Elektronen thermisch angeregt werden, die sich in einem Energiebereich von der Größenordnung $\frac{1}{2}k_\mathrm{B}\cdot T$ in der Nähe der Fermienergie $E_\mathrm{F}$ befinden, denn nur dort sind leere Zustände in der Nähe, in die sie angeregt werden können. Nur Elektronen in dem oben gelb markierten Gebiet (Breite ca. $\frac{1}{2}k_\mathrm{B}\cdot T$ ) können also angeregt werden 
+Der Summand $+1$ im Nenner kann also vernachlässigt werden:
+$$f(E,T) = \frac{1}{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T} + 1} \approx \frac{1}{\mathrm{e}^{(E−\mu)/k_\mathrm{B} T}} = \mathrm{e}^{-(E−\mu)/k_\mathrm{B} T}$$
+
+                                      {{4}}
+Für die Besetzung der Elektronen im Leitungsband erhalten wir also den vereinfachten Ausdruck (der auch als Boltzmann-Verteilung bezeichnet wird):
+$$f(E,T) \approx \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right)$$
+
+                                      {{5}}
+Für die Besetzung der Löcher im Valenzband folgt entsprechend:
+$$1 - f(E,T) \approx 1 - \exp \left( -\frac{E−\mu}{k_\mathrm{B} T} \right)$$
 
 
 ## Aufgabe 10
