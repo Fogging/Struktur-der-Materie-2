@@ -137,24 +137,28 @@ Demzufolge ist die Löcherkonzentration $p$ um 13 Größenordnungen geringer als
 
 
                                       {{1}}
-**Direkte Halbleiter** (z. B. GaAs, GaN, InP) haben ein Leitungsbandminimum bei $k = 0$. Dort ist die effektive Masse isotrop, d. h. in allen Richtungen gleich:
-$$m^\mathrm{eff} = m_x^\mathrm{eff} = m_y^\mathrm{eff} = m_z^\mathrm{eff}$$
+**a)** Aus dem Wasserstoffmodell eines Dotieratoms erhält man:
+$$E_n = -\frac{1}{2} \frac{m^\mathrm{eff} e^4}{(4 \pi \varepsilon_0 \varepsilon_r \hbar)^2} \frac{1}{n^2}$$
 
                                       {{2}}
-An diesem Punkt kann die Energie $E(k)$ durch eine isotrope Parabel mit nur einer Masse $m^\mathrm{eff}$ angenähert werden:
-$$E(k) = \frac{\hbar^2 k^2}{2 m^\mathrm{eff}}$$
+Für die Hauptquantenzahl wird $n=1$ eingesetzt. Mit den gegebenen Werten erhält man:
+$$E_1 = E_\mathrm{d} = -0,\!63~\mathrm{meV}$$
 
                                       {{3}}
-************************************
-**Indirekte Halbleiter** (z. B. Si, Ge, GaP) haben ein Leitungsbandminimum bei $k \neq 0$. Dort ist die effektive Masse richtungsabhängig. Man unterscheidet zwei effektive Massen:
-
-- die longitudinale $m_l^\mathrm{eff}$ (entlang der $k$-Richtung)
-- die transversale $m_t^\mathrm{eff}$ (senkrecht zu $k$)
-************************************
+**b)** Das Wasserstoffmodell ergibt weiterhin einen skalierten Bohrradius:
+$$a_\mathrm{d} = \frac{4 \pi \varepsilon_0 \varepsilon_r \hbar^2}{m^\mathrm{eff} e^2}$$
 
                                       {{4}}
-Die Energieparabel $E(k)$ hängt dann von zwei Massen ab, zum Beispiel:
-$$E(k) = \frac{\hbar^2}{2} \left( \frac{k_x^2}{m_t^\mathrm{eff}} + \frac{k_y^2}{m_t^\mathrm{eff}} + \frac{k_z^2}{m_l^\mathrm{eff}} \right)$$
+Mit den gegebenen Werten erhält man:
+$$a_\mathrm{d} = 63,\!6~\mathrm{nm}$$
+
+                                      {{5}}
+**c)** Nimmt man kugelförmige Orbitale der Elektronen um die Donatoren an, erhält man die maximal mögliche Konzentration aus:
+$$n_\mathrm{d} = \frac{1}{V} = \frac{1}{\frac{4}{3} \pi a_\mathrm{d}^3}$$
+
+                                      {{6}}
+Mit dem vorherigen Ergebnis erhält man:
+$$n_\mathrm{d} = 9,\!3 \cdot 10^{14}~\mathrm{cm^{-3}}$$
 
 
 ## Aufgabe 6 
