@@ -79,28 +79,25 @@ Die Elektronenkonzentration nimmt also zwischen -20 °C und 200 °C um mehr als 
 
 > Bestimmen Sie die Dotierstoffkonzentration in Silizium, wenn eins von einer Million Si-Atome durch ein Bor-Atom ersetzt wird (molare Masse von Si: 28 g/mol, Dichte: 2,3 g/cm³).
 
-![Bandstruktur eines indirekten Halbleiters](Bilder/Bandstruktur_Bandlücke.png)
-
-**a) Wie groß ist die Energie der Bandlücke?**
-
                                       {{1}}
-Der Abstand zwischen Valenzbandmaximum und Leitungsbandminimum beträgt $\mathrm{0,\!5~eV}$.
-
-**b) Markieren Sie die niedrigste Energie eines Elektrons im Leitungsband.**
+Die Stoffmenge $n$ (*Bitte nicht mit einer Elektronenkonzentration verwechseln!*) erhalten wir entweder aus der Anzahl der Teilchen $N$ geteilt durch die Avogadro-Konstante $N_\mathrm{A}$ oder aus der Masse $m$ geteilt durch die molare Masse $M$:
+$$n = \frac{N}{N_\mathrm{A}} = \frac{m}{M}$$
 
                                       {{2}}
-Das Leitungsbandminimum liegt bei $k = \frac{8}{11}\,\frac{\pi}{a}$.
-
-**c) Markieren Sie die höchste Energie eines Loches im Valenzband.**
+Die Konzentration der Silizium-Atome ist die Anzahl der Atome $N$ pro Volumen $V$. Wir bezeichnen sie mit $n_\mathrm{Si}$. Aus der vorherigen Formel folgt:
+$$n_\mathrm{Si} = \frac{N}{V} = \frac{m \cdot N_\mathrm{A}}{M \cdot V}$$
 
                                       {{3}}
-Das Valenzbandmaximum liegt bei $k = 0$.
-
-**d) Ist die Energielücke direkt oder indirekt? Warum?**
+In dieser Formel können wir $\frac{m}{V}$ durch die Dichte $\varrho$ ersetzen:
+$$n_\mathrm{Si} = \frac{\varrho \cdot N_\mathrm{A}}{M}$$
 
                                       {{4}}
-Die Energielücke ist indirekt, da Leitungsbandminimum und Valenzbandmaximum bei unterschiedlichen $k$-Werten liegen.
+Da Bor in Silizium ein Akzeptor ist, bezeichnen wir die gesuchte Dotierstoffkonzentration mit $n_\mathrm{A}$. Wenn eins von einer Million Si-Atome durch ein Bor-Atom ersetzt wird, folgt aus der vorherigen Formel:
+$$n_\mathrm{A} = 10^{-6} \cdot n_\mathrm{Si} = 10^{-6} \cdot \frac{\varrho \cdot N_\mathrm{A}}{M}$$
 
+                                      {{5}}
+Einsetzen der gegebenen Werte liefert:
+$$n_\mathrm{A} = 4,\!9 \cdot 10^{16}~\mathrm{cm^{-3}}$$
 
 ## Aufgabe 4 
 
