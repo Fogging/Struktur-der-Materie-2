@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 02
+comment:  Struktur der Materie 2 - Übung 03
 
 @style
 .lia-toc__bottom {
@@ -18,33 +18,37 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 2
+# Übung 3
 
 
 ## Aufgabe 1
 
-> Zeigen Sie, dass das Produkt aus Majoritäts- und Minoritätsladungsträgerdichte für einen gegebenen Halbleiter und eine vorgegebene Temperatur konstant ist.
+> 	Die Wellenfunktion des atomaren Wasserstoffatoms im Grundzustand ($\mathrm{1s}$) lautet:
+>
+> $\Psi = (\pi a_0^3)^{-1/2} \exp \left( -\frac{r}{a_0} \right)$ mit $a_0 = \frac{4 \pi \varepsilon_0 \hbar^2}{m_\mathrm{e} e^2} = 0,\!529 \cdot 10^{-10}~\mathrm{m}$.
+>
+> Entsprechend der statistischen Interpretation der Wellenfunktion ist dann die Ladungsdichte $\rho(x,y,z)=-e|\Psi|^2$. Zeigen Sie, dass in diesem Zustand $\langle r^2 \rangle = 3a_0^2$ ist und berechnen Sie die molare diamagnetische Suszeptibilität von atomarem Wasserstoff.
+
 
                                       {{1}}
-Für die Herleitung beginnen wir mit den Formeln für die Elektronenkonzentration $n$ und die Löcherkonzentration $p$:
-$$n = N_\mathrm{L} \cdot \exp \left( - \frac{E_\mathrm{L} - E_\mathrm{F}}{k_\mathrm{B} T} \right)$$
-$$p = N_\mathrm{V} \cdot \exp \left( \frac{E_\mathrm{V} - E_\mathrm{F}}{k_\mathrm{B} T} \right)$$
+Der Erwartungswert $\langle r^2 \rangle$ berechnet sich aus:
+$$\langle r^2 \rangle = \int_{-\infty}^{+\infty} \Psi^* r^2 \Psi \, \mathrm{d} \vec{r}$$
 
                                       {{2}}
-Die gesuchte Größe ist das Produkt $n \cdot p$, für das folgt:
-$$n \cdot p = N_\mathrm{L} \cdot N_\mathrm{V} \cdot \exp \left( - \frac{E_\mathrm{L} - E_\mathrm{F}}{k_\mathrm{B} T} \right) \cdot \exp \left( \frac{E_\mathrm{V} - E_\mathrm{F}}{k_\mathrm{B} T} \right)$$
-$$n \cdot p = N_\mathrm{L} N_\mathrm{V} \cdot \exp \left( - \frac{E_\mathrm{L} - E_\mathrm{F} - E_\mathrm{V} + E_\mathrm{F}}{k_\mathrm{B} T} \right)$$
+Dieses Integral über das ganze Volumen wird in Kugelkoordinaten $(r, \vartheta, \varphi)$ ausgeführt. Da die Wellenfunktion $\Psi$ nur vom Radius $r$ abhängt, kann über die zwei Winkel $\vartheta$ und $\varphi$ leicht abintegriert werden. Neben der Anpassung der Integrationsgrenzen muss wegen der Koordinatentransformation $\mathrm{d} \vec{r} = r^2 \sin \vartheta \, \mathrm{d} \vartheta \, \mathrm{d} \varphi \, \mathrm{d} r$ beachtet werden:
+$$\langle r^2 \rangle = \int_{0}^{+\infty} \int_{0}^{2 \pi} \int_{0}^{\pi} \Psi^* r^2 \Psi \, r^2 \sin \vartheta \, \mathrm{d} \vartheta \, \mathrm{d} \varphi \, \mathrm{d} r$$
 
                                       {{3}}
-Da $E_\mathrm{L} - E_\mathrm{V} = E_\mathrm{g}$ gerade die Bandlücke ergibt, erhält man:
-$$n \cdot p = N_\mathrm{L} N_\mathrm{V} \cdot \exp \left( - \frac{E_\mathrm{g}}{k_\mathrm{B} T} \right)$$
+Mit $\int_{0}^{\pi} \sin \vartheta \, \mathrm{d} \vartheta = 2$ und $\int_{0}^{2 \pi} \mathrm{d} \varphi = 2 \pi$ erhält man:
+$$\langle r^2 \rangle = \int_{0}^{\infty} \Psi^* r^2 \Psi \, 4 \pi r^2 \, \mathrm{d} r$$
 
                                       {{4}}
-Schreibt man die effektiven Zustandsdichten $N_\mathrm{L}$ und $N_\mathrm{V}$ aus, erkennt man die vollständige Temperaturabhängigkeit:
-$$n \cdot p = 4 \left( \frac{k_\mathrm{B} T}{2 \pi \hbar^2} \right)^3 \left( m_\mathrm{e}^\mathrm{eff} m_\mathrm{h}^\mathrm{eff} \right)^{3/2} \cdot \exp \left( - \frac{E_\mathrm{g}}{k_\mathrm{B} T} \right)$$
+Da die gegebene Wellenfunktion $\Psi$ rein reell ist, gilt $\Psi^* = \Psi$ und Einsetzen ergibt:
+$$\langle r^2 \rangle = 4 \pi \int_{0}^{\infty} \Psi^2 \, r^4 \, \mathrm{d} r = \frac{4 \pi}{\pi a_0^3} \, \int_{0}^{\infty} r^4 \, \exp \left( -\frac{2r}{a_0} \right) \, \mathrm{d} r$$
 
                                       {{5}}
-Damit ist das Produkt $n \cdot p$ nur von der Temperatur $T$, den effektiven Massen $m_\mathrm{e}^\mathrm{eff}$ und $m_\mathrm{h}^\mathrm{eff}$ sowie der Bandlücke $E_\mathrm{g}$ des betrachteten Halbleiters abhängig. Dieser Zusammenhang gilt für intrinsische und dotierte Halbleiter (aber nicht für entartete Halbleiter) und wird als **Massenwirkungsgesetz** bezeichnet.
+Dieses bestimmte Integral kann mit Hilfe der allgemeinen Lösung $\int_{0}^{\infty} x^n \, \mathrm{e}^{-ax} \, \mathrm{d} x = \frac{n!}{a^{n+1}}$ berechnet werden. Im vorliegenden Fall ist $n = 4$ und $a = \frac{2}{a_0}$. Damit folgt:
+$$\langle r^2 \rangle = \frac{4}{a_0^3} \cdot \frac{24}{(2/a_0)^5} = \frac{4}{a_0^3} \cdot \frac{24 \, a_0^5}{32} = 3 a_0^2$$
 
                                       {{6}}
 Für einen intrinsischen Halbleiter ist $n_i = p_i$ und es gilt:
