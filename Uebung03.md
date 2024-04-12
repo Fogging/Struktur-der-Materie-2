@@ -51,13 +51,20 @@ Dieses bestimmte Integral kann mit Hilfe der allgemeinen Lösung $\int_{0}^{\inf
 $$\langle r^2 \rangle = \frac{4}{a_0^3} \cdot \frac{24}{(2/a_0)^5} = \frac{4}{a_0^3} \cdot \frac{24 \, a_0^5}{32} = 3 a_0^2$$
 
                                       {{6}}
-Für einen intrinsischen Halbleiter ist $n_i = p_i$ und es gilt:
-$$n \cdot p = n_i \cdot p_i = n_i^2 = N_\mathrm{L} N_\mathrm{V} \cdot \exp \left( - \frac{E_\mathrm{g}}{k_\mathrm{B} T} \right)$$
+Die diamagnetische Volumensuszeptibilität nach Langevin wird mit folgender Formel berechnet (in SI-Einheiten):
+$$\chi_V = - \frac{\mu_0 e^2 n}{6 m_\mathrm{e}} \langle r^2 \rangle$$
 
                                       {{7}}
-Daraus folgt:
-$$n_i = p_i = \sqrt{N_\mathrm{L} N_\mathrm{V}} \cdot \exp \left( - \frac{E_\mathrm{g}}{2 k_\mathrm{B} T} \right)$$
+Dabei ist $n$ die Teilchendichte pro Volumen, für die $n = \frac{\varrho \cdot N_\mathrm{A}}{M}$ gilt (siehe Übung 2, Aufgabe 3). Für die molare Suszeptibilität folgt:
+$$\chi_{mol} = \frac{M}{\varrho} \chi_V = - \frac{M}{\varrho} \cdot \frac{\mu_0 e^2 n}{6 m_\mathrm{e}} \langle r^2 \rangle = - \frac{\mu_0 e^2 N_\mathrm{A}}{6 m_\mathrm{e}} \langle r^2 \rangle$$
 
+                                      {{8}}
+Einsetzen des Ergebnisses für $\langle r^2 \rangle$ ergibt die molare diamagnetische Suszeptibilität von atomarem Wasserstoff (in SI-Einheiten):
+$$\chi_{mol} = - \frac{\mu_0 e^2 N_\mathrm{A}}{6 m_\mathrm{e}} \cdot 3 a_0^2 = - \frac{\mu_0 e^2 N_\mathrm{A}}{2 m_\mathrm{e}} \cdot a_0^2 = -2,\!98 \cdot 10^{-11}~\mathrm{m^3/mol}$$
+
+                                      {{9}}
+Der Übergang in CGS-Einheiten erfordert die Division durch $4\pi$, d. h. $\chi_\mathrm{SI} = 4 \pi \cdot \chi_\mathrm{CGS}$. Die Einheiten $\mathrm{cm^3/mol}$ und $\mathrm{emu/mol}$ sind im CGS-System gleichbedeutend:
+$$\chi_{mol} = -2,\!36 \cdot 10^{-12}~\mathrm{m^3/mol} = -2,\!36 \cdot 10^{-6}~\mathrm{cm^3/mol} = -2,\!36 \cdot 10^{-6}~\mathrm{emu/mol}$$
 
 ## Aufgabe 2 
 
