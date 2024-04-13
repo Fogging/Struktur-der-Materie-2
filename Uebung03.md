@@ -102,31 +102,31 @@ $$\mu_\mathrm{B} = 9,\!274\cdot 10^{−21}~\mathrm{emu}$$
 > Zeigen Sie, dass die magnetische Dipolwechselwirkung zwischen zwei magnetischen Momenten der Größe $\mu_\mathrm{B}$, die 3 Angström voneinander entfernt sind, erst bei Temperaturen unter $T=100~\mathrm{mK}$ wichtig wird.
 
                                       {{1}}
-Die Stoffmenge $n$ (*Bitte nicht mit einer Elektronenkonzentration verwechseln!*) erhalten wir entweder aus der Anzahl der Teilchen $N$ geteilt durch die Avogadro-Konstante $N_\mathrm{A}$ oder aus der Masse $m$ geteilt durch die molare Masse $M$:
-$$n = \frac{N}{N_\mathrm{A}} = \frac{m}{M}$$
+Ein magnetischer Dipol $\vec{\mu}_1$ erzeugt in seiner Umgebung die magnetische Feldstärke (siehe Aufgabe 4):
+$$\vec{B}_1(\vec{r}) = \frac{\mu_0}{4\pi} \cdot \frac{3(\vec{\mu}_1 \vec{r})\vec{r} - r^2\vec{\mu}_1}{r^5}$$
 
                                       {{2}}
-Die Konzentration der Silizium-Atome ist die Anzahl der Atome $N$ pro Volumen $V$. Wir bezeichnen sie mit $n_\mathrm{Si}$. Aus der vorherigen Formel folgt:
-$$n_\mathrm{Si} = \frac{N}{V} = \frac{m \cdot N_\mathrm{A}}{M \cdot V}$$
+Der Betrag des Magnetfeldes $\vec{B}_1$ wird maximal, wenn $\vec{\mu}_1$ und $\vec{r}$ parallel ausgerichtet sind. Die Bedingung $\vec{\mu}_1 || \vec{r}$ bedeutet, dass das Magnetfeld auf einer Achse entlang des Vektors $\vec{\mu}_1$ betrachtet wird. Unter dieser Bedingung ist $(\vec{\mu}_1 \vec{r})\vec{r} = \vec{\mu}_1 r^2$ und die Formel für das Magnetfeld vereinfacht sich zu:
+$$\vec{B}_1(\vec{r}) = \frac{\mu_0}{4\pi} \cdot \frac{3\vec{\mu}_1 r^2 - r^2\vec{\mu}_1}{r^5} = \frac{\mu_0}{4\pi} \cdot \frac{2\vec{\mu}_1 r^2}{r^5} = \frac{\mu_0}{2\pi} \cdot \frac{\vec{\mu}_1}{r^3}$$
 
                                       {{3}}
-In dieser Formel können wir $\frac{m}{V}$ durch die Dichte $\varrho$ ersetzen:
-$$n_\mathrm{Si} = \frac{\varrho \cdot N_\mathrm{A}}{M}$$
+Befindet sich in diesem Magnetfeld $\vec{B}_1$ im Abstand $r_0$ ein zweiter Dipol $\vec{\mu}_2$, so besitzt er die potentielle Energie:
+$$E_2 = - \vec{\mu}_2 \cdot \vec{B}_1 (r_0) = - \frac{\mu_0}{2\pi} \cdot \frac{\vec{\mu}_1 \vec{\mu}_2}{r_0^3}$$
 
                                       {{4}}
-Da Bor in Silizium ein Akzeptor ist, bezeichnen wir die gesuchte Dotierstoffkonzentration mit $n_\mathrm{A}$. Wenn eins von einer Million Si-Atome durch ein Bor-Atom ersetzt wird, folgt aus der vorherigen Formel:
-$$n_\mathrm{A} = 10^{-6} \cdot n_\mathrm{Si} = 10^{-6} \cdot \frac{\varrho \cdot N_\mathrm{A}}{M}$$
+Gemäß Aufgabenstellung besitzen die beiden magnetischen Momente den Betrag $\mu_1 = \mu_2 = \mu_\mathrm{B} = 9,\!274\cdot 10^{−24}~\mathrm{A\,m^2}$ und den Abstand $r_0 = 3~\mathrm{Å} = 3 \cdot 10^{-10}~\mathrm{m}$. Damit ergibt sich der Betrag der potentiellen Energie zu:
+$$|E_2| = 6,\!36 \cdot 10^{-25}~\mathrm{J} \approx 4~\mathrm{µeV}$$
 
                                       {{5}}
-Einsetzen der gegebenen Werte liefert:
-$$n_\mathrm{A} = 4,\!9 \cdot 10^{16}~\mathrm{cm^{-3}}$$
+Durch thermische Anregung kann diese geringe Energiemenge leicht bereitgestellt werden, sodass die magnetische Dipolwechselwirkung gestört bzw. zerstört wird. Erst bei sehr niedrigen Temperaturen kann sie beobachtet werden. Da die thermische Energie $E_\mathrm{therm} = k_\mathrm{B} T$ ist, erhalten wir die Grenztemperatur aus:
+$$T = \frac{E_2}{k_\mathrm{B}} = 0,\!064~\mathrm{K} < 100~\mathrm{mK}$$
 
 
 ## Aufgabe 4 
 
 > Ein magnetischer Dipol $\vec{\mu}$, der sich im Ursprung des Koordinatensystems befinden soll, erzeugt in seiner Umgebung die magnetische Feldstärke:
 >
-> $$\vec{B}(\vec{r}) = \frac{\mu_0}{4\pi} \frac{3(\vec{\mu}\vec{r})\vec{r} - r^2\vec{\mu}}{r^5}$$
+> $$\vec{B}(\vec{r}) = \frac{\mu_0}{4\pi} \cdot \frac{3(\vec{\mu}\vec{r})\vec{r} - r^2\vec{\mu}}{r^5}$$
 >
 > Berechnen Sie die Stärke des Magnetfeldes, welches ein Atom mit dem magnetischen Moment $\mu \cong \mu_\mathrm{B}$ am Ort eines Nachbar-Atoms erzeugt. Der für die Ferromagneten Fe, Ni und Co typische Abstand nächster Nachbarn $r_0$ kann aus den folgenden Angaben berechnet werden: Fe besitzt ein bcc-Gitter mit $a = 2,\!866~\mathrm{Å}$, Co ein hcp-Gitter mit $a = 2,\!507~\mathrm{Å}$ und Ni ein fcc-Gitter mit $a = 3,\!524~\mathrm{Å}$. Vergleichen Sie die maximale Energie der Dipol-Dipol-Wechselwirkung mit der thermischen Energie der Dipole bei der Curie-Temperatur, die für die genannten Materialien in der Größenordnung von $T_\mathrm{C}=1000~\mathrm{K}$ liegt.
 
