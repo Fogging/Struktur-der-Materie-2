@@ -130,10 +130,20 @@ $$T = \frac{|E_2|}{k_\mathrm{B}} = 0,\!064~\mathrm{K} < 100~\mathrm{mK}$$
 >
 > Berechnen Sie die Stärke des Magnetfeldes, welches ein Atom mit dem magnetischen Moment $\mu \cong \mu_\mathrm{B}$ am Ort eines Nachbar-Atoms erzeugt. Der für die Ferromagneten Fe, Ni und Co typische Abstand nächster Nachbarn $r_0$ kann aus den folgenden Angaben berechnet werden: Fe besitzt ein bcc-Gitter mit $a = 2,\!866~\mathrm{Å}$, Co ein hcp-Gitter mit $a = 2,\!507~\mathrm{Å}$ und Ni ein fcc-Gitter mit $a = 3,\!524~\mathrm{Å}$. Vergleichen Sie die maximale Energie der Dipol-Dipol-Wechselwirkung mit der thermischen Energie der Dipole bei der Curie-Temperatur, die für die genannten Materialien in der Größenordnung von $T_\mathrm{C}=1000~\mathrm{K}$ liegt.
 
-
                                       {{1}}
 ************************************
-Zunächst wird der Abstand der nächsten Nachbarn $r_0$ berechnet. Dieser hängt vom Strukturtyp und vom Gitterparameter ab:
+Zunächst soll der Abstand der nächsten Nachbarn $r_0$ berechnet werden. Dieser hängt vom Strukturtyp und vom Gitterparameter ab:
+
+![Strukturmodell des kubisch raumzentrierten Gitters (bcc) und Skizze der sich berührenden Atome entlang der Raumdiagonale](Bilder/Abstand_bcc.png "Strukturmodell des kubisch raumzentrierten Gitters (bcc) und Skizze der sich berührenden Atome entlang der Raumdiagonale. *Quelle: A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik, 1999*")
+
+![Strukturmodell des hexagonal dichtest gepackten Gitters (hcp) und Skizze der sich berührenden Atome](Bilder/Abstand_hcp.png "Strukturmodell des hexagonal dichtest gepackten Gitters (hcp) und Skizze der sich berührenden Atome. *Quelle: A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik, 1999*")
+
+![Strukturmodell des kubisch flächenzentrierten Gitters (fcc) und Skizze der sich berührenden Atome entlang der Flächendiagonale](Bilder/Abstand_fcc.png "Strukturmodell des kubisch flächenzentrierten Gitters (fcc) und Skizze der sich berührenden Atome entlang der Flächendiagonale. *Quelle: A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik, 1999*")
+************************************
+
+                                      {{2}}
+************************************
+Gemäß der Abbildungen kann $r_0$ folgendermaßen berechnet werden:
 
 | Material | Struktur | Formel für $r_0$     | Ergebnis             |
 | -------- | -------- | -------------------- | -------------------- |
@@ -142,24 +152,24 @@ Zunächst wird der Abstand der nächsten Nachbarn $r_0$ berechnet. Dieser hängt
 | Ni       | fcc      | $a/2 \cdot \sqrt{2}$ | $2,\!492~\mathrm{Å}$ |
 ************************************
 
-                                      {{2}}
+                                      {{3}}
 Man erhält also, dass der Nächste-Nachbar-Abstand für alle drei betrachteten Materialien etwa $r_0 \approx 2,\!5~\mathrm{Å}$ beträgt. Die nachfolgende Rechnung wird also für alle drei Materialien das gleiche Ergebnis erbringen.
 
-                                      {{3}}
+                                      {{4}}
 Wie in Aufgabe 3 wird der Betrag des Magnetfeldes $\vec{B}$ maximal, wenn $\vec{\mu}$ und $\vec{r}$ parallel ausgerichtet sind. Unter dieser Bedingung vereinfacht sich die Formel für das Magnetfeld zu:
 $$\vec{B}(\vec{r}) = \frac{\mu_0}{2\pi} \cdot \frac{\vec{\mu}}{r^3}$$
 
-                                      {{4}}
+                                      {{5}}
 Einsetzen der Werte $\mu \cong \mu_\mathrm{B} = 9,\!274\cdot 10^{−24}~\mathrm{A\,m^2}$ und $r_0 \approx 2,\!5~\mathrm{Å}$ ergibt:
 $$B = 0,\!118~\mathrm{\frac{Vs}{Am}} \approx 0,\!12~\mathrm{T}$$
 
-                                      {{5}}
+                                      {{6}}
 Die maximale Energie der Dipol-Dipol-Wechselwirkung beträgt damit:
 $$| E_\mathrm{mag} | = \vec{\mu} \cdot \vec{B} (r_0) = 1,\!1 \cdot 10^{-24}~\mathrm{J} \approx 6,\!9~\mathrm{µeV}$$
 
-                                      {{6}}
+                                      {{7}}
 Eine entsprechend große thermische Energie $E_\mathrm{therm} = k_\mathrm{B} T$ erhält man bereits bei:
 $$T = \frac{|E_\mathrm{mag}|}{k_\mathrm{B}} = 80~\mathrm{mK}$$
 
-                                      {{7}}
-Für $T = T_\mathrm{C} = 1000~\mathrm{K}$ liegt die thermische Energie sogar bei $E_\mathrm{therm} = k_\mathrm{B} T_\mathrm{C} = 6,\!9~\mathrm{µeV}$. Für $|E_\mathrm{mag}| = E_\mathrm{therm}$ müsste $B \approx 1000~\mathrm{T}$ sein. Die klassische Dipol-Dipol-Wechselwirkung kann also nicht beobachtet werden!
+                                      {{8}}
+Für $T = T_\mathrm{C} = 1000~\mathrm{K}$ liegt die thermische Energie sogar bei $E_\mathrm{therm} = k_\mathrm{B} T_\mathrm{C} = 86~\mathrm{meV}$. Für $|E_\mathrm{mag}| = E_\mathrm{therm}$ müsste $B \approx 1500~\mathrm{T}$ sein. Die klassische Dipol-Dipol-Wechselwirkung kann also nicht beobachtet werden!
