@@ -30,8 +30,8 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 > Berechnen Sie für eine zylindrische Probe mit dem Durchmesser $d = 2r = 5~\mathrm{mm}$, die in ein Magnetfeld der Stärke $H = 10^4~\mathrm{Oe}$ gebracht und mit einem Gegengewicht von $0,\!5~\mathrm{g}$ ausgeglichen wird, die magnetische Suszeptibilität. Um welche Form des Magnetismus handelt es sich?
 
                                       {{1}}
-Der Erwartungswert $\langle r^2 \rangle$ berechnet sich aus:
-$$\langle r^2 \rangle = \int_{-\infty}^{+\infty} \Psi^* r^2 \Psi \, \mathrm{d} \vec{r}$$
+Die magnetische Energiedichte (auch als magnetischer Druck bezeichnet) berechnet sich aus:
+$$w = \frac{1}{2} B H = \frac{1}{2 \mu_0 \mu_r} B^2 = \frac{\mu_0 \mu_r}{2} H^2$$
 
                                       {{2}}
 Dieses Integral über das ganze Volumen wird in Kugelkoordinaten $(r, \vartheta, \varphi)$ ausgeführt. Da die Wellenfunktion $\Psi$ nur vom Radius $r$ abhängt, kann über die zwei Winkel $\vartheta$ und $\varphi$ leicht abintegriert werden. Neben der Anpassung der Integrationsgrenzen muss wegen der Koordinatentransformation $\mathrm{d} \vec{r} = r^2 \sin \vartheta \, \mathrm{d} \vartheta \, \mathrm{d} \varphi \, \mathrm{d} r$ beachtet werden:
@@ -70,7 +70,7 @@ $$\chi_{mol} = -2,\!36 \cdot 10^{-12}~\mathrm{m^3/mol} = -2,\!36 \cdot 10^{-6}~\
 > Skizzieren Sie mit Hilfe eines symbolischen Kästchenschemas die Besetzung der $\mathrm{4f}$-Orbitale im Grundzustand der Ionen Eu^2+^, Yb^3+^ und Tb^3+^. Wie lauten die entsprechenden Termbezeichnungen des Grundzustands in spektroskopischer Notation?
 
                                       {{1}}
-In der klassischen Betrachtung kreist das Elektron mit der Geschwindigkeit $v$ auf einer Kreisbahn mit dem Radius $r$ um den Atomkern. Der Betrag seines Drehimpulses ist dann $L = rp = r m_\mathrm{e} v$, worin $p = m_\mathrm{e} v$ der Impuls des Elektrons ist. 
+Hundsche Regeln
 
                                       {{2}}
 Der Elektronenspin bleibt unberücksichtigt. Wir berechnen nur das durch den Bahndrehimpuls $L$ verursachte magnetische Moment $\mu$, das man präziser auch Bahnmoment nennen kann. Es ist allgemein durch $\mu = IA$ gegeben, worin $I$ die elektrische Stromstärke und $A$ die vom Strom eingeschlossene Fläche ist. 
