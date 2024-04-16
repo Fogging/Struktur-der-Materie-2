@@ -23,13 +23,11 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
 
-> 	Die Wellenfunktion des atomaren Wasserstoffatoms im Grundzustand ($\mathrm{1s}$) lautet:
+> Die magnetische Suszeptibilität eines kristallinen Materials kann bestimmt werden, indem eine zylindrische Probe an einem Balkenende der Gouy’schen Waage aufgehängt wird, die sich vor dem Versuchsbeginn im Gleichgewicht befindet. Das untere Ende der Probe wird in ein Magnetfeld gebracht. Um die Waage wieder ins Gleichgewicht zu bringen, muss ein Ausgleichsgewicht am anderen Balkenende aufgelegt werden.
 >
-> $\Psi = (\pi a_0^3)^{-1/2} \exp \left( -\frac{r}{a_0} \right)$ mit $a_0 = \frac{4 \pi \varepsilon_0 \hbar^2}{m_\mathrm{e} e^2} = 0,\!529 \cdot 10^{-10}~\mathrm{m}$.
+> ![Schema der Gouy-Waage](Bilder/Gouy-Waage.png "Schema der Gouy-Waage. *Quelle: A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik, 1999*") <!-- style = "width: 350px;" -->
 >
-> Entsprechend der statistischen Interpretation der Wellenfunktion ist dann die Ladungsdichte $\rho(x,y,z)=-e|\Psi|^2$. Zeigen Sie, dass in diesem Zustand $\langle r^2 \rangle = 3a_0^2$ ist und berechnen Sie die molare diamagnetische Suszeptibilität von atomarem Wasserstoff.
->
-> ![Schema der Gouy-Waage](Bilder/Gouy-Waage.png "Schema der Gouy-Waage. *Quelle: A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik, 1999*")
+> Berechnen Sie für eine zylindrische Probe mit dem Durchmesser $d = 2r = 5~\mathrm{mm}$, die in ein Magnetfeld der Stärke $H = 10^4~\mathrm{Oe}$ gebracht und mit einem Gegengewicht von $0,\!5~\mathrm{g}$ ausgeglichen wird, die magnetische Suszeptibilität. Um welche Form des Magnetismus handelt es sich?
 
                                       {{1}}
 Der Erwartungswert $\langle r^2 \rangle$ berechnet sich aus:
@@ -69,7 +67,7 @@ $$\chi_{mol} = -2,\!36 \cdot 10^{-12}~\mathrm{m^3/mol} = -2,\!36 \cdot 10^{-6}~\
 
 ## Aufgabe 2 
 
-> Berechnen Sie den Betrag des Bohrschen Magnetons (klassischer Ansatz).
+> Skizzieren Sie mit Hilfe eines symbolischen Kästchenschemas die Besetzung der $\mathrm{4f}$-Orbitale im Grundzustand der Ionen Eu^2+^, Yb^3+^ und Tb^3+^. Wie lauten die entsprechenden Termbezeichnungen des Grundzustands in spektroskopischer Notation?
 
                                       {{1}}
 In der klassischen Betrachtung kreist das Elektron mit der Geschwindigkeit $v$ auf einer Kreisbahn mit dem Radius $r$ um den Atomkern. Der Betrag seines Drehimpulses ist dann $L = rp = r m_\mathrm{e} v$, worin $p = m_\mathrm{e} v$ der Impuls des Elektrons ist. 
@@ -100,7 +98,7 @@ $$\mu_\mathrm{B} = 9,\!274\cdot 10^{−21}~\mathrm{emu}$$
 
 ## Aufgabe 3
 
-> Zeigen Sie, dass die magnetische Dipolwechselwirkung zwischen zwei magnetischen Momenten der Größe $\mu_\mathrm{B}$, die 3 Angström voneinander entfernt sind, erst bei Temperaturen unter $T=100~\mathrm{mK}$ wichtig wird.
+> Berechnen Sie den Landé-Faktor $g$ und das effektive magnetische Moment der $\mathrm{4f}$-Ionen La^3+^, Pr^3+^ und Tb^3+^. Vergleichen Sie die Ergebnisse mit den experimentell ermittelten Werten.  Weshalb liefern abgeschlossene Schalen eines Atoms keinen Beitrag zum Langevin- Paramagnetismus?
 
                                       {{1}}
 Ein magnetischer Dipol $\vec{\mu}_1$ erzeugt in seiner Umgebung die magnetische Feldstärke (siehe Aufgabe 4):
@@ -125,11 +123,7 @@ $$T = \frac{|E_2|}{k_\mathrm{B}} = 0,\!064~\mathrm{K} < 100~\mathrm{mK}$$
 
 ## Aufgabe 4 
 
-> Ein magnetischer Dipol $\vec{\mu}$, der sich im Ursprung des Koordinatensystems befinden soll, erzeugt in seiner Umgebung die magnetische Feldstärke:
->
-> $$\vec{B}(\vec{r}) = \frac{\mu_0}{4\pi} \cdot \frac{3(\vec{\mu}\vec{r})\vec{r} - r^2\vec{\mu}}{r^5}$$
->
-> Berechnen Sie die Stärke des Magnetfeldes, welches ein Atom mit dem magnetischen Moment $\mu \cong \mu_\mathrm{B}$ am Ort eines Nachbar-Atoms erzeugt. Der für die Ferromagneten Fe, Ni und Co typische Abstand nächster Nachbarn $r_0$ kann aus den folgenden Angaben berechnet werden: Fe besitzt ein bcc-Gitter mit $a = 2,\!866~\mathrm{Å}$, Co ein hcp-Gitter mit $a = 2,\!507~\mathrm{Å}$ und Ni ein fcc-Gitter mit $a = 3,\!524~\mathrm{Å}$. Vergleichen Sie die maximale Energie der Dipol-Dipol-Wechselwirkung mit der thermischen Energie der Dipole bei der Curie-Temperatur, die für die genannten Materialien in der Größenordnung von $T_\mathrm{C}=1000~\mathrm{K}$ liegt.
+> Betrachten Sie als einfachsten Fall ein Zweiniveausystem, das wegen $J=½$ nur die zwei Energieniveaus $E = \pm ½ g μ_\mathrm{B} B_0$ annehmen kann. Berechnen Sie das mittlere magnetische Moment, welches sich in diesem Fall bei Anlegen eines magnetischen Feldes $B_0$ ergibt. Diskutieren Sie den Einfluss von Temperatur und Magnetfeld.
 
                                       {{1}}
 ************************************
