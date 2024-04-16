@@ -81,8 +81,8 @@ $$E = \frac{U}{s} = \frac{\mathrm{1~V}}{\mathrm{10^{-8}~m}} = \mathrm{10^8~\frac
 ## Aufgabe 3
 
 > Beantworten Sie mit Hilfe der nebenstehenden Grafik die folgenden Fragen:
-
-![Bandstruktur eines indirekten Halbleiters](Bilder/Bandstruktur_Bandlücke.png)
+>
+> ![Bandstruktur eines indirekten Halbleiters](Bilder/Bandstruktur_Bandlücke.png)
 
 **a) Wie groß ist die Energie der Bandlücke?**
 
@@ -282,8 +282,8 @@ $$1 - f(E,T) \approx \exp \left( -\frac{\mu - E}{k_\mathrm{B} T} \right)$$
 ## Aufgabe 10
 
 > In der folgenden Abbildung sehen Sie den Verlauf des Absorptionskoeffizienten in Abhängigkeit der Wellenlänge für verschiedene Halbleiter. Welche Halbleiter sind direkt und welche indirekt? Warum? Nennen Sie häufig eingesetzte Element- und Verbindungshalbleiter und ihre Anwendungen!
-
-![Absorptionskoeffizient in Abhängigkeit der Wellenlänge für verschiedene Halbleiter](Bilder/Absorptionskoeffizient_Wellenlänge.png)
+> 
+> ![Absorptionskoeffizient in Abhängigkeit der Wellenlänge für verschiedene Halbleiter](Bilder/Absorptionskoeffizient_Wellenlänge.png)
 
                                       {{1}}
 Direkte Halbleiter: $\mathrm{GaAs, InP, In_{0.7}Ga_{0.3}As_{0.64}P_{0.36}, In_{0.53}Ga_{0.47}As}$
