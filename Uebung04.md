@@ -70,17 +70,34 @@ Dieser Wert stellt eine einheitenlose Volumensuszeptibilität dar. Aufgrund des 
 
 ## Aufgabe 2 
 
-> Skizzieren Sie mit Hilfe eines symbolischen Kästchenschemas die Besetzung der $\mathrm{4f}$-Orbitale im Grundzustand der Ionen Eu^2+^, Yb^3+^ und Tb^3+^. Wie lauten die entsprechenden Termbezeichnungen des Grundzustands in spektroskopischer Notation?
+> Skizzieren Sie mit Hilfe eines symbolischen Kästchenschemas die Besetzung der $\mathrm{4f}$-Orbitale im Grundzustand der Ionen Eu^2+^, Tb^3+^ und Yb^3+^. Wie lauten die entsprechenden Termbezeichnungen des Grundzustands in spektroskopischer Notation?
 
                                       {{1}}
-Hundsche Regeln
+***********************************
+Alle genannten Elemente gehören zu den Lanthanoiden und haben damit eine abgeschlossene Xenon-Konfiguration, zwei Elektronen im Zustand $\mathrm{6s}$ sowie unterschiedlich viele $\mathrm{4f}$-Elektronen. 
+
+![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
+************************************
 
                                       {{2}}
-Der Elektronenspin bleibt unberücksichtigt. Wir berechnen nur das durch den Bahndrehimpuls $L$ verursachte magnetische Moment $\mu$, das man präziser auch Bahnmoment nennen kann. Es ist allgemein durch $\mu = IA$ gegeben, worin $I$ die elektrische Stromstärke und $A$ die vom Strom eingeschlossene Fläche ist. 
+************************************
+Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei der Besetzung beachten wir vor allem die 2. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $s_i$ stehen also möglichst parallel.“ Daraus ergibt sich:
+
+| Ion    | Konfiguration                      | Kästchenschema für die $\mathrm{4f}$-Orbitale |
+|--------|------------------------------------|----------------|
+| Eu^2+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ |
+| Tb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  |
+| Yb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^{11}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$  |
+************************************
 
                                       {{3}}
-Die von der Bahn umschlossene Fläche ist $A = \pi r^2$. Der Bahnumfang ist $u = 2 \pi r$. Daraus können wir auch den Strom berechnen:
-$$I = \frac {q}{t} = \frac{-e}{u/v} = \frac{-e}{(2\pi r)/v} = \frac{-e v}{2\pi r}$$
+************************************
+Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
+
+- Bahndrehimpuls $L$
+- Spin $S$
+- Gesamtdrehimpuls $J$
+************************************
 
                                       {{4}}
 Damit folgt:
