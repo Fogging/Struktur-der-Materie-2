@@ -20,6 +20,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 3
 
+Ein kurzer Einstieg ins Thema Magnetismus:
+
+!?[Paramagnetism and Diamagnetism](https://www.youtube.com/watch?v=u36QpPvEh2c)
+
 
 ## Aufgabe 1
 
