@@ -81,39 +81,63 @@ Alle genannten Elemente gehören zu den Lanthanoiden und haben damit eine abgesc
 
                                       {{2}}
 ************************************
-Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei der Besetzung beachten wir vor allem die 2. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $s_i$ stehen also möglichst parallel.“ Daraus ergibt sich:
+Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei der Besetzung beachten wir vor allem die 2. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $m_s$ stehen also möglichst parallel.“ Daraus ergibt sich:
 
 | Ion    | Konfiguration                      | Kästchenschema für die $\mathrm{4f}$-Orbitale |
 |--------|------------------------------------|----------------|
 | Eu^2+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ |
 | Tb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  |
-| Yb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^{11}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$  |
+| Yb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^{11}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ |
 ************************************
 
                                       {{3}}
 ************************************
 Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
 
-- Bahndrehimpuls $L$
-- Spin $S$
-- Gesamtdrehimpuls $J$
+- Gesamtspin $S = |\sum m_s|$: Ergibt sich aus der 2. Hundschen Regel, d. h. er nimmt den maximal möglichen Wert an.
+- Gesamtbahndrehimpuls $L = |\sum m_l|$: Nach der 3. Hundschen Regel werden die Unterzustände mit der Magnetquantenzahl $m_l$ so besetzt, dass $L$ maximal wird.
+- Gesamtdrehimpuls $J$: Folgt aus der 4. Hundschen Regel: Ist die Schale weniger als halbvoll, so ist $J=|L-S|$. Ist die Schale mehr als halbvoll, so ist $J=L+S$.
 ************************************
 
                                       {{4}}
-Damit folgt:
-$$\mu = IA = \frac{-e v}{2} r$$
+************************************
+Erläuterung zum Wert für $L$ nach der 3. Hundschen Regel: 
+
+- Das erste Elektron einer neuen Schale erhält den maximalen Wert von $|m_l|=l$. Für eine $\mathrm{f}$-Schale ist $l=3$. 
+- Das zweite Elektron darf wegen der 2. Hundschen Regel nicht denselben Wert für $m_l$ bekommen, da beide Elektronen bereits den gleichen Spin $m_s$ besitzen. Gemäß Pauli-Prinzip müssen die zwei Elektronen unterschiedliche Zustände einnehmen. Das 2. Elektron bekommt also den zweitgrößten Wert $|m_l|=l-1$. 
+- Ist die Schale halbgefüllt, so müssen nach der 2. Hundschen Regel alle $m_l = -l, ..., +l$ einmal vergeben sein, d. h. $L$ ist dann gleich Null. 
+- Bei der Befüllung der zweiten Hälfte der Schale werden die $m_l$ in der gleichen Reihenfolge wie bei Befüllung der ersten Hälfte vergeben.
+************************************
 
                                       {{5}}
-Einsetzen von $\frac {L}{m_e} = r v$ ergibt das gesuchte magnetische Bahnmoment:
-$$\mu = \frac{-e}{2 m_e} L$$
+************************************
+Beispiel Eu^2+^: 
+
+- Das neutrale Eu-Atom hat 7 $\mathrm{4f}$-Elektronen. Das Eu^2+^-Ion hat entsprechend nur 5 $\mathrm{4f}$-Elektronen.
+- Der Gesamtspin nimmt den maximal möglichen Wert $S = \frac{5}{2}$ an, wenn alle $m_s = +\frac{1}{2}$ parallel ausgerichtet sind.
+- Die Bahndrehimpulse werden beginnend mit dem größten Wert $m_l=l=3$ an die einzelnen Elektronen verteilt. Die fünf Elektronen besitzen also die Werte $m_l = +3, +2, +1, 0, -1$. Der Gesamtbahndrehimpuls ist also $L = |\sum m_l| = 5$. 
+- Da die Schale weniger als halbvoll ist, gilt $J=|L-S|=\frac{5}{2}$.
+************************************
 
                                       {{6}}
-Wenn man für den Bahndrehimpuls den festen Wert $L = 1 \hbar$ einsetzt, erhält man das sogenannte **Bohrsche Magneton** (in SI-Einheiten):
-$$\mu_\mathrm{B} = \frac{e \hbar}{2 m_\mathrm{e}} = 9,\!274\cdot 10^{−24}~\mathrm{J/T} = 9,\!274\cdot 10^{−24}~\mathrm{A\,m^2}$$
+************************************
+Termbezeichnung: 
+
+- Die spektroskopische Termbezeichnung folgt dem Schema: $^{2S+1}(L)_J$.
+- Für $2S+1$ und $J$ werden direkt Zahlen eingesetzt, für $L$ kommen aufrechte Großbuchstaben zum Einsatz: $\mathrm{0 = S, 1 = P, 2 = D, 3 = F, 4 = G, 5 = H, 6 = I}$.
+- Für das Beispiel Eu^2+^ ergibt sich also: $\mathrm{^6H_{5/2}}$
+************************************
 
                                       {{7}}
-Für den Übergang in CGS-Einheiten benutzen wir den Zusammenhang $1~\mathrm{A\,m^2} = 10^3~\mathrm{emu}$. Das Bohrsche Magneton hat im CGS-System also den Wert:
-$$\mu_\mathrm{B} = 9,\!274\cdot 10^{−21}~\mathrm{emu}$$
+************************************
+Lösungsübersicht: 
+
+| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
+|--------|------------------------------------|----------------|-----|-----|-----|------------|
+| Eu^2+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $\frac{5}{2}$ | $5$ | $\frac{5}{2}$ | $\mathrm{^6H_{5/2}}$ |
+| Tb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  | $3$ | $3$ | $0$ | $\mathrm{^7F_0}$ |
+| Yb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^{11}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{3}{2}$ | $6$ | $\frac{15}{2}$ | $\mathrm{^4I_{15/2}}$ |
+************************************
 
 
 ## Aufgabe 3
