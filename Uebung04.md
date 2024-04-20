@@ -74,23 +74,26 @@ Dieser Wert stellt eine einheitenlose Volumensuszeptibilität dar. Aufgrund des 
 
                                       {{1}}
 ***********************************
-Alle genannten Elemente gehören zu den Lanthanoiden und haben damit eine abgeschlossene Xenon-Konfiguration, zwei Elektronen im Zustand $\mathrm{6s}$ sowie unterschiedlich viele $\mathrm{4f}$-Elektronen. 
+Alle genannten Elemente gehören zu den Lanthanoiden (bzw. Seltenen Erden) und haben damit eine abgeschlossene Xenon-Konfiguration, zwei Elektronen im Zustand $\mathrm{6s}$ sowie unterschiedlich viele $\mathrm{4f}$-Elektronen. 
 
 ![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
 ************************************
 
                                       {{2}}
+Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei den Lanthanoiden werden durch Ionisation zunächst die $\mathrm{6s}$-Elektronen entfernt.
+
+                                      {{3}}
 ************************************
-Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei der Besetzung beachten wir vor allem die 2. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $m_s$ stehen also möglichst parallel.“ Daraus ergibt sich:
+Bei der Besetzung beachten wir vor allem die 2. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $m_s$ stehen also möglichst parallel.“ Daraus ergibt sich:
 
 | Ion    | Konfiguration                      | Kästchenschema für die $\mathrm{4f}$-Orbitale |
 |--------|------------------------------------|----------------|
-| Eu^2+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ |
-| Tb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  |
-| Yb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^{11}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ |
+| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ |
+| Tb^3+^ | $\mathrm{[Xe] \, 4f^8}$    | $\fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$  |
+| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ |
 ************************************
 
-                                      {{3}}
+                                      {{4}}
 ************************************
 Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
 
@@ -99,7 +102,7 @@ Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
 - Gesamtdrehimpuls $J$: Folgt aus der 4. Hundschen Regel: Ist die Schale weniger als halbvoll, so ist $J=|L-S|$. Ist die Schale mehr als halbvoll, so ist $J=L+S$.
 ************************************
 
-                                      {{4}}
+                                      {{5}}
 ************************************
 Erläuterung zum Wert für $L$ nach der 3. Hundschen Regel: 
 
@@ -109,44 +112,53 @@ Erläuterung zum Wert für $L$ nach der 3. Hundschen Regel:
 - Bei der Befüllung der zweiten Hälfte der Schale werden die $m_l$ in der gleichen Reihenfolge wie bei Befüllung der ersten Hälfte vergeben.
 ************************************
 
-                                      {{5}}
+                                      {{6}}
 ************************************
 Beispiel Eu^2+^: 
 
-- Das neutrale Eu-Atom hat 7 $\mathrm{4f}$-Elektronen. Das Eu^2+^-Ion hat entsprechend nur 5 $\mathrm{4f}$-Elektronen.
-- Der Gesamtspin nimmt den maximal möglichen Wert $S = \frac{5}{2}$ an, wenn alle $m_s = +\frac{1}{2}$ parallel ausgerichtet sind.
-- Die Bahndrehimpulse werden beginnend mit dem größten Wert $m_l=l=3$ an die einzelnen Elektronen verteilt. Die fünf Elektronen besitzen also die Werte $m_l = +3, +2, +1, 0, -1$. Der Gesamtbahndrehimpuls ist also $L = |\sum m_l| = 5$. 
-- Da die Schale weniger als halbvoll ist, gilt $J=|L-S|=\frac{5}{2}$.
+- Das neutrale Eu-Atom hat zwei $\mathrm{6s}$-Elektronen und sieben $\mathrm{4f}$-Elektronen. Das Eu^2+^-Ion behält nur die sieben $\mathrm{4f}$-Elektronen.
+- Der Gesamtspin nimmt den maximal möglichen Wert $S = \frac{7}{2}$ an, wenn alle $m_s = +\frac{1}{2}$ parallel ausgerichtet sind.
+- Die Bahndrehimpulse werden beginnend mit dem größten Wert $m_l=l=3$ an die einzelnen Elektronen verteilt. Die 7 Elektronen besitzen also die Werte $m_l = +3, +2, +1, 0, -1, -2, -3$. Der Gesamtbahndrehimpuls ist also $L = |\sum m_l| = 0$, wie für eine genau halbvolle Schale erwartet. 
+- Da die Schale halbvoll und $L=0$ ist, ergibt $J=|L-S|$ denselben Wert wie $J=L+S=\frac{7}{2}$.
 ************************************
 
-                                      {{6}}
+                                      {{7}}
 ************************************
 Termbezeichnung: 
 
 - Die spektroskopische Termbezeichnung folgt dem Schema: $^{2S+1}(L)_J$.
 - Für $2S+1$ und $J$ werden direkt Zahlen eingesetzt, für $L$ kommen aufrechte Großbuchstaben zum Einsatz: $\mathrm{0 = S, 1 = P, 2 = D, 3 = F, 4 = G, 5 = H, 6 = I}$.
-- Für das Beispiel Eu^2+^ ergibt sich also: $\mathrm{^6H_{5/2}}$
+- Für das Beispiel Eu^2+^ ergibt sich also: $\mathrm{^8S_{7/2}}$
 ************************************
 
-                                      {{7}}
+                                      {{8}}
 ************************************
 Lösungsübersicht: 
 
 | Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
 |--------|------------------------------------|----------------|-----|-----|-----|------------|
-| Eu^2+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $\frac{5}{2}$ | $5$ | $\frac{5}{2}$ | $\mathrm{^6H_{5/2}}$ |
-| Tb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  | $3$ | $3$ | $0$ | $\mathrm{^7F_0}$ |
-| Yb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^{11}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{3}{2}$ | $6$ | $\frac{15}{2}$ | $\mathrm{^4I_{15/2}}$ |
+| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{7}{2}$ | $0$ | $\frac{7}{2}$ | $\mathrm{^8S_{7/2}}$ |
+| Tb^3+^ | $\mathrm{[Xe] \, 4f^8}$    | $\fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$  | $3$ | $3$ | $6$ | $\mathrm{^7F_6}$ |
+| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ | $\frac{1}{2}$ | $3$ | $\frac{7}{2}$ | $\mathrm{^2F_{7/2}}$ |
 ************************************
 
 
 ## Aufgabe 3
 
-> Berechnen Sie den Landé-Faktor $g$ und das effektive magnetische Moment der $\mathrm{4f}$-Ionen La^3+^, Pr^3+^ und Tb^3+^. Vergleichen Sie die Ergebnisse mit den experimentell ermittelten Werten.  Weshalb liefern abgeschlossene Schalen eines Atoms keinen Beitrag zum Langevin- Paramagnetismus?
+> Berechnen Sie den Landé-Faktor $g$ und das effektive magnetische Moment der $\mathrm{4f}$-Ionen La^3+^, Pr^3+^ und Tb^3+^. Vergleichen Sie die Ergebnisse mit den experimentell ermittelten Werten. Weshalb liefern abgeschlossene Schalen eines Atoms keinen Beitrag zum Langevin-Paramagnetismus?
 
                                       {{1}}
-Ein magnetischer Dipol $\vec{\mu}_1$ erzeugt in seiner Umgebung die magnetische Feldstärke (siehe Aufgabe 4):
-$$\vec{B}_1(\vec{r}) = \frac{\mu_0}{4\pi} \cdot \frac{3(\vec{\mu}_1 \vec{r})\vec{r} - r^2\vec{\mu}_1}{r^5}$$
+************************************
+Zunächst bestimmen wir die Quantenzahlen und gehen dabei wie in Aufgabe 2 vor:
+
+![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
+
+| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
+|--------|------------------------------------|----------------|-----|-----|-----|------------|
+| La^3+^ | $\mathrm{[Xe]}$    | $\fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $0$ | $0$ | $0$ | $\mathrm{^1S_0}$ |
+| Pr^3+^ | $\mathrm{[Xe] \, 6s^2}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$  | $3$ | $3$ | $0$ | $\mathrm{^7F_0}$ |
+| Tb^3+^ | $\mathrm{[Xe] \, 6s^2 \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  | $3$ | $3$ | $0$ | $\mathrm{^7F_0}$ |
+************************************
 
                                       {{2}}
 Der Betrag des Magnetfeldes $\vec{B}_1$ wird maximal, wenn $\vec{\mu}_1$ und $\vec{r}$ parallel ausgerichtet sind. Die Bedingung $\vec{\mu}_1 || \vec{r}$ bedeutet, dass das Magnetfeld auf einer Achse entlang des Vektors $\vec{\mu}_1$ betrachtet wird. Unter dieser Bedingung ist $(\vec{\mu}_1 \vec{r})\vec{r} = \vec{\mu}_1 r^2$ und die Formel für das Magnetfeld vereinfacht sich zu:
