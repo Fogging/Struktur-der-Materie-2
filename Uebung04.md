@@ -202,10 +202,10 @@ $$\mu_z = -g μ_\mathrm{B} m_J = \mp ½ g μ_\mathrm{B} = \mp \mu_\mathrm{eff}$$
 
                                       {{3}}
 Das effektive magnetische Moment ist dabei $\mu_\mathrm{eff} = ½ g μ_\mathrm{B}$. Den Mittelwert von $\mu_z$ berechnen wir aus:
-$$\langle \mu_z \rangle = \frac{\sum_{m_J} \mu_z \cdot \mathrm{e}^{-E/(k_\mathrm{B}T)}}{\sum_{m_J} \mathrm{e}^{-E/(k_\mathrm{B}T)}} = - \frac{\sum_{m_J} g μ_\mathrm{B} m_J \cdot \mathrm{e}^{-g μ_\mathrm{B} m_J B_0/(k_\mathrm{B}T)}}{\sum_{m_J} \mathrm{e}^{-g μ_\mathrm{B} m_J B_0/(k_\mathrm{B}T)}} = - g μ_\mathrm{B} \frac{\sum_{m_J} m_J \cdot \mathrm{e}^{-m_J x}}{\sum_{m_J} \mathrm{e}^{-m_J x}}$$
+$$\langle \mu_z \rangle = \frac{\sum_{m_J} \mu_z \cdot \mathrm{e}^{-E/(k_\mathrm{B}T)}}{\sum_{m_J} \mathrm{e}^{-E/(k_\mathrm{B} T)}} = - \frac{\sum_{m_J} g μ_\mathrm{B} m_J \cdot \mathrm{e}^{-g μ_\mathrm{B} m_J B_0/(k_\mathrm{B} T)}}{\sum_{m_J} \mathrm{e}^{-g μ_\mathrm{B} m_J B_0/(k_\mathrm{B}T)}} = - g μ_\mathrm{B} \frac{\sum_{m_J} m_J \cdot \mathrm{e}^{-m_J x}}{\sum_{m_J} \mathrm{e}^{-m_J x}}$$
 
                                       {{4}}
-Im letzten Schritt haben wir zur besseren Übersichtlichkeit $x = g μ_\mathrm{B} B_0/(k_\mathrm{B}T)$ ersetzt. Jetzt müssen noch die Summen über die zwei Werte $m_J = \pm ½$ ausgeschrieben werden:
+Im letzten Schritt haben wir zur besseren Übersichtlichkeit $x = g μ_\mathrm{B} B_0/(k_\mathrm{B} T)$ ersetzt. Jetzt müssen noch die Summen über die zwei Werte $m_J = \pm ½$ ausgeschrieben werden:
 $$\langle \mu_z \rangle = -g μ_\mathrm{B} \frac{-½ \cdot \mathrm{e}^{x/2} + ½ \cdot \mathrm{e}^{-x/2}}{\mathrm{e}^{x/2} + \mathrm{e}^{-x/2}} = ½ \, g μ_\mathrm{B} \tanh (x/2)$$
 
                                       {{5}}
@@ -214,11 +214,22 @@ $$\langle \mu_z \rangle = ½ \, g μ_\mathrm{B} \tanh \left( \frac{g μ_\mathrm{
 
                                       {{6}}
 Daraus ergibt sich mit der Teilchendichte $n = \frac{N}{V}$ auch direkt die Magnetisierung:
-$$M = n \langle \mu_z \rangle = n \mu_\mathrm{eff} \tanh \left( \frac{\mu_\mathrm{eff} B_0}{k_\mathrm{B}T} \right)$$
+$$M = n \langle \mu_z \rangle = n \mu_\mathrm{eff} \tanh \left( \frac{\mu_\mathrm{eff} B_0}{k_\mathrm{B} T} \right)$$
 
                                       {{7}}
 Da die $\tanh$-Funktion maximal $1$ wird, ist die maximale Magnetisierung (oder Sättigungsmagnetisierung) durch $M_\mathrm{S} = n \mu_\mathrm{eff}$ gegeben. Damit folgt:
-$$\frac{M}{M_\mathrm{S}} = \tanh \left( \frac{\mu_\mathrm{eff} B_0}{k_\mathrm{B}T} \right)$$
+$$\frac{M}{M_\mathrm{S}} = \tanh \left( \frac{\mu_\mathrm{eff} B_0}{k_\mathrm{B} T} \right)$$
 
                                       {{8}}
-Für $T = T_\mathrm{C} = 1000~\mathrm{K}$ liegt die thermische Energie sogar bei $E_\mathrm{therm} = k_\mathrm{B} T_\mathrm{C} = 86~\mathrm{meV}$. Für $|E_\mathrm{mag}| = E_\mathrm{therm}$ müsste $B \approx 1500~\mathrm{T}$ sein. Die klassische Dipol-Dipol-Wechselwirkung kann also nicht beobachtet werden!
+**Für hohe Magnetfelder und niedrige Temperaturen**, also für $\mu_\mathrm{eff} B_0 \gg k_\mathrm{B} T$ (oder $x \gg 1$) erreicht die Magnetisierung $M$ den Sättigungswert $M_\mathrm{S}$. Um $\mu_\mathrm{eff} B_0 = k_\mathrm{B} T$ zu erreichen, wird bei $T = 4~\mathrm{K}$ beispielsweise ein Magnetfeld von $B_0 \approx 6~\mathrm{T}$ benötigt.
+
+                                      {{9}}
+**Für niedrige Magnetfelder und hohe Temperaturen**, also für $\mu_\mathrm{eff} B_0 \ll k_\mathrm{B} T$ (oder $x \ll 1$) kann die $\tanh$-Funktion durch $\tanh x \approx x$ angenähert werden. Damit gilt:
+$$M \approx \frac{n \mu_\mathrm{eff}^2 B_0}{k_\mathrm{B} T}$$
+
+                                      {{10}}
+Für die magnetische Suszeptibilität folgt dann wieder das bekannte Curie-Gesetz mit der Konstante $C$:
+$$\chi = \mu_0 \frac{M}{B_0} \approx \frac{\mu_0 n \mu_\mathrm{eff}^2}{k_\mathrm{B} T} = \frac{C}{T}$$
+
+                                      {{11}}
+Wir erhalten also einen zur klassischen Ableitung sehr ähnlichen Ausdruck. Für Elektronen mit $L = 0$ und $S = ½$ ist $\mu_\mathrm{eff} = ½ g_S \mu_\mathrm{B} \cong \mu_\mathrm{B}$, da $g_S \cong 2$.
