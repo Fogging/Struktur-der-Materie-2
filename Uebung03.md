@@ -163,7 +163,7 @@ $$\vec{B}(\vec{r}) = \frac{\mu_0}{2\pi} \cdot \frac{\vec{\mu}}{r^3}$$
 
                                       {{5}}
 Einsetzen der Werte $\mu \cong \mu_\mathrm{B} = 9,\!274\cdot 10^{−24}~\mathrm{A\,m^2}$ und $r_0 \approx 2,\!5~\mathrm{Å}$ ergibt:
-$$B = 0,\!118~\mathrm{\frac{Vs}{Am}} \approx 0,\!12~\mathrm{T}$$
+$$B = 0,\!118~\mathrm{\frac{Vs}{m^2}} \approx 0,\!12~\mathrm{T}$$
 
                                       {{6}}
 Die maximale Energie der Dipol-Dipol-Wechselwirkung beträgt damit:
