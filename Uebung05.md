@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 04
+comment:  Struktur der Materie 2 - Übung 05
 
 @style
 .lia-toc__bottom {
@@ -18,59 +18,43 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 4
+# Übung 5
 
 
 ## Aufgabe 1
 
-> Die magnetische Suszeptibilität eines kristallinen Materials kann bestimmt werden, indem eine zylindrische Probe an einem Balkenende der Gouy’schen Waage aufgehängt wird, die sich vor dem Versuchsbeginn im Gleichgewicht befindet. Das untere Ende der Probe wird in ein Magnetfeld gebracht. Um die Waage wieder ins Gleichgewicht zu bringen, muss ein Ausgleichsgewicht am anderen Balkenende aufgelegt werden.
+> Wir betrachten ein freies Elektronengas mit einer Dichte von $n=2,\!54 \cdot 10^{22}~\mathrm{cm}^{-3}$ (Natrium) und einem Volumen von $V = L_x L_y L_z = 1\cdot1\cdot1~\mathrm{cm}^3$.
 >
-> ![Schema der Gouy-Waage](Bilder/Gouy-Waage.png "Schema der Gouy-Waage. *Quelle: A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik, 1999*") <!-- style = "width: 350px;" -->
+> a) Berechnen Sie aus der Anzahl $N$ der Elektronen die Anzahl $Z_\mathrm{F}$ der im $k$-Raum besetzten Zustände, den Radius der Fermi-Kugel und die Anzahl $Z_0$ der in der Ebene $k_z=0$ von Elektronen besetzten Zustände.
 >
-> Berechnen Sie für eine zylindrische Probe mit dem Durchmesser $d = 2r = 5~\mathrm{mm}$, die in ein Magnetfeld der Stärke $H = 10^4~\mathrm{Oe}$ gebracht und mit einem Gegengewicht von $0,\!5~\mathrm{g}$ ausgeglichen wird, die magnetische Suszeptibilität. Um welche Form des Magnetismus handelt es sich?
+> b) Wir legen nun ein Magnetfeld $B=1~\mathrm{T}$ in die $z$-Richtung an. Berechnen Sie die Anzahl der Kreise konstanter Energie $E(n, k_z=0)$, die sich innerhalb der ursprünglichen Grenzen der Fermi-Kugel befinden.
+>
+> c) Bestimmen Sie die Flussdichte $B_0$, bei welcher der innerste Landau-Zylinder $n=0$ die ursprüngliche Fermi-Kugel verlässt. Vergleichen Sie den Wert von $B_0$ mit technisch realisierbaren Magnetfeldern.
 
                                       {{1}}
-Die magnetische Energiedichte (auch als magnetischer Druck bezeichnet) berechnet sich aus:
-$$w_\mathrm{mag} = \frac{1}{2} B H = \frac{1}{2 \mu_0 \mu_r} B^2 = \frac{\mu_0 \mu_r}{2} H^2$$
+**a)** Dichte der Zustände im $k$-Raum: $z(k) = V/(2 \pi)^3$
 
                                       {{2}}
-Das Volumenintegral über $w_\mathrm{mag}$ ergibt die potentielle Energie $E_\mathrm{mag}$ des Magnetfeldes. Dieses Integral führen wir genau über das Volumen der ins Magnetfeld $H$ eingetauchten Probe aus. Wir nehmen an, dass zwischen den Polschuhen ein homogenes Magnetfeld $H$ wirkt, das nach außen sehr schnell abfällt. Mit der Querschnittsfläche $A = \pi r^2$ und der Eintauchtiefe $z$ der Probe ins Magnetfeld erhalten wir:
-$$E_\mathrm{mag} = \int_V w_\mathrm{mag} \, \mathrm{d}V = \int_V \frac{\mu_0 \mu_r}{2} H^2 \, \mathrm{d}V = \frac{\mu_0 \mu_r}{2} H^2 \cdot \int_V \mathrm{d}V = \frac{\mu_0 \mu_r}{2} H^2 \cdot \pi r^2z$$
+Zahl der Elektronen: $N = n \cdot V = 2,\!54 \cdot 10^{22}$
 
                                       {{3}}
-Da das Magnetfeld bereits ohne Probe eine potentielle Energie besitzt, weil ja $\mu_{r,1} = 1$ gilt, müssen wir die Änderung der potentiellen Energie betrachten:
-$$\Delta E_\mathrm{mag} = E_\mathrm{mag,2} - E_\mathrm{mag,1} = \frac{\mu_0}{2} (\mu_{r,2}-\mu_{r,1}) \cdot H^2 \cdot \pi r^2z$$
+Zahl der besetzten Zustände in der Fermi-Kugel (jeweils 2 Spinzustände): $Z_\mathrm{F} = N/2 = 1,\!27 \cdot 10^{22}$
 
                                       {{4}}
-Die relative Permeabilität $\mu_{r}$ hängt mit der gesuchten magnetischen Suszeptibilität $\chi$ über $\mu_{r} = 1 + \chi$ zusammen. Da für Luft $\mu_{r,1} = 1$ gilt, ist $\chi_1 = 0$ und insgesamt:
-$$\Delta E_\mathrm{mag} = \frac{\mu_0}{2} (\chi_2-\chi_1) \cdot H^2 \cdot \pi r^2z = \frac{\mu_0 \chi_2}{2} \cdot H^2 \cdot \pi r^2z$$
+Die Zahl der Zustände in der Fermi-Kugel ergibt sich aber auch aus der Zustandsdichte im $k$-Raum multipliziert mit dem Volumen der Fermi-Kugel mit dem Radius $k_\mathrm{F}$:
+$$Z_\mathrm{F} = z(k) \cdot \frac{4}{3} \pi k_\mathrm{F}^3 = \frac{V}{(2 \pi)^3} \cdot \frac{4}{3} \pi k_\mathrm{F}^3 = \frac{V}{6 \pi^2} \cdot k_\mathrm{F}^3 = \frac{N}{2} = \frac{n V}{2}$$
 
                                       {{5}}
-Wird die Probe entlang der Richtung $z$ verschoben, ergibt sich aus der dadurch hervorgerufenen Änderung der potentiellen Energie eine Kraft:
-$$F = \frac{\mathrm{d} \Delta E_\mathrm{mag}}{\mathrm{d} z} = \frac{\mu_0 \chi_2}{2} \cdot H^2 \cdot \pi r^2$$
+Für die Fermi-Wellenzahl folgt: $k_\mathrm{F} = (3 \pi^2 n)^{1/3} = 9,\!1 \cdot 10^7~\mathrm{cm^{-1}}$
 
                                       {{6}}
-Bereits im Jahr 1889 ist von Louis Georges Gouy vorgeschlagen worden, diese Kraft $F$ zu messen und daraus die magnetische Suszeptibilität $\chi_2$ einer Probe zu bestimmen. Die zylindrische Probe wird dabei an einer Waage hängend zwischen die Pole eines Magneten gebracht. Die durch das Magnetfeld $H$ hervorgerufene Kraft wird als Gewichtsänderung an der Waage registriert. Die Gegenkraft ist also die Gewichtskraft $F_G = mg$:
-$$F = \frac{\mu_0 \chi_2}{2} \cdot H^2 \cdot \pi r^2 = mg$$
+$Z_0$ ist die Anzahl der Zustände in der Ebene $k_z=0$, d. h. in einem dünnen Kreiszylinder mit der Dicke $2 \pi/L_z$:
+$$Z_0 = z(k) \cdot \pi k_\mathrm{F}^2 \cdot \frac{2 \pi}{L_z} = \frac{V}{(2 \pi)^3} \cdot \pi k_\mathrm{F}^2 \cdot \frac{2 \pi}{L_z} = \frac{L_x L_y}{4 \pi} \cdot k_\mathrm{F}^2 = 6,\!58 \cdot 10^{14}$$
 
-                                      {{7}}
-Die gesuchte Größe erhalten wir also aus:
-$$\chi_2 = \frac{2mg}{\mu_0 H^2 \pi r^2}$$
-
-                                      {{8}}
-Die Stärke des Magnetfeldes $H$ ist im CGS-System gegeben und muss zunächst umgerechnet werden. Es gilt:
-$$1~\mathrm{Oersted} = 1~\mathrm{Oe} = \frac{1000}{4 \pi} \, \mathrm{\frac{A}{m}}$$
-
-                                      {{9}}
-Damit erhalten wir schließlich einen Wert von:
-$$\chi_2 = 6,\!3 \cdot 10^{-4}$$
-
-                                      {{10}}
-Dieser Wert stellt eine einheitenlose Volumensuszeptibilität dar. Aufgrund des Vorzeichens (positiv) und der Größe des Wertes (zwischen $0$ und $1$) handelt es sich um eine paramagnetische Probe.
 
 ## Aufgabe 2 
 
-> Skizzieren Sie mit Hilfe eines symbolischen Kästchenschemas die Besetzung der $\mathrm{4f}$-Orbitale im Grundzustand der Ionen Eu^2+^, Eu^3+^ und Yb^3+^. Wie lauten die entsprechenden Termbezeichnungen des Grundzustands in spektroskopischer Notation?
+> Beschreiben Sie quantitativ den paramagnetischen Anteil der magnetischen Suszeptibilität eines freien Elektronengases in einem Metall. Wie groß ist dieser Anteil an der gesamten magnetischen Suszeptibilität?
 
                                       {{1}}
 ***********************************
@@ -147,7 +131,7 @@ Lösungsübersicht:
 
 ## Aufgabe 3
 
-> Berechnen Sie den Landé-Faktor $g$ und das effektive magnetische Moment der $\mathrm{4f}$-Ionen La^3+^, Pr^3+^ und Tb^3+^. Vergleichen Sie die Ergebnisse mit den experimentell ermittelten Werten. Weshalb liefern abgeschlossene Schalen eines Atoms keinen Beitrag zum Langevin-Paramagnetismus?
+> Die Fermi-Energie von Kupfer beträgt $E_\mathrm{F} = 7,\!00~\mathrm{eV}$. Berechnen Sie den Beitrag des Elektronengases zur molaren magnetischen Suszeptibilität von Kupfer in der Näherung freier Elektronen. Außer diesem Beitrag trägt auch noch der diamagnetische Anteil der abgeschlossenen Elektronenschalen der Ionenrümpfe (Cu^+^) von $-15 \cdot {10}^{-5}~\mathrm{cm^3/mol}$ zum Gesamtwert bei. Vergleichen Sie das Ergebnis mit dem experimentell bestimmten Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-5}~\mathrm{cm^3/mol}$.
 
                                       {{1}}
 ************************************
@@ -190,7 +174,7 @@ Für vollständig gefüllte Unterschalen ergibt sich ein $\mathrm{^1S_0}$-Zustan
 
 ## Aufgabe 4 
 
-> Betrachten Sie als einfachsten Fall ein Zweiniveausystem, das wegen $J=½$ nur die zwei Energieniveaus $E = \pm ½ g μ_\mathrm{B} B_0$ annehmen kann. Berechnen Sie das mittlere magnetische Moment, welches sich in diesem Fall bei Anlegen eines magnetischen Feldes $B_0$ ergibt. Diskutieren Sie den Einfluss von Temperatur und Magnetfeld.
+> Wandeln Sie den experimentellen Messwert von Kupfer auch in die entsprechenden Werte für die Massensuszeptibilität und Volumensuszeptibilität um (Dichte $\rho = 8,\!93~\mathrm{g/cm^3}$, molare Masse $M = 63,\!5~\mathrm{g/mol}$).
 
                                       {{1}}
 Wir betrachten ein quantenmechanisches Zweiniveausystem mit $J=½$ in einem externen Feld $B_0$, das parallel zur $z$-Richtung orientiert ist. Die magnetische Quantenzahl kann nur die beiden Werte $m_J = \pm ½$ einnehmen. Für Elektronen ist das magnetische Moment antiparallel zum Drehimpuls orientiert. Daher gilt:
@@ -240,3 +224,16 @@ $$\chi = \mu_0 \frac{M}{B_0} \approx \frac{\mu_0 n \mu_\mathrm{eff}^2}{k_\mathrm
 
                                       {{12}}
 Wir erhalten also einen zur klassischen Ableitung sehr ähnlichen Ausdruck. Für Elektronen mit $L = 0$ und $S = ½$ ist $\mu_\mathrm{eff} = ½ g_S \mu_\mathrm{B} \cong \mu_\mathrm{B}$, da $g_S \cong 2$.
+
+
+## Aufgabe 5 
+
+> Berechnen Sie für die Übergangsmetallionen Ti^2+^, Cr^3+^, Fe^3+^ und Cu^2+^ den Landéfaktor und das effektive magnetische Moment und vergleichen Sie diese Werte mit dem Experiment. Wie fällt der Vergleich aus, wenn reiner Spinmagnetismus ($g=2$) angenommen wird?
+
+                                      {{1}}
+Wir betrachten ein quantenmechanisches Zweiniveausystem mit $J=½$ in einem externen Feld $B_0$, das parallel zur $z$-Richtung orientiert ist. Die magnetische Quantenzahl kann nur die beiden Werte $m_J = \pm ½$ einnehmen. Für Elektronen ist das magnetische Moment antiparallel zum Drehimpuls orientiert. Daher gilt:
+$$E = - \vec{\mu} \cdot \vec{B}_0 = g μ_\mathrm{B} m_J B_0 = \pm ½ g μ_\mathrm{B} B_0$$
+
+                                      {{2}}
+Das magnetische Moment in Feldrichtung, also in $z$-Richtung, ist dabei:
+$$\mu_z = -g μ_\mathrm{B} m_J = \mp ½ g μ_\mathrm{B} = \mp \mu_\mathrm{eff}$$
