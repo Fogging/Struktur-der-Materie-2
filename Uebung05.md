@@ -51,6 +51,43 @@ Für die Fermi-Wellenzahl folgt: $k_\mathrm{F} = (3 \pi^2 n)^{1/3} = 9,\!1 \cdot
 $Z_0$ ist die Anzahl der Zustände in der Ebene $k_z=0$, d. h. in einem dünnen Kreiszylinder mit der Dicke $2 \pi/L_z$:
 $$Z_0 = z(k) \cdot \pi k_\mathrm{F}^2 \cdot \frac{2 \pi}{L_z} = \frac{V}{(2 \pi)^3} \cdot \pi k_\mathrm{F}^2 \cdot \frac{2 \pi}{L_z} = \frac{L_x L_y}{4 \pi} \cdot k_\mathrm{F}^2 = 6,\!58 \cdot 10^{14}$$
 
+                                      {{7}}
+**b)** Während nach den Gesetzen der klassischen Physik ein Teilchen jede beliebige transversale Energie annehmen kann, ist dies in der Quantenmechanik nicht möglich, sondern die Energie ist quantisiert, das heißt, die transversale Energie kann nur diskrete, durch eine natürliche Zahl $n$ charakterisierte Werte annehmen. Die Landau-Niveaus (nach Lew Dawidowitsch Landau) sind in der Quantenmechanik die Niveaus der transversalen Energie eines geladenen Teilchens, das sich in einem homogenen Magnetfeld $B$ bewegt. Diese Aufspaltung in Landau-Niveaus lässt sich zum Beispiel durch den De-Haas-van-Alphen-Effekt messen. In Bezug auf die longitudinale Bewegung in Richtung des Magnetfeldes $B$ ist die Energie auch nach der quantenmechanischen Behandlung nicht quantisiert und identisch zur klassischen Herangehensweise. 
+
+                                      {{8}}
+Im zweidimensionalen, transversalen Impulsraum bilden die Landau-Niveaus Kreise; im dreidimensionalen Impulsraum die Landau-Zylinder. Sie besitzen folgende Energiewerte:
+$$E_n = \hbar \omega_c \left(n + \frac{1}{2} \right)$$
+
+                                      {{9}}
+Dabei ist $\omega_c = \frac{eB}{m_e}$ die Zyklotronfrequenz, also die Winkelgeschwindigkeit beim Umlauf des Elektrons im Magnetfeld.
+
+                                      {{10}}
+In einem Festkörper sind die transversalen Impulse $k_\perp$ zusätzlich aufgrund des Kristallgitters gequantelt:
+$$E_n = \frac{\hbar^2 k_\perp^2}{2 m_e}$$
+
+                                      {{11}}
+Der maximal mögliche transversale Impuls innerhalb der Fermi-Kugel ist durch die Fermi-Wellenzahl $k_\mathrm{F}$ gegeben. Gleichsetzen der Energie-Formeln und Umstellen nach $n$ ergibt die Anzahl der Kreise:
+$$n = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} = 27196$$
+
+                                      {{12}}
+**c)** Damit bereits bei $n=0$ der transversale Impuls $k_\perp$ die Fermi-Kugel berührt, muss das Magnetfeld deutlich größer als zuvor sein. Den erforderlichen Wert für $B$ erhält man durch Einsetzen von $n=0$ in die letzte Formel:
+$$0 = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} \ \Rightarrow \ B = \frac{\hbar k_\mathrm{F}^2}{e} = 54400~\mathrm{T}$$
+
+                                      {{13}}
+***********************************
+Zum Vergleich:
+
+| Quelle des Magnetfeldes      | Magnetfeld                      |
+|---------------|---------------------------------|
+| Erdmagnetfeld | $30...60~\mathrm{µ T}$          |
+| Kühlschrankmagnet | $1...10~\mathrm{m T}$          |
+| Lautsprechermagnet | $1...2~\mathrm{T}$          |
+| NMR-Gerät in der Medizin | $2...12~\mathrm{T}$          |
+| Supraleitende Magnete in Messgeräten | $7...32~\mathrm{T}$          |
+| Rekord für kontinuierliches Magnetfeld | $45,\!5~\mathrm{T}$          |
+| Rekord für gepulstes Magnetfeld | $2800~\mathrm{T}$          |
+************************************
+
 
 ## Aufgabe 2 
 
