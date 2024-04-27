@@ -102,85 +102,36 @@ Für Elektronen mit $L = 0$ und $S = ½$ ist $\mu_\mathrm{eff} = ½ g_S \mu_\mat
 $$\chi \approx \frac{n \mu_0 \mu_\mathrm{B}^2}{k_\mathrm{B} T_\mathrm{F}} = \frac{n \mu_0 \mu_\mathrm{B}^2}{E_\mathrm{F}}$$
 
                                       {{3}}
-** Genauere Betrachtung:** Das äußere Magnetfeld bewirkt, dass sich die Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld um jeweils den Betrag $\mu_\mathrm{B}B$ gegenüber ihrer ursprünglichen Lage verschieben.
-
-
-
-N+ = ½-µBEFfEDE+µBdE ≈ ½0EFfEDEdE+ ½µBD(EF)  
-N- = ½+µBEFfEDE-µBdE ≈ ½0EFfEDEdE- ½µBD(EF)  
-M = µB (N+ -N-) = µB  µBB D(EF),   D(EF) =  \frac{3N}{2E_F} (Struktur d. Materie1)
-M = µB2 \frac{3N}{2E_F}B
-  χpara = \frac{3}{2}N µ0 µB2/EF  (Paulische Spinsuszeptibilität)
-Zusätzlicher diamagnetischer Beitrag durch Elektronenbewegung:
-  χdia = - \frac{1}{2}N µ0 µB2/EF (Landau-Spinsuszeptibilität) ohne Herleitung!
-Zusammen:
-χ = N µ0 µB2/EF
-
-**Fermi-Niveau Akzeptor-dotierter Halbleiter:**
-![Fermi-Niveau für einen Akzeptor-dotierten Halbleiter](Bilder/Spin-Niveaus.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen Akzeptor-dotierten Halbleiter liegt ungefähr beim Akzeptor-Niveau $E_\mathrm{A}$. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 300px;" -->
-
-
-                                      {{3}}
 ************************************
-Bei der Besetzung beachten wir vor allem die 2. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $m_s$ stehen also möglichst parallel.“ Daraus ergibt sich:
+** Genauere Betrachtung:** Das äußere Magnetfeld bewirkt, dass sich die Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld um jeweils den Betrag $\mu_\mathrm{B} B$ gegenüber ihrer ursprünglichen Lage verschieben.
 
-<!-- data-type="none" -->
-| Ion    | Konfiguration                      | Kästchenschema für die $\mathrm{4f}$-Orbitale |
-|--------|------------------------------------|----------------|
-| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ |
-| Eu^3+^ | $\mathrm{[Xe] \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  |
-| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ |
+![Verschiebung der Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld](Bilder/Spin-Niveaus.png "Verschiebung der Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 300px;" -->
 ************************************
 
                                       {{4}}
-************************************
-Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
-
-- Gesamtspin $S = |\sum m_s|$: Ergibt sich aus der 2. Hundschen Regel, d. h. er nimmt den maximal möglichen Wert an.
-- Gesamtbahndrehimpuls $L = |\sum m_l|$: Nach der 3. Hundschen Regel werden die Unterzustände mit der Magnetquantenzahl $m_l$ so besetzt, dass $L$ maximal wird.
-- Gesamtdrehimpuls $J$: Folgt aus der 4. Hundschen Regel: Ist die Schale weniger als halbvoll, so ist $J=|L-S|$. Ist die Schale mehr als halbvoll, so ist $J=L+S$.
-************************************
+Für die jeweilige Anzahl der Zustände erhalten wir:
+$$N^+ = \frac{1}{2} \int_{-\mu_\mathrm{B}}^{E_\mathrm{F}} f(E) \cdot D(E + \mu_\mathrm{B} B) \, \mathrm{d}E \approx \frac{1}{2} \int_0^{E_\mathrm{F}} f(E) \cdot D(E) \, \mathrm{d}E + \frac{1}{2} \mu_\mathrm{B} B D(E_\mathrm{F})$$
+$$N^- = \frac{1}{2} \int_{+\mu_\mathrm{B}}^{E_\mathrm{F}} f(E) \cdot D(E - \mu_\mathrm{B} B) \, \mathrm{d}E \approx \frac{1}{2} \int_0^{E_\mathrm{F}} f(E) \cdot D(E) \, \mathrm{d}E - \frac{1}{2} \mu_\mathrm{B} B D(E_\mathrm{F})$$
 
                                       {{5}}
-************************************
-Erläuterung zum Wert für $L$ nach der 3. Hundschen Regel: 
-
-- Das erste Elektron einer neuen Schale erhält den maximalen Wert von $|m_l|=l$. Für eine $\mathrm{f}$-Schale ist $l=3$. 
-- Das zweite Elektron darf wegen der 2. Hundschen Regel nicht denselben Wert für $m_l$ bekommen, da beide Elektronen bereits den gleichen Spin $m_s$ besitzen. Gemäß Pauli-Prinzip müssen die zwei Elektronen unterschiedliche Zustände einnehmen. Das 2. Elektron bekommt also den zweitgrößten Wert $|m_l|=l-1$. 
-- Ist die Schale halbgefüllt, so müssen nach der 2. Hundschen Regel alle $m_l = -l, ..., +l$ einmal vergeben sein, d. h. $L$ ist dann gleich Null. 
-- Bei der Befüllung der zweiten Hälfte der Schale werden die $m_l$ in der gleichen Reihenfolge wie bei Befüllung der ersten Hälfte vergeben.
-************************************
+Daraus folgt die Magnetisierung:
+$$M = \mu_\mathrm{B} \cdot (N^+ - N^-) = \mu_\mathrm{B} \cdot \mu_\mathrm{B} B D(E_\mathrm{F})$$
 
                                       {{6}}
-************************************
-Beispiel Eu^2+^: 
-
-- Das neutrale Eu-Atom hat zwei $\mathrm{6s}$-Elektronen und sieben $\mathrm{4f}$-Elektronen. Das Eu^2+^-Ion behält nur die sieben $\mathrm{4f}$-Elektronen.
-- Der Gesamtspin nimmt den maximal möglichen Wert $S = \frac{7}{2}$ an, wenn alle $m_s = +\frac{1}{2}$ parallel ausgerichtet sind.
-- Die Bahndrehimpulse werden beginnend mit dem größten Wert $m_l=l=3$ an die einzelnen Elektronen verteilt. Die 7 Elektronen besitzen also die Werte $m_l = +3, +2, +1, 0, -1, -2, -3$. Der Gesamtbahndrehimpuls ist also $L = |\sum m_l| = 0$, wie für eine genau halbvolle Schale erwartet. 
-- Da die Schale halbvoll und $L=0$ ist, ergibt $J=|L-S|$ denselben Wert wie $J=L+S=\frac{7}{2}$.
-************************************
+Für die Zustandsdichte bei der Fermi-Energie nutzen wir die Formel $D(E_\mathrm{F}) = \frac{3 N}{2 E_\mathrm{F}}$, die aus *Struktur der Materie 1* bekannt ist. Damit folgt:
+$$M = \mu_\mathrm{B}^2 B \frac{3 N}{2 E_\mathrm{F}}$$
 
                                       {{7}}
-************************************
-Termbezeichnung: 
-
-- Die spektroskopische Termbezeichnung folgt dem Schema: $^{2S+1}(L)_J$.
-- Für $2S+1$ und $J$ werden direkt Zahlen eingesetzt, für $L$ kommen aufrechte Großbuchstaben zum Einsatz: $\mathrm{0 = S, 1 = P, 2 = D, 3 = F, 4 = G, 5 = H, 6 = I}$.
-- Für das Beispiel Eu^2+^ ergibt sich also: $\mathrm{^8S_{7/2}}$
-************************************
+Der paramagnetische Anteil der magnetischen Suszeptibilität eines freien Elektronengases (Pauli-Spinsuszeptibilität) ist also:
+$$\chi_\mathrm{para} = \mu_0 \frac{M}{B} = \frac{3}{2} \mu_0 \mu_\mathrm{B}^2 \frac{N}{E_\mathrm{F}}$$
 
                                       {{8}}
-************************************
-Lösungsübersicht: 
+Ohne Herleitung: Der zusätzliche diamagnetische Beitrag durch die Elektronenbewegung (Landau-Spinsuszeptibilität) beträgt:
+$$\chi_\mathrm{dia} = - \frac{1}{2} \mu_0 \mu_\mathrm{B}^2 \frac{N}{E_\mathrm{F}}$$
 
-<!-- data-type="none" -->
-| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
-|--------|------------------------------------|----------------|-----|-----|-----|------------|
-| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{7}{2}$ | $0$ | $\frac{7}{2}$ | $\mathrm{^8S_{7/2}}$ |
-| Eu^3+^ | $\mathrm{[Xe] \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  | $3$ | $3$ | $0$ | $\mathrm{^7F_0}$ |
-| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ | $\frac{1}{2}$ | $3$ | $\frac{7}{2}$ | $\mathrm{^2F_{7/2}}$ |
-************************************
+                                      {{9}}
+Für die gesamte magnetische Suszeptibilität erhalten wir:
+$$\chi = \mu_0 \mu_\mathrm{B}^2 \frac{N}{E_\mathrm{F}}$$
 
 
 ## Aufgabe 3
