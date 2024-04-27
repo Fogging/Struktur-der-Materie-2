@@ -94,14 +94,31 @@ Zum Vergleich:
 > Beschreiben Sie quantitativ den paramagnetischen Anteil der magnetischen Suszeptibilität eines freien Elektronengases in einem Metall. Wie groß ist dieser Anteil an der gesamten magnetischen Suszeptibilität?
 
                                       {{1}}
-***********************************
-Alle genannten Elemente gehören zu den Lanthanoiden (bzw. Seltenen Erden) und haben damit eine abgeschlossene Xenon-Konfiguration, zwei Elektronen im Zustand $\mathrm{6s}$ sowie unterschiedlich viele $\mathrm{4f}$-Elektronen. 
-
-![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
-************************************
+**Einfache Überlegung:** Zur Suszeptibilität tragen nicht alle Elektronen bei, sondern nur der Anteil in der Nähe der Fermie-Energie, der mit $T/T_\mathrm{F}$ abgeschätzt wird ($k_\mathrm{B} T_\mathrm{F} = E_\mathrm{F}$). Wir nutzen das Ergebnis von Übung 4, Aufgabe 4 und multiplizieren mit $T/T_\mathrm{F}$:
+$$\chi = \mu_0 \frac{M}{B_0} \approx \frac{\mu_0 n \mu_\mathrm{eff}^2}{k_\mathrm{B} T} \cdot \frac{T}{T_\mathrm{F}}$$
 
                                       {{2}}
-Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei den Lanthanoiden werden durch Ionisation zunächst die $\mathrm{6s}$-Elektronen entfernt.
+Für Elektronen mit $L = 0$ und $S = ½$ ist $\mu_\mathrm{eff} = ½ g_S \mu_\mathrm{B} \cong \mu_\mathrm{B}$, da $g_S \cong 2$. Damit erhalten wir:
+$$\chi \approx \frac{n \mu_0 \mu_\mathrm{B}^2}{k_\mathrm{B} T_\mathrm{F}} = \frac{n \mu_0 \mu_\mathrm{B}^2}{E_\mathrm{F}}$$
+
+                                      {{3}}
+** Genauere Betrachtung:** Das äußere Magnetfeld bewirkt, dass sich die Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld um jeweils den Betrag $\mu_\mathrm{B}B$ gegenüber ihrer ursprünglichen Lage verschieben.
+
+
+
+N+ = ½-µBEFfEDE+µBdE ≈ ½0EFfEDEdE+ ½µBD(EF)  
+N- = ½+µBEFfEDE-µBdE ≈ ½0EFfEDEdE- ½µBD(EF)  
+M = µB (N+ -N-) = µB  µBB D(EF),   D(EF) =  \frac{3N}{2E_F} (Struktur d. Materie1)
+M = µB2 \frac{3N}{2E_F}B
+  χpara = \frac{3}{2}N µ0 µB2/EF  (Paulische Spinsuszeptibilität)
+Zusätzlicher diamagnetischer Beitrag durch Elektronenbewegung:
+  χdia = - \frac{1}{2}N µ0 µB2/EF (Landau-Spinsuszeptibilität) ohne Herleitung!
+Zusammen:
+χ = N µ0 µB2/EF
+
+**Fermi-Niveau Akzeptor-dotierter Halbleiter:**
+![Fermi-Niveau für einen Akzeptor-dotierten Halbleiter](Bilder/Spin-Niveaus.png "Das Fermi-Niveau $E_\mathrm{F}$ für einen Akzeptor-dotierten Halbleiter liegt ungefähr beim Akzeptor-Niveau $E_\mathrm{A}$. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 300px;" -->
+
 
                                       {{3}}
 ************************************
