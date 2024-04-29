@@ -156,7 +156,21 @@ Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\math
 
 ## Aufgabe 4 
 
-> Wandeln Sie den experimentellen Messwert von Kupfer auch in die entsprechenden Werte für die Massensuszeptibilität und Volumensuszeptibilität um (Dichte $\rho = 8,\!93~\mathrm{g/cm^3}$, molare Masse $M = 63,\!5~\mathrm{g/mol}$).
+> Wandeln Sie den experimentellen Messwert von Kupfer auch in die entsprechenden Werte für die Massensuszeptibilität und Volumensuszeptibilität um (Dichte $\varrho = 8,\!93~\mathrm{g/cm^3}$, molare Masse $M = 63,\!5~\mathrm{g/mol}$).
+
+                                      {{1}}
+Der Messwert beträgt $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ und rechnet sich wie folgt in eine Volumensuszeptibilität (ohne Einheit) um:
+$$\chi_V = \frac{\varrho}{M} \chi_\mathrm{mol} = -9,\!71 \cdot 10^{-6}$$
+
+                                      {{2}}
+Die Massensuszeptibilität $\chi_\mathrm{g}$ ergibt sich folgendermaßen:
+$$\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V = \frac{1}{M} \chi_\mathrm{mol} = -1,\!09 \cdot 10^{-6}~\mathrm{cm^3/g}$$
+
+
+
+## Aufgabe 5 
+
+> Berechnen Sie für die Übergangsmetallionen Ti^2+^, Cr^3+^, Fe^3+^ und Cu^2+^ den Landéfaktor und das effektive magnetische Moment und vergleichen Sie diese Werte mit dem Experiment. Wie fällt der Vergleich aus, wenn reiner Spinmagnetismus ($g=2$) angenommen wird?
 
                                       {{1}}
 ************************************
@@ -195,16 +209,3 @@ $$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B}$$
 
                                       {{5}}
 Für vollständig gefüllte Unterschalen ergibt sich ein $\mathrm{^1S_0}$-Zustand und es ist $\mu_\mathrm{eff} = 0$.
-
-
-## Aufgabe 5 
-
-> Berechnen Sie für die Übergangsmetallionen Ti^2+^, Cr^3+^, Fe^3+^ und Cu^2+^ den Landéfaktor und das effektive magnetische Moment und vergleichen Sie diese Werte mit dem Experiment. Wie fällt der Vergleich aus, wenn reiner Spinmagnetismus ($g=2$) angenommen wird?
-
-                                      {{1}}
-Wir betrachten ein quantenmechanisches Zweiniveausystem mit $J=½$ in einem externen Feld $B_0$, das parallel zur $z$-Richtung orientiert ist. Die magnetische Quantenzahl kann nur die beiden Werte $m_J = \pm ½$ einnehmen. Für Elektronen ist das magnetische Moment antiparallel zum Drehimpuls orientiert. Daher gilt:
-$$E = - \vec{\mu} \cdot \vec{B}_0 = g μ_\mathrm{B} m_J B_0 = \pm ½ g μ_\mathrm{B} B_0$$
-
-                                      {{2}}
-Das magnetische Moment in Feldrichtung, also in $z$-Richtung, ist dabei:
-$$\mu_z = -g μ_\mathrm{B} m_J = \mp ½ g μ_\mathrm{B} = \mp \mu_\mathrm{eff}$$
