@@ -173,39 +173,46 @@ $$\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V = \frac{1}{M} \chi_\mathrm{mol} = -
 > Berechnen Sie für die Übergangsmetallionen Ti^2+^, Cr^3+^, Fe^3+^ und Cu^2+^ den Landéfaktor und das effektive magnetische Moment und vergleichen Sie diese Werte mit dem Experiment. Wie fällt der Vergleich aus, wenn reiner Spinmagnetismus ($g=2$) angenommen wird?
 
                                       {{1}}
-************************************
-Zunächst bestimmen wir die Quantenzahlen und gehen dabei wie in Aufgabe 2 vor:
+***********************************
+Alle genannten Elemente gehören zu den Übergangsmetallen der 4. Periode und haben damit eine abgeschlossene Argon-Konfiguration, zwei Elektronen im Zustand $\mathrm{4s}$ sowie unterschiedlich viele $\mathrm{3d}$-Elektronen. 
 
 ![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
+************************************
+
+                                      {{2}}
+************************************
+Bei den $\mathrm{3d}$-Übergangsmetallen werden durch Ionisation zunächst die $\mathrm{4s}$-Elektronen entfernt. Wir bestimmen nun die Quantenzahlen und gehen dabei wie in Übung 4, Aufgabe 2 vor:
 
 <!-- data-type="none" -->
 | Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
 |--------|------------------------------------|----------------|-----|-----|-----|------------|
-| La^3+^ | $\mathrm{[Xe]}$    | $\fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $0$ | $0$ | $0$ | $\mathrm{^1S_0}$ |
-| Pr^3+^ | $\mathrm{[Xe] \, 4f^2}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$  | $1$ | $5$ | $4$ | $\mathrm{^3H_4}$ |
-| Tb^3+^ | $\mathrm{[Xe] \, 4f^8}$    | $\fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$  | $3$ | $3$ | $6$ | $\mathrm{^7F_6}$ |
+| Ti^2+^ | $\mathrm{[Ar] \, 3d^2}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $1$ | $3$ | $2$ | $\mathrm{^3F_2}$ |
+| Cr^3+^ | $\mathrm{[Ar] \, 3d^3}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $\frac{3}{2}$ | $3$ | $\frac{3}{2}$ | $\mathrm{^4F_{3/2}}$ |
+| Fe^3+^ | $\mathrm{[Ar] \, 3d^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{5}{2}$ | $0$ | $\frac{5}{2}$ | $\mathrm{^6S_{5/2}}$ |
+| Cu^2+^ | $\mathrm{[Ar] \, 3d^9}$    | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ | $\frac{1}{2}$ | $2$ | $\frac{5}{2}$ | $\mathrm{^2D_{5/2}}$ |
 ************************************
 
-                                      {{2}}
+                                      {{3}}
 Der Landé-Faktor $g$ folgt aus:
 $$g = 1+\frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}$$
 
-                                      {{3}}
+                                      {{4}}
 Das effektive magnetische Moment ist dann:
 $$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B}$$
 
-                                      {{4}}
+                                      {{5}}
+Für ein reines Spinsystem ($g=2$) gilt:
+$$\mu_{\mathrm{eff},S} = 2 \cdot \sqrt{S(S+1)} \cdot \mu_\mathrm{B}$$
+
+                                      {{6}}
 ************************************
 Übersicht der berechneten Werte und Vergleich mit experimentellen Werten (*Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*):
 
 <!-- data-type="none" -->
-| Ion    | Landé-Faktor                      | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Theorie) | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Experiment)  |
-|--------|------------------------------------|----------------|-----|
-| La^3+^ | $0$ (definiert)   | $0$ | $0$ |
-| Pr^3+^ | $\frac{4}{5}$ | $3,\!58$ | $3,\!5$ |
-| Tb^3+^ | $\frac{3}{2}$ | $9,\!72$ | $9,\!5$ | 
+| Ion    | Landé-Faktor  | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Theorie) | $\mu_{\mathrm{eff},S}/\mu_\mathrm{B}$ (Theorie) | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Experiment)  |
+|--------|---------------|----------|----------|---------|
+| Ti^2+^ | $\frac{2}{3}$ | $1,\!63$ | $2,\!83$ | $2,\!8$ |
+| Cr^3+^ | $\frac{2}{5}$ | $0,\!77$ | $3,\!87$ | $3,\!8$ |
+| Fe^3+^ | $2$           | $5,\!92$ | $5,\!92$ | $5,\!9$ |
+| Cu^2+^ | $\frac{6}{5}$ | $3,\!55$ | $1,\!73$ | $1,\!9$ |
 ************************************
-
-
-                                      {{5}}
-Für vollständig gefüllte Unterschalen ergibt sich ein $\mathrm{^1S_0}$-Zustand und es ist $\mu_\mathrm{eff} = 0$.
