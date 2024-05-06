@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 05
+comment:  Struktur der Materie 2 - Übung 06
 
 @style
 .lia-toc__bottom {
@@ -18,18 +18,12 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 5
+# Übung 6
 
 
 ## Aufgabe 1
 
-> Wir betrachten ein freies Elektronengas mit einer Dichte von $n=2,\!54 \cdot 10^{22}~\mathrm{cm}^{-3}$ (Natrium) und einem Volumen von $V = L_x L_y L_z = 1\cdot1\cdot1~\mathrm{cm}^3$.
->
-> a) Berechnen Sie aus der Anzahl $N$ der Elektronen die Anzahl $Z_\mathrm{F}$ der im $k$-Raum besetzten Zustände, den Radius der Fermi-Kugel und die Anzahl $Z_0$ der in der Ebene $k_z=0$ von Elektronen besetzten Zustände.
->
-> b) Wir legen nun ein Magnetfeld $B=1~\mathrm{T}$ in die $z$-Richtung an. Berechnen Sie die Anzahl der Kreise konstanter Energie $E(n, k_z=0)$, die sich innerhalb der ursprünglichen Grenzen der Fermi-Kugel befinden.
->
-> c) Bestimmen Sie die Flussdichte $B_0$, bei welcher der innerste Landau-Zylinder $n=0$ die ursprüngliche Fermi-Kugel verlässt. Vergleichen Sie den Wert von $B_0$ mit technisch realisierbaren Magnetfeldern.
+> Die magnetische Suszeptibilität einer ferro- bzw. antiferromagnetischen Substanz wird durch das Curie-Weiss-Gesetz $\chi = C/(T-\theta)$ beschrieben. Erklären Sie die Bedeutung der Parameter, welche in dieser Formel auftreten. Welches Vorzeichen besitzt die Größe $\theta$, wenn zwischen den magnetischen Momenten der Substanz eine ferromagnetische bzw. antiferromagnetische Wechselwirkung herrscht? Skizzieren Sie die entsprechenden Graphen in Abhängigkeit von der Temperatur.
 
                                       {{1}}
 **a)** Dichte der Zustände im $k$-Raum: $z(k) = V/(2 \pi)^3$
@@ -91,7 +85,7 @@ Zum Vergleich:
 
 ## Aufgabe 2 
 
-> Beschreiben Sie quantitativ den paramagnetischen Anteil der magnetischen Suszeptibilität eines freien Elektronengases in einem Metall. Wie groß ist dieser Anteil an der gesamten magnetischen Suszeptibilität?
+> Das makroskopische magnetische Feld $H$ im Inneren einer Probe, deren Entmagnetisierungsfaktor den Wert $N$ besitzt, ergibt sich zu $H = H_\mathrm{a} - N \cdot M$, wobei $H_\mathrm{a}$ das äußere Magnetfeld und $M$ die in der Probe vorhandene Magnetisierung bedeuten. Berechnen Sie für den Fall einer linearen Magnetisierungskurve ($M = \chi \cdot H$) die Stärke des makroskopischen Feldes $H$ sowie der magnetischen Induktion $B$ im Probeninneren in Abhängigkeit von der Stärke des äußeren Feldes $H_\mathrm{a}$. Ergibt sich ein merklicher Fehler, wenn der Unterschied zwischen $H$ und $H_\mathrm{a}$ bei der Untersuchung dia- und paramagnetischer Proben vernachlässigt wird?
 
                                       {{1}}
 **Einfache Überlegung:** Zur Suszeptibilität tragen nicht alle Elektronen bei, sondern nur der Anteil in der Nähe der Fermie-Energie, der mit $T/T_\mathrm{F}$ abgeschätzt wird ($k_\mathrm{B} T_\mathrm{F} = E_\mathrm{F}$). Wir nutzen das Ergebnis von Übung 4, Aufgabe 4 und multiplizieren mit $T/T_\mathrm{F}$:
@@ -136,7 +130,7 @@ $$\chi = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
 
 ## Aufgabe 3
 
-> Die Fermi-Energie von Kupfer beträgt $E_\mathrm{F} = 7,\!00~\mathrm{eV}$. Berechnen Sie den Beitrag des Elektronengases zur molaren magnetischen Suszeptibilität von Kupfer in der Näherung freier Elektronen. Außer diesem Beitrag trägt auch noch der diamagnetische Anteil der abgeschlossenen Elektronenschalen der Ionenrümpfe (Cu^+^) von $-15 \cdot {10}^{-11}~\mathrm{m^3/mol}$ zum Gesamtwert bei. Vergleichen Sie das Ergebnis mit dem experimentell bestimmten Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$.
+> Aus welchem Grund weisen ferromagnetische Stoffe nichtlineare Magnetisierungskurven auf? Welche Unterschiede bestehen zwischen der gemessenen Magnetisierungskurve $M(H_\mathrm{a})$ und der auf das innere Magnetfeld bezogenen Magnetisierungskurve $M(H)$ einer ferromagnetischen Substanz?
 
                                       {{1}}
 Gemäß Aufgabe 2 besteht der Beitrag des Elektronengases zur magnetischen Suszeptibilität aus einem paramagnetischen Anteil (Pauli-Spinsuszeptibilität) und einem diamagnetischen Anteil (Landau-Spinsuszeptibilität). Für die gesamte magnetische Suszeptibilität hatten wir erhalten:
@@ -156,7 +150,12 @@ Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\math
 
 ## Aufgabe 4 
 
-> Wandeln Sie den experimentellen Messwert von Kupfer auch in die entsprechenden Werte für die Massensuszeptibilität und Volumensuszeptibilität um (Dichte $\varrho = 8,\!93~\mathrm{g/cm^3}$, molare Masse $M = 63,\!5~\mathrm{g/mol}$).
+> Berechnen Sie aus der im paramagnetischen Temperaturbereich ermittelten Curie-Konstanten $C$, der Sättigungsmagnetisierung $M_\mathrm{m}$ und der Atomdichte (Gitterparameter) das effektive magnetische Moment $\mu_\mathrm{eff}$ und das maximale magnetische Moment $\mu_\mathrm{m}$ für die Elemente:
+>
+> a) Eisen: bcc, $a = 2,\!867~Å$, $C = 2,\!22~\mathrm{K}$, $M_\mathrm{m} = 1,\!746 \cdot 10^6~\mathrm{A/m}$
+> 
+> b) Gadolinium: hcp, $a = 3,\!636~Å$, $c = 5,\!783~Å$, $C = 5~\mathrm{K}$, $M_\mathrm{m} = 2,\!06 \cdot 10^6~\mathrm{A/m}$
+
 
                                       {{1}}
 Der Messwert beträgt $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ und rechnet sich wie folgt in eine Volumensuszeptibilität (ohne Einheit) um:
@@ -165,54 +164,3 @@ $$\chi_V = \frac{\varrho}{M} \chi_\mathrm{mol} = -9,\!71 \cdot 10^{-6}$$
                                       {{2}}
 Die Massensuszeptibilität $\chi_\mathrm{g}$ ergibt sich folgendermaßen:
 $$\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V = \frac{1}{M} \chi_\mathrm{mol} = -1,\!09 \cdot 10^{-6}~\mathrm{cm^3/g}$$
-
-
-
-## Aufgabe 5 
-
-> Berechnen Sie für die Übergangsmetallionen Ti^2+^, Cr^3+^, Fe^3+^ und Cu^2+^ den Landéfaktor und das effektive magnetische Moment und vergleichen Sie diese Werte mit dem Experiment. Wie fällt der Vergleich aus, wenn reiner Spinmagnetismus ($g=2$) angenommen wird?
-
-                                      {{1}}
-***********************************
-Alle genannten Elemente gehören zu den Übergangsmetallen der 4. Periode und haben damit eine abgeschlossene Argon-Konfiguration, zwei Elektronen im Zustand $\mathrm{4s}$ sowie unterschiedlich viele $\mathrm{3d}$-Elektronen. 
-
-![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
-************************************
-
-                                      {{2}}
-************************************
-Bei den $\mathrm{3d}$-Übergangsmetallen werden durch Ionisation zunächst die $\mathrm{4s}$-Elektronen entfernt. Wir bestimmen nun die Quantenzahlen und gehen dabei wie in Übung 4, Aufgabe 2 vor:
-
-<!-- data-type="none" -->
-| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
-|--------|------------------------------------|----------------|-----|-----|-----|------------|
-| Ti^2+^ | $\mathrm{[Ar] \, 3d^2}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $1$ | $3$ | $2$ | $\mathrm{^3F_2}$ |
-| Cr^3+^ | $\mathrm{[Ar] \, 3d^3}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $\frac{3}{2}$ | $3$ | $\frac{3}{2}$ | $\mathrm{^4F_{3/2}}$ |
-| Fe^3+^ | $\mathrm{[Ar] \, 3d^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{5}{2}$ | $0$ | $\frac{5}{2}$ | $\mathrm{^6S_{5/2}}$ |
-| Cu^2+^ | $\mathrm{[Ar] \, 3d^9}$    | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ | $\frac{1}{2}$ | $2$ | $\frac{5}{2}$ | $\mathrm{^2D_{5/2}}$ |
-************************************
-
-                                      {{3}}
-Der Landé-Faktor $g$ folgt aus:
-$$g = 1+\frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}$$
-
-                                      {{4}}
-Das effektive magnetische Moment ist dann:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B}$$
-
-                                      {{5}}
-Für ein reines Spinsystem ($g=2$) gilt:
-$$\mu_{\mathrm{eff},S} = 2 \cdot \sqrt{S(S+1)} \cdot \mu_\mathrm{B}$$
-
-                                      {{6}}
-************************************
-Übersicht der berechneten Werte und Vergleich mit experimentellen Werten (*Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*):
-
-<!-- data-type="none" -->
-| Ion    | Landé-Faktor  | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Theorie) | $\mu_{\mathrm{eff},S}/\mu_\mathrm{B}$ (Theorie) | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Experiment)  |
-|--------|---------------|----------|----------|---------|
-| Ti^2+^ | $\frac{2}{3}$ | $1,\!63$ | $2,\!83$ | $2,\!8$ |
-| Cr^3+^ | $\frac{2}{5}$ | $0,\!77$ | $3,\!87$ | $3,\!8$ |
-| Fe^3+^ | $2$           | $5,\!92$ | $5,\!92$ | $5,\!9$ |
-| Cu^2+^ | $\frac{6}{5}$ | $3,\!55$ | $1,\!73$ | $1,\!9$ |
-************************************
