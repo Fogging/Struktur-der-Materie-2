@@ -26,61 +26,28 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 > Die magnetische Suszeptibilität einer ferro- bzw. antiferromagnetischen Substanz wird durch das Curie-Weiss-Gesetz $\chi = C/(T-\theta)$ beschrieben. Erklären Sie die Bedeutung der Parameter, welche in dieser Formel auftreten. Welches Vorzeichen besitzt die Größe $\theta$, wenn zwischen den magnetischen Momenten der Substanz eine ferromagnetische bzw. antiferromagnetische Wechselwirkung herrscht? Skizzieren Sie die entsprechenden Graphen in Abhängigkeit von der Temperatur.
 
                                       {{1}}
-**a)** Dichte der Zustände im $k$-Raum: $z(k) = V/(2 \pi)^3$
+Das erweiterte Curie-Weiss-Gesetz hat die Form:
+$$\chi = \chi_0 + \frac{C}{T - \theta}$$
+Dabei ist $\chi_0$ ein temperaturunabhängiger Anteil (z. B. der diamagnetische Anteil abgeschlossener Elektronenschalen, van Vleck-Paramagnetismus, Paramagnetismus eines Elektronengases u. a.) und soll hier nicht weiter betrachtet werden.
 
                                       {{2}}
-Zahl der Elektronen: $N = n \cdot V = 2,\!54 \cdot 10^{22}$
+Das Curie-Weiss-Gesetz hat dann die Form:
+$$\chi = \frac{C}{T-\theta}$$
+Hierbei sind $C$ die Curie-Konstante und $\theta$ die paramagnetische Curie-Temperatur (bzw. der Ordnungsparameter).
 
                                       {{3}}
-Zahl der besetzten Zustände in der Fermi-Kugel (jeweils 2 Spinzustände): $Z_\mathrm{F} = N/2 = 1,\!27 \cdot 10^{22}$
+**Für $\theta = 0$** liegen keine magnetischen Kooperativ-Effekte vor (d. h. idealer Spin-Paramagnetismus -- siehe Übung 4, Aufgabe 4) und man erhält das Curie-Gesetz:
+$$\chi = \frac{C}{T}$$
 
                                       {{4}}
-Die Zahl der Zustände in der Fermi-Kugel ergibt sich aber auch aus der Zustandsdichte im $k$-Raum multipliziert mit dem Volumen der Fermi-Kugel mit dem Radius $k_\mathrm{F}$:
-$$Z_\mathrm{F} = z(k) \cdot \frac{4}{3} \pi k_\mathrm{F}^3 = \frac{V}{(2 \pi)^3} \cdot \frac{4}{3} \pi k_\mathrm{F}^3 = \frac{V}{6 \pi^2} \cdot k_\mathrm{F}^3 = \frac{N}{2} = \frac{n V}{2}$$
+**Für $\theta > 0$** existiert eine ferromagnetische Wechselwirkung (parallele Ausrichtung der Spins):
+$$\chi = \frac{C}{T - T_\mathrm{C}}$$
+Das Curie-Weiss-Gesetz beschreibt hier die Temperaturabhängigkeit der magnetischen Suszeptibilität eines Ferromagneten in der Hochtemperaturphase, d. h. oberhalb der Curie-Temperatur $T_\mathrm{C}$, wobei $\theta \geq T_\mathrm{C}$. Die Gleichung besagt, dass die magnetische Suszeptibilität in der Paraphase bei Annäherung der Temperatur $T$ von oben an die Curie-Temperatur $T_\mathrm{C}$ divergiert.
 
                                       {{5}}
-Für die Fermi-Wellenzahl folgt: $k_\mathrm{F} = (3 \pi^2 n)^{1/3} = 9,\!1 \cdot 10^7~\mathrm{cm^{-1}}$
-
-                                      {{6}}
-$Z_0$ ist die Anzahl der Zustände in der Ebene $k_z=0$, d. h. in einem dünnen Kreiszylinder mit der Dicke $2 \pi/L_z$:
-$$Z_0 = z(k) \cdot \pi k_\mathrm{F}^2 \cdot \frac{2 \pi}{L_z} = \frac{V}{(2 \pi)^3} \cdot \pi k_\mathrm{F}^2 \cdot \frac{2 \pi}{L_z} = \frac{L_x L_y}{4 \pi} \cdot k_\mathrm{F}^2 = 6,\!58 \cdot 10^{14}$$
-
-                                      {{7}}
-**b)** Während nach den Gesetzen der klassischen Physik ein Teilchen jede beliebige transversale Energie annehmen kann, ist dies in der Quantenmechanik nicht möglich, sondern die Energie ist quantisiert, das heißt, die transversale Energie kann nur diskrete, durch eine natürliche Zahl $n$ charakterisierte Werte annehmen. Die Landau-Niveaus (nach Lew Dawidowitsch Landau) sind in der Quantenmechanik die Niveaus der transversalen Energie eines geladenen Teilchens, das sich in einem homogenen Magnetfeld $B$ bewegt. Diese Aufspaltung in Landau-Niveaus lässt sich zum Beispiel durch den De-Haas-van-Alphen-Effekt messen. In Bezug auf die longitudinale Bewegung in Richtung des Magnetfeldes $B$ ist die Energie auch nach der quantenmechanischen Behandlung nicht quantisiert und identisch zur klassischen Herangehensweise. 
-
-                                      {{8}}
-Im zweidimensionalen, transversalen Impulsraum bilden die Landau-Niveaus Kreise; im dreidimensionalen Impulsraum die Landau-Zylinder. Sie besitzen folgende Energiewerte:
-$$E_n = \hbar \omega_c \left(n + \frac{1}{2} \right)$$
-
-                                      {{9}}
-Dabei ist $\omega_c = \frac{eB}{m_e}$ die Zyklotronfrequenz, also die Winkelgeschwindigkeit beim Umlauf des Elektrons im Magnetfeld.
-
-                                      {{10}}
-In einem Festkörper sind die transversalen Impulse $k_\perp$ zusätzlich aufgrund des Kristallgitters gequantelt:
-$$E_n = \frac{\hbar^2 k_\perp^2}{2 m_e}$$
-
-                                      {{11}}
-Der maximal mögliche transversale Impuls innerhalb der Fermi-Kugel ist durch die Fermi-Wellenzahl $k_\mathrm{F}$ gegeben. Gleichsetzen der Energie-Formeln und Umstellen nach $n$ ergibt die Anzahl der Kreise:
-$$n = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} = 27196$$
-
-                                      {{12}}
-**c)** Damit bereits bei $n=0$ der transversale Impuls $k_\perp$ die Fermi-Kugel berührt, muss das Magnetfeld deutlich größer als zuvor sein. Den erforderlichen Wert für $B$ erhält man durch Einsetzen von $n=0$ in die letzte Formel:
-$$0 = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} \ \Rightarrow \ B = \frac{\hbar k_\mathrm{F}^2}{e} = 54400~\mathrm{T}$$
-
-                                      {{13}}
-***********************************
-Zum Vergleich:
-
-| Quelle des Magnetfeldes      | Magnetfeld                      |
-|---------------|---------------------------------|
-| Erdmagnetfeld | $30...60~\mathrm{µ T}$          |
-| Kühlschrankmagnet | $1...10~\mathrm{m T}$          |
-| Lautsprechermagnet | $1...2~\mathrm{T}$          |
-| NMR-Gerät in der Medizin | $2...12~\mathrm{T}$          |
-| Supraleitende Magnete in Messgeräten | $7...32~\mathrm{T}$          |
-| Rekord für kontinuierliches Magnetfeld | $45,\!5~\mathrm{T}$          |
-| Rekord für gepulstes Magnetfeld | $2800~\mathrm{T}$          |
-************************************
+**Für $\theta < 0$** existiert eine antiferromagnetische Wechselwirkung (antiparallele Ausrichtung der Spins):
+$$\chi = \frac{C}{T - \theta}$$
+In diesem Fall „divergiert“ die Suszeptibilität der Hochtemperaturphase scheinbar gegen eine negative Temperatur. Die Gleichung beschreibt die Temperaturabhängigkeit der magnetischen Suszeptibilität in der Hochtemperaturphase aber nur oberhalb der Néel-Temperatur $T_\mathrm{N}$, wobei $T_\mathrm{N} < | \theta |$. Unterhalb von $T_\mathrm{N}$ ist $\chi$ richtungsabhängig (also ein Tensor).
 
 
 ## Aufgabe 2 
@@ -152,9 +119,9 @@ Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\math
 
 > Berechnen Sie aus der im paramagnetischen Temperaturbereich ermittelten Curie-Konstanten $C$, der Sättigungsmagnetisierung $M_\mathrm{m}$ und der Atomdichte (Gitterparameter) das effektive magnetische Moment $\mu_\mathrm{eff}$ und das maximale magnetische Moment $\mu_\mathrm{m}$ für die Elemente:
 >
-> a) Eisen: bcc, $a = 2,\!867~Å$, $C = 2,\!22~\mathrm{K}$, $M_\mathrm{m} = 1,\!746 \cdot 10^6~\mathrm{A/m}$
+> a) Eisen: bcc, $a = 2,\!867~\mathrm{Å}$, $C = 2,\!22~\mathrm{K}$, $M_\mathrm{m} = 1,\!746 \cdot 10^6~\mathrm{A/m}$
 > 
-> b) Gadolinium: hcp, $a = 3,\!636~Å$, $c = 5,\!783~Å$, $C = 5~\mathrm{K}$, $M_\mathrm{m} = 2,\!06 \cdot 10^6~\mathrm{A/m}$
+> b) Gadolinium: hcp, $a = 3,\!636~\mathrm{Å}$, $c = 5,\!783~\mathrm{Å}$, $C = 5~\mathrm{K}$, $M_\mathrm{m} = 2,\!06 \cdot 10^6~\mathrm{A/m}$
 
 
                                       {{1}}
