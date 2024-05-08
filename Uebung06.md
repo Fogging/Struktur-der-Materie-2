@@ -74,16 +74,18 @@ $$H = \frac{H_\mathrm{a}}{1 + N \cdot \chi}$$
 
                                       {{4}}
 Für die magnetische Induktion folgt:
-$$B = \mu_0 (H + M) = \mu_0 H \cdot (1 + \chi) = \mu_0 H_\mathrm{a} \frac{1 + \chi}{1 + N \cdot \chi}$$
+$$B = \mu_0 (H + M) = \mu_0 H \cdot (1 + \chi) = \mu_0 H_\mathrm{a} \cdot \frac{1 + \chi}{1 + N \cdot \chi}$$
 
                                       {{5}}
 Da nur $H_\mathrm{a}$ messbar ist, bezieht man üblicherweise die Suszeptibilität auf das externe Feld $H_\mathrm{a}$ anstatt auf $H$ im Probeninneren:
-$$\chi ' = \frac{M}{H_\mathrm{a}} = \frac{\chi \cdot H}{H_\mathrm{a}} = \frac{1}{1 + N \cdot \chi} \chi$$
+$$\chi ' = \frac{M}{H_\mathrm{a}} = \frac{\chi \cdot H}{H_\mathrm{a}} = \frac{\chi}{1 + N \cdot \chi}$$
 
                                       {{6}}
-Typische Werte für $\chi$ für dia- und paramagnetische Proben liegen im Bereich von $-10^{-6}$ bis $+10^{-2}$ und für $N = \frac{1}{3}$ (Kugel)
-folgt:
-$$N \cdot \chi \ll 1 \ \Rightarrow \ \chi ' \approx \chi$$
+Typische Werte für $\chi$ für dia- und paramagnetische Proben liegen im Bereich von $-10^{-6}$ bis $+10^{-2}$ und für $N = \frac{1}{3}$ (Kugel) folgt:
+$$N \cdot \chi \ll 1$$
+
+                                      {{7}}
+Es ist also $\chi ' \approx \chi$, d. h. der Unterschied zwischen $H$ und $H_\mathrm{a}$ kann bei der Untersuchung dia- und paramagnetischer Proben vernachlässigt werden.
 
 
 ## Aufgabe 3
