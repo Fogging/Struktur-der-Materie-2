@@ -61,44 +61,29 @@ In diesem Fall „divergiert“ die Suszeptibilität der Hochtemperaturphase sch
 > Das makroskopische magnetische Feld $H$ im Inneren einer Probe, deren Entmagnetisierungsfaktor den Wert $N$ besitzt, ergibt sich zu $H = H_\mathrm{a} - N \cdot M$, wobei $H_\mathrm{a}$ das äußere Magnetfeld und $M$ die in der Probe vorhandene Magnetisierung bedeuten. Berechnen Sie für den Fall einer linearen Magnetisierungskurve ($M = \chi \cdot H$) die Stärke des makroskopischen Feldes $H$ sowie der magnetischen Induktion $B$ im Probeninneren in Abhängigkeit von der Stärke des äußeren Feldes $H_\mathrm{a}$. Ergibt sich ein merklicher Fehler, wenn der Unterschied zwischen $H$ und $H_\mathrm{a}$ bei der Untersuchung dia- und paramagnetischer Proben vernachlässigt wird?
 
                                       {{1}}
-**Einfache Überlegung:** Zur Suszeptibilität tragen nicht alle Elektronen bei, sondern nur der Anteil in der Nähe der Fermie-Energie, der mit $T/T_\mathrm{F}$ abgeschätzt wird ($k_\mathrm{B} T_\mathrm{F} = E_\mathrm{F}$). Wir nutzen das Ergebnis von Übung 4, Aufgabe 4 und multiplizieren mit $T/T_\mathrm{F}$:
-$$\chi = \mu_0 \frac{M}{B_0} \approx \frac{\mu_0 n \mu_\mathrm{eff}^2}{k_\mathrm{B} T} \cdot \frac{T}{T_\mathrm{F}}$$
+Der Zusammenhang zwischen dem externen angelegten Magnetfeld $H_\mathrm{a}$ und dem Magnetfeld $H$ im Inneren einer Probe mit Entmagnetisierungsfaktor $N$ lautet gemäß Aufgabenstellung:
+$$H = H_\mathrm{a} - N \cdot M = H_\mathrm{a} - N \cdot \chi \cdot H$$
 
                                       {{2}}
-Für Elektronen mit $L = 0$ und $S = ½$ ist $\mu_\mathrm{eff} = ½ g_S \mu_\mathrm{B} \cong \mu_\mathrm{B}$, da $g_S \cong 2$. Damit erhalten wir:
-$$\chi \approx \frac{n \mu_0 \mu_\mathrm{B}^2}{k_\mathrm{B} T_\mathrm{F}} = \frac{n \mu_0 \mu_\mathrm{B}^2}{E_\mathrm{F}}$$
+Durch Umstellen erhalten wir:
+$$H_\mathrm{a} = H + N \cdot \chi \cdot H = H \cdot (1 + N \cdot \chi)$$
 
                                       {{3}}
-************************************
-** Genauere Betrachtung:** Das äußere Magnetfeld bewirkt, dass sich die Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld um jeweils den Betrag $\mu_\mathrm{B} B$ gegenüber ihrer ursprünglichen Lage verschieben.
-
-![Verschiebung der Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld](Bilder/Spin-Niveaus.png "Verschiebung der Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 300px;" -->
-************************************
+Für das Magnetfeld im Probeninneren ergibt sich:
+$$H = \frac{H_\mathrm{a}}{1 + N \cdot \chi}$$
 
                                       {{4}}
-Für die jeweilige Anzahl der Zustände erhalten wir:
-$$N^+ = \frac{1}{2} \int_{-\mu_\mathrm{B}}^{E_\mathrm{F}} f(E) \cdot D(E + \mu_\mathrm{B} B) \, \mathrm{d}E \approx \frac{1}{2} \int_0^{E_\mathrm{F}} f(E) \cdot D(E) \, \mathrm{d}E + \frac{1}{2} \mu_\mathrm{B} B D(E_\mathrm{F})$$
-$$N^- = \frac{1}{2} \int_{+\mu_\mathrm{B}}^{E_\mathrm{F}} f(E) \cdot D(E - \mu_\mathrm{B} B) \, \mathrm{d}E \approx \frac{1}{2} \int_0^{E_\mathrm{F}} f(E) \cdot D(E) \, \mathrm{d}E - \frac{1}{2} \mu_\mathrm{B} B D(E_\mathrm{F})$$
+Für die magnetische Induktion folgt:
+$$B = \mu_0 (H + M) = \mu_0 H \cdot (1 + \chi) = \mu_0 H_\mathrm{a} \frac{1 + \chi}{1 + N \cdot \chi}$$
 
                                       {{5}}
-Daraus folgt die Magnetisierung:
-$$M = \mu_\mathrm{B} \cdot (N^+ - N^-) = \mu_\mathrm{B} \cdot \mu_\mathrm{B} B D(E_\mathrm{F})$$
+Da nur $H_\mathrm{a}$ messbar ist, bezieht man üblicherweise die Suszeptibilität auf das externe Feld $H_\mathrm{a}$ anstatt auf $H$ im Probeninneren:
+$$\chi ' = \frac{M}{H_\mathrm{a}} = \frac{\chi \cdot H}{H_\mathrm{a}} = \frac{1}{1 + N \cdot \chi} \chi$$
 
                                       {{6}}
-Für die Zustandsdichte bei der Fermi-Energie nutzen wir die Formel $D(E_\mathrm{F}) = \frac{3 n}{2 E_\mathrm{F}}$, die aus *Struktur der Materie 1* bekannt ist. Damit folgt:
-$$M = \mu_\mathrm{B}^2 B \frac{3 n}{2 E_\mathrm{F}}$$
-
-                                      {{7}}
-Der paramagnetische Anteil der magnetischen Suszeptibilität eines freien Elektronengases (Pauli-Spinsuszeptibilität) ist also:
-$$\chi_\mathrm{para} = \mu_0 \frac{M}{B} = \frac{3}{2} \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
-
-                                      {{8}}
-Ohne Herleitung: Der zusätzliche diamagnetische Beitrag durch die Elektronenbewegung (Landau-Spinsuszeptibilität) beträgt:
-$$\chi_\mathrm{dia} = - \frac{1}{3} \chi_\mathrm{para} = - \frac{1}{2} \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
-
-                                      {{9}}
-Für die gesamte magnetische Suszeptibilität erhalten wir:
-$$\chi = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
+Typische Werte für $\chi$ für dia- und paramagnetische Proben liegen im Bereich von $-10^{-6}$ bis $+10^{-2}$ und für $N = \frac{1}{3}$ (Kugel)
+folgt:
+$$N \cdot \chi \ll 1 \ \Rightarrow \ \chi ' \approx \chi$$
 
 
 ## Aufgabe 3
