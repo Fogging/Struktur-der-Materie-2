@@ -41,15 +41,15 @@ $$\chi = \frac{C}{T}$$
 
                                       {{4}}
 **Für $\theta > 0$** existiert eine ferromagnetische Wechselwirkung (parallele Ausrichtung der Spins):
-$$\chi = \frac{C}{T - \theta}$$
-Das Curie-Weiss-Gesetz beschreibt hier die Temperaturabhängigkeit der magnetischen Suszeptibilität eines Ferromagneten in der Hochtemperaturphase, d. h. oberhalb der Curie-Temperatur $T_\mathrm{C}$. Experimentell findet man, dass im paramagnetischen Bereich für $T \gg T_\mathrm{C}$ die gemessene Suszeptibilität sehr gut durch ein Curie-Weiss-Gesetz beschrieben werden kann, allerdings mit einer paramagnetischen Curie-Temperatur $\theta$, die stets höher ist als die ferromagnetische Curie-Temperatur $T_\mathrm{C}$, oberhalb der die spontane Magnetisierung verschwindet. Die Gleichung besagt, dass die magnetische Suszeptibilität in der paramagnetischen Phase bei Annäherung der Temperatur $T$ von oben an die Curie-Temperatur $\theta$ divergiert.
+$$\chi = \frac{C}{T - \theta} \approx \frac{C}{T - T_\mathrm{C}}$$
+Das Curie-Weiss-Gesetz beschreibt hier die Temperaturabhängigkeit der magnetischen Suszeptibilität eines Ferromagneten in der Hochtemperaturphase, d. h. oberhalb der Curie-Temperatur $T_\mathrm{C}$. Experimentell findet man, dass im paramagnetischen Bereich für $T \gg T_\mathrm{C}$ die gemessene Suszeptibilität sehr gut durch ein Curie-Weiss-Gesetz beschrieben werden kann, allerdings mit der paramagnetischen Curie-Temperatur $\theta$, die stets höher ist als die ferromagnetische Curie-Temperatur $T_\mathrm{C}$, oberhalb der die spontane Magnetisierung verschwindet. Die Gleichung besagt, dass die magnetische Suszeptibilität in der paramagnetischen Phase bei Annäherung der Temperatur $T$ von oben an die Curie-Temperatur $\theta$ divergiert.
 
                                       {{5}}
 ![Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Ferromagneten (b)](Bilder/Ferromagnetismus_chi.png "Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Ferromagneten (b). Das Curie-Weiss-Gesetz (gestrichelte Linie in (b)) ist nur weit oberhalb von $T_\mathrm{C}$ eine gute Näherung. Die Extrapolation von $\chi^{-1}(T)$ auf $\chi^{-1} = 0$ ergibt die paramagnetische Curie-Temperatur $\theta$. Diese ist immer größer als $T_\mathrm{C}$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 400px;" -->
 
                                       {{6}}
 **Für $\theta < 0$** existiert eine antiferromagnetische Wechselwirkung (antiparallele Ausrichtung der Spins):
-$$\chi = \frac{C}{T - \theta}$$
+$$\chi = \frac{C}{T - \theta} \approx \frac{C}{T + T_\mathrm{N}}$$
 In diesem Fall „divergiert“ die Suszeptibilität der Hochtemperaturphase scheinbar gegen eine negative Temperatur $\theta$. Die Gleichung beschreibt aber nur die Temperaturabhängigkeit der magnetischen Suszeptibilität in der Hochtemperaturphase oberhalb der Néel-Temperatur $T_\mathrm{N}$, wobei $T_\mathrm{N} < | \theta |$. Unterhalb von $T_\mathrm{N}$ ist $\chi$ richtungsabhängig (also ein Tensor).
 
                                       {{7}}
