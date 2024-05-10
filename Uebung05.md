@@ -67,11 +67,11 @@ $$E_n = \frac{\hbar^2 k_\perp^2}{2 m_e}$$
 
                                       {{11}}
 Der maximal mögliche transversale Impuls innerhalb der Fermi-Kugel ist durch die Fermi-Wellenzahl $k_\mathrm{F}$ gegeben. Gleichsetzen der Energie-Formeln und Umstellen nach $n$ ergibt die Anzahl der Kreise:
-$$n = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} = 27196$$
+$$n = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} = 27216$$
 
                                       {{12}}
 **c)** Damit bereits bei $n=0$ der transversale Impuls $k_\perp$ die Fermi-Kugel berührt, muss das Magnetfeld deutlich größer als zuvor sein. Den erforderlichen Wert für $B$ erhält man durch Einsetzen von $n=0$ in die letzte Formel:
-$$0 = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} \ \Rightarrow \ B = \frac{\hbar k_\mathrm{F}^2}{e} = 54400~\mathrm{T}$$
+$$0 = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} \ \Rightarrow \ B = \frac{\hbar k_\mathrm{F}^2}{e} = 54434~\mathrm{T}$$
 
                                       {{13}}
 ***********************************
@@ -160,11 +160,11 @@ Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\math
 
                                       {{1}}
 Der Messwert beträgt $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ und rechnet sich wie folgt in eine Volumensuszeptibilität (ohne Einheit) um:
-$$\chi_V = \frac{\varrho}{M} \chi_\mathrm{mol} = -9,\!71 \cdot 10^{-6}$$
+$$\chi_V = \frac{\varrho}{M} \chi_\mathrm{mol} = -9,\!70 \cdot 10^{-6}$$
 
                                       {{2}}
 Die Massensuszeptibilität $\chi_\mathrm{g}$ ergibt sich folgendermaßen:
-$$\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V = \frac{1}{M} \chi_\mathrm{mol} = -1,\!09 \cdot 10^{-6}~\mathrm{cm^3/g}$$
+$$\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V = \frac{1}{M} \chi_\mathrm{mol} = -1,\!09 \cdot 10^{-12}~\mathrm{m^3/g}$$
 
 
 
