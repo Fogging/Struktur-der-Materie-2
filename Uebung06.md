@@ -124,7 +124,7 @@ Gegenüber der Magnetisierungskurve $M(H)$ weist eine auf das äußere Magnetfel
 **a) Eisen**
 
 Die Elektronendichte $n$ erhalten wir aus der Anzahl der Elektronen pro Elementarzellvolumen:
-$$n = \frac{2}{a^3} = 8,\!49 \cdot 10^{28}~\mathrm{cm^{-3}}$$
+$$n = \frac{2}{a^3} = 8,\!49 \cdot 10^{22}~\mathrm{cm^{-3}}$$
 ************************************
 
                                       {{2}}
@@ -139,8 +139,8 @@ $$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 2,\!22 \, \mu_\mathrm{B}$$
 In Übung 5, Aufgabe 5 hatten wir für Fe^3+^ allerdings einen Wert von $\mu_\mathrm{eff} = 5,\!92 \, \mu_\mathrm{B}$ berechnet.
 
                                       {{5}}
-Aus der Temperaturabhängigkeit der spontanen Magnetisierung kann man $J = 1/2$ ableiten. Damit erhalten wir:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 1,\!73 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 1,\!00 \, \mu_\mathrm{B}$$
+Aus der Temperaturabhängigkeit der spontanen Magnetisierung kann man $J = 1/2$ ableiten. Mit diesem Wert und $g=2$ folgt:
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 1,\!73 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 1 \, \mu_\mathrm{B}$$
 
                                       {{6}}
 Wir erhalten für Eisen also keine Übereinstimmung zwischen dem theoretischen Wert für Fe^3+^ und den in der Aufgabenstellung gegebenen experimentellen Werten. Ursache ist der vorliegende Bandferromagnetismus!
@@ -150,7 +150,7 @@ Wir erhalten für Eisen also keine Übereinstimmung zwischen dem theoretischen W
 **b) Gadolinium**
 
 Die Elektronendichte $n$ erhalten wir aus der Anzahl der Elektronen pro Elementarzellvolumen:
-$$n = \frac{2}{\frac{\sqrt{3}}{2} a^2 c} = 3,\!02 \cdot 10^{28}~\mathrm{cm^{-3}}$$
+$$n = \frac{2}{\frac{\sqrt{3}}{2} a^2 c} = 3,\!02 \cdot 10^{22}~\mathrm{cm^{-3}}$$
 ************************************
 
                                       {{8}}
@@ -162,8 +162,8 @@ Aus der gegebenen Sättigungsmagnetisierung erhalten wir:
 $$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 7,\!35 \, \mu_\mathrm{B}$$
 
                                       {{10}}
-Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$, $J = 7/2$. Damit folgt:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 7,\!94 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 7,\!00 \, \mu_\mathrm{B}$$
+Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$ und $J = 7/2$. Mit diesem Wert und $g=2$ folgt:
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 7,\!94 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 7 \, \mu_\mathrm{B}$$
 
                                       {{11}}
 Wir erhalten für Gadolinium also eine gute Übereinstimmung zwischen Theorie und Experiment. Es liegt reiner Spin-Magnetismus vor!
