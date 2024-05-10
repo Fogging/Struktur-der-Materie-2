@@ -101,12 +101,12 @@ Es ist also $\chi ' \approx \chi$, d. h. der Unterschied zwischen $H$ und $H_\ma
 ************************************
 Gegenüber der Magnetisierungskurve $M(H)$ weist eine auf das äußere Magnetfeld bezogene Magnetisierungskurve $M(H_\mathrm{a})$ eine von der Probengeometrie abhängige „Scherung“ (gedrückte Kurve) auf.
 
-![Magnetisierungskurve für eine ferromagnetische Substanz: auf das äußere Magnetfeld $H_\mathrm{a}$ bezogen (links) bzw. auf das innere Magnetfeld $H$ bezogen (rechts)](Bilder/Magnetisierungskurve_ferromagnetisch.png "Magnetisierungskurve für eine ferromagnetische Substanz: auf das äußere Magnetfeld $H_\mathrm{a}$ bezogen (links) bzw. auf das innere Magnetfeld $H$ bezogen (rechts) *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 400px;" -->
+![Magnetisierungskurve für eine ferromagnetische Substanz: auf das äußere Magnetfeld $H_\mathrm{a}$ bezogen (links) bzw. auf das innere Magnetfeld $H$ bezogen (rechts)](Bilder/Magnetisierungskurve_ferromagnetisch.png "Magnetisierungskurve für eine ferromagnetische Substanz: auf das äußere Magnetfeld $H_\mathrm{a}$ bezogen (links) bzw. auf das innere Magnetfeld $H$ bezogen (rechts) *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 500px;" -->
 ************************************
 
                                       {{3}}
 - Die Koerzitivfeldstärke $H_\mathrm{K}$ (für $M = 0$) bleibt für beide Kurven erhalten.
-- Die wirkliche Remanenz $M_\mathrm{R} (für $H = 0$) lässt sich nur aus $M(H)$ bestimmen!
+- Die wirkliche Remanenz $M_\mathrm{R}$ (für $H = 0$) lässt sich nur aus $M(H)$ bestimmen!
 - Die Fläche innerhalb der Hysteresekurve entspricht der Magnetisierungsenergie: $\oint M \, \mathrm{d}H = E_\mathrm{mag}$
 
 
