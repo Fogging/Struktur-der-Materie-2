@@ -140,7 +140,7 @@ In Übung 5, Aufgabe 5 hatten wir für Fe^3+^ allerdings einen Wert von $\mu_\ma
 
                                       {{5}}
 Aus der Temperaturabhängigkeit der spontanen Magnetisierung kann man $J = 1/2$ ableiten. Damit erhalten wir:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 1,\!73 \, \mu_\mathrm{B} \ \text{und} \ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 1,\!00 \, \mu_\mathrm{B}$$
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 1,\!73 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 1,\!00 \, \mu_\mathrm{B}$$
 
                                       {{6}}
 Wir erhalten für Eisen also keine Übereinstimmung zwischen dem theoretischen Wert für Fe^3+^ und den in der Aufgabenstellung gegebenen experimentellen Werten. Ursache ist der vorliegende Bandferromagnetismus!
@@ -162,8 +162,8 @@ Aus der gegebenen Sättigungsmagnetisierung erhalten wir:
 $$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 7,\!35 \, \mu_\mathrm{B}$$
 
                                       {{10}}
-Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$, $J = 7/2$. Damit erhalten wir:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 7,\!94 \, \mu_\mathrm{B} \ \text{und} \ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 7,\!00 \, \mu_\mathrm{B}$$
+Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$, $J = 7/2$. Damit folgt:
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 7,\!94 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 7,\!00 \, \mu_\mathrm{B}$$
 
                                       {{11}}
 Wir erhalten für Gadolinium also eine gute Übereinstimmung zwischen Theorie und Experiment. Es liegt reiner Spin-Magnetismus vor!
