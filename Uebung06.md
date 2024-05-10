@@ -129,24 +129,25 @@ $$n = \frac{2}{a^3} = 8,\!49 \cdot 10^{28}~\mathrm{cm^{-3}}$$
 
                                       {{2}}
 Für das effektive magnetische Moment gilt:
-$$\mu_\mathrm{eff} = \sqrt{\frac{3 k_\mathrm{B} C}{\mu_0 n}} = 3,\!17 \, µ_\mathrm{B}$$
+$$\mu_\mathrm{eff} = \sqrt{\frac{3 k_\mathrm{B} C}{\mu_0 n}} = 3,\!17 \, \mu_\mathrm{B}$$
 
                                       {{3}}
 Aus der gegebenen Sättigungsmagnetisierung erhalten wir:
-$$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 2,\!22 \, µ_\mathrm{B}$$
+$$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 2,\!22 \, \mu_\mathrm{B}$$
 
                                       {{4}}
-In Übung 5, Aufgabe 5 hatten wir für Fe^3+^ einen Wert von $\mu_\mathrm{eff} = 5,\!92 \, \mu_\mathrm{B}$ berechnet, der mit dem experimentellen Wert übereinstimmte.
+In Übung 5, Aufgabe 5 hatten wir für Fe^3+^ allerdings einen Wert von $\mu_\mathrm{eff} = 5,\!92 \, \mu_\mathrm{B}$ berechnet.
 
                                       {{5}}
-Aus der Temperaturabhängigkeit der spontanen Magnetisierung kann man $J = 1/2$ ableiten. Damit erhalten wir $\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 1,\!73 \, \mu_\mathrm{B}$ und $\mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 1,\!00 \, \mu_\mathrm{B}$
+Aus der Temperaturabhängigkeit der spontanen Magnetisierung kann man $J = 1/2$ ableiten. Damit erhalten wir:
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 1,\!73 \, \mu_\mathrm{B} \ \text{und} \ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 1,\!00 \, \mu_\mathrm{B}$$
 
                                       {{6}}
-Wir erhalten für Eisen also keine Übereinstimmung zwischen den theoretischen Werten für Fe^3+^ und den in der Aufgabenstellung gegebenen experimentellen Werten. Ursache ist der vorliegende Bandferromagnetismus!
+Wir erhalten für Eisen also keine Übereinstimmung zwischen dem theoretischen Wert für Fe^3+^ und den in der Aufgabenstellung gegebenen experimentellen Werten. Ursache ist der vorliegende Bandferromagnetismus!
 
                                       {{7}}
 ************************************
-**a) Gadolinium**
+**b) Gadolinium**
 
 Die Elektronendichte $n$ erhalten wir aus der Anzahl der Elektronen pro Elementarzellvolumen:
 $$n = \frac{2}{\frac{\sqrt{3}}{2} a^2 c} = 3,\!02 \cdot 10^{28}~\mathrm{cm^{-3}}$$
@@ -154,17 +155,15 @@ $$n = \frac{2}{\frac{\sqrt{3}}{2} a^2 c} = 3,\!02 \cdot 10^{28}~\mathrm{cm^{-3}}
 
                                       {{8}}
 Für das effektive magnetische Moment gilt:
-$$\mu_\mathrm{eff} = \sqrt{\frac{3 k_\mathrm{B} C}{\mu_0 n}} = 7,\!96 \, µ_\mathrm{B}$$
+$$\mu_\mathrm{eff} = \sqrt{\frac{3 k_\mathrm{B} C}{\mu_0 n}} = 7,\!96 \, \mu_\mathrm{B}$$
 
                                       {{9}}
 Aus der gegebenen Sättigungsmagnetisierung erhalten wir:
-$$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 7,\!35 \, µ_\mathrm{B}$$
+$$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 7,\!35 \, \mu_\mathrm{B}$$
 
                                       {{10}}
-Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwendung der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$, $J = 7/2$.
+Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$, $J = 7/2$. Damit erhalten wir:
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 7,\!94 \, \mu_\mathrm{B} \ \text{und} \ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 7,\!00 \, \mu_\mathrm{B}$$
 
                                       {{11}}
-Damit erhalten wir $\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 7,\!94 \, \mu_\mathrm{B}$ und $\mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 7,\!00 \, \mu_\mathrm{B}$
-
-                                      {{12}}
 Wir erhalten für Gadolinium also eine gute Übereinstimmung zwischen Theorie und Experiment. Es liegt reiner Spin-Magnetismus vor!
