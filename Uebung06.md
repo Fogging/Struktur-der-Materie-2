@@ -93,19 +93,21 @@ Es ist also $\chi ' \approx \chi$, d. h. der Unterschied zwischen $H$ und $H_\ma
 > Aus welchem Grund weisen ferromagnetische Stoffe nichtlineare Magnetisierungskurven auf? Welche Unterschiede bestehen zwischen der gemessenen Magnetisierungskurve $M(H_\mathrm{a})$ und der auf das innere Magnetfeld bezogenen Magnetisierungskurve $M(H)$ einer ferromagnetischen Substanz?
 
                                       {{1}}
-Gemäß Aufgabe 2 besteht der Beitrag des Elektronengases zur magnetischen Suszeptibilität aus einem paramagnetischen Anteil (Pauli-Spinsuszeptibilität) und einem diamagnetischen Anteil (Landau-Spinsuszeptibilität). Für die gesamte magnetische Suszeptibilität hatten wir erhalten:
-$$\chi_\mathrm{el} = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
+- Ferromagnetische Substanzen bestehen aus kleinen Bereichen homogener spontaner Magnetisierung („Domänen“).
+- Bei kleinen Feldstärken kommt es zu Wandverschiebungen zwischen benachbarten Domänen, die zur Volumenzunahme der Domänen mit zum äußeren Feld günstiger Magnetisierungsrichtung führen.
+- Bei höheren Feldstärken erfolgt zudem eine Drehung der Magnetisierungsrichtung von Domänen in Richtung des äußeren Feldes.
 
                                       {{2}}
-Hierbei handelt es sich um eine Volumensuszeptibilität. Gesucht ist aber die molare Suszeptibilität, die wir aus $\chi_\mathrm{mol} = \frac{M}{\varrho} \chi_V$ erhalten. Für die Elektronendichte pro Volumen setzen wir noch $n = \frac{\varrho \cdot N_\mathrm{A}}{M}$ ein (siehe Übung 3, Aufgabe 1). Für die molare Suszeptibilität folgt:
-$$\chi_\mathrm{el,mol} = \frac{M}{\varrho} \chi_\mathrm{el} = \frac{M}{\varrho} \cdot \mu_0 \mu_\mathrm{B}^2 \frac{\varrho \cdot N_\mathrm{A}}{M \cdot E_\mathrm{F}} = \mu_0 \mu_\mathrm{B}^2 \frac{N_\mathrm{A}}{E_\mathrm{F}} = 5,\!8 \cdot 10^{-11}~\mathrm{m^3/mol}$$
+************************************
+Gegenüber der Magnetisierungskurve $M(H)$ weist eine auf das äußere Magnetfeld bezogene Magnetisierungskurve $M(H_\mathrm{a})$ eine von der Probengeometrie abhängige „Scherung“ (gedrückte Kurve) auf.
+
+![Magnetisierungskurve für eine ferromagnetische Substanz: auf das äußere Magnetfeld $H_\mathrm{a}$ bezogen (links) bzw. auf das innere Magnetfeld $H$ bezogen (rechts)](Bilder/Magnetisierungskurve_ferromagnetisch.png "Magnetisierungskurve für eine ferromagnetische Substanz: auf das äußere Magnetfeld $H_\mathrm{a}$ bezogen (links) bzw. auf das innere Magnetfeld $H$ bezogen (rechts) *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 400px;" -->
+************************************
 
                                       {{3}}
-Zusammen mit dem diamagnetischen Anteil der abgeschlossenen Elektronenschalen der Ionenrümpfe (Cu^+^) von $\chi_\mathrm{dia,mol} = -15 \cdot {10}^{-11}~\mathrm{m^3/mol}$ ergibt sich:
-$$\chi_\mathrm{mol} = \chi_\mathrm{el,mol} + \chi_\mathrm{dia,mol} = -9,\!2 \cdot 10^{-11}~\mathrm{m^3/mol}$$
-
-                                      {{4}}
-Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ wird ungefähr bestätigt.
+- Die Koerzitivfeldstärke $H_\mathrm{K}$ (für $M = 0$) bleibt für beide Kurven erhalten.
+- Die wirkliche Remanenz $M_\mathrm{R} (für $H = 0$) lässt sich nur aus $M(H)$ bestimmen!
+- Die Fläche innerhalb der Hysteresekurve entspricht der Magnetisierungsenergie: $\oint M \, \mathrm{d}H = E_\mathrm{mag}$
 
 
 ## Aufgabe 4 
