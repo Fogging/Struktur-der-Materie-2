@@ -70,8 +70,8 @@ Der maximal mögliche transversale Impuls innerhalb der Fermi-Kugel ist durch di
 $$n = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} = 27216$$
 
                                       {{12}}
-**c)** Damit bereits bei $n=0$ der transversale Impuls $k_\perp$ die Fermi-Kugel berührt, muss das Magnetfeld deutlich größer als zuvor sein. Den erforderlichen Wert für $B$ erhält man durch Einsetzen von $n=0$ in die letzte Formel:
-$$0 = \frac{\hbar k_\mathrm{F}^2}{2 e B} - \frac{1}{2} \ \Rightarrow \ B = \frac{\hbar k_\mathrm{F}^2}{e} = 54434~\mathrm{T}$$
+**c)** Damit bereits bei $n=0$ der transversale Impuls $k_\perp$ die Fermi-Kugel berührt, muss das Magnetfeld deutlich größer als zuvor sein. Den erforderlichen Wert für $B_0$ erhält man durch Einsetzen von $n=0$ in die letzte Formel:
+$$0 = \frac{\hbar k_\mathrm{F}^2}{2 e B_0} - \frac{1}{2} \ \Rightarrow \ B_0 = \frac{\hbar k_\mathrm{F}^2}{e} = 54434~\mathrm{T}$$
 
                                       {{13}}
 ***********************************
