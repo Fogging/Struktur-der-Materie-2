@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 05
+comment:  Struktur der Materie 2 - Übung 07
 
 @style
 .lia-toc__bottom {
@@ -18,18 +18,12 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 5
+# Übung 7
 
 
 ## Aufgabe 1
 
-> Wir betrachten ein freies Elektronengas mit einer Dichte von $n=2,\!54 \cdot 10^{22}~\mathrm{cm}^{-3}$ (Natrium) und einem Volumen von $V = L_x L_y L_z = 1\cdot1\cdot1~\mathrm{cm}^3$.
->
-> a) Berechnen Sie aus der Anzahl $N$ der Elektronen die Anzahl $Z_\mathrm{F}$ der im $k$-Raum besetzten Zustände, den Radius der Fermi-Kugel und die Anzahl $Z_0$ der in der Ebene $k_z=0$ von Elektronen besetzten Zustände.
->
-> b) Wir legen nun ein Magnetfeld $B=1~\mathrm{T}$ in die $z$-Richtung an. Berechnen Sie die Anzahl der Kreise konstanter Energie $E(n, k_z=0)$, die sich innerhalb der ursprünglichen Grenzen der Fermi-Kugel befinden.
->
-> c) Bestimmen Sie die Flussdichte $B_0$, bei welcher der innerste Landau-Zylinder $n=0$ die ursprüngliche Fermi-Kugel verlässt. Vergleichen Sie den Wert von $B_0$ mit technisch realisierbaren Magnetfeldern.
+> Betrachten Sie ein Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht (semiklassische Betrachtungsweise). Zeigen Sie, dass in diesem Fall für die elektronische Polarisierbarkeit des Wasserstoffatoms $\alpha_\mathrm{el} = 4 \pi a_0^3$ gilt, wobei $a_0$ der Radius der ungestörten Bahn ist. Nehmen Sie an, dass das angelegte Feld in $x$-Richtung zeigt und die Bahnebene in der $yz$-Ebene liegt. Die Auslenkung $x$ soll außerdem klein gegenüber $a_0$ sein. Hinweis: Die $x$-Komponente des Kernfeldes an der ausgelenkten Position der Elektronenbahn muss gleich dem angelegten Feld sein.
 
                                       {{1}}
 **a)** Dichte der Zustände im $k$-Raum: $z(k) = V/(2 \pi)^3$
@@ -91,7 +85,7 @@ Zum Vergleich:
 
 ## Aufgabe 2 
 
-> Beschreiben Sie quantitativ den paramagnetischen Anteil der magnetischen Suszeptibilität eines freien Elektronengases in einem Metall. Wie groß ist dieser Anteil an der gesamten magnetischen Suszeptibilität?
+> Betrachten Sie eine isolierende Kugel mit der Dielektrizitätskonstante $\varepsilon$ in einem äußeren homogenen elektrischen Feld $E_\mathrm{a}$. Welchen Wert hat das über das gesamte Volumen der Kugel gemittelte elektrische Feld $E$ innerhalb der Kugel (Entelektrisierungsfaktor $=1/3$)? Welchen Wert hat die Polarisation $P$ in der Kugel? Berechnen Sie das Verhältnis $E/E_\mathrm{a}$, wenn die Kugel aus Polyethylen ($\varepsilon=2,\!3$) besteht.
 
                                       {{1}}
 **Einfache Überlegung:** Zur Suszeptibilität tragen nicht alle Elektronen bei, sondern nur der Anteil in der Nähe der Fermie-Energie, der mit $T/T_\mathrm{F}$ abgeschätzt wird ($k_\mathrm{B} T_\mathrm{F} = E_\mathrm{F}$). Wir nutzen das Ergebnis von Übung 4, Aufgabe 4 und multiplizieren mit $T/T_\mathrm{F}$:
@@ -136,7 +130,7 @@ $$\chi = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
 
 ## Aufgabe 3
 
-> Die Fermi-Energie von Kupfer beträgt $E_\mathrm{F} = 7,\!00~\mathrm{eV}$. Berechnen Sie den Beitrag des Elektronengases zur molaren magnetischen Suszeptibilität von Kupfer in der Näherung freier Elektronen. Außer diesem Beitrag trägt auch noch der diamagnetische Anteil der abgeschlossenen Elektronenschalen der Ionenrümpfe (Cu^+^) von $-15 \cdot {10}^{-11}~\mathrm{m^3/mol}$ zum Gesamtwert bei. Vergleichen Sie das Ergebnis mit dem experimentell bestimmten Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$.
+> Berechnen Sie für die Metalle Silber ($m^\mathrm{op} = 1,\!03$, $n = 5,\!86 \cdot {10}^{22}~\mathrm{cm}^{-3}$) und Aluminium ($m^\mathrm{op} = 0,\!50$, $n = 6,\!02 \cdot {10}^{22}~\mathrm{cm}^{-3}$) jeweils die Plasmafrequenz und Plasmonenenergie, sowie die entsprechende Wellenlänge, ab welcher das Reflexionsvermögen deutlich ansteigt. Zum Vergleich berechne man die entsprechenden Werte für Silizium, das mit Phosphor dotiert wurde ($m^\mathrm{op} = 0,\!26$, $n = 5,\!0 \cdot {10}^{18}~\mathrm{cm}^{-3}$, $\varepsilon=11,\!7$).
 
                                       {{1}}
 Gemäß Aufgabe 2 besteht der Beitrag des Elektronengases zur magnetischen Suszeptibilität aus einem paramagnetischen Anteil (Pauli-Spinsuszeptibilität) und einem diamagnetischen Anteil (Landau-Spinsuszeptibilität). Für die gesamte magnetische Suszeptibilität hatten wir erhalten:
@@ -152,67 +146,3 @@ $$\chi_\mathrm{mol} = \chi_\mathrm{el,mol} + \chi_\mathrm{dia,mol} = -9,\!2 \cdo
 
                                       {{4}}
 Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ wird ungefähr bestätigt.
-
-
-## Aufgabe 4 
-
-> Wandeln Sie den experimentellen Messwert von Kupfer auch in die entsprechenden Werte für die Massensuszeptibilität und Volumensuszeptibilität um (Dichte $\varrho = 8,\!93~\mathrm{g/cm^3}$, molare Masse $M = 63,\!5~\mathrm{g/mol}$).
-
-                                      {{1}}
-Der Messwert beträgt $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ und rechnet sich wie folgt in eine Volumensuszeptibilität (ohne Einheit) um:
-$$\chi_V = \frac{\varrho}{M} \chi_\mathrm{mol} = -9,\!71 \cdot 10^{-6}$$
-
-                                      {{2}}
-Die Massensuszeptibilität $\chi_\mathrm{g}$ ergibt sich folgendermaßen:
-$$\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V = \frac{1}{M} \chi_\mathrm{mol} = -1,\!09 \cdot 10^{-6}~\mathrm{cm^3/g}$$
-
-
-
-## Aufgabe 5 
-
-> Berechnen Sie für die Übergangsmetallionen Ti^2+^, Cr^3+^, Fe^3+^ und Cu^2+^ den Landéfaktor und das effektive magnetische Moment und vergleichen Sie diese Werte mit dem Experiment. Wie fällt der Vergleich aus, wenn reiner Spinmagnetismus ($g=2$) angenommen wird?
-
-                                      {{1}}
-***********************************
-Alle genannten Elemente gehören zu den Übergangsmetallen der 4. Periode und haben damit eine abgeschlossene Argon-Konfiguration, zwei Elektronen im Zustand $\mathrm{4s}$ sowie unterschiedlich viele $\mathrm{3d}$-Elektronen. 
-
-![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
-************************************
-
-                                      {{2}}
-************************************
-Bei den $\mathrm{3d}$-Übergangsmetallen werden durch Ionisation zunächst die $\mathrm{4s}$-Elektronen entfernt. Wir bestimmen nun die Quantenzahlen und gehen dabei wie in Übung 4, Aufgabe 2 vor:
-
-<!-- data-type="none" -->
-| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
-|--------|------------------------------------|----------------|-----|-----|-----|------------|
-| Ti^2+^ | $\mathrm{[Ar] \, 3d^2}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $1$ | $3$ | $2$ | $\mathrm{^3F_2}$ |
-| Cr^3+^ | $\mathrm{[Ar] \, 3d^3}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $\frac{3}{2}$ | $3$ | $\frac{3}{2}$ | $\mathrm{^4F_{3/2}}$ |
-| Fe^3+^ | $\mathrm{[Ar] \, 3d^5}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{5}{2}$ | $0$ | $\frac{5}{2}$ | $\mathrm{^6S_{5/2}}$ |
-| Cu^2+^ | $\mathrm{[Ar] \, 3d^9}$    | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ | $\frac{1}{2}$ | $2$ | $\frac{5}{2}$ | $\mathrm{^2D_{5/2}}$ |
-************************************
-
-                                      {{3}}
-Der Landé-Faktor $g$ folgt aus:
-$$g = 1+\frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}$$
-
-                                      {{4}}
-Das effektive magnetische Moment ist dann:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B}$$
-
-                                      {{5}}
-Für ein reines Spinsystem ($g=2$) gilt:
-$$\mu_{\mathrm{eff},S} = 2 \cdot \sqrt{S(S+1)} \cdot \mu_\mathrm{B}$$
-
-                                      {{6}}
-************************************
-Übersicht der berechneten Werte und Vergleich mit experimentellen Werten (*Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*):
-
-<!-- data-type="none" -->
-| Ion    | Landé-Faktor  | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Theorie) | $\mu_{\mathrm{eff},S}/\mu_\mathrm{B}$ (Theorie) | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Experiment)  |
-|--------|---------------|----------|----------|---------|
-| Ti^2+^ | $\frac{2}{3}$ | $1,\!63$ | $2,\!83$ | $2,\!8$ |
-| Cr^3+^ | $\frac{2}{5}$ | $0,\!77$ | $3,\!87$ | $3,\!8$ |
-| Fe^3+^ | $2$           | $5,\!92$ | $5,\!92$ | $5,\!9$ |
-| Cu^2+^ | $\frac{6}{5}$ | $3,\!55$ | $1,\!73$ | $1,\!9$ |
-************************************
