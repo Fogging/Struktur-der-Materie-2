@@ -72,13 +72,37 @@ $$\alpha_\mathrm{el} = 4 \pi \varepsilon_0 a_0^3$$
 
 ## Aufgabe 2 
 
-> Betrachten Sie eine isolierende Kugel mit der Dielektrizitätskonstante $\varepsilon$ in einem äußeren homogenen elektrischen Feld $E_\mathrm{a}$. Welchen Wert hat das über das gesamte Volumen der Kugel gemittelte elektrische Feld $E$ innerhalb der Kugel (Entelektrisierungsfaktor $=1/3$)? Welchen Wert hat die Polarisation $P$ in der Kugel? Berechnen Sie das Verhältnis $E/E_\mathrm{a}$, wenn die Kugel aus Polyethylen ($\varepsilon=2,\!3$) besteht.
+> Betrachten Sie eine isolierende Kugel mit der Dielektrizitätskonstante $\varepsilon$ in einem äußeren homogenen elektrischen Feld $E_\mathrm{a}$. Welchen Wert hat das über das gesamte Volumen der Kugel gemittelte elektrische Feld $E$ innerhalb der Kugel (Entelektrisierungsfaktor $N = 1/3$)? Welchen Wert hat die Polarisation $P$ in der Kugel? Berechnen Sie das Verhältnis $E/E_\mathrm{a}$, wenn die Kugel aus Polyethylen ($\varepsilon = 2,\!3$) besteht.
 
                                       {{1}}
-**Einfache Überlegung:** Zur Suszeptibilität tragen nicht alle Elektronen bei, sondern nur der Anteil in der Nähe der Fermie-Energie, der mit $T/T_\mathrm{F}$ abgeschätzt wird ($k_\mathrm{B} T_\mathrm{F} = E_\mathrm{F}$). Wir nutzen das Ergebnis von Übung 4, Aufgabe 4 und multiplizieren mit $T/T_\mathrm{F}$:
-$$\chi = \mu_0 \frac{M}{B_0} \approx \frac{\mu_0 n \mu_\mathrm{eff}^2}{k_\mathrm{B} T} \cdot \frac{T}{T_\mathrm{F}}$$
+Analog zum magnetischen Feld setzt sich das elektrische Feld $E$ im Inneren eines Körpers aus dem äußeren Feld $E_\mathrm{a}$ und dem Entelektrisierfeld $E_N$ zusammen:
+$$E = E_\mathrm{a} - E_N$$
 
                                       {{2}}
+Der Grund für die Entelektrisierung liegt in der elektrischen Polarisation $P$, also der Erzeugung bzw. Ausrichtung mikroskopischer Dipole, die zur Ausbildung von Oberflächenladungen führt. Diese Oberflächenladungen erzeugen das entelektrisierende Feld, das dem äußeren Feld entgegenwirkt. Das Entelektrisierfeld beträgt $E_N = N P / \varepsilon_0$, das heißt:
+$$E = E_\mathrm{a} - \frac{N P}{\varepsilon_0}$$
+
+                                      {{3}}
+Die Polarisation $P$ hängt über die elektrische Suszeptibilität $\chi$ des Mediums direkt mit der lokalen elektrischen Feldstärke $E$ zusammen: $P = \chi \varepsilon_0 E$. Daraus folgt:
+$$E = E_\mathrm{a} - N \chi E$$
+
+                                      {{4}}
+Für das elektrische Feld im Inneren des Dielektrikums erhalten wir also:
+$$E = \frac{1}{1 + N \chi} E_\mathrm{a}$$
+
+$\varepsilon$ oder $\varepsilon_\mathrm{r}$?
+
+Für die dielektrische Verschiebung gilt:
+D = ε0E + P = ε0E + χε0E = (1 + χ) ε0E und damit
+D = \frac{1+\chi}{1+N\chi} ε0Ea
+Für die Polarisation einer Kugel mit Entelektrisierungsfaktor N = 1/3 
+und ε = 2,3 folgt:
+χ = ε – 1 = 1,3
+E = \frac{1}{1+1,3/3} Ea = 0,698 Ea und
+P = \frac{1,3}{1+1,3/3} ε0Ea = 0,907 ε0Ea
+
+
+
 Für Elektronen mit $L = 0$ und $S = ½$ ist $\mu_\mathrm{eff} = ½ g_S \mu_\mathrm{B} \cong \mu_\mathrm{B}$, da $g_S \cong 2$. Damit erhalten wir:
 $$\chi \approx \frac{n \mu_0 \mu_\mathrm{B}^2}{k_\mathrm{B} T_\mathrm{F}} = \frac{n \mu_0 \mu_\mathrm{B}^2}{E_\mathrm{F}}$$
 
