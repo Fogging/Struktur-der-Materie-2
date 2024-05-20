@@ -30,7 +30,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 Das äußere Feld $\vec{E}_\mathrm{a}$ bewirkt eine elektrische Kraft $\vec{F}_\mathrm{el} = q \vec{E}_\mathrm{a}$ auf das Proton (des Wasserstoffatoms) in $x$-Richtung. Dadurch neigt sich die klassische Kreisbahn des Elektrons um das Proton leicht aus der $yz$-Ebene heraus. Der Verkippungswinkel der Kreisbahn sei $\vartheta$. Der Betrag der elektrischen Kraft in $x$-Richtung ist:
 $$F_{\mathrm{el}, x} = e E_\mathrm{a}$$
 
-![Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht](Bilder/Feld_lokal.png "Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 300px;" -->
+![Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht](Bilder/Feld_lokal.png "Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 250px;" -->
 ************************************
 
                                       {{2}}
