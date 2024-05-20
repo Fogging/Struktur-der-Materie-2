@@ -23,32 +23,51 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
 
-> Betrachten Sie ein Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht (semiklassische Betrachtungsweise). Zeigen Sie, dass in diesem Fall für die elektronische Polarisierbarkeit des Wasserstoffatoms $\alpha_\mathrm{el} = 4 \pi a_0^3$ gilt, wobei $a_0$ der Radius der ungestörten Bahn ist. Nehmen Sie an, dass das angelegte Feld in $x$-Richtung zeigt und die Bahnebene in der $yz$-Ebene liegt. Die Auslenkung $x$ soll außerdem klein gegenüber $a_0$ sein. Hinweis: Die $x$-Komponente des Kernfeldes an der ausgelenkten Position der Elektronenbahn muss gleich dem angelegten Feld sein.
+> Betrachten Sie ein Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht (semiklassische Betrachtungsweise). Zeigen Sie, dass in diesem Fall für die elektronische Polarisierbarkeit des Wasserstoffatoms $\alpha_\mathrm{el} = 4 \pi \varepsilon_0 a_0^3$ gilt, wobei $a_0$ der Radius der ungestörten Bahn ist. Nehmen Sie an, dass das angelegte Feld in $x$-Richtung zeigt und die Bahnebene in der $yz$-Ebene liegt. Die Auslenkung $x$ soll außerdem klein gegenüber $a_0$ sein. Hinweis: Die $x$-Komponente des Kernfeldes an der ausgelenkten Position der Elektronenbahn muss gleich dem angelegten Feld sein.
 
                                       {{1}}
+************************************
 Das äußere Feld $\vec{E}_\mathrm{a}$ bewirkt eine elektrische Kraft $\vec{F}_\mathrm{el} = q \vec{E}_\mathrm{a}$ auf das Proton (des Wasserstoffatoms) in $x$-Richtung. Dadurch neigt sich die klassische Kreisbahn des Elektrons um das Proton leicht aus der $yz$-Ebene heraus. Der Verkippungswinkel der Kreisbahn sei $\vartheta$. Der Betrag der elektrischen Kraft in $x$-Richtung ist:
 $$F_{\mathrm{el}, x} = e E_\mathrm{a}$$
+
+![Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht](Bilder/Feld_lokal.png "Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 300px;" -->
+************************************
 
                                       {{2}}
 Wir betrachten nun die Coulomb-Kraft $\vec{F}_\mathrm{C}$ zwischen Proton und Elektron: 
 $$\vec{F}_\mathrm{C} = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2} \vec{e}_r$$
 
                                       {{3}}
-Die Coulomb-Kraft zeigt entlang des Einheitsvektors $\vec{e}_r$ parallel zum Radius-Vektor $\vec{r}$ zwischen Proton und Elektron. Wir interessieren uns für die $x$-Komponente der Kraft, die senkrecht auf der Bahnebene ($yz$-Ebene) steht:
+Die Coulomb-Kraft zeigt entlang des Einheitsvektors $\vec{e}_r$ parallel zum Radius-Vektor $\vec{r}$ zwischen Proton und Elektron. Wir interessieren uns für die $x$-Komponente der Kraft, die senkrecht auf der Bahnebene ($yz$-Ebene) steht. Für den Verkippungswinkel gilt dabei $\sin \vartheta = \frac{x}{r}$. Wir erhalten:
 $$F_{\mathrm{C}, x} = \frac{1}{4 \pi \varepsilon_0} \frac{e^2}{r^2} \sin \vartheta = \frac{1}{4 \pi \varepsilon_0} \frac{e^2}{r^2} \frac{x}{r}$$
 
                                       {{4}}
-Elektr. Dipolmoment px
-px = ex = E_x^a * 4πε0r³
-ergibt zusammen:
-E_x^a =  \frac{1}{4\pi\varepsilon_0} pxr³
-da x << a0 und r² = x² + y² + z²
-r³ = (x² + y² + z²)3/2 ≈ (y² + z²)3/2 = (a0²)3/2 = a0³
-der Vergleich von 
-px = ex = 4πε0r³* E_x^a und px = ε0αElokal
-(lokales Feld gleich äußeres Feld für ein einzelnes Atom)
-liefert die Polarisierbarkeit α
-α = 4πa0³
+Die $x$-Komponente der Coulomb-Kraft an der ausgelenkten Position der Elektronenbahn muss gleich der elektrischen Kraft durch das angelegte Feld sein:
+$$F_{\mathrm{el}, x} = e E_\mathrm{a} = \frac{1}{4 \pi \varepsilon_0} \frac{e^2 x}{r^3} = F_{\mathrm{C}, x}$$
+
+                                      {{5}}
+Da das elektrische Dipolmoment einfach als $p_x = e x$ definiert ist, können wir die vorherige Formel nach dieser Größe umstellen und erhalten:
+$$p_x = e x = 4 \pi \varepsilon_0 r^3 E_\mathrm{a}$$
+
+                                      {{6}}
+Das induzierte Dipolmoment ergibt sich außerdem aus der Polarisierbarkeit $\alpha$ multipliziert mit dem lokalen elektrischen Feld. Dieser Zusammenhang definiert die Polarisierbarkeit:
+$$\vec{p}_\mathrm{ind} = \alpha \vec{E}_\mathrm{lokal}$$
+
+                                      {{7}}
+Das Dipolmoment liegt in unserem Fall in $x$-Richtung und wir können uns auf diese Richtung beschränken. Da wir nur ein einzelnes Wasserstoffatom betrachten, können wir das lokale gleich dem äußeren elektrischen Feld setzen:
+$$p_\mathrm{ind} = p_x = \alpha E_\mathrm{a}$$
+
+                                      {{8}}
+Vergleichen wir die zwei Formeln für das Dipolmoment $p_x$, ergibt sich für die Polarisierbarkeit:
+$$\alpha = 4 \pi \varepsilon_0 r^3$$
+
+                                      {{9}}
+Da $x \ll r$ (oder auch $x \ll a_0$), können wir $x$ in der Formel für den Radius der Kreisbahn näherungsweise vernachlässigen:
+$$r = \sqrt{x^2 + y^2 + z^2} \approx \sqrt{y^2 + z^2} = a_0$$
+
+                                      {{10}}
+Damit haben wir den gesuchten Zusammenhang zwischen der elektronischen Polarisierbarkeit und dem ungestörten Bahnradius:
+$$\alpha_\mathrm{el} = 4 \pi \varepsilon_0 a_0^3$$
 
 
 ## Aufgabe 2 
