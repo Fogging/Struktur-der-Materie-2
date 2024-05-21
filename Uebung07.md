@@ -107,19 +107,51 @@ $$P = \frac{1,\!3}{1 + 1,\!3/3} \varepsilon_0 E_\mathrm{a} = 0,\!907 \cdot \vare
 
 ## Aufgabe 3
 
-> Berechnen Sie für die Metalle Silber ($m^\mathrm{op} = 1,\!03$, $n = 5,\!86 \cdot {10}^{22}~\mathrm{cm}^{-3}$) und Aluminium ($m^\mathrm{op} = 0,\!50$, $n = 6,\!02 \cdot {10}^{22}~\mathrm{cm}^{-3}$) jeweils die Plasmafrequenz und Plasmonenenergie, sowie die entsprechende Wellenlänge, ab welcher das Reflexionsvermögen deutlich ansteigt. Zum Vergleich berechne man die entsprechenden Werte für Silizium, das mit Phosphor dotiert wurde ($m^\mathrm{op} = 0,\!26$, $n = 5,\!0 \cdot {10}^{18}~\mathrm{cm}^{-3}$, $\varepsilon_\mathrm{r} = 11,\!7$).
+> Berechnen Sie für die Metalle Silber ($m^\ast = 1,\!03$, $n = 5,\!86 \cdot {10}^{22}~\mathrm{cm}^{-3}$) und Aluminium ($m^\ast = 0,\!50$, $n = 6,\!02 \cdot {10}^{22}~\mathrm{cm}^{-3}$) jeweils die Plasmafrequenz und Plasmonenenergie sowie die entsprechende Wellenlänge, ab welcher das Reflexionsvermögen deutlich ansteigt. Zum Vergleich berechne man die entsprechenden Werte für Silizium, das mit Phosphor dotiert wurde ($m^\ast = 0,\!26$, $n = 5,\!0 \cdot {10}^{18}~\mathrm{cm}^{-3}$, $\varepsilon_\mathrm{r} = 11,\!7$).
 
                                       {{1}}
-Gemäß Aufgabe 2 besteht der Beitrag des Elektronengases zur magnetischen Suszeptibilität aus einem paramagnetischen Anteil (Pauli-Spinsuszeptibilität) und einem diamagnetischen Anteil (Landau-Spinsuszeptibilität). Für die gesamte magnetische Suszeptibilität hatten wir erhalten:
-$$\chi_\mathrm{el} = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
+Die Plasmafrequenz berechnet sich gemäß:
+$$\omega_\mathrm{p} = \sqrt{\frac{e^2 n}{\varepsilon_0 \varepsilon_\mathrm{r} m^\ast}}$$
 
                                       {{2}}
-Hierbei handelt es sich um eine Volumensuszeptibilität. Gesucht ist aber die molare Suszeptibilität, die wir aus $\chi_\mathrm{mol} = \frac{M}{\varrho} \chi_V$ erhalten. Für die Elektronendichte pro Volumen setzen wir noch $n = \frac{\varrho \cdot N_\mathrm{A}}{M}$ ein (siehe Übung 3, Aufgabe 1). Für die molare Suszeptibilität folgt:
-$$\chi_\mathrm{el,mol} = \frac{M}{\varrho} \chi_\mathrm{el} = \frac{M}{\varrho} \cdot \mu_0 \mu_\mathrm{B}^2 \frac{\varrho \cdot N_\mathrm{A}}{M \cdot E_\mathrm{F}} = \mu_0 \mu_\mathrm{B}^2 \frac{N_\mathrm{A}}{E_\mathrm{F}} = 5,\!8 \cdot 10^{-11}~\mathrm{m^3/mol}$$
+Für Metalle können wir $\varepsilon_\mathrm{r} \approx 1$ benutzen.
 
                                       {{3}}
-Zusammen mit dem diamagnetischen Anteil der abgeschlossenen Elektronenschalen der Ionenrümpfe (Cu^+^) von $\chi_\mathrm{dia,mol} = -15 \cdot {10}^{-11}~\mathrm{m^3/mol}$ ergibt sich:
-$$\chi_\mathrm{mol} = \chi_\mathrm{el,mol} + \chi_\mathrm{dia,mol} = -9,\!2 \cdot 10^{-11}~\mathrm{m^3/mol}$$
+Für die Plasmonenenergie gilt entsprechend:
+$$E_\mathrm{p} = \hbar \omega_\mathrm{p}$$
 
                                       {{4}}
-Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ wird ungefähr bestätigt.
+Da $c = \lambda f$ und $\omega = 2 \pi f$, folgt für die entsprechende Wellenlänge:
+$$\lambda_\mathrm{p} = \frac{2 \pi c}{\omega_\mathrm{p}}$$
+
+                                      {{5}}
+************************************
+Für die drei in der Aufgabenstellung genannten Materialien erhalten wir:
+
+<!-- data-type="none" -->
+| Material  | $\omega_\mathrm{p}$                    | $E_\mathrm{p}$       | $\lambda_\mathrm{p}$ |
+|-----------|----------------------------------------|----------------------|----------------------|
+| Silber    | $1,\!35 \cdot 10^{16}~\mathrm{s^{-1}}$ | $8,\!86~\mathrm{eV}$ | $140~\mathrm{nm}$    |
+| Aluminium | $1,\!96 \cdot 10^{16}~\mathrm{s^{-1}}$ | $12,\!9~\mathrm{eV}$ | $96~\mathrm{nm}$    |
+| Silizium  | $7,\!23 \cdot 10^{13}~\mathrm{s^{-1}}$ | $0,\!048~\mathrm{eV}$ | $26~\mathrm{µm}$    |
+************************************
+
+                                      {{6}}
+Die Wellenlänge, ab welcher das Reflexionsvermögen deutlich ansteigt, liegt für Metalle also im UV-Bereich und für Halbleiter im fernen Infrarot.
+
+
+## Aufgabe 4
+
+> Aus optischen Messungen bestimmt sich die Plasmafrequenz eines organischen Leiters zu $2 \cdot {10}^{15}~\mathrm{s}^{-1}$. Die Relaxationszeit der Elektronen beträgt bei Raumtemperatur $3 \cdot {10}^{-15}~\mathrm{s}$. Berechnen Sie daraus die elektrische Leitfähigkeit des Materials ($\varepsilon_\mathrm{r} \approx 1$).
+
+                                      {{1}}
+Die Gleichstromleitfähigkeit nach Drude erhalten wir aus:
+$$\sigma(0) = \frac{e^2 n \tau}{m^\ast} = \varepsilon_0 \varepsilon_\mathrm{r} \tau \omega_\mathrm{p}^2$$
+
+                                      {{2}}
+Aus den gegebenen Werten ergibt sich:
+$$\sigma(0) = 1,\!06 \cdot 10^5~\mathrm{\frac{1}{\Omega m}}$$
+
+                                      {{3}}
+Das Reziproke der Leitfähigkeit ist der spezifische Widerstand:
+$$\rho(0) = \frac{1}{\sigma(0)} = 9,\!4 \cdot 10^{-6}~\mathrm{\Omega m}$$
