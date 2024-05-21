@@ -72,7 +72,7 @@ $$\alpha_\mathrm{el} = 4 \pi \varepsilon_0 a_0^3$$
 
 ## Aufgabe 2 
 
-> Betrachten Sie eine isolierende Kugel mit der Dielektrizitätskonstante $\varepsilon$ in einem äußeren homogenen elektrischen Feld $E_\mathrm{a}$. Welchen Wert hat das über das gesamte Volumen der Kugel gemittelte elektrische Feld $E$ innerhalb der Kugel (Entelektrisierungsfaktor $N = 1/3$)? Welchen Wert hat die Polarisation $P$ in der Kugel? Berechnen Sie das Verhältnis $E/E_\mathrm{a}$, wenn die Kugel aus Polyethylen ($\varepsilon = 2,\!3$) besteht.
+> Betrachten Sie eine isolierende Kugel mit der Dielektrizitätskonstante $\varepsilon$ in einem äußeren homogenen elektrischen Feld $E_\mathrm{a}$. Welchen Wert hat das über das gesamte Volumen der Kugel gemittelte elektrische Feld $E$ innerhalb der Kugel (Entelektrisierungsfaktor $N = 1/3$)? Welchen Wert hat die Polarisation $P$ in der Kugel? Berechnen Sie das Verhältnis $E/E_\mathrm{a}$, wenn die Kugel aus Polyethylen ($\varepsilon_\mathrm{r} = 2,\!3$) besteht.
 
                                       {{1}}
 Analog zum magnetischen Feld setzt sich das elektrische Feld $E$ im Inneren eines Körpers aus dem äußeren Feld $E_\mathrm{a}$ und dem Entelektrisierfeld $E_N$ zusammen:
@@ -83,65 +83,31 @@ Der Grund für die Entelektrisierung liegt in der elektrischen Polarisation $P$,
 $$E = E_\mathrm{a} - \frac{N P}{\varepsilon_0}$$
 
                                       {{3}}
-Die Polarisation $P$ hängt über die elektrische Suszeptibilität $\chi$ des Mediums direkt mit der lokalen elektrischen Feldstärke $E$ zusammen: $P = \chi \varepsilon_0 E$. Daraus folgt:
+Die Polarisation hängt gemäß $P = \chi \varepsilon_0 E$ über die elektrische Suszeptibilität $\chi$ des Mediums direkt mit der lokalen elektrischen Feldstärke $E$ zusammen. Daraus folgt:
 $$E = E_\mathrm{a} - N \chi E$$
 
                                       {{4}}
 Für das elektrische Feld im Inneren des Dielektrikums erhalten wir also:
 $$E = \frac{1}{1 + N \chi} E_\mathrm{a}$$
 
-$\varepsilon$ oder $\varepsilon_\mathrm{r}$?
-
-Für die dielektrische Verschiebung gilt:
-D = ε0E + P = ε0E + χε0E = (1 + χ) ε0E und damit
-D = \frac{1+\chi}{1+N\chi} ε0Ea
-Für die Polarisation einer Kugel mit Entelektrisierungsfaktor N = 1/3 
-und ε = 2,3 folgt:
-χ = ε – 1 = 1,3
-E = \frac{1}{1+1,3/3} Ea = 0,698 Ea und
-P = \frac{1,3}{1+1,3/3} ε0Ea = 0,907 ε0Ea
-
-
-
-Für Elektronen mit $L = 0$ und $S = ½$ ist $\mu_\mathrm{eff} = ½ g_S \mu_\mathrm{B} \cong \mu_\mathrm{B}$, da $g_S \cong 2$. Damit erhalten wir:
-$$\chi \approx \frac{n \mu_0 \mu_\mathrm{B}^2}{k_\mathrm{B} T_\mathrm{F}} = \frac{n \mu_0 \mu_\mathrm{B}^2}{E_\mathrm{F}}$$
-
-                                      {{3}}
-************************************
-** Genauere Betrachtung:** Das äußere Magnetfeld bewirkt, dass sich die Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld um jeweils den Betrag $\mu_\mathrm{B} B$ gegenüber ihrer ursprünglichen Lage verschieben.
-
-![Verschiebung der Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld](Bilder/Spin-Niveaus.png "Verschiebung der Zustandsdichtefunktionen der Elektronen mit Spin parallel bzw. antiparallel zum Magnetfeld *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 300px;" -->
-************************************
-
-                                      {{4}}
-Für die jeweilige Anzahl der Zustände erhalten wir:
-$$N^+ = \frac{1}{2} \int_{-\mu_\mathrm{B}}^{E_\mathrm{F}} f(E) \cdot D(E + \mu_\mathrm{B} B) \, \mathrm{d}E \approx \frac{1}{2} \int_0^{E_\mathrm{F}} f(E) \cdot D(E) \, \mathrm{d}E + \frac{1}{2} \mu_\mathrm{B} B D(E_\mathrm{F})$$
-$$N^- = \frac{1}{2} \int_{+\mu_\mathrm{B}}^{E_\mathrm{F}} f(E) \cdot D(E - \mu_\mathrm{B} B) \, \mathrm{d}E \approx \frac{1}{2} \int_0^{E_\mathrm{F}} f(E) \cdot D(E) \, \mathrm{d}E - \frac{1}{2} \mu_\mathrm{B} B D(E_\mathrm{F})$$
-
                                       {{5}}
-Daraus folgt die Magnetisierung:
-$$M = \mu_\mathrm{B} \cdot (N^+ - N^-) = \mu_\mathrm{B} \cdot \mu_\mathrm{B} B D(E_\mathrm{F})$$
+Für die dielektrische Verschiebung gilt:
+$$D = \varepsilon_0 E + P = \varepsilon_0 E + \chi \varepsilon_0 E = (1 + \chi) \varepsilon_0 E$$
 
                                       {{6}}
-Für die Zustandsdichte bei der Fermi-Energie nutzen wir die Formel $D(E_\mathrm{F}) = \frac{3 n}{2 E_\mathrm{F}}$, die aus *Struktur der Materie 1* bekannt ist. Damit folgt:
-$$M = \mu_\mathrm{B}^2 B \frac{3 n}{2 E_\mathrm{F}}$$
+Der Zusammenhang mit der äußeren Feldstärke $E_\mathrm{a}$ lautet:
+$$D = \frac{1 + \chi}{1 + N \chi} \varepsilon_0 E_\mathrm{a}$$
 
                                       {{7}}
-Der paramagnetische Anteil der magnetischen Suszeptibilität eines freien Elektronengases (Pauli-Spinsuszeptibilität) ist also:
-$$\chi_\mathrm{para} = \mu_0 \frac{M}{B} = \frac{3}{2} \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
-
-                                      {{8}}
-Ohne Herleitung: Der zusätzliche diamagnetische Beitrag durch die Elektronenbewegung (Landau-Spinsuszeptibilität) beträgt:
-$$\chi_\mathrm{dia} = - \frac{1}{3} \chi_\mathrm{para} = - \frac{1}{2} \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
-
-                                      {{9}}
-Für die gesamte magnetische Suszeptibilität erhalten wir:
-$$\chi = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
+Für eine dielektrische Kugel mit Entelektrisierungsfaktor $N = 1/3$ und $\varepsilon_\mathrm{r} = 2,\!3$ folgt:
+$$\chi = \varepsilon_\mathrm{r} - 1 = 1,\!3$$
+$$E = \frac{1}{1 + 1,\!3/3} E_\mathrm{a} = 0,\!698 \cdot E_\mathrm{a}$$
+$$P = \frac{1,\!3}{1 + 1,\!3/3} \varepsilon_0 E_\mathrm{a} = 0,\!907 \cdot \varepsilon_0 E_\mathrm{a}$$
 
 
 ## Aufgabe 3
 
-> Berechnen Sie für die Metalle Silber ($m^\mathrm{op} = 1,\!03$, $n = 5,\!86 \cdot {10}^{22}~\mathrm{cm}^{-3}$) und Aluminium ($m^\mathrm{op} = 0,\!50$, $n = 6,\!02 \cdot {10}^{22}~\mathrm{cm}^{-3}$) jeweils die Plasmafrequenz und Plasmonenenergie, sowie die entsprechende Wellenlänge, ab welcher das Reflexionsvermögen deutlich ansteigt. Zum Vergleich berechne man die entsprechenden Werte für Silizium, das mit Phosphor dotiert wurde ($m^\mathrm{op} = 0,\!26$, $n = 5,\!0 \cdot {10}^{18}~\mathrm{cm}^{-3}$, $\varepsilon=11,\!7$).
+> Berechnen Sie für die Metalle Silber ($m^\mathrm{op} = 1,\!03$, $n = 5,\!86 \cdot {10}^{22}~\mathrm{cm}^{-3}$) und Aluminium ($m^\mathrm{op} = 0,\!50$, $n = 6,\!02 \cdot {10}^{22}~\mathrm{cm}^{-3}$) jeweils die Plasmafrequenz und Plasmonenenergie, sowie die entsprechende Wellenlänge, ab welcher das Reflexionsvermögen deutlich ansteigt. Zum Vergleich berechne man die entsprechenden Werte für Silizium, das mit Phosphor dotiert wurde ($m^\mathrm{op} = 0,\!26$, $n = 5,\!0 \cdot {10}^{18}~\mathrm{cm}^{-3}$, $\varepsilon_\mathrm{r} = 11,\!7$).
 
                                       {{1}}
 Gemäß Aufgabe 2 besteht der Beitrag des Elektronengases zur magnetischen Suszeptibilität aus einem paramagnetischen Anteil (Pauli-Spinsuszeptibilität) und einem diamagnetischen Anteil (Landau-Spinsuszeptibilität). Für die gesamte magnetische Suszeptibilität hatten wir erhalten:
