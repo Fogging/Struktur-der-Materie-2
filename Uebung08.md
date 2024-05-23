@@ -26,48 +26,49 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 > Bestimmen Sie den Reflexionskoeffizienten $R$ bei der senkrechten Reflexion. Betrachten Sie eine sich in $z$-Richtung ausbreitende elektromagnetische ebene Welle im Vakuum, welche bei $z=0$ auf die Oberfläche eines Mediums mit komplexem Brechungsindex $n' = n + i \cdot k$ trifft (Herleitung). Berechnen Sie die Werte von $R$ für $n = 1,\!0$ und $1,\!5$ und $3,\!5$ wobei $k=0$ bzw. $10$ betragen soll.
 
                                       {{1}}
-************************************
-Das äußere Feld $\vec{E}_\mathrm{a}$ bewirkt eine elektrische Kraft $\vec{F}_\mathrm{el} = q \vec{E}_\mathrm{a}$ auf das Proton (des Wasserstoffatoms) in $x$-Richtung. Dadurch neigt sich die klassische Kreisbahn des Elektrons um das Proton leicht aus der $yz$-Ebene heraus. Der Verkippungswinkel der Kreisbahn sei $\vartheta$. Der Betrag der elektrischen Kraft in $x$-Richtung ist:
-$$F_{\mathrm{el}, x} = e E_\mathrm{a}$$
-
-![Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht](Bilder/Feld_lokal.png "Wasserstoffatom in einem äußeren elektrischen Feld, das senkrecht zur Bahnebene steht *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 250px;" -->
-************************************
+Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet:
+$$E_x = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
 
                                       {{2}}
-Wir betrachten nun die Coulomb-Kraft $\vec{F}_\mathrm{C}$ zwischen Proton und Elektron: 
-$$\vec{F}_\mathrm{C} = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2} \vec{e}_r$$
+Die reflektierte Welle besitzt eine veränderte Amplitude $E_2$ und breitet sich in entgegengesetzte Richtung aus:
+$$E_x = E_2 \cdot \exp [\mathrm{i} (-k_0 z - \omega t)]$$
 
                                       {{3}}
-Die Coulomb-Kraft zeigt entlang des Einheitsvektors $\vec{e}_r$ parallel zum Radius-Vektor $\vec{r}$ zwischen Proton und Elektron. Wir interessieren uns für die $x$-Komponente der Kraft, die senkrecht auf der Bahnebene ($yz$-Ebene) steht. Für den Verkippungswinkel gilt dabei $\sin \vartheta = \frac{x}{r}$. Wir erhalten:
-$$F_{\mathrm{C}, x} = \frac{1}{4 \pi \varepsilon_0} \frac{e^2}{r^2} \sin \vartheta = \frac{1}{4 \pi \varepsilon_0} \frac{e^2}{r^2} \frac{x}{r}$$
+Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle:
+$$E_x = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
 
                                       {{4}}
-Die $x$-Komponente der Coulomb-Kraft an der ausgelenkten Position der Elektronenbahn muss gleich der elektrischen Kraft durch das angelegte Feld sein:
-$$F_{\mathrm{el}, x} = e E_\mathrm{a} = \frac{1}{4 \pi \varepsilon_0} \frac{e^2 x}{r^3} = F_{\mathrm{C}, x}$$
+Am Ort $z = 0$ und zur Zeit $t = 0$ gilt für die Amplituden:
+$$E_1 = E_0 + E_2$$
 
                                       {{5}}
-Da das elektrische Dipolmoment einfach als $p_x = e x$ definiert ist, können wir die vorherige Formel nach dieser Größe umstellen und erhalten:
-$$p_x = e x = 4 \pi \varepsilon_0 r^3 E_\mathrm{a}$$
+Für die 1. Ableitung bei $z = 0$ und $t = 0$ gilt:
+$$n' E_1 = E_0 - E_2$$
 
                                       {{6}}
-Das induzierte Dipolmoment ergibt sich außerdem aus der Polarisierbarkeit $\alpha$ multipliziert mit dem lokalen elektrischen Feld. Dieser Zusammenhang definiert die Polarisierbarkeit:
-$$\vec{p}_\mathrm{ind} = \alpha \vec{E}_\mathrm{lokal}$$
+Multiplizieren wir die erste Gleichung mit $n'$ können wir die zwei Gleichungen gleichsetzen und damit $E_1$ eliminieren:
+$$n' E_0 + n' E_2 = E_0 - E_2$$
 
                                       {{7}}
-Das Dipolmoment liegt in unserem Fall in $x$-Richtung und wir können uns auf diese Richtung beschränken. Da wir nur ein einzelnes Wasserstoffatom betrachten, können wir das lokale gleich dem äußeren elektrischen Feld setzen:
-$$p_\mathrm{ind} = p_x = \alpha E_\mathrm{a}$$
+Daraus folgt:
+$$(n' - 1) E_0 = - (n' + 1) E_2$$
 
                                       {{8}}
-Vergleichen wir die zwei Formeln für das Dipolmoment $p_x$, ergibt sich für die Polarisierbarkeit:
-$$\alpha = 4 \pi \varepsilon_0 r^3$$
+Der Reflexionsfaktor $r$ für senkrechten Einfall ist damit:
+$$r = \frac{E_2}{E_0} = \frac{1 - n'}{1 + n'}$$
 
-                                      {{9}}
-Da $x \ll r$ (oder auch $x \ll a_0$), können wir $x$ in der Formel für den Radius der Kreisbahn näherungsweise vernachlässigen:
-$$r = \sqrt{x^2 + y^2 + z^2} \approx \sqrt{y^2 + z^2} = a_0$$
 
-                                      {{10}}
-Damit haben wir den gesuchten Zusammenhang zwischen der elektronischen Polarisierbarkeit und dem ungestörten Bahnradius:
-$$\alpha_\mathrm{el} = 4 \pi \varepsilon_0 a_0^3$$
+Reflexionskoeffizient R für senkrechten Einfall:
+R = rr* = |r|² = | E0‘‘/E0‘|²
+R =|\frac{1\ \ -n\ -ik}{1+n+ik}|² = (1 -n)²+k²(1+n)²+k²
+
+und für k = 0   gilt   R = (n - 1)²(n+1)²
+
+Reflexionswerte für
+	k = 0	k = 10
+n = 1	0,00	0,96
+n = 1,5	0,04	0,94
+n = 3,5	0,31	0,88
 
 
 ## Aufgabe 2 
