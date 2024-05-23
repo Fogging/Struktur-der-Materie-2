@@ -123,7 +123,7 @@ Gegenüber der Magnetisierungskurve $M(H)$ weist eine auf das äußere Magnetfel
 ************************************
 **a) Eisen**
 
-Die Elektronendichte $n$ erhalten wir aus der Anzahl der Elektronen pro Elementarzellvolumen:
+Die Teilchendichte $n$ erhalten wir aus der Anzahl der Atome pro Elementarzellvolumen:
 $$n = \frac{2}{a^3} = 8,\!49 \cdot 10^{22}~\mathrm{cm^{-3}}$$
 ************************************
 
@@ -149,7 +149,7 @@ Wir erhalten für Eisen also keine Übereinstimmung zwischen dem theoretischen W
 ************************************
 **b) Gadolinium**
 
-Die Elektronendichte $n$ erhalten wir aus der Anzahl der Elektronen pro Elementarzellvolumen:
+Die Teilchendichte $n$ erhalten wir aus der Anzahl der Atome pro Elementarzellvolumen:
 $$n = \frac{2}{\frac{\sqrt{3}}{2} a^2 c} = 3,\!02 \cdot 10^{22}~\mathrm{cm^{-3}}$$
 ************************************
 
