@@ -23,7 +23,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
 
-> Bestimmen Sie den Reflexionskoeffizienten $R$ bei der senkrechten Reflexion. Betrachten Sie eine sich in $z$-Richtung ausbreitende elektromagnetische ebene Welle im Vakuum, welche bei $z=0$ auf die Oberfläche eines Mediums mit komplexem Brechungsindex $n' = n + i \cdot k$ trifft (Herleitung). Berechnen Sie die Werte von $R$ für $n = 1,\!0$ und $1,\!5$ und $3,\!5$ wobei $k=0$ bzw. $10$ betragen soll.
+> Bestimmen Sie den Reflexionskoeffizienten $R$ bei der senkrechten Reflexion. Betrachten Sie eine sich in $z$-Richtung ausbreitende elektromagnetische ebene Welle im Vakuum, welche bei $z=0$ auf die Oberfläche eines Mediums mit komplexem Brechungsindex $n' = n + \mathrm{i} k$ trifft (Herleitung). Berechnen Sie die Werte von $R$ für $n = 1,\!0$ und $1,\!5$ und $3,\!5$ wobei $k=0$ bzw. $10$ betragen soll.
 
                                       {{1}}
 Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet:
@@ -57,23 +57,30 @@ $$(n' - 1) E_0 = - (n' + 1) E_2$$
 Der Reflexionsfaktor $r$ für senkrechten Einfall ist damit:
 $$r = \frac{E_2}{E_0} = \frac{1 - n'}{1 + n'}$$
 
+                                      {{9}}
+Der Reflexionskoeffizient $R$ für senkrechten Einfall ergibt sich entsprechend als:
+$$R = r \cdot r^\ast = |r|^2 = \left| \frac{E_2}{E_0} \right|^2 = \left|\frac{1 - n - \mathrm{i} k}{1 + n + \mathrm{i} k} \right|^2 = \frac{(1 - n)^2 + k^2}{(1 + n)^2 + k^2}$$
 
-Reflexionskoeffizient R für senkrechten Einfall:
-R = rr* = |r|² = | E0‘‘/E0‘|²
-R =|\frac{1\ \ -n\ -ik}{1+n+ik}|² = (1 -n)²+k²(1+n)²+k²
+                                      {{10}}
+Ohne Absorption, also für $k = 0$, vereinfacht sich der Ausdruck zu:
+$$R = \frac{(n - 1)^2}{(n + 1)^2}$$
 
-und für k = 0   gilt   R = (n - 1)²(n+1)²
+                                      {{11}}
+************************************
+Gemäß der Aufgabenstellung waren folgende Reflexionswerte zu berechnen:
 
-Reflexionswerte für
-	k = 0	k = 10
-n = 1	0,00	0,96
-n = 1,5	0,04	0,94
-n = 3,5	0,31	0,88
+<!-- data-type="none" -->
+|             | $k = 0$      | $k = 10$     |
+|-------------|--------------|--------------|
+| $n = 1$     | $R = 0,\!00$ | $R = 0,\!96$ |
+| $n = 1,\!5$ | $R = 0,\!04$ | $R = 0,\!94$ |
+| $n = 3,\!5$ | $R = 0,\!31$ | $R = 0,\!88$ |
+************************************
 
 
 ## Aufgabe 2 
 
-> Im fernen infraroten Spektralbereich erfüllen Metalle die Bedingung $\omega \tau \ll 1$, so dass ihre komplexe Dielektrizitätszahl näherungsweise durch $\varepsilon' = i \sigma / \varepsilon_0 \omega$ dargestellt werden kann. Dabei ist $\sigma$ die Gleichstromleitfähigkeit. Berechnen Sie den komplexen Brechungsindex eines Metalls und zeigen Sie, dass sich das Reflexionsvermögen im FIR durch das „Hagen-Rubens-Gesetz“ beschreiben lässt.
+> Im fernen infraroten Spektralbereich erfüllen Metalle die Bedingung $\omega \tau \ll 1$, so dass ihre komplexe Dielektrizitätszahl näherungsweise durch $\varepsilon' = \mathrm{i} \sigma / \varepsilon_0 \omega$ dargestellt werden kann. Dabei ist $\sigma$ die Gleichstromleitfähigkeit. Berechnen Sie den komplexen Brechungsindex eines Metalls und zeigen Sie, dass sich das Reflexionsvermögen im FIR durch das „Hagen-Rubens-Gesetz“ beschreiben lässt.
 
                                       {{1}}
 Analog zum magnetischen Feld setzt sich das elektrische Feld $E$ im Inneren eines Körpers aus dem äußeren Feld $E_\mathrm{a}$ und dem Entelektrisierfeld $E_N$ zusammen:
