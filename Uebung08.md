@@ -80,37 +80,31 @@ Gemäß der Aufgabenstellung waren folgende Reflexionswerte zu berechnen:
 
 ## Aufgabe 2 
 
-> Im fernen infraroten Spektralbereich erfüllen Metalle die Bedingung $\omega \tau \ll 1$, so dass ihre komplexe Dielektrizitätszahl näherungsweise durch $\varepsilon' = \mathrm{i} \sigma / \varepsilon_0 \omega$ dargestellt werden kann. Dabei ist $\sigma$ die Gleichstromleitfähigkeit. Berechnen Sie den komplexen Brechungsindex eines Metalls und zeigen Sie, dass sich das Reflexionsvermögen im FIR durch das „Hagen-Rubens-Gesetz“ beschreiben lässt.
+> Im fernen infraroten Spektralbereich erfüllen Metalle die Bedingung $\omega \tau \ll 1$, so dass ihre komplexe Dielektrizitätszahl näherungsweise durch $\varepsilon' = \mathrm{i} \sigma_0 / \varepsilon_0 \omega$ dargestellt werden kann. Dabei ist $\sigma_0$ die Gleichstromleitfähigkeit. Berechnen Sie den komplexen Brechungsindex eines Metalls und zeigen Sie, dass sich das Reflexionsvermögen im FIR durch das „Hagen-Rubens-Gesetz“ beschreiben lässt.
 
                                       {{1}}
-Analog zum magnetischen Feld setzt sich das elektrische Feld $E$ im Inneren eines Körpers aus dem äußeren Feld $E_\mathrm{a}$ und dem Entelektrisierfeld $E_N$ zusammen:
-$$E = E_\mathrm{a} - E_N$$
+Die komplexe Dielektrizitätszahl eines Metalls im Infraroten kann näherungsweise dargestellt werden durch:
+$$\varepsilon' = \mathrm{i} \frac{\sigma_0}{\varepsilon_0 \omega}$$
 
                                       {{2}}
-Der Grund für die Entelektrisierung liegt in der elektrischen Polarisation $P$, also der Erzeugung bzw. Ausrichtung mikroskopischer Dipole, die zur Ausbildung von Oberflächenladungen führt. Diese Oberflächenladungen erzeugen das entelektrisierende Feld, das dem äußeren Feld entgegenwirkt. Das Entelektrisierfeld beträgt $E_N = N P / \varepsilon_0$, das heißt:
-$$E = E_\mathrm{a} - \frac{N P}{\varepsilon_0}$$
+Der komplexe Brechungsindex ist entsprechend:
+$$n' = \sqrt{\varepsilon'} = \frac{1 + \mathrm{i}}{\sqrt{2}} \sqrt{\frac{\sigma_0}{\varepsilon_0 \omega}}$$
 
                                       {{3}}
-Die Polarisation hängt gemäß $P = \chi \varepsilon_0 E$ über die elektrische Suszeptibilität $\chi$ des Mediums direkt mit der lokalen elektrischen Feldstärke $E$ zusammen. Daraus folgt:
-$$E = E_\mathrm{a} - N \chi E$$
+Da der komplexe Brechungsindex als $n' = n + \mathrm{i} k$ darstellbar ist, folgt daraus:
+$$n = k = \sqrt{\frac{\sigma_0}{2 \varepsilon_0 \omega}}$$
 
                                       {{4}}
-Für das elektrische Feld im Inneren des Dielektrikums erhalten wir also:
-$$E = \frac{1}{1 + N \chi} E_\mathrm{a}$$
+Die Formel für den Reflexionskoeffizienten $R$ bei senkrechtem Einfall (aus Aufgabe 1) stellen wir zunächst etwas um:
+$$R = \frac{(n - 1)^2 + k^2}{(n + 1)^2 + k^2} = \frac{(n + 1)^2 + k^2 - 4n}{(n + 1)^2 + k^2} = 1 - \frac{4n}{(n + 1)^2 + k^2}$$
 
                                       {{5}}
-Für die dielektrische Verschiebung gilt:
-$$D = \varepsilon_0 E + P = \varepsilon_0 E + \chi \varepsilon_0 E = (1 + \chi) \varepsilon_0 E$$
+Für $n = k \gg 1$ können wir die $1$ im Nenner näherungsweise weglassen und den Zusammenhang folgendermaßen vereinfachen:
+$$R \approx 1 - \frac{2}{n}$$
 
                                       {{6}}
-Der Zusammenhang mit der äußeren Feldstärke $E_\mathrm{a}$ lautet:
-$$D = \frac{1 + \chi}{1 + N \chi} \varepsilon_0 E_\mathrm{a}$$
-
-                                      {{7}}
-Für eine dielektrische Kugel mit Entelektrisierungsfaktor $N = 1/3$ und $\varepsilon_\mathrm{r} = 2,\!3$ folgt:
-$$\chi = \varepsilon_\mathrm{r} - 1 = 1,\!3$$
-$$E = \frac{1}{1 + 1,\!3/3} E_\mathrm{a} = 0,\!698 \cdot E_\mathrm{a}$$
-$$P = \frac{1,\!3}{1 + 1,\!3/3} \varepsilon_0 E_\mathrm{a} = 0,\!907 \cdot \varepsilon_0 E_\mathrm{a}$$
+Setzen wir die oben erhaltene Formel für $n$ ein, ergibt sich die Hagen-Rubens-Relation:
+$$R \approx 1 - \sqrt{\frac{8 \varepsilon_0 \omega}{\sigma_0}}$$
 
 
 ## Aufgabe 3
