@@ -112,34 +112,27 @@ $$R \approx 1 - \sqrt{\frac{8 \varepsilon_0 \omega}{\sigma_0}}$$
 > Man berechne den Reflexionskoeffizient von Aluminium mit einer spezifischen Leitfähigkeit von $35 \cdot 10^6~\mathrm{\left( \Omega m \right)^{-1}}$ für die Wellenlängen von $10$ und $100~\mathrm{µm}$ nach der Hagen-Rubens-Relation.
 
                                       {{1}}
-Die Plasmafrequenz berechnet sich gemäß:
-$$\omega_\mathrm{p} = \sqrt{\frac{e^2 n}{\varepsilon_0 \varepsilon_\mathrm{r} m^\ast}}$$
+Zunächst rechnen wir die gegebenen Wellenlängen in Kreisfrequenzen um:
+$$\omega = 2 \pi f = \frac{2 \pi c}{\lambda}$$
+
 
                                       {{2}}
-Für Metalle können wir $\varepsilon_\mathrm{r} \approx 1$ benutzen.
+Anschließend können wir direkt die Hagen-Rubens-Relation anwenden:
+$$R \approx 1 - \sqrt{\frac{8 \varepsilon_0 \omega}{\sigma_0}}$$
 
                                       {{3}}
-Für die Plasmonenenergie gilt entsprechend:
-$$E_\mathrm{p} = \hbar \omega_\mathrm{p}$$
-
-                                      {{4}}
-Da $c = \lambda f$ und $\omega = 2 \pi f$, folgt für die entsprechende Wellenlänge:
-$$\lambda_\mathrm{p} = \frac{2 \pi c}{\omega_\mathrm{p}}$$
-
-                                      {{5}}
 ************************************
-Für die drei in der Aufgabenstellung genannten Materialien erhalten wir:
+Für die zwei in der Aufgabenstellung genannten Wellenlängen erhalten wir:
 
 <!-- data-type="none" -->
-| Material  | $\omega_\mathrm{p}$                    | $E_\mathrm{p}$       | $\lambda_\mathrm{p}$ |
-|-----------|----------------------------------------|----------------------|----------------------|
-| Silber    | $1,\!35 \cdot 10^{16}~\mathrm{s^{-1}}$ | $8,\!86~\mathrm{eV}$ | $140~\mathrm{nm}$    |
-| Aluminium | $1,\!96 \cdot 10^{16}~\mathrm{s^{-1}}$ | $12,\!9~\mathrm{eV}$ | $96~\mathrm{nm}$    |
-| Silizium  | $7,\!23 \cdot 10^{13}~\mathrm{s^{-1}}$ | $0,\!048~\mathrm{eV}$ | $26~\mathrm{µm}$    |
+| Wellenlänge $\lambda$ | Kreisfrequenz $\omega$ | Reflexionskoeffizient $R$ |
+|-----------------------|------------------------|---------------------------|
+| $10~\mathrm{µm}$      | $1,\!88 \cdot 10^{14}~\mathrm{s^{-1}}$  | $0,\!980$ |
+| $100~\mathrm{µm}$     | $1,\!88 \cdot 10^{13}~\mathrm{s^{-1}}$  | $0,\!994$ |
 ************************************
 
-                                      {{6}}
-Die Wellenlänge, ab welcher das Reflexionsvermögen deutlich ansteigt, liegt für Metalle also im UV-Bereich und für Halbleiter im fernen Infrarot.
+                                      {{4}}
+Für sehr gute Leiter (z. B. Al, Cu, Ag) ist im IR-Bereich ein fast ideales Reflexionsvermögen nahe an $R=1$ zu beobachten.
 
 
 ## Aufgabe 4
