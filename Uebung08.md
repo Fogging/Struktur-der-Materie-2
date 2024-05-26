@@ -157,13 +157,16 @@ $$\rho(0) = \frac{1}{\sigma(0)} = 9,\!4 \cdot 10^{-6}~\mathrm{\Omega m}$$
 > Warum kann man die Lage der Plasmafrequenz von Metallen mit Hilfe der „Energieverlustfunktion“ $-\mathrm{Im}(1/\varepsilon')$ ausfindig machen?
 
                                       {{1}}
-Die Gleichstromleitfähigkeit nach Drude erhalten wir aus:
-$$\sigma(0) = \frac{e^2 n \tau}{m^\ast} = \varepsilon_0 \varepsilon_\mathrm{r} \tau \omega_\mathrm{p}^2$$
+Die verallgemeinerte Permittivität setzt sich zusammen aus:
+$$\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$$
 
                                       {{2}}
-Aus den gegebenen Werten ergibt sich:
-$$\sigma(0) = 1,\!06 \cdot 10^5~\mathrm{\frac{1}{\Omega m}}$$
+Das Reziproke ist:
+$$\frac{1}{\varepsilon'} = \frac{\varepsilon_1 - \mathrm{i} \varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
 
                                       {{3}}
-Das Reziproke der Leitfähigkeit ist der spezifische Widerstand:
-$$\rho(0) = \frac{1}{\sigma(0)} = 9,\!4 \cdot 10^{-6}~\mathrm{\Omega m}$$
+Der negative Imaginärteil dieser Funktion ist:
+$$-\mathrm{Im}\left(\frac{1}{\varepsilon'}\right) = \frac{\varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
+
+                                      {{4}}
+Diese sogenannte „Energieverlustfunktion“ wird also maximal für $\varepsilon_1 \rightarrow 0$. Dies kennzeichnet die Lage der Plasmafrequenz.
