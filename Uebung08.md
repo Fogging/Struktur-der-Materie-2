@@ -158,6 +158,12 @@ $$\sigma = 2 n k \varepsilon_0 \omega = 2 n k \varepsilon_0 \cdot 2 \pi \frac{c}
                                       {{5}}
 Mit den gegebenen Werten erhalten wir: $\sigma = 2,\!6 \cdot 10^4~\frac{1}{\mathrm{\Omega m}}$
 
+                                      {{6}}
+Der Literaturwert für die spezifische Leitfähigkeit von Kupfer (bei $\omega = 0$) liegt allerdings bei: $\sigma_0 = 5,\!8 \cdot 10^7~\frac{1}{\mathrm{\Omega m}}$
+
+                                      {{7}}
+Es ist wichtig, sich klar zu machen, dass eine klare Unterscheidung zwischen freien und gebundenen Ladungsträgern in zeitlich oszillierenden Feldern (z. B. für die Wellenlänge von $600~\mathrm{nm}$) nicht mehr möglich ist. In beiden Fällen haben wir es mit periodischen Verschiebungen von Ladungen zu tun. Nur für $\omega = 0$ können wir das Verhalten von freien und gebundenen Ladungen klar unterscheiden und eine Trennung von Phänomenen, die $\sigma$ bzw. $\varepsilon_2$ zugeordnet werden können, ist evident. Für zeitlich und räumlich variierende Felder ist dies dagegen nicht mehr möglich.
+
 
 ## Aufgabe 5
 
