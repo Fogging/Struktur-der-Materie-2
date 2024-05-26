@@ -140,16 +140,23 @@ Für sehr gute Leiter (z. B. Al, Cu, Ag) ist im IR-Bereich ein fast ideales Refl
 > Für Kupfer berechne man aus den optischen Konstanten ($n = 0,\!14$, $k = 3,\!35$) die spezifische Leitfähigkeit für die Wellenlänge von $600~\mathrm{nm}$ und vergleiche sie mit Literaturwerten. Wie erklärt man die große Abweichung?
 
                                       {{1}}
-Die Gleichstromleitfähigkeit nach Drude erhalten wir aus:
-$$\sigma(0) = \frac{e^2 n \tau}{m^\ast} = \varepsilon_0 \varepsilon_\mathrm{r} \tau \omega_\mathrm{p}^2$$
+Die verallgemeinerte Permittivität setzt sich zusammen aus:
+$$\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$$
 
                                       {{2}}
-Aus den gegebenen Werten ergibt sich:
-$$\sigma(0) = 1,\!06 \cdot 10^5~\mathrm{\frac{1}{\Omega m}}$$
+Der imaginäre Anteil $\varepsilon_2$ hängt direkt mit der Leitfähigkeit $\sigma$ zusammen:
+$$\varepsilon_2 = \frac{\sigma}{\varepsilon_0 \omega}$$
 
                                       {{3}}
-Das Reziproke der Leitfähigkeit ist der spezifische Widerstand:
-$$\rho(0) = \frac{1}{\sigma(0)} = 9,\!4 \cdot 10^{-6}~\mathrm{\Omega m}$$
+Andererseits kann der imaginäre Anteil $\varepsilon_2$ direkt aus den optischen Konstanten ermittelt werden:
+$$\varepsilon_2 = 2 n k$$
+
+                                      {{4}}
+Gleichsetzen liefert eine Formel für die Leitfähigkeit:
+$$\sigma = 2 n k \varepsilon_0 \omega = 2 n k \varepsilon_0 \cdot 2 \pi \frac{c}{\lambda}$$
+
+                                      {{5}}
+Mit den gegebenen Werten erhalten wir: $\sigma = 2,\!6 \cdot 10^4~\frac{1}{\mathrm{\Omega m}}$
 
 
 ## Aufgabe 5
