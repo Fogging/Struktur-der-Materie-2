@@ -34,8 +34,8 @@ Mathematische Grundlage ist der Satz von Cauchy über komplexe analytische Funkt
 
 - Die Funktion $f(x)$ hat in der oberen Halbebene keine Singularitäten.
 - $f(x) \rightarrow 0$ für $x \rightarrow \infty$
-- $\mathrm{Re}[f(x)]$ ist eine gerade Funktion
-- $\mathrm{Im}[f(x)]$ ist eine ungerade Funktion
+- $\mathrm{Re}[f(x)]$ ist eine gerade Funktion.
+- $\mathrm{Im}[f(x)]$ ist eine ungerade Funktion.
 ************************************
 
                                       {{3}}
@@ -58,28 +58,36 @@ Eine wichtige Anwendung ist die Bestimmung von optischen Konstanten aus Reflexio
 > Wie hängen die optischen Konstanten $n$ und $k$ vom Realteil $\varepsilon_1$ und Imaginärteil $\varepsilon_2$ der dielektrischen Funktion ab (Herleitung)?
 
                                       {{1}}
-Die komplexe Dielektrizitätszahl eines Metalls im Infraroten kann näherungsweise dargestellt werden durch:
-$$\varepsilon' = \mathrm{i} \frac{\sigma_0}{\varepsilon_0 \omega}$$
+Der komplexe Brechungsindex $n'$ ist als Wurzel der komplexen dielektrischen Funktion $\varepsilon'$ definiert:
+$$n' = \sqrt{\varepsilon'}$$
 
                                       {{2}}
-Der komplexe Brechungsindex ist entsprechend:
-$$n' = \sqrt{\varepsilon'} = \frac{1 + \mathrm{i}}{\sqrt{2}} \sqrt{\frac{\sigma_0}{\varepsilon_0 \omega}}$$
+Quadrieren liefert entsprechend $n'^2 = \varepsilon'$, wobei wir nun $n' = n + \mathrm{i}k$ und $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ einsetzen wollen:
+$$n'^2 = (n + \mathrm{i}k)^2 = n^2 + \mathrm{i}2nk - k^2 = \varepsilon_1 + \mathrm{i} \varepsilon_2$$
 
                                       {{3}}
-Da der komplexe Brechungsindex als $n' = n + \mathrm{i} k$ darstellbar ist, folgt daraus:
-$$n = k = \sqrt{\frac{\sigma_0}{2 \varepsilon_0 \omega}}$$
+Daraus folgt direkt:
+$$\varepsilon_1 = n^2 - k^2$$
+$$\varepsilon_2 = 2nk$$
 
                                       {{4}}
-Die Formel für den Reflexionskoeffizienten $R$ bei senkrechtem Einfall (aus Aufgabe 1) stellen wir zunächst etwas um:
-$$R = \frac{(n - 1)^2 + k^2}{(n + 1)^2 + k^2} = \frac{(n + 1)^2 + k^2 - 4n}{(n + 1)^2 + k^2} = 1 - \frac{4n}{(n + 1)^2 + k^2}$$
+Umstellen der zweiten Gleichung nach $k$ und Einsetzen in die erste Gleichung ergibt:
+$$\varepsilon_1 = n^2 - \frac{\varepsilon_2^2}{4n^2}$$
 
                                       {{5}}
-Für $n = k \gg 1$ können wir die $1$ im Nenner näherungsweise weglassen und den Zusammenhang folgendermaßen vereinfachen:
-$$R \approx 1 - \frac{2}{n}$$
+Daraus erhält man eine biquadratische Gleichung:
+$$n^4 - \varepsilon_1 n^2 - \frac{\varepsilon_2^2}{4} = 0$$
 
                                       {{6}}
-Setzen wir die oben erhaltene Formel für $n$ ein, ergibt sich die Hagen-Rubens-Relation:
-$$R \approx 1 - \sqrt{\frac{8 \varepsilon_0 \omega}{\sigma_0}}$$
+Diese hat die positive Lösung:
+$$n^2 = \frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}$$
+$$n = \sqrt{\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}}$$
+
+                                      {{7}}
+Mit $k^2 = n^2 - \varepsilon_1$ folgt noch:
+$$k^2 = -\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}$$
+$$k = \sqrt{-\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}}$$
+
 
 
 ## Aufgabe 3
