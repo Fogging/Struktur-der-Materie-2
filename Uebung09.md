@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 08
+comment:  Struktur der Materie 2 - Übung 09
 
 @style
 .lia-toc__bottom {
@@ -18,12 +18,12 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 8
+# Übung 9
 
 
 ## Aufgabe 1
 
-> Bestimmen Sie den Reflexionskoeffizienten $R$ bei der senkrechten Reflexion. Betrachten Sie eine sich in $z$-Richtung ausbreitende elektromagnetische ebene Welle im Vakuum, welche bei $z=0$ auf die Oberfläche eines Mediums mit komplexem Brechungsindex $n' = n + \mathrm{i} k$ trifft (Herleitung). Berechnen Sie die Werte von $R$ für $n = 1,\!0$ und $1,\!5$ und $3,\!5$ wobei $k=0$ bzw. $10$ betragen soll.
+> Was sagen die Kramers-Kronig-Relationen aus und wozu werden sie verwendet?
 
                                       {{1}}
 Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet:
@@ -80,7 +80,7 @@ Gemäß der Aufgabenstellung waren folgende Reflexionswerte zu berechnen:
 
 ## Aufgabe 2 
 
-> Im fernen infraroten Spektralbereich erfüllen Metalle die Bedingung $\omega \tau \ll 1$, so dass ihre komplexe Dielektrizitätszahl näherungsweise durch $\varepsilon' = \mathrm{i} \sigma_0 / \varepsilon_0 \omega$ dargestellt werden kann. Dabei ist $\sigma_0$ die Gleichstromleitfähigkeit. Berechnen Sie den komplexen Brechungsindex eines Metalls und zeigen Sie, dass sich das Reflexionsvermögen im FIR durch das „Hagen-Rubens-Gesetz“ beschreiben lässt.
+> Wie hängen die optischen Konstanten $n$ und $k$ vom Realteil $\varepsilon_1$ und Imaginärteil $\varepsilon_2$ der dielektrischen Funktion ab (Herleitung)?
 
                                       {{1}}
 Die komplexe Dielektrizitätszahl eines Metalls im Infraroten kann näherungsweise dargestellt werden durch:
@@ -109,7 +109,7 @@ $$R \approx 1 - \sqrt{\frac{8 \varepsilon_0 \omega}{\sigma_0}}$$
 
 ## Aufgabe 3
 
-> Man berechne den Reflexionskoeffizient von Aluminium mit einer spezifischen Leitfähigkeit von $35 \cdot 10^6~\mathrm{\left( \Omega m \right)^{-1}}$ für die Wellenlängen von $10$ und $100~\mathrm{µm}$ nach der Hagen-Rubens-Relation.
+> Welche verschiedenen Suszeptibilitätsanteile tragen zur dielektrischen Funktion von Stoffen bei?
 
                                       {{1}}
 Zunächst rechnen wir die gegebenen Wellenlängen in Kreisfrequenzen um:
@@ -137,7 +137,7 @@ Für sehr gute Leiter (z. B. Al, Cu, Ag) ist im IR-Bereich ein fast ideales Refl
 
 ## Aufgabe 4
 
-> Für Kupfer berechne man aus den optischen Konstanten ($n = 0,\!14$, $k = 3,\!35$) die spezifische Leitfähigkeit für die Wellenlänge von $600~\mathrm{nm}$ und vergleiche sie mit Literaturwerten. Wie erklärt man die große Abweichung?
+> Beschreiben Sie den Verlauf der dielektrischen Funktion und den Verlauf des Reflexionsvermögens im Bereich der Plasmonenabsorption von Metallen.
 
                                       {{1}}
 Die verallgemeinerte Permittivität setzt sich zusammen aus:
@@ -167,7 +167,7 @@ Es ist wichtig, sich klar zu machen, dass eine klare Unterscheidung zwischen fre
 
 ## Aufgabe 5
 
-> Warum kann man die Lage der Plasmafrequenz von Metallen mit Hilfe der „Energieverlustfunktion“ $-\mathrm{Im}(1/\varepsilon')$ ausfindig machen?
+> Man bestimme den Zusammenhang zwischen Absorptionskoeffizient $\alpha$ und der Eindringtiefe $w$ einer ebenen elektromagnetischen Welle beim Eindringen in ein absorbierendes Medium. Die Eindringtiefe $w$ soll die Entfernung von der Oberfläche beschreiben, bei der die Intensität der Welle auf den Wert $\mathrm{1/e}$ abfällt.
 
                                       {{1}}
 Die verallgemeinerte Permittivität setzt sich zusammen aus:
