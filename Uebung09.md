@@ -26,56 +26,31 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 > Was sagen die Kramers-Kronig-Relationen aus und wozu werden sie verwendet?
 
                                       {{1}}
-Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet:
-$$E_x = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
+Die Kramers-Kronig-Relationen setzen Real- und Imaginärteil der dielektrischen Funktion in Form einer Integralgleichung miteinander in Beziehung. Auf diese Weise hängt die Absorption elektromagnetischer Wellen in einem Medium mit dem Brechungsindex zusammen. Es reicht also, die Abhängigkeit einer der beiden Größen von der Frequenz zu kennen, um die andere berechnen zu können.
 
                                       {{2}}
-Die reflektierte Welle besitzt eine veränderte Amplitude $E_2$ und breitet sich in entgegengesetzte Richtung aus:
-$$E_x = E_2 \cdot \exp [\mathrm{i} (-k_0 z - \omega t)]$$
+************************************
+Mathematische Grundlage ist der Satz von Cauchy über komplexe analytische Funktionen unter den Bedingungen: 
+
+- Die Funktion $f(x)$ hat in der oberen Halbebene keine Singularitäten.
+- $f(x) \rightarrow 0$ für $x \rightarrow \infty$
+- $\mathrm{Re}[f(x)]$ ist eine gerade Funktion
+- $\mathrm{Im}[f(x)]$ ist eine ungerade Funktion
+************************************
 
                                       {{3}}
-Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle:
-$$E_x = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
+Die Kramers-Kronig-Relationen haben die allgemeine Form:
+$$\mathrm{Im}[f(x)] = -\frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{x \cdot \mathrm{Re}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
+$$\mathrm{Re}[f(x)] = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{t \cdot \mathrm{Im}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
+Dabei bezeichnet $\mathcal{P}$ den Cauchyschen Hauptwert des auftretenden Integrals.
 
                                       {{4}}
-Am Ort $z = 0$ und zur Zeit $t = 0$ gilt für die Amplituden:
-$$E_1 = E_0 + E_2$$
+Für die dielektrische Funktion $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ gilt:
+$$\chi(\omega) = \varepsilon_1(\omega) - 1 = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\omega' \cdot \varepsilon_2(\omega')}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
+$$\varepsilon_2(\omega) = - \frac{2 \omega}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\varepsilon_1(\omega') - 1}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
 
                                       {{5}}
-Für die 1. Ableitung bei $z = 0$ und $t = 0$ gilt:
-$$n' E_1 = E_0 - E_2$$
-
-                                      {{6}}
-Multiplizieren wir die erste Gleichung mit $n'$ können wir die zwei Gleichungen gleichsetzen und damit $E_1$ eliminieren:
-$$n' E_0 + n' E_2 = E_0 - E_2$$
-
-                                      {{7}}
-Daraus folgt:
-$$(n' - 1) E_0 = - (n' + 1) E_2$$
-
-                                      {{8}}
-Der Reflexionsfaktor $r$ für senkrechten Einfall ist damit:
-$$r = \frac{E_2}{E_0} = \frac{1 - n'}{1 + n'}$$
-
-                                      {{9}}
-Der Reflexionskoeffizient $R$ für senkrechten Einfall ergibt sich entsprechend als:
-$$R = r \cdot r^\ast = |r|^2 = \left| \frac{E_2}{E_0} \right|^2 = \left|\frac{1 - n - \mathrm{i} k}{1 + n + \mathrm{i} k} \right|^2 = \frac{(1 - n)^2 + k^2}{(1 + n)^2 + k^2}$$
-
-                                      {{10}}
-Ohne Absorption, also für $k = 0$, vereinfacht sich der Ausdruck zu:
-$$R = \frac{(n - 1)^2}{(n + 1)^2}$$
-
-                                      {{11}}
-************************************
-Gemäß der Aufgabenstellung waren folgende Reflexionswerte zu berechnen:
-
-<!-- data-type="none" -->
-|             | $k = 0$      | $k = 10$     |
-|-------------|--------------|--------------|
-| $n = 1$     | $R = 0,\!00$ | $R = 0,\!96$ |
-| $n = 1,\!5$ | $R = 0,\!04$ | $R = 0,\!94$ |
-| $n = 3,\!5$ | $R = 0,\!31$ | $R = 0,\!88$ |
-************************************
+Eine wichtige Anwendung ist die Bestimmung von optischen Konstanten aus Reflexionsmessungen, wenn Transmissionsmessungen nicht möglich sind, z. B. oberhalb der Bandkante von Halbleitern.
 
 
 ## Aufgabe 2 
