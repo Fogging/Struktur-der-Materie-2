@@ -95,27 +95,13 @@ $$k = \sqrt{-\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon
 > Welche verschiedenen Suszeptibilitätsanteile tragen zur dielektrischen Funktion von Stoffen bei?
 
                                       {{1}}
-Zunächst rechnen wir die gegebenen Wellenlängen in Kreisfrequenzen um:
-$$\omega = 2 \pi f = \frac{2 \pi c}{\lambda}$$
-
+Zur dielektrischen Funktion tragen die Suszeptibilitätsanteile der Elektronen, Ionen und Dipole bei:
+$$\varepsilon' = 1 + \chi_\mathrm{Elektronen} + \chi_\mathrm{Ionen} + \chi_\mathrm{Dipole}$$
 
                                       {{2}}
-Anschließend können wir direkt die Hagen-Rubens-Relation anwenden:
-$$R \approx 1 - \sqrt{\frac{8 \varepsilon_0 \omega}{\sigma_0}}$$
-
-                                      {{3}}
-************************************
-Für die zwei in der Aufgabenstellung genannten Wellenlängen erhalten wir:
-
-<!-- data-type="none" -->
-| Wellenlänge $\lambda$ | Kreisfrequenz $\omega$ | Reflexionskoeffizient $R$ |
-|-----------------------|------------------------|---------------------------|
-| $10~\mathrm{µm}$      | $1,\!88 \cdot 10^{14}~\mathrm{s^{-1}}$  | $0,\!980$ |
-| $100~\mathrm{µm}$     | $1,\!88 \cdot 10^{13}~\mathrm{s^{-1}}$  | $0,\!994$ |
-************************************
-
-                                      {{4}}
-Für sehr gute Leiter (z. B. Al, Cu, Ag) ist im IR-Bereich ein fast ideales Reflexionsvermögen nahe an $R=1$ zu beobachten.
+![Veranschaulichung der elektronischen Polarisation](Bilder/Polarisation_elektronisch.png "Die Polarisation in einem dielektrischen Festkörper beruht einerseits darauf, dass die Elektronwolken der Gitteratome in einem angelegten elektrischen Feld gegenüber den positiven Atomkernen eine Auslenkung aus ihrer Gleichgewichtslage erfahren und dadurch elektrische Dipole entstehen. Die daraus resultierende Polarisation nennen wir auch **elektronische Polarisation**. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Veranschaulichung der ionischen Polarisation](Bilder/Polarisation_ionisch.png "Andererseits werden in Ionenkristallen in einem angelegten elektrischen Feld die positiven und negativen Ionen relativ zueinander verschoben. Die daraus resultierende Polarisation nennen wir **ionische Polarisation**. Sowohl für elektronische als auch ionische Polarisation ist mit der Auslenkung eine Rückstellkraft verbunden, die zu einer charakteristischen Eigenfrequenz führt. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Veranschaulichung der Orientierungspolarisation](Bilder/Polarisation_Dipole.png "Paraelektrische Substanzen enthalten bereits ohne anliegendes elektrisches Feld permanente elektrische Dipole, die durch das äußere Feld nur noch ausgerichtet werden. Wir sprechen hier von einer **Orientierungspolarisation**, die mit abnehmender Temperatur und zunehmender elektrischer Feldstärke zunimmt. Eine Orientierungspolarisation lässt sich nur für Festkörper beobachten, die aus asymmetrischen Molekülen aufgebaut sind. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
 
 ## Aufgabe 4
