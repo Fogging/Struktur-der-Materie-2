@@ -117,24 +117,42 @@ Dabei berechnet sich die Plasmafrequenz $\omega_\mathrm{p}$ für  $\varepsilon_\
 $$\omega_\mathrm{p} = \sqrt{\frac{e^2 n}{\varepsilon_0 m^\ast}}$$
 
                                       {{3}}
-![Realteil der dielektrischen Funktion und Reflexionsvermögen eines Metalls](Bilder/Reflexion_Metall.png "Realteil der dielektrischen Funktion und Reflexionsvermögen eines Metalls. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 350px;" -->
+![Realteil der dielektrischen Funktion und Reflexionsvermögen eines Metalls](Bilder/Reflexion_Metall.png "Realteil der dielektrischen Funktion und Reflexionsvermögen eines Metalls. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 450px;" -->
 
 
 ## Aufgabe 5
 
-> Man bestimme den Zusammenhang zwischen Absorptionskoeffizient $\alpha$ und der Eindringtiefe $w$ einer ebenen elektromagnetischen Welle beim Eindringen in ein absorbierendes Medium. Die Eindringtiefe $w$ soll die Entfernung von der Oberfläche beschreiben, bei der die Intensität der Welle auf den Wert $\mathrm{1/e}$ abfällt.
+> Man bestimme den Zusammenhang zwischen Absorptionskoeffizient $\alpha$, Absorptionsindex $k$ und Eindringtiefe $w$ einer ebenen elektromagnetischen Welle beim Eindringen in ein absorbierendes Medium. Die Eindringtiefe $w$ soll die Entfernung von der Oberfläche beschreiben, bei der die Intensität der Welle auf den Wert $\mathrm{1/e}$ abfällt.
 
                                       {{1}}
-Die verallgemeinerte Permittivität setzt sich zusammen aus:
-$$\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$$
+Die Eindringtiefe $w$ soll einem Intensitätsabfall auf $\mathrm{1/e}$ entsprechen. Wir vergleichen mit dem Lambert-Beerschen-Schwächungsgesetz:
+$$I = I_0 \cdot \exp(-\alpha w) = I_0 \cdot \exp(-1)$$
 
                                       {{2}}
-Das Reziproke ist:
-$$\frac{1}{\varepsilon'} = \frac{\varepsilon_1 - \mathrm{i} \varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
+Dabei ist $\alpha$ der Absorptionskoeffizient und es folgt: 
+$$w = \frac{1}{\alpha}$$
 
                                       {{3}}
-Der negative Imaginärteil dieser Funktion ist:
-$$-\mathrm{Im}\left(\frac{1}{\varepsilon'}\right) = \frac{\varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
+Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet (siehe Übung 8, Aufgabe 1):
+$$E_x = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
 
                                       {{4}}
-Diese sogenannte „Energieverlustfunktion“ wird also maximal für $\varepsilon_1 \rightarrow 0$. Genau bei der Plasmafrequenz wird ebenfalls $\varepsilon_1 = 0$. Damit kennzeichnet ein Maximum in der Energieverlustfunktion gerade die Lage der Plasmafrequenz.
+Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die veränderte Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle. Allerdings ändert sich die Wellenzahl von $k_0$ zu $k_0 n'$ und es gilt:
+$$E_x = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
+
+                                      {{5}}
+Einsetzen von $n' = n + i \cdot k$ führt zu:
+$$E_x = E_1 \cdot \exp (-k k_0 z) \cdot \exp [\mathrm{i} (k_0 n z - \omega t)]$$
+
+                                      {{6}}
+Die Intensität $I$ ergibt sich aus dem Betragsquadrat der elektrischen Feldstärke:
+$$I \sim |E_x|^2 = E_1^2 \cdot \exp (-2 k k_0 z)$$
+
+                                      {{7}}
+Aus dem Vergleich mit dem Lambert-Beerschen-Schwächungsgesetz (für die Tiefe $z$) folgt:
+$$\exp (-2 k k_0 z) = \exp(-\alpha z)$$
+
+                                      {{8}}
+Damit erhalten wir den gesuchten Zusammenhang zwischen Absorptionskoeffizient $\alpha$ und Absorptionsindex $k$ als:
+$$\alpha = 2 k k_0 = 2 k \frac{2 \pi}{\lambda} = \frac{4 \pi k}{\lambda}$$
+
