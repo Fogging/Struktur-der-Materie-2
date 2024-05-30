@@ -109,15 +109,25 @@ $$\varepsilon' = 1 + \chi_\mathrm{Elektronen} + \chi_\mathrm{Ionen} + \chi_\math
 > Beschreiben Sie den Verlauf der dielektrischen Funktion und den Verlauf des Reflexionsvermögens im Bereich der Plasmonenabsorption von Metallen.
 
                                       {{1}}
-Freie Elektronen (Plasmon ohne Dämpfung):
-$$\varepsilon(\omega) = 1 - \frac{\omega_\mathrm{p}^2}{\omega^2}$$
+Der Realteil der dielektrischen Funktion für freie Elektronen verläuft im Modell des freien Elektronengases (bzw. Drude-Modell oder Plasmon ohne Dämpfung) gemäß:
+$$\varepsilon_1(\omega) = 1 - \frac{\omega_\mathrm{p}^2}{\omega^2}$$
 
                                       {{2}}
-Dabei berechnet sich die Plasmafrequenz $\omega_\mathrm{p}$ für  $\varepsilon_\mathrm{r} \approx 1$ gemäß:
+Dabei berechnet sich die Plasmafrequenz $\omega_\mathrm{p}$ aus:
 $$\omega_\mathrm{p} = \sqrt{\frac{e^2 n}{\varepsilon_0 m^\ast}}$$
 
                                       {{3}}
-![Realteil der dielektrischen Funktion und Reflexionsvermögen eines Metalls](Bilder/Reflexion_Metall.png "Realteil der dielektrischen Funktion und Reflexionsvermögen eines Metalls. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 450px;" -->
+Da die Dämpfung sehr gering ist, geht der Imaginärteil der dielektrischen Funktion gegen Null:
+$$\varepsilon_2(\omega) \rightarrow 0$$
+
+                                      {{4}}
+**Für $\omega < \omega_\mathrm{p}$ wird $\varepsilon_1(\omega) < 0$, also negativ.** Damit wird der Wellenvektor $\vec{k}$ imaginär, eine Wellenausbreitung ist verboten und es kommt zu einer starken Reflexion nahe $1$. Eine auf ein Metall auftreffende elektromagnetische Welle wird totalreflektiert. Da für Metalle $\omega_\mathrm{p}$ im UV-Bereich liegt, wird sichtbares Licht von Metallen üblicherweise gut reflektiert, weshalb Metalle glänzend erscheinen.
+
+                                      {{5}}
+**Für $\omega > \omega_\mathrm{p}$ ist dagegen $\varepsilon_1(\omega) > 0$, also positiv.** Das Metall wird, aufgrund der gleichzeitig geringen Absorption (wegen $\varepsilon_2(\omega) \rightarrow 0$), für elektromagnetische Strahlung durchlässig. Dies trifft z. B. für Alkali-Metalle im UV-Bereich zu. Der nachfolgend gezeigte theoretische Verlauf von $\varepsilon_1 = \varepsilon_\mathrm{r}$ und $R$ wird experimentell für Metalle und Halbleiter meistens nicht beobachtet, da sich der Antwort des Elektronensystems durch Intraband-Übergänge auch immer noch Beiträge durch Interbandübergänge überlagern.
+
+                                      {{6}}
+![Theoretischer Verlauf des Realteils der dielektrischen Funktion und des Reflexionsvermögens eines Metalls](Bilder/Reflexion_Metall.png "Theoretischer Verlauf des Realteils der dielektrischen Funktion und des Reflexionsvermögens eines Metalls. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 450px;" -->
 
 
 ## Aufgabe 5
