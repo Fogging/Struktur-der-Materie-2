@@ -117,7 +117,7 @@ Dabei berechnet sich die Plasmafrequenz $\omega_\mathrm{p}$ aus:
 $$\omega_\mathrm{p} = \sqrt{\frac{e^2 n}{\varepsilon_0 m^\ast}}$$
 
                                       {{3}}
-Da die Dämpfung sehr gering ist, geht der Imaginärteil der dielektrischen Funktion gegen Null:
+Da die Dämpfung in diesem Bereich sehr gering ist, geht der Imaginärteil der dielektrischen Funktion gegen Null:
 $$\varepsilon_2(\omega) \rightarrow 0$$
 
                                       {{4}}
@@ -128,6 +128,9 @@ $$\varepsilon_2(\omega) \rightarrow 0$$
 
                                       {{6}}
 ![Theoretischer Verlauf des Realteils der dielektrischen Funktion und des Reflexionsvermögens eines Metalls](Bilder/Reflexion_Metall.png "Theoretischer Verlauf des Realteils der dielektrischen Funktion und des Reflexionsvermögens eines Metalls. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 450px;" -->
+
+                                      {{7}}
+![Reflektivität von verschiedenen Metallen als Funktion der Wellenlänge der elektromagnetischen Strahlung.](Bilder/Reflexion_Metalle_real.png "Reflektivität von verschiedenen Metallen als Funktion der Wellenlänge der elektromagnetischen Strahlung. Aus dem steilen Abfall der Reflektivität unterhalb einer bestimmten Grenzwellenlänge $\lambda_\mathrm{p}$ kann die Plasmafrequenz des Metalls zu $\omega_\mathrm{p} = 2 \pi c / \lambda_\mathrm{p}$ abgeschätzt werden. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 450px;" -->
 
 
 ## Aufgabe 5
