@@ -72,7 +72,7 @@ $$\alpha_\mathrm{el} = 4 \pi \varepsilon_0 a_0^3$$
 
 ## Aufgabe 2 
 
-> Betrachten Sie eine isolierende Kugel mit der Dielektrizitätskonstante $\varepsilon$ in einem äußeren homogenen elektrischen Feld $E_\mathrm{a}$. Welchen Wert hat das über das gesamte Volumen der Kugel gemittelte elektrische Feld $E$ innerhalb der Kugel (Entelektrisierungsfaktor $N = 1/3$)? Welchen Wert hat die Polarisation $P$ in der Kugel? Berechnen Sie das Verhältnis $E/E_\mathrm{a}$, wenn die Kugel aus Polyethylen ($\varepsilon_\mathrm{r} = 2,\!3$) besteht.
+> Betrachten Sie eine isolierende Kugel mit der Dielektrizitätskonstante $\varepsilon_\mathrm{r}$ in einem äußeren homogenen elektrischen Feld $E_\mathrm{a}$. Welchen Wert hat das über das gesamte Volumen der Kugel gemittelte elektrische Feld $E$ innerhalb der Kugel (Entelektrisierungsfaktor $N = 1/3$)? Welchen Wert hat die Polarisation $P$ in der Kugel? Berechnen Sie das Verhältnis $E/E_\mathrm{a}$, wenn die Kugel aus Polyethylen ($\varepsilon_\mathrm{r} = 2,\!3$) besteht.
 
                                       {{1}}
 Analog zum magnetischen Feld setzt sich das elektrische Feld $E$ im Inneren eines Körpers aus dem äußeren Feld $E_\mathrm{a}$ und dem Entelektrisierfeld $E_N$ zusammen:
