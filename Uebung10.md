@@ -26,31 +26,29 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 > Berechnen Sie für NaCl bei Vernachlässigung der Dämpfung die dielektrische Funktion im Infaroten aus $\varepsilon_\mathrm{r}(0) = 5,\!9$, der TO-Phononenfrequenz $\omega_\mathrm{TO} = 3,\!1 \cdot {10}^{13}~\mathrm{s^{-1}}$ und dem Brechungsindex im Sichtbaren $n_\mathrm{S} = 1,\!5$. Wie groß ist die LO-Phononenfrequenz $\omega_\mathrm{LO}$? Skizzieren Sie die Verläufe der dielektrischen Funktion und des Reflexionsvermögens.
 
                                       {{1}}
-Die Kramers-Kronig-Relationen setzen Real- und Imaginärteil der dielektrischen Funktion in Form einer Integralgleichung miteinander in Beziehung. Auf diese Weise hängt die Absorption elektromagnetischer Wellen in einem Medium mit dem Brechungsindex zusammen. Es reicht also, die Abhängigkeit einer der beiden Größen von der Frequenz zu kennen, um die andere berechnen zu können.
+Der Realteil der dielektrischen Funktion eines Ionenkristalls ist bei Vernachlässigung der Dämpfung:
+$$\varepsilon_\mathrm{r}(\omega) = \varepsilon_\mathrm{stat} \cdot \frac{\omega_\mathrm{LO}^2 - \omega^2}{\omega_\mathrm{TO}^2 - \omega^2}$$
 
                                       {{2}}
-************************************
-Mathematische Grundlage ist der Satz von Cauchy über komplexe analytische Funktionen unter den Bedingungen: 
-
-- Die Funktion $f(x)$ hat in der oberen Halbebene keine Singularitäten.
-- $f(x) \rightarrow 0$ für $x \rightarrow \infty$
-- $\mathrm{Re}[f(x)]$ ist eine gerade Funktion.
-- $\mathrm{Im}[f(x)]$ ist eine ungerade Funktion.
-************************************
+Außerdem gilt die **Lyddane-Sachs-Teller-Relation**, die das Verhältnis der Eigenfrequenzen der longitudinalen und transversalen optischen Schwingungen mit der Dielektrizitätskonstante $\varepsilon_\mathrm{r}(0)$ bei $\omega = 0$ und der Dielektrizitätskonstante $\varepsilon_\mathrm{stat}$ für sehr hohe Frequenzen $\omega \gg \omega_\mathrm{LO}$ in Beziehung setzt:
+$$\frac{\omega_\mathrm{LO}^2}{\omega_\mathrm{TO}^2} = \frac{\varepsilon_\mathrm{r}(0)}{\varepsilon_\mathrm{stat}}$$
 
                                       {{3}}
-Die Kramers-Kronig-Relationen haben die allgemeine Form:
-$$\mathrm{Im}[f(x)] = -\frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{x \cdot \mathrm{Re}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
-$$\mathrm{Re}[f(x)] = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{t \cdot \mathrm{Im}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
-Dabei bezeichnet $\mathcal{P}$ den Cauchyschen Hauptwert des auftretenden Integrals.
+Die Dielektrizitätskonstante $\varepsilon_\mathrm{stat}$ können wir aus dem Brechungsindex im Sichtbaren berechnen:
+$$\varepsilon_\mathrm{stat} = n_\mathrm{S}^2 = 2,\!25$$
 
                                       {{4}}
-Für die dielektrische Funktion $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ gilt:
-$$\chi(\omega) = \varepsilon_1(\omega) - 1 = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\omega' \cdot \varepsilon_2(\omega')}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
-$$\varepsilon_2(\omega) = - \frac{2 \omega}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\varepsilon_1(\omega') - 1}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
+Dann erhalten wir dei LO-Phononenfrequenz $\omega_\mathrm{LO}$ aus der Lyddane-Sachs-Teller-Relation:
+$$\omega_\mathrm{LO} = \omega_\mathrm{TO} \cdot \sqrt{\frac{\varepsilon_\mathrm{r}(0)}{\varepsilon_\mathrm{stat}}} = 5,\!02 \cdot {10}^{13}~\mathrm{s^{-1}}$$
 
                                       {{5}}
-Eine wichtige Anwendung ist die Bestimmung von optischen Konstanten aus Reflexionsmessungen, wenn Transmissionsmessungen nicht möglich sind, z. B. oberhalb der Bandkante von Halbleitern.
+Die zwei Phononenfrequenzen liegen also im FIR-Bereich. Die entsprechenden Wellenlängen sind:
+$$\lambda_\mathrm{LO} = 2 \pi c / \omega_\mathrm{LO} = 37,\!5~\mathrm{µm}$$
+$$\lambda_\mathrm{TO} = 2 \pi c / \omega_\mathrm{TO} = 60,\!8~\mathrm{µm}$$
+
+                                      {{6}}
+![Dielektrische Funktion eines Ionenkristalls](Bilder/Dielektrische-Funktion-Ionenkristall.png "Dielektrische Funktion eines Ionenkristalls für $\omega_\mathrm{LO} = 1,\!5 \cdot \omega_\mathrm{TO}$ und $\varepsilon_\mathrm{stat} = 1,\!5$ mit einer endlichen Dämpfung, welche die Singularität bei $\omega = \omega_\mathrm{TO}$ beseitigt. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Veranschaulichung der ionischen Polarisation](Bilder/Reflexionsvermögen-Ionenkristall.png "Reflexionsvermögen eines Ionenkristalls bei Vernachlässigung der Dämpfung für $\omega_\mathrm{LO} = 1,\!5 \cdot \omega_\mathrm{TO}$ und $\varepsilon_\mathrm{stat} = 1,\!5$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
 
 ## Aufgabe 2 
