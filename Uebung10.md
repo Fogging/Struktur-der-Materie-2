@@ -38,7 +38,7 @@ Die Dielektrizitätskonstante $\varepsilon_\mathrm{stat}$ können wir aus dem Br
 $$\varepsilon_\mathrm{stat} = n_\mathrm{S}^2 = 2,\!25$$
 
                                       {{4}}
-Dann erhalten wir dei LO-Phononenfrequenz $\omega_\mathrm{LO}$ aus der Lyddane-Sachs-Teller-Relation:
+Dann erhalten wir die LO-Phononenfrequenz $\omega_\mathrm{LO}$ aus der Lyddane-Sachs-Teller-Relation:
 $$\omega_\mathrm{LO} = \omega_\mathrm{TO} \cdot \sqrt{\frac{\varepsilon_\mathrm{r}(0)}{\varepsilon_\mathrm{stat}}} = 5,\!02 \cdot {10}^{13}~\mathrm{s^{-1}}$$
 
                                       {{5}}
