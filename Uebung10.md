@@ -56,36 +56,33 @@ $$\lambda_\mathrm{TO} = 2 \pi c / \omega_\mathrm{TO} = 60,\!8~\mathrm{µm}$$
 > Berechnen Sie die Polarisierbarkeit von KBr im elektrostatischen Fall und im sichtbaren Bereich. Wie groß sind die Polarisation, das auf ein Molekül bezogene elektrische Moment und die Dipollänge, wenn ein statisches Feld der Stärke $E = 1~\mathrm{MV/m}$ angelegt wird? Gegeben: $\varepsilon_\mathrm{r}(0) = 5,\!99, n_\mathrm{S} = 1,\!53$, Dichte $\varrho = 2,\!73~\mathrm{g/cm^3}$, molare Masse $M = 119~\mathrm{g/mol}$.
 
                                       {{1}}
-Der komplexe Brechungsindex $n'$ ist als Wurzel der komplexen dielektrischen Funktion $\varepsilon'$ definiert:
-$$n' = \sqrt{\varepsilon'}$$
+Für den elektrostatischen Fall ($\omega = 0$) benutzen wir die **Clausius-Mossotti-Gleichung**:
+$$\frac{\varepsilon_\mathrm{r} - 1}{\varepsilon_\mathrm{r} + 2} = \frac{\alpha_0 n}{3 \varepsilon_0} = \frac{\alpha_0}{3 \varepsilon_0} \cdot \frac{\varrho N_\mathrm{A}}{M}$$
 
                                       {{2}}
-Quadrieren liefert entsprechend $n'^2 = \varepsilon'$, wobei wir nun $n' = n + \mathrm{i}k$ und $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ einsetzen wollen:
-$$n'^2 = (n + \mathrm{i}k)^2 = n^2 + \mathrm{i}2nk - k^2 = \varepsilon_1 + \mathrm{i} \varepsilon_2$$
+Umstellen nach der gesuchten Polarisation $\alpha_0$ und Einsetzen der gegebenen Werte liefert:
+$$\alpha_0 = 3 \cdot \frac{\varepsilon_\mathrm{r}(0) - 1}{\varepsilon_\mathrm{r}(0) + 2} \cdot \frac{M \varepsilon_0}{\varrho N_\mathrm{A}} = 1,\!2 \cdot 10^{-39}~\mathrm{\frac{C m^2}{V}}$$
 
                                       {{3}}
-Daraus folgt direkt:
-$$\varepsilon_1 = n^2 - k^2$$
-$$\varepsilon_2 = 2nk$$
+Für die Lösung im sichtbaren Bereich setzen wir $n_\mathrm{S}^2 = \varepsilon_\mathrm{r}$ in die Clausius-Mossotti-Gleichung ein und erhalten die **Lorentz-Lorenz-Gleichung**:
+$$\frac{n_\mathrm{S}^2 - 1}{n_\mathrm{S}^2 + 2} = \frac{\alpha_\mathrm{S} n}{3 \varepsilon_0} = \frac{\alpha_\mathrm{S}}{3 \varepsilon_0} \cdot \frac{\varrho N_\mathrm{A}}{M}$$
 
                                       {{4}}
-Umstellen der zweiten Gleichung nach $k$ und Einsetzen in die erste Gleichung ergibt:
-$$\varepsilon_1 = n^2 - \frac{\varepsilon_2^2}{4n^2}$$
+Umgestellt nach $\alpha_\mathrm{S}$ erhalten wir:
+$$\alpha_\mathrm{S} = 3 \cdot \frac{n_\mathrm{S}^2 - 1}{n_\mathrm{S}^2 + 2} \cdot \frac{M \varepsilon_0}{\varrho N_\mathrm{A}} = 5,\!9 \cdot 10^{-40}~\mathrm{\frac{C m^2}{V}}$$
 
                                       {{5}}
-Daraus erhält man eine biquadratische Gleichung:
-$$n^4 - \varepsilon_1 n^2 - \frac{\varepsilon_2^2}{4} = 0$$
+Wenn ein statisches elektrisches Feld angelegt wird, ergibt sich eine Polarisation von:
+$$P_0 = (\varepsilon_\mathrm{r} - 1) \varepsilon_0 E = 4,\!4 \cdot 10^{-5}~\mathrm{C/m^2}$$
 
                                       {{6}}
-Diese hat die positive Lösung:
-$$n^2 = \frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}$$
-$$n = \sqrt{\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}}$$
+Das elektrische Dipolmoment beträgt:
+$$p = \frac{P_0}{n} = \frac{P_0 M}{\varrho N_\mathrm{A}} = 3,\!2 \cdot 10^{-33}~\mathrm{Cm}$$
 
                                       {{7}}
-Mit $k^2 = n^2 - \varepsilon_1$ folgt noch:
-$$k^2 = -\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}$$
-$$k = \sqrt{-\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}}$$
-
+Die entsprechende Dipollänge ist:
+$$r = \frac{p}{e} = 2,\!0 \cdot 10^{-14}~\mathrm{m} = 2,\!0 \cdot 10^{-4}~\mathrm{\AA}$$
+Dies ist also weniger als ein Tausendstel der Gitterkonstante!
 
 
 ## Aufgabe 3
