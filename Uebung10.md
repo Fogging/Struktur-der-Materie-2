@@ -116,7 +116,7 @@ Das elektrische Feld in der Umgebung eines Dipols $\vec{p}$ ist:
 $$\vec{E} (\vec{r}) = \frac{1}{4 \pi \varepsilon_0} \left( 3 \, \frac{\vec{p} \cdot \vec{r}}{r^5} \, \vec{r} - \frac{1}{r^3} \, \vec{p} \right)$$
 
                                       {{2}}
-Wir betrachten zwei parallele Dipolmomente $\vec{p}_1$ und $\vec{p}_2$ mit dem Abstand $r=a$. Für die Feldstärke des ersten Dipolmoments gilt entlang der Verbindungslinie (entlang der Dipolachse):
+Wir betrachten die zwei Atome als zwei parallele Dipolmomente $\vec{p}_1$ und $\vec{p}_2$ mit dem Abstand $r=a$. Für die Feldstärke des ersten Dipolmoments gilt entlang der Verbindungslinie (entlang der Dipolachse):
 $$E_1(a) = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{3 p_1 - p_1}{a^3} = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{2 p_1}{a^3}$$
 
                                       {{3}}
@@ -124,43 +124,35 @@ Nutzen wir die Definition der Polarisierbarkeit $\alpha$, erhalten wir für die 
 $$p_2 = \alpha \cdot E_1(a) = \frac{\alpha \cdot p_1}{2 \pi \varepsilon_0 a^3}$$
 
                                       {{4}}
-Da es sich um zwei gleiche Atome handelt, müssen auch die Dipolmomente gleich sein, d. h. $p_1 = p_2 = p$. Daraus folgt:
+Da es sich um zwei gleiche Atome handelt, müssen auch die Dipolmomente gleich sein, d. h. $p_1 = p_2$. Daraus folgt:
 $$\alpha = 2 \pi \varepsilon_0 a^3$$
 
 
 ## Aufgabe 5
 
-> Berechnen Sie die Gitterverschiebung der positiven und negativen Ionen in BaTiO<sub>3</sub>, wenn die Sättigungspolarisation $P = 0,\!26~\mathrm{As/m^2}$ beträgt. Das molare Volumen von BaTiO<sub>3</sub> beträgt $3,\!8 \cdot {10}^{-5}~\mathrm{m^3}$.
+> Berechnen Sie die Gitterverschiebung der positiven und negativen Ionen in BaTiO<sub>3</sub>, wenn die Sättigungspolarisation $P_\mathrm{S} = 0,\!26~\mathrm{As/m^2}$ beträgt. Das molare Volumen von BaTiO<sub>3</sub> beträgt $V_\mathrm{m} = 3,\!8 \cdot {10}^{-5}~\mathrm{m^3}$.
 
                                       {{1}}
-Die Eindringtiefe $w$ soll einem Intensitätsabfall auf $\mathrm{1/e}$ entsprechen. Wir vergleichen mit dem Lambert-Beerschen-Schwächungsgesetz:
-$$I = I_0 \cdot \exp(-\alpha w) = I_0 \cdot \exp(-1)$$
+************************************
+In einer Elementarzelle der Perowskit-Struktur von BaTiO<sub>3</sub> befinden sich folgende Ionen:
+
+- 1 Kation Ba^2+^
+- 1 Kation Ti^4+^
+- 3 Anionen O^2−^
+************************************
 
                                       {{2}}
-Dabei ist $\alpha$ der Absorptionskoeffizient und es folgt: 
-$$w = \frac{1}{\alpha}$$
+Es gibt also 6 positive und 6 negative Ladungen. In einer Stoffmenge von $1~\mathrm{mol}$ befindet sich also die Ladung: 
+$$Q = 6 N_\mathrm{A} e$$
 
                                       {{3}}
-Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet (siehe Übung 8, Aufgabe 1):
-$$E_x = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
+Das molare Dipolmoment ist damit:
+$$p_\mathrm{m} = Q \cdot \Delta x$$
 
                                       {{4}}
-Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die veränderte Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle. Allerdings ändert sich die Wellenzahl von $k_0$ zu $k_0 n'$ und es gilt:
-$$E_x = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
+Das molare Dipolmoment ergibt sich andererseits über das molare Volumen $V_\mathrm{m}$ und die Sättigungspolarisation $P_\mathrm{S}$ gemäß:
+$$p_\mathrm{m} = V_\mathrm{m} \cdot P_\mathrm{S}$$
 
                                       {{5}}
-Einsetzen von $n' = n + i \cdot k$ führt zu:
-$$E_x = E_1 \cdot \exp (-k k_0 z) \cdot \exp [\mathrm{i} (k_0 n z - \omega t)]$$
-
-                                      {{6}}
-Die Intensität $I$ ergibt sich aus dem Betragsquadrat der elektrischen Feldstärke:
-$$I \sim |E_x|^2 = E_1^2 \cdot \exp (-2 k k_0 z)$$
-
-                                      {{7}}
-Aus dem Vergleich mit dem Lambert-Beerschen-Schwächungsgesetz (für die Tiefe $z$) folgt:
-$$\exp (-2 k k_0 z) = \exp(-\alpha z)$$
-
-                                      {{8}}
-Damit erhalten wir den gesuchten Zusammenhang zwischen Absorptionskoeffizient $\alpha$ und Absorptionsindex $k$ als:
-$$\alpha = 2 k k_0 = 2 k \frac{2 \pi}{\lambda} = \frac{4 \pi k}{\lambda}$$
-
+Für die Gitterverschiebung $\Delta x$ folgt also:
+$$\Delta x = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{Q} = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{6 N_\mathrm{A} e} = 1,\!7 \cdot 10^{-11}~\mathrm{m} = 0,\!17~\mathrm{\AA}$$
