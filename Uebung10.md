@@ -109,31 +109,23 @@ $$a_\mathrm{ex} = \frac{e^2}{8 \pi \varepsilon_0 \varepsilon_\mathrm{r} \Delta E
 
 ## Aufgabe 4
 
-> Gegeben sei ein System aus zwei Atomen mit festem Abstand $a$ und der Polarisierbarkeit $\alpha$ für jedes Atom. Welche Beziehung zwischen $a$ und $\alpha$ muss gelten, wenn das System ferroelektrisch sein soll? Dabei ist das Dipolfeld am stärksten in Richtung Dipolachse.
+> Gegeben sei ein System aus zwei gleichen Atomen mit festem Abstand $a$ und der Polarisierbarkeit $\alpha$ für jedes Atom. Welche Beziehung zwischen $a$ und $\alpha$ muss gelten, wenn das System ferroelektrisch sein soll? Dabei ist das Dipolfeld am stärksten in Richtung Dipolachse.
 
                                       {{1}}
-Der Realteil der dielektrischen Funktion für freie Elektronen verläuft im Modell des freien Elektronengases (bzw. Drude-Modell oder Plasmon ohne Dämpfung) gemäß:
-$$\varepsilon_1(\omega) = 1 - \frac{\omega_\mathrm{p}^2}{\omega^2}$$
+Das elektrische Feld in der Umgebung eines Dipols $\vec{p}$ ist:
+$$\vec{E} (\vec{r}) = \frac{1}{4 \pi \varepsilon_0} \left( 3 \, \frac{\vec{p} \cdot \vec{r}}{r^5} \, \vec{r} - \frac{1}{r^3} \, \vec{p} \right)$$
 
                                       {{2}}
-Dabei berechnet sich die Plasmafrequenz $\omega_\mathrm{p}$ aus:
-$$\omega_\mathrm{p} = \sqrt{\frac{e^2 n}{\varepsilon_0 m^\ast}}$$
+Wir betrachten zwei parallele Dipolmomente $\vec{p}_1$ und $\vec{p}_2$ mit dem Abstand $r=a$. Für die Feldstärke des ersten Dipolmoments gilt entlang der Verbindungslinie (entlang der Dipolachse):
+$$E_1(a) = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{3 p_1 - p_1}{a^3} = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{2 p_1}{a^3}$$
 
                                       {{3}}
-Da die Dämpfung in diesem Bereich sehr gering ist, geht der Imaginärteil der dielektrischen Funktion gegen Null:
-$$\varepsilon_2(\omega) \rightarrow 0$$
+Nutzen wir die Definition der Polarisierbarkeit $\alpha$, erhalten wir für die Größe des zweiten Dipolmoments:
+$$p_2 = \alpha \cdot E_1(a) = \frac{\alpha \cdot p_1}{2 \pi \varepsilon_0 a^3}$$
 
                                       {{4}}
-**Für $\omega < \omega_\mathrm{p}$ wird $\varepsilon_1(\omega) < 0$, also negativ.** Damit wird der Wellenvektor $\vec{k}$ imaginär, eine Wellenausbreitung ist verboten und es kommt zu einer starken Reflexion nahe $1$. Eine auf ein Metall auftreffende elektromagnetische Welle wird totalreflektiert. Da für Metalle $\omega_\mathrm{p}$ im UV-Bereich liegt, wird sichtbares Licht von Metallen üblicherweise gut reflektiert, weshalb Metalle glänzend erscheinen.
-
-                                      {{5}}
-**Für $\omega > \omega_\mathrm{p}$ ist dagegen $\varepsilon_1(\omega) > 0$, also positiv.** Das Metall wird, aufgrund der gleichzeitig geringen Absorption (wegen $\varepsilon_2(\omega) \rightarrow 0$), für elektromagnetische Strahlung durchlässig. Dies trifft z. B. für Alkali-Metalle im UV-Bereich zu. Der nachfolgend gezeigte theoretische Verlauf von $\varepsilon_1 = \varepsilon_\mathrm{r}$ und $R$ wird experimentell für Metalle und Halbleiter meistens nicht beobachtet, da sich der Antwort des Elektronensystems durch Intraband-Übergänge auch immer noch Beiträge durch Interbandübergänge überlagern.
-
-                                      {{6}}
-![Theoretischer Verlauf des Realteils der dielektrischen Funktion und des Reflexionsvermögens eines Metalls](Bilder/Reflexion_Metall.png "Theoretischer Verlauf des Realteils der dielektrischen Funktion und des Reflexionsvermögens eines Metalls. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 450px;" -->
-
-                                      {{7}}
-![Reflektivität von verschiedenen Metallen als Funktion der Wellenlänge der elektromagnetischen Strahlung.](Bilder/Reflexion_Metalle_real.png "Reflektivität von verschiedenen Metallen als Funktion der Wellenlänge der elektromagnetischen Strahlung. Aus dem steilen Abfall der Reflektivität unterhalb einer bestimmten Grenzwellenlänge $\lambda_\mathrm{p}$ kann die Plasmafrequenz des Metalls zu $\omega_\mathrm{p} = 2 \pi c / \lambda_\mathrm{p}$ abgeschätzt werden. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 450px;" -->
+Da es sich um zwei gleiche Atome handelt, müssen auch die Dipolmomente gleich sein, d. h. $p_1 = p_2 = p$. Daraus folgt:
+$$\alpha = 2 \pi \varepsilon_0 a^3$$
 
 
 ## Aufgabe 5
