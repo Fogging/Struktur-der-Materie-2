@@ -90,14 +90,22 @@ Dies ist also weniger als ein Tausendstel der Gitterkonstante!
 > Aus den ersten beiden Absorptionslinien des Mottschen Exzitons in GaAs bei $1,\!5156~\mathrm{eV}$ und $1,\!51815~\mathrm{eV}$ berechne man die Breite der Energielücke, die Bindungsenergie und den Exzitonenradius ($\varepsilon_\mathrm{r} = 10,\!6$).
 
                                       {{1}}
-Zur dielektrischen Funktion tragen die Suszeptibilitätsanteile der Elektronen, Ionen und Dipole bei:
-$$\varepsilon' = 1 + \chi_\mathrm{Elektronen} + \chi_\mathrm{Ionen} + \chi_\mathrm{Dipole}$$
+Exzitonen sind Wasserstoff-artige Energieniveaus unterhalb der Leitungsbandkante. Mit der Bandlückenenergie $E_\mathrm{g}$ und der reduzierten Masse $\mu^\ast$ gilt:
+$$E_n = E_\mathrm{g} - \frac{\mu^\ast e^4}{2 (4 \pi \varepsilon_0 \varepsilon_\mathrm{r} \hbar)^2} \cdot \frac{1}{n^2}$$
 
                                       {{2}}
-![Veranschaulichung der elektronischen Polarisation](Bilder/Polarisation_elektronisch.png "Die Polarisation in einem dielektrischen Festkörper beruht einerseits darauf, dass die Elektronwolken der Gitteratome in einem angelegten elektrischen Feld gegenüber den positiven Atomkernen eine Auslenkung aus ihrer Gleichgewichtslage erfahren und dadurch elektrische Dipole entstehen. Die daraus resultierende Polarisation nennen wir auch **elektronische Polarisation**. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
-![Veranschaulichung der ionischen Polarisation](Bilder/Polarisation_ionisch.png "Andererseits werden in Ionenkristallen in einem angelegten elektrischen Feld die positiven und negativen Ionen relativ zueinander verschoben. Die daraus resultierende Polarisation nennen wir **ionische Polarisation**. Sowohl für elektronische als auch ionische Polarisation ist mit der Auslenkung eine Rückstellkraft verbunden, die zu einer charakteristischen Eigenfrequenz führt. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
-![Veranschaulichung der Orientierungspolarisation](Bilder/Polarisation_Dipole.png "Paraelektrische Substanzen enthalten bereits ohne anliegendes elektrisches Feld permanente elektrische Dipole, die durch das äußere Feld nur noch ausgerichtet werden. Wir sprechen hier von einer **Orientierungspolarisation**, die mit abnehmender Temperatur und zunehmender elektrischer Feldstärke zunimmt. Eine Orientierungspolarisation lässt sich nur für Festkörper beobachten, die aus asymmetrischen Molekülen aufgebaut sind. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+Für die ersten beiden Exzitonen mit $n=1$ und $n=2$ gilt also:
+$$E_1 = E_\mathrm{g} - \frac{\mu^\ast e^4}{2 (4 \pi \varepsilon_0 \varepsilon_\mathrm{r} \hbar)^2} \cdot \frac{1}{1} = E_\mathrm{g} - \Delta E$$
+$$E_2 = E_\mathrm{g} - \frac{\mu^\ast e^4}{2 (4 \pi \varepsilon_0 \varepsilon_\mathrm{r} \hbar)^2} \cdot \frac{1}{4} = E_\mathrm{g} - \frac{\Delta E}{4}$$
 
+                                      {{3}}
+Da $E_1$ und $E_2$ gegeben sind, können wir nach der Bandlückenenergie $E_\mathrm{g}$ und der Bindungsenergie $\Delta E$ des ersten Exzitons ($n=1$) auflösen:
+$$E_\mathrm{g} = \frac{1}{3} \cdot (4 E_2 - E_1) = 1,\!519~\mathrm{eV}$$
+$$\Delta E = \frac{4}{3} \cdot (E_2 - E_1) = 0,\!0034~\mathrm{eV}$$
+
+                                      {{4}}
+Den Exzitonenradius (für das erste Exziton mit $n=1$) erhalten wir folgendermaßen:
+$$a_\mathrm{ex} = \frac{e^2}{8 \pi \varepsilon_0 \varepsilon_\mathrm{r} \Delta E} = 20~\mathrm{nm}$$
 
 ## Aufgabe 4
 
