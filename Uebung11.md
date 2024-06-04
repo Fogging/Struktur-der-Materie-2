@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 10
+comment:  Struktur der Materie 2 - Übung 11
 
 @style
 .lia-toc__bottom {
@@ -18,12 +18,12 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 10
+# Übung 11
 
 
 ## Aufgabe 1
 
-> Berechnen Sie für NaCl bei Vernachlässigung der Dämpfung die dielektrische Funktion im Infaroten aus $\varepsilon_\mathrm{r}(0) = 5,\!9$, der TO-Phononenfrequenz $\omega_\mathrm{TO} = 3,\!1 \cdot {10}^{13}~\mathrm{s^{-1}}$ und dem Brechungsindex im Sichtbaren $n_\mathrm{S} = 1,\!5$. Wie groß ist die LO-Phononenfrequenz $\omega_\mathrm{LO}$? Skizzieren Sie die Verläufe der dielektrischen Funktion und des Reflexionsvermögens.
+> Gegeben sei eine Kugel aus einem Supraleiter erster Art mit einem kritischen Feld $H_\mathrm{C}$. Zeigen Sie, dass im Bereich des Meißner-Effekts die effektive Magnetisierung innerhalb der Kugel durch $M = -\frac{3}{2} H_\mathrm{a}$ gegeben ist und dass das Magnetfeld an der Oberfläche der Kugel in der Äquatorebene $\frac{3}{2} B_\mathrm{a}$ ist.
 
                                       {{1}}
 Der Realteil der dielektrischen Funktion eines Ionenkristalls ist bei Vernachlässigung der Dämpfung:
@@ -53,7 +53,12 @@ $$\lambda_\mathrm{TO} = 2 \pi c / \omega_\mathrm{TO} = 60,\!8~\mathrm{µm}$$
 
 ## Aufgabe 2 
 
-> Berechnen Sie die Polarisierbarkeit von KBr im elektrostatischen Fall und im sichtbaren Bereich. Wie groß sind die Polarisation, das auf ein Molekül bezogene elektrische Moment und die Dipollänge, wenn ein statisches Feld der Stärke $E = 1~\mathrm{MV/m}$ angelegt wird? Gegeben: $\varepsilon_\mathrm{r}(0) = 5,\!99, n_\mathrm{S} = 1,\!53$, Dichte $\varrho = 2,\!73~\mathrm{g/cm^3}$, molare Masse $M = 119~\mathrm{g/mol}$.
+> Berechnen Sie die Ortsabhängigkeit der magnetischen Flussdichte im Inneren eines Supraleiters für den Fall:
+>
+> a) dass ein homogenes magnetisches Feld $\vec{B}_0 = B_0 \vec{e}_z$ in einen den Halbraum $x \geq 0$ ausfüllenden Supraleiter eindringt.
+>
+> b) dass ein homogenes magnetisches Feld $\vec{B}_0 = B_0 \vec{e}_z$ parallel zur Oberfläche einer dünnen supraleitenden Platte, welche den Raum $–\frac{d}{2} \leq x \leq+\frac{d}{2}$ ausfüllt, angelegt wird.
+
 
                                       {{1}}
 Für den elektrostatischen Fall ($\omega = 0$) benutzen wir die **Clausius-Mossotti-Gleichung**:
@@ -87,7 +92,12 @@ Dies ist also weniger als ein Tausendstel der Gitterkonstante!
 
 ## Aufgabe 3
 
-> Aus den ersten beiden Absorptionslinien des Mottschen Exzitons in GaAs bei $1,\!5156~\mathrm{eV}$ und $1,\!51815~\mathrm{eV}$ berechne man die Breite der Energielücke, die Bindungsenergie und den Exzitonenradius ($\varepsilon_\mathrm{r} = 10,\!6$).
+> In einem Dauerstromexperiment wird das Abklingen des durch den Suprastrom $I_\mathrm{s}$ in einem geschlossenen supraleitenden Ring (Radius $r_0 = 1~\mathrm{mm}$ und Drahtradius $r_1 = 0,\!1~\mathrm{mm}$) erzeugten magnetischen Moments benutzt, um den Widerstand des Supraleiters abzuschätzen.
+>
+> a) Schätzen Sie den Strom $I_\mathrm{s}$ für ein Feld von $1~\mathrm{mT}$ im Zentrum des Rings ab.
+>
+> b) Nach einem Jahr wird eine Abnahme des magnetischen Moments um $5~\%$ gemessen. Welcher maximale Widerstand des Supraleiters kann daraus abgeschätzt werden?
+
 
                                       {{1}}
 Exzitonen sind Wasserstoff-artige Energieniveaus unterhalb der Leitungsbandkante. Mit der Bandlückenenergie $E_\mathrm{g}$ und der reduzierten Masse $\mu^\ast$ gilt:
@@ -107,9 +117,10 @@ $$\Delta E = \frac{4}{3} \cdot (E_2 - E_1) = 0,\!0034~\mathrm{eV}$$
 Den Exzitonenradius (für das erste Exziton mit $n=1$) erhalten wir folgendermaßen:
 $$a_\mathrm{ex} = \frac{e^2}{8 \pi \varepsilon_0 \varepsilon_\mathrm{r} \Delta E} = 20~\mathrm{nm}$$
 
+
 ## Aufgabe 4
 
-> Gegeben sei ein System aus zwei gleichen Atomen mit festem Abstand $a$ und der Polarisierbarkeit $\alpha$ für jedes Atom. Welche Beziehung zwischen $a$ und $\alpha$ muss gelten, wenn das System ferroelektrisch sein soll? Dabei ist das Dipolfeld am stärksten in Richtung Dipolachse.
+> Worin besteht der Unterschied zwischen einem Supraleiter vom Typ I und einem Supraleiter vom Typ II? Was versteht man unter einer Shubnikov-Phase?
 
                                       {{1}}
 Das elektrische Feld in der Umgebung eines Dipols $\vec{p}$ ist:
@@ -130,7 +141,7 @@ $$\alpha = 2 \pi \varepsilon_0 a^3$$
 
 ## Aufgabe 5
 
-> Berechnen Sie die Gitterverschiebung der positiven und negativen Ionen in BaTiO<sub>3</sub>, wenn die Sättigungspolarisation $P_\mathrm{S} = 0,\!26~\mathrm{As/m^2}$ beträgt. Das molare Volumen von BaTiO<sub>3</sub> beträgt $V_\mathrm{m} = 3,\!8 \cdot {10}^{-5}~\mathrm{m^3}$.
+> Erklären Sie, warum die BCS-Theorie für die Temperaturabhängigkeit der Wärmekapazität der Elektronen für Temperaturen unterhalb $T_\mathrm{C}$ eine exponentielle Abhängigkeit anstelle der üblichen linearen Abhängigkeit voraussagt.
 
                                       {{1}}
 ************************************
