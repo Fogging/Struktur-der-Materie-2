@@ -133,29 +133,25 @@ $$\alpha = 2 \pi \varepsilon_0 a^3$$
 > Die Sprungtemperaturen für die Quecksilber-Isotope ^200^Hg und ^204^Hg betragen $4,\!185~\mathrm{K}$ und $4,\!146~\mathrm{K}$. Für den funktionellen Zusammenhang zwischen der Sprungtemperatur und der Isotopenmasse gilt: $T_\mathrm{C} = c \cdot M^{-\alpha}$ mit den Konstanten $c$ und $\alpha$. Bestimmen Sie den Wert der Konstante $\alpha$. Vergleichen Sie das Ergebnis mit der Masseabhängigkeit der Frequenz eines harmonischen Oszillators.
 
                                       {{1}}
-************************************
-In einer Elementarzelle der Perowskit-Struktur von BaTiO<sub>3</sub> befinden sich folgende Ionen:
-
-- 1 Kation Ba^2+^
-- 1 Kation Ti^4+^
-- 3 Anionen O^2−^
-************************************
+Gemäß des gegebenen Zusammenhangs zwischen der Sprungtemperatur und der Isotopenmasse gilt für die zwei zu betrachtenden Isotope:
+$$T_\mathrm{C,1} = c \cdot M_1^{-\alpha}$$
+$$T_\mathrm{C,2} = c \cdot M_2^{-\alpha}$$
 
                                       {{2}}
-Es gibt also 6 positive und 6 negative Ladungen. In einer Stoffmenge von $1~\mathrm{mol}$ befindet sich also die Ladung: 
-$$Q = 6 N_\mathrm{A} e$$
+Für das Verhältnis der zwei Sprungtemperaturen folgt: 
+$$\frac{T_\mathrm{C,1}}{T_\mathrm{C,2}} = \frac{M_1^{-\alpha}}{M_2^{-\alpha}} = \left( \frac{M_1}{M_2} \right)^{-\alpha}$$
 
                                       {{3}}
-Das molare Dipolmoment ist damit:
-$$p_\mathrm{m} = Q \cdot \Delta x$$
+Um den Exponenten zu erhalten, nutzen wir den Logarithmus:
+$$\alpha = - \frac{\ln ( T_\mathrm{C,1} / T_\mathrm{C,2} )}{\ln (M_1 / M_2)} = 0,\!473$$
 
                                       {{4}}
-Das molare Dipolmoment ergibt sich andererseits über das molare Volumen $V_\mathrm{m}$ und die Sättigungspolarisation $P_\mathrm{S}$ gemäß:
-$$p_\mathrm{m} = V_\mathrm{m} \cdot P_\mathrm{S}$$
+Wir erhalten also $\alpha \approx \frac{1}{2}$, d. h. die Isotopenmasse beeinflusst nur die Phononenfrequenz und nicht das gesamte Phononenspektrum. Es gilt näherungsweise:
+$$T_\mathrm{C} \approx \frac{c}{\sqrt{M}}$$
 
                                       {{5}}
-Für die Gitterverschiebung $\Delta x$ folgt also:
-$$\Delta x = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{Q} = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{6 N_\mathrm{A} e} = 1,\!7 \cdot 10^{-11}~\mathrm{m} = 0,\!17~\mathrm{\AA}$$
+Dies entspricht der Masseabhängigkeit der Kreisfrequenz eines harmonischen Oszillators mit der Federkonstante $k$ und der Masse $M$:
+$$\omega = \sqrt{\frac{k}{M}}$$
 
 
 ## Aufgabe 6
