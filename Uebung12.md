@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 10
+comment:  Struktur der Materie 2 - Übung 12
 
 @style
 .lia-toc__bottom {
@@ -18,12 +18,12 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 10
+# Übung 12
 
 
 ## Aufgabe 1
 
-> Berechnen Sie für NaCl bei Vernachlässigung der Dämpfung die dielektrische Funktion im Infaroten aus $\varepsilon_\mathrm{r}(0) = 5,\!9$, der TO-Phononenfrequenz $\omega_\mathrm{TO} = 3,\!1 \cdot {10}^{13}~\mathrm{s^{-1}}$ und dem Brechungsindex im Sichtbaren $n_\mathrm{S} = 1,\!5$. Wie groß ist die LO-Phononenfrequenz $\omega_\mathrm{LO}$? Skizzieren Sie die Verläufe der dielektrischen Funktion und des Reflexionsvermögens.
+> Ein Supraleiter hat eine kritische Temperatur von $T_\mathrm{C} = 20~\mathrm{K}$. Bei $4,\!2~\mathrm{K}$ beträgt das kritische Feld $B_\mathrm{C} = 30~\mathrm{T}$. Bei welcher maximalen Arbeitstemperatur kann der Supraleiter für einen supraleitenden Magneten von $10~\mathrm{T}$ eingesetzt werden?
 
                                       {{1}}
 Der Realteil der dielektrischen Funktion eines Ionenkristalls ist bei Vernachlässigung der Dämpfung:
@@ -53,7 +53,7 @@ $$\lambda_\mathrm{TO} = 2 \pi c / \omega_\mathrm{TO} = 60,\!8~\mathrm{µm}$$
 
 ## Aufgabe 2 
 
-> Berechnen Sie die Polarisierbarkeit von KBr im elektrostatischen Fall und im sichtbaren Bereich. Wie groß sind die Polarisation, das auf ein Molekül bezogene elektrische Moment und die Dipollänge, wenn ein statisches Feld der Stärke $E = 1~\mathrm{MV/m}$ angelegt wird? Gegeben: $\varepsilon_\mathrm{r}(0) = 5,\!99, n_\mathrm{S} = 1,\!53$, Dichte $\varrho = 2,\!73~\mathrm{g/cm^3}$, molare Masse $M = 119~\mathrm{g/mol}$.
+> In einem Draht aus Blei mit dem Radius von $3~\mathrm{mm}$ fließt im supraleitenden Zustand ein Strom von $100~\mathrm{A}$. Angenommen die Zahl der Cooper-Paare beträgt $5 \cdot 10^{27}~\mathrm{m^{-3}}$, wie groß ist dann die mittlere Geschwindigkeit der Paare? Vergleichen Sie das Ergebnis mit der Fermi-Geschwindigkeit der Elektronen in Blei ($E_\mathrm{F} = 9,\!37~\mathrm{eV}$).
 
                                       {{1}}
 Für den elektrostatischen Fall ($\omega = 0$) benutzen wir die **Clausius-Mossotti-Gleichung**:
@@ -87,7 +87,7 @@ Dies ist also weniger als ein Tausendstel der Gitterkonstante!
 
 ## Aufgabe 3
 
-> Aus den ersten beiden Absorptionslinien des Mottschen Exzitons in GaAs bei $1,\!5156~\mathrm{eV}$ und $1,\!51815~\mathrm{eV}$ berechne man die Breite der Energielücke, die Bindungsenergie und den Exzitonenradius ($\varepsilon_\mathrm{r} = 10,\!6$).
+> Temperatur- und feldabhängige Messungen des elektrischen Widerstands haben gezeigt, dass Nb<sub>3</sub>Ge bei $22,\!3~\mathrm{K}$ in den supraleitenden Zustand übergeht. Das kritische Feld $B_\mathrm{C,2}$ beträgt $7,\!3~\mathrm{T}$. Die direkte Messung der Eindringtiefe ergab $\lambda = 2250~\mathrm{\AA}$. Die Energielücke wurde aus dem Verlauf der elektronischen spezifischen Wärme zu $\Delta = 5~\mathrm{meV}$ ermittelt. Zu welchem Supraleiter-Typ gehört Nb<sub>3</sub>Ge? Kann Nb<sub>3</sub>Ge als konventioneller BCS-Supraleiter betrachtet werden?
 
                                       {{1}}
 Exzitonen sind Wasserstoff-artige Energieniveaus unterhalb der Leitungsbandkante. Mit der Bandlückenenergie $E_\mathrm{g}$ und der reduzierten Masse $\mu^\ast$ gilt:
@@ -109,7 +109,7 @@ $$a_\mathrm{ex} = \frac{e^2}{8 \pi \varepsilon_0 \varepsilon_\mathrm{r} \Delta E
 
 ## Aufgabe 4
 
-> Gegeben sei ein System aus zwei gleichen Atomen mit festem Abstand $a$ und der Polarisierbarkeit $\alpha$ für jedes Atom. Welche Beziehung zwischen $a$ und $\alpha$ muss gelten, wenn das System ferroelektrisch sein soll? Dabei ist das Dipolfeld am stärksten in Richtung Dipolachse.
+> Bis zu welcher maximalen Stromdichte bleibt ein Blei-Draht von $4~\mathrm{mm}$ Durchmesser bei $4,\!2~\mathrm{K}$ supraleitend? Die kritische Temperatur für Blei liegt bei $7,\!2~\mathrm{K}$ und das kritische Feld $B_\mathrm{C}$ beträgt $8,\!0 \cdot 10^{-2}~\mathrm{T}$.
 
                                       {{1}}
 Das elektrische Feld in der Umgebung eines Dipols $\vec{p}$ ist:
@@ -130,7 +130,7 @@ $$\alpha = 2 \pi \varepsilon_0 a^3$$
 
 ## Aufgabe 5
 
-> Berechnen Sie die Gitterverschiebung der positiven und negativen Ionen in BaTiO<sub>3</sub>, wenn die Sättigungspolarisation $P_\mathrm{S} = 0,\!26~\mathrm{As/m^2}$ beträgt. Das molare Volumen von BaTiO<sub>3</sub> beträgt $V_\mathrm{m} = 3,\!8 \cdot {10}^{-5}~\mathrm{m^3}$.
+> Die Sprungtemperaturen für die Quecksilber-Isotope ^200^Hg und ^204^Hg betragen $4,\!185~\mathrm{K}$ und $4,\!146~\mathrm{K}$. Für den funktionellen Zusammenhang zwischen der Sprungtemperatur und der Isotopenmasse gilt: $T_\mathrm{C} = c \cdot M^{-\alpha}$ mit den Konstanten $c$ und $\alpha$. Bestimmen Sie den Wert der Konstante $\alpha$. Vergleichen Sie das Ergebnis mit der Masseabhängigkeit der Frequenz eines harmonischen Oszillators.
 
                                       {{1}}
 ************************************
@@ -156,3 +156,18 @@ $$p_\mathrm{m} = V_\mathrm{m} \cdot P_\mathrm{S}$$
                                       {{5}}
 Für die Gitterverschiebung $\Delta x$ folgt also:
 $$\Delta x = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{Q} = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{6 N_\mathrm{A} e} = 1,\!7 \cdot 10^{-11}~\mathrm{m} = 0,\!17~\mathrm{\AA}$$
+
+
+## Aufgabe 6
+
+> Ein Magnet mit einer Masse von $5~\mathrm{g}$ und einem magnetischen Moment $\mu$ von $0,\!3~\mathrm{J/T}$ schwebt über einer Scheibe aus einem Supraleiter vom Typ I (Meißner-Effekt). In welcher Höhe $h$ schwebt der Magnet, wenn sich die potentielle magnetische Energie des Magneten wie folgt berechnet:
+> $$E_\mathrm{mag} = \frac{\mu_0 \mu^2}{32 \pi h^3}$$
+
+
+                                      {{1}}
+Wir setzen die potentielle Lage-Energie gleich der magnetischen Energie:
+$$E_\mathrm{pot} = m g h = \frac{\mu_0 \mu^2}{32 \pi h^3} = E_\mathrm{mag}$$
+
+                                      {{2}}
+Umstellen nach der Höhe $h$ liefert: 
+$$h = \left( \frac{\mu_0 \mu^2}{32 \pi m g} \right)^\frac{1}{4} = 1,\!23~\mathrm{cm}$$
