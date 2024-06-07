@@ -27,22 +27,22 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
                                       {{1}}
 Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet:
-$$E_x = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
+$$E_{x,0} = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
 
                                       {{2}}
 Die reflektierte Welle besitzt eine veränderte Amplitude $E_2$ und breitet sich in entgegengesetzte Richtung aus:
-$$E_x = E_2 \cdot \exp [\mathrm{i} (-k_0 z - \omega t)]$$
+$$E_{x,2} = E_2 \cdot \exp [\mathrm{i} (-k_0 z - \omega t)]$$
 
                                       {{3}}
 Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle:
-$$E_x = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
+$$E_{x,1} = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
 
                                       {{4}}
 Am Ort $z = 0$ und zur Zeit $t = 0$ gilt für die Amplituden:
 $$E_1 = E_0 + E_2$$
 
                                       {{5}}
-Für die 1. Ableitung bei $z = 0$ und $t = 0$ gilt:
+Für die 1. Ableitung nach $z$ bei $z = 0$ und $t = 0$ gilt:
 $$n' E_1 = E_0 - E_2$$
 
                                       {{6}}
