@@ -87,7 +87,7 @@ Dies ist also weniger als ein Tausendstel der Gitterkonstante!
 
 ## Aufgabe 3
 
-> Temperatur- und feldabhängige Messungen des elektrischen Widerstands haben gezeigt, dass Nb<sub>3</sub>Ge bei $22,\!3~\mathrm{K}$ in den supraleitenden Zustand übergeht. Das kritische Feld $B_\mathrm{C2}$ beträgt $7,\!3~\mathrm{T}$. Die direkte Messung der Eindringtiefe ergab $\lambda = 2250~\mathrm{\AA}$. Die Energielücke wurde aus dem Verlauf der elektronischen spezifischen Wärme zu $\Delta = 5~\mathrm{meV}$ ermittelt. Zu welchem Supraleiter-Typ gehört Nb<sub>3</sub>Ge? Kann Nb<sub>3</sub>Ge als konventioneller BCS-Supraleiter betrachtet werden?
+> Temperatur- und feldabhängige Messungen des elektrischen Widerstands haben gezeigt, dass Nb<sub>3</sub>Ge bei $22,\!3~\mathrm{K}$ in den supraleitenden Zustand übergeht. Das kritische Feld $B_\mathrm{C2}$ beträgt $7,\!3~\mathrm{T}$. Die direkte Messung der Eindringtiefe ergab $\lambda_\mathrm{L} = 2250~\mathrm{\AA}$. Die Energielücke wurde aus dem Verlauf der elektronischen spezifischen Wärme zu $\Delta = 5~\mathrm{meV}$ ermittelt. Zu welchem Supraleiter-Typ gehört Nb<sub>3</sub>Ge? Kann Nb<sub>3</sub>Ge als konventioneller BCS-Supraleiter betrachtet werden?
 
                                       {{1}}
 Die Kohärenzlänge $\xi_\mathrm{GL}$ erhalten wir aus dem Zusammenhang mit dem kritischen Feld $B_\mathrm{C2}$:
@@ -98,17 +98,18 @@ Dabei beträgt die Ladung $q_\mathrm{S} = 2 e$ und die Konstante $\Phi_0$ ergibt
 $$\xi_\mathrm{GL} = \sqrt{\frac{\Phi_0}{2 \pi B_\mathrm{C2}}} = 6,\!7~\mathrm{nm}$$
 
                                       {{3}}
-Das kritische thermodynamische Feld ist:
-$$B_{cth}=\ \frac{\phi_0}{2\pi\sqrt2\xi\lambda} = 0.15 T$$
+Das thermodynamische kritische Feld berechnet sich zu:
+$$B_\mathrm{C,th} = \frac{\Phi_0}{2 \pi \sqrt{2} \xi_\mathrm{GL} \lambda_\mathrm{L}} = 0,\!15~\mathrm{T}$$
 
                                       {{4}}
-Der Ginzburg-Landau-Parameter ist:
-$$\kappa_{GL}=\ \frac{\lambda}{\xi}=34\ \ \gg1/\sqrt2$$
-$$\kappa_{GL}=\ \frac{B_{c2}}{B_{cth}\sqrt2}=34\ \gg1/\sqrt2    (Supraleiter Typ II)$$
+Der Ginzburg-Landau-Parameter ergibt sich zu:
+$$\kappa_\mathrm{GL} = \frac{\lambda_\mathrm{L}}{\xi_\mathrm{GL}} = \frac{B_\mathrm{C2}}{\sqrt{2} \cdot B_\mathrm{C,th}} = 34 \gg \frac{1}{\sqrt{2}}$$
+Damit handelt es sich bei Nb<sub>3</sub>Ge um einen Supraleiter vom **Typ II**.
 
                                       {{5}}
 Das Energielückenverhältnis ist:
-$$∆(0)kBTC=2,6 ≫1,764    (unkonventioneller Supraleiter)$$
+$$\frac{\Delta(0)}{k_\mathrm{B} T_\mathrm{C}} = 2,\!6 > 1,\!764$$
+Damit ist Nb<sub>3</sub>Ge ein **unkonventioneller Supraleiter**.
 
 
 ## Aufgabe 4
