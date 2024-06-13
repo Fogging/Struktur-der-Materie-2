@@ -60,7 +60,7 @@ Für den elektrostatischen Fall ($\omega = 0$) benutzen wir die **Clausius-Mosso
 $$\frac{\varepsilon_\mathrm{r} - 1}{\varepsilon_\mathrm{r} + 2} = \frac{\alpha_0 n}{3 \varepsilon_0} = \frac{\alpha_0}{3 \varepsilon_0} \cdot \frac{\varrho N_\mathrm{A}}{M}$$
 
                                       {{2}}
-Umstellen nach der gesuchten Polarisation $\alpha_0$ und Einsetzen der gegebenen Werte liefert:
+Umstellen nach der gesuchten Polarisierbarkeit $\alpha_0$ und Einsetzen der gegebenen Werte liefert:
 $$\alpha_0 = 3 \cdot \frac{\varepsilon_\mathrm{r}(0) - 1}{\varepsilon_\mathrm{r}(0) + 2} \cdot \frac{M \varepsilon_0}{\varrho N_\mathrm{A}} = 1,\!2 \cdot 10^{-39}~\mathrm{\frac{C m^2}{V}}$$
 
                                       {{3}}
