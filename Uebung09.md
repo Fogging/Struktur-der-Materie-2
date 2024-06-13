@@ -45,7 +45,7 @@ $$\mathrm{Re}[f(x)] = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{t \cdo
 Dabei bezeichnet $\mathcal{P}$ den Cauchyschen Hauptwert des auftretenden Integrals.
 
                                       {{4}}
-Für die dielektrische Funktion $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ gilt:
+Für die dielektrische Funktion $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ wird als Realteil $\chi = \varepsilon_1 - 1$ betrachtet, um die Voraussetzung $\varepsilon'(\omega) \rightarrow 0$ für $\omega \rightarrow \infty$ zu erfüllen:
 $$\chi(\omega) = \varepsilon_1(\omega) - 1 = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\omega' \cdot \varepsilon_2(\omega')}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
 $$\varepsilon_2(\omega) = - \frac{2 \omega}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\varepsilon_1(\omega') - 1}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
 
@@ -147,19 +147,19 @@ $$w = \frac{1}{\alpha}$$
 
                                       {{3}}
 Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet (siehe Übung 8, Aufgabe 1):
-$$E_x = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
+$$E_{x,0} = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
 
                                       {{4}}
 Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die veränderte Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle. Allerdings ändert sich die Wellenzahl von $k_0$ zu $k_0 n'$ und es gilt:
-$$E_x = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
+$$E_{x,1} = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
 
                                       {{5}}
 Einsetzen von $n' = n + i \cdot k$ führt zu:
-$$E_x = E_1 \cdot \exp (-k k_0 z) \cdot \exp [\mathrm{i} (k_0 n z - \omega t)]$$
+$$E_{x,1} = E_1 \cdot \exp (-k k_0 z) \cdot \exp [\mathrm{i} (k_0 n z - \omega t)]$$
 
                                       {{6}}
 Die Intensität $I$ ergibt sich aus dem Betragsquadrat der elektrischen Feldstärke:
-$$I \sim |E_x|^2 = E_1^2 \cdot \exp (-2 k k_0 z)$$
+$$I \sim |E_{x,1}|^2 = E_1^2 \cdot \exp (-2 k k_0 z)$$
 
                                       {{7}}
 Aus dem Vergleich mit dem Lambert-Beerschen-Schwächungsgesetz (für die Tiefe $z$) folgt:
