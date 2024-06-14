@@ -87,35 +87,40 @@ $$B(x) = B_0 \frac{\cosh(\frac{x}{\lambda_\mathrm{L}})}{\cosh(\frac{d}{2 \lambda
 
                                       {{8}}
 ![Dielektrische Funktion eines Ionenkristalls](Bilder/Magnetfeld_Halbraum.png "Exponentieller Abfall der magnetischen Flussdichte $B(x)$ als Funktion des Abstandes $x$ von der Oberfläche eines massiven Supraleiter. Das externe Feld ist in $z$-Richtung angelegt, der Supraleiter erstreckt sich im Halbraum $x \geq 0$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
-![Schematische Darstellung des Verlaufs der magnetischen Flussdichte in einer dünnen supraleitenden Platte in der Größenordnung der Londonschen Eindringtiefe](Bilder/Magnetfeld_Platte.png "Schematische Darstellung des Verlaufs der magnetischen Flussdichte in einer dünnen supraleitenden Platte der Dicke $d$ in der Größenordnung der Londonschen Eindringtiefe $\lambda_\mathrm{L}$. Die Platte liegt in der $yz$-Ebene, das äußere Magnetfeld ist parallel zur $z$-Achse angelegt. Die Flussdichte nimmt im Zentrum der Schicht nicht auf Null ab. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Schematische Darstellung des Verlaufs der magnetischen Flussdichte in einer dünnen supraleitenden Platte in der Größenordnung der Londonschen Eindringtiefe](Bilder/Magnetfeld_Platte.png "Schematische Darstellung des Verlaufs der magnetischen Flussdichte in einer dünnen supraleitenden Platte der Dicke $d$ in der Größenordnung der London’schen Eindringtiefe $\lambda_\mathrm{L}$. Die Platte liegt in der $yz$-Ebene, das äußere Magnetfeld ist parallel zur $z$-Achse angelegt. Die Flussdichte nimmt im Zentrum der Schicht nicht auf Null ab. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
 
 ## Aufgabe 3
 
-> In einem Dauerstromexperiment wird das Abklingen des durch den Suprastrom $I_\mathrm{s}$ in einem geschlossenen supraleitenden Ring (Radius $r_0 = 1~\mathrm{mm}$ und Drahtradius $r_1 = 0,\!1~\mathrm{mm}$) erzeugten magnetischen Moments benutzt, um den Widerstand des Supraleiters abzuschätzen.
+> In einem Dauerstromexperiment wird das Abklingen des durch den Suprastrom $I_\mathrm{S}$ in einem geschlossenen supraleitenden Ring (Radius $r_0 = 1~\mathrm{mm}$ und Drahtradius $r_1 = 0,\!1~\mathrm{mm}$) erzeugten magnetischen Moments benutzt, um den Widerstand des Supraleiters abzuschätzen.
 >
-> a) Schätzen Sie den Strom $I_\mathrm{s}$ für ein Feld von $1~\mathrm{mT}$ im Zentrum des Rings ab.
+> a) Schätzen Sie den Strom $I_\mathrm{S}$ für ein Feld von $1~\mathrm{mT}$ im Zentrum des Rings ab.
 >
 > b) Nach einem Jahr wird eine Abnahme des magnetischen Moments um $5~\%$ gemessen. Welcher maximale Widerstand des Supraleiters kann daraus abgeschätzt werden?
 
 
                                       {{1}}
-Exzitonen sind Wasserstoff-artige Energieniveaus unterhalb der Leitungsbandkante. Mit der Bandlückenenergie $E_\mathrm{g}$ und der reduzierten Masse $\mu^\ast$ gilt:
-$$E_n = E_\mathrm{g} - \frac{\mu^\ast e^4}{2 (4 \pi \varepsilon_0 \varepsilon_\mathrm{r} \hbar)^2} \cdot \frac{1}{n^2}$$
+**a)** Das Durchflutungsgesetz lautet:
+$$\oint \vec{B} \, \mathrm{d} \vec{l} = \mu_0 I_\mathrm{S}$$
 
                                       {{2}}
-Für die ersten beiden Exzitonen mit $n=1$ und $n=2$ gilt also:
-$$E_1 = E_\mathrm{g} - \frac{\mu^\ast e^4}{2 (4 \pi \varepsilon_0 \varepsilon_\mathrm{r} \hbar)^2} \cdot \frac{1}{1} = E_\mathrm{g} - \Delta E$$
-$$E_2 = E_\mathrm{g} - \frac{\mu^\ast e^4}{2 (4 \pi \varepsilon_0 \varepsilon_\mathrm{r} \hbar)^2} \cdot \frac{1}{4} = E_\mathrm{g} - \frac{\Delta E}{4}$$
+Wir integrieren entlang des supraleitenden Rings mit Radius $r_0 = 1~\mathrm{mm}$ und erhalten für den Strom:
+$$I_\mathrm{S} = \frac{2 \pi r_0 B}{\mu_0} = 5~\mathrm{A}$$
 
                                       {{3}}
-Da $E_1$ und $E_2$ gegeben sind, können wir nach der Bandlückenenergie $E_\mathrm{g}$ und der Bindungsenergie $\Delta E$ des ersten Exzitons ($n=1$) auflösen:
-$$E_\mathrm{g} = \frac{1}{3} \cdot (4 E_2 - E_1) = 1,\!519~\mathrm{eV}$$
-$$\Delta E = \frac{4}{3} \cdot (E_2 - E_1) = 0,\!0034~\mathrm{eV}$$
+**b)** Um die Induktivität $L$ des supraleitenden Rings zu bestimmen, nutzen wir die Formel für die Induktivität einer Zylinderspule und setzen die Wicklungszahl $N=1$. Dies ist tatsächlich nur eine grobe Abschätzung:
+$$L \approx \frac{\mu_0 A}{l} = \frac{\mu_0 \pi r_0^2}{2 \pi r_0} = \frac{\mu_0 r_0}{2} = 6 \cdot 10^{-10}~\mathrm{\frac{Vs}{A}} = 0,\!6~\mathrm{nH}$$
 
                                       {{4}}
-Den Exzitonenradius (für das erste Exziton mit $n=1$) erhalten wir folgendermaßen:
-$$a_\mathrm{ex} = \frac{e^2}{8 \pi \varepsilon_0 \varepsilon_\mathrm{r} \Delta E} = 20~\mathrm{nm}$$
+Aufgrund des Widerstands $R$ des supraleitenden Rings mit Induktivität $L$ ergibt sich als Ersatzschaltbild insgesamt ein $RL$-Kreis. Der Stromabfall im Ring folgt einem exponentiellen Zusammenhang:
+$$I_\mathrm{S}(t) = I_\mathrm{S}(0) \cdot \exp \left( -\frac{R}{L}t \right)$$
+
+                                      {{5}}
+Umstellen nach $R$ liefert:
+$$R = -\frac{L}{t} \cdot \ln \left( \frac{I_\mathrm{S}(t)}{I_\mathrm{S}(0)} \right) \approx 10^{-18}~\Omega$$
+
+                                      {{6}}
+Ein derart kleiner Widerstand wäre mit einer klassischen Strom-Spannungs-Messung nicht nachweisbar. Für $I_\mathrm{S} \approx 10~\mathrm{A}$ müsste man eine Spannung von $U \approx 10^{-17}~\mathrm{V}$ messen. Spannungsmessungen sind praktisch aber minimal bis $1~\mathrm{nV} = 10^{-9}~\mathrm{V}$ möglich. Dies entspricht einem minimalen detektierbaren Widerstand von $R \approx 10^{-10}~\Omega$.
 
 
 ## Aufgabe 4
