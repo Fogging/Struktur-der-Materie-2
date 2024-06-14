@@ -58,33 +58,36 @@ $$B_\mathrm{Pole} = 0$$
 
 
                                       {{1}}
-Für den elektrostatischen Fall ($\omega = 0$) benutzen wir die **Clausius-Mossotti-Gleichung**:
-$$\frac{\varepsilon_\mathrm{r} - 1}{\varepsilon_\mathrm{r} + 2} = \frac{\alpha_0 n}{3 \varepsilon_0} = \frac{\alpha_0}{3 \varepsilon_0} \cdot \frac{\varrho N_\mathrm{A}}{M}$$
+Die **2. London-Gleichung** können wir mit dem Laplace-Operator $\Delta$ allgemein schreiben als:
+$$\Delta \vec{B} - \frac{1}{\lambda_\mathrm{L}^2} \vec{B} = 0$$
 
                                       {{2}}
-Umstellen nach der gesuchten Polarisation $\alpha_0$ und Einsetzen der gegebenen Werte liefert:
-$$\alpha_0 = 3 \cdot \frac{\varepsilon_\mathrm{r}(0) - 1}{\varepsilon_\mathrm{r}(0) + 2} \cdot \frac{M \varepsilon_0}{\varrho N_\mathrm{A}} = 1,\!2 \cdot 10^{-39}~\mathrm{\frac{C m^2}{V}}$$
+Für ein homogenes magnetisches Feld $\vec{B}_0 = B_0 \vec{e}_z$, das ausschließlich in $z$-Richtung zeigt, und einen Supraleiter, der in $y$- und $z$-Richtung unendlich ausgedeht ist, ergibt sich:
+$$\frac{\mathrm{d}^2 B}{\mathrm{d} x^2} - \frac{1}{\lambda_\mathrm{L}^2} B = 0$$
 
                                       {{3}}
-Für die Lösung im sichtbaren Bereich setzen wir $n_\mathrm{S}^2 = \varepsilon_\mathrm{r}$ in die Clausius-Mossotti-Gleichung ein und erhalten die **Lorentz-Lorenz-Gleichung**:
-$$\frac{n_\mathrm{S}^2 - 1}{n_\mathrm{S}^2 + 2} = \frac{\alpha_\mathrm{S} n}{3 \varepsilon_0} = \frac{\alpha_\mathrm{S}}{3 \varepsilon_0} \cdot \frac{\varrho N_\mathrm{A}}{M}$$
+Da sich das Material (und damit das Magnetfeld $B$) nur in $x$-Richtung ändert, muss nur die Ableitung nach $x$ berücksichtigt werden. Die allgemeine Lösung dieser Differentialgleichung 2. Ordnung ist:
+$$B(x) = C_1 \exp \left( -\frac{x}{\lambda_\mathrm{L}} \right) + C_2 \exp \left( \frac{x}{\lambda_\mathrm{L}} \right)$$
 
                                       {{4}}
-Umgestellt nach $\alpha_\mathrm{S}$ erhalten wir:
-$$\alpha_\mathrm{S} = 3 \cdot \frac{n_\mathrm{S}^2 - 1}{n_\mathrm{S}^2 + 2} \cdot \frac{M \varepsilon_0}{\varrho N_\mathrm{A}} = 5,\!9 \cdot 10^{-40}~\mathrm{\frac{C m^2}{V}}$$
+**a)** Für einen den Halbraum $x \geq 0$ ausfüllenden Supraleiter gelten die Randbedingungen $B(0) = B_0$ und $B(\infty) = 0$. Einsetzen der Randbedingung $B(\infty) = 0$ in die allgemeine Lösung liefert $C_2 = 0$. Aus $B(0) = B_0$ folgt dann noch $C_1 = B_0$. Damit ergibt sich für diesen Fall die Lösung:
+$$B(x) = B_0 \exp \left( -\frac{x}{\lambda_\mathrm{L}} \right)$$
 
                                       {{5}}
-Wenn ein statisches elektrisches Feld angelegt wird, ergibt sich eine Polarisation von:
-$$P_0 = (\varepsilon_\mathrm{r} - 1) \varepsilon_0 E = 4,\!4 \cdot 10^{-5}~\mathrm{C/m^2}$$
+**b)** Für eine dünne supraleitende Platte, welche den Raum $–\frac{d}{2} \leq x \leq+\frac{d}{2}$ ausfüllt, gelten die Randbedingungen $B(-x) = B(+x)$ und $B(\frac{d}{2}) = B_0$. Einsetzen der ersten Randbedingung $B(-x) = B(+x)$ in die allgemeine Lösung liefert $C_1 = C_2$. Die zweite Randbedingung $B(\frac{d}{2}) = B_0$ führt dann auf:
+$$B_0 = C_1 \exp \left( -\frac{d}{2 \lambda_\mathrm{L}} \right) + C_1 \exp \left( \frac{d}{2 \lambda_\mathrm{L}} \right) = 2 C_1 \cosh \left( \frac{d}{2 \lambda_\mathrm{L}} \right)$$
 
                                       {{6}}
-Das elektrische Dipolmoment beträgt:
-$$p = \frac{P_0}{n} = \frac{P_0 M}{\varrho N_\mathrm{A}} = 3,\!2 \cdot 10^{-33}~\mathrm{Cm}$$
+Für den Parameter $C_1$ gilt also:
+$$C_1 = \frac{B_0}{2 \cosh \left( \frac{d}{2 \lambda_\mathrm{L}} \right)}$$
 
                                       {{7}}
-Die entsprechende Dipollänge ist:
-$$r = \frac{p}{e} = 2,\!0 \cdot 10^{-14}~\mathrm{m} = 2,\!0 \cdot 10^{-4}~\mathrm{\AA}$$
-Dies ist also weniger als ein Tausendstel der Gitterkonstante!
+Da $C_1 = C_2$ gilt, können wir den Zusammenhang $2 \cosh(z) = \exp(z) + \exp(-z)$ auch auf die allgemeine Lösung anwenden und erhalten für den Fall der supraleitenden Platte:
+$$B(x) = B_0 \frac{\cosh(\frac{x}{\lambda_\mathrm{L}})}{\cosh(\frac{d}{2 \lambda_\mathrm{L}})}$$
+
+                                      {{8}}
+![Dielektrische Funktion eines Ionenkristalls](Bilder/Magnetfeld_Halbraum.png "Exponentieller Abfall der magnetischen Flussdichte $B(x)$ als Funktion des Abstandes $x$ von der Oberfläche eines massiven Supraleiter. Das externe Feld ist in $z$-Richtung angelegt, der Supraleiter erstreckt sich im Halbraum $x \geq 0$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Schematische Darstellung des Verlaufs der magnetischen Flussdichte in einer dünnen supraleitenden Platte in der Größenordnung der Londonschen Eindringtiefe](Bilder/Magnetfeld_Platte.png "Schematische Darstellung des Verlaufs der magnetischen Flussdichte in einer dünnen supraleitenden Platte der Dicke $d$ in der Größenordnung der Londonschen Eindringtiefe $\lambda_\mathrm{L}$. Die Platte liegt in der $yz$-Ebene, das äußere Magnetfeld ist parallel zur $z$-Achse angelegt. Die Flussdichte nimmt im Zentrum der Schicht nicht auf Null ab. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
 
 ## Aufgabe 3
