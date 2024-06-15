@@ -150,25 +150,20 @@ Die **Shubnikov-Phase** tritt nur in Typ-II-Supraleitern auf. Sie stellt den Mis
 > Erklären Sie, warum die BCS-Theorie für die Temperaturabhängigkeit der Wärmekapazität der Elektronen für Temperaturen unterhalb $T_\mathrm{C}$ eine exponentielle Abhängigkeit anstelle der üblichen linearen Abhängigkeit voraussagt.
 
                                       {{1}}
-************************************
-In einer Elementarzelle der Perowskit-Struktur von BaTiO<sub>3</sub> befinden sich folgende Ionen:
-
-- 1 Kation Ba^2+^
-- 1 Kation Ti^4+^
-- 3 Anionen O^2−^
-************************************
+Die spezifische Wärmekapazität bei tiefen Temperaturen folgt im Normalzustand einer $T^3$-Abhängigkeit für den phononischen Anteil und einem linearen Anstieg für den elektronischen Anteil. Dabei ist $\gamma$ der Sommerfeld-Koeffizient:
+$$c_p = A T^3 + \gamma T$$
 
                                       {{2}}
-![Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al](Bilder/Molare-Wärmekapazität.png "Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al. Um die spezifische Wärme im normalleitenden Zustand zu messen, wurde die Supraleitung mit einem äußeren Magnetfeld von $50~\mathrm{mT}$ unterdrückt (runde Symbole). Der Gitterbeitrag zur spezifischen Wärme ist in dem gezeigten Temperaturbereich vernachlässigbar klein. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+In klassischen Supraleitern verringert sich die Wärmekapazität im supraleitenden Zustand exponentiell mit der Temperatur, da Cooper-Paare keine Wärme aufnehmen können und so nur noch Elektronen zur Wärmekapazität beitragen, die über die Energielücke angeregt werden. Die Wärmekapazität der Phononen (Gitterschwingungen) bleibt beim Übergang in den supraleitenden Zustand unverändert. Für Supraleiter gilt daher für den elektonischen Anteil unterhalb $T_\mathrm{C}$:
+$$c_p \sim \exp \left(-\frac{\Delta(0)}{k_\mathrm{B} T} \right)$$
 
                                       {{3}}
-Das molare Dipolmoment ist damit:
-$$p_\mathrm{m} = Q \cdot \Delta x$$
+Direkt bei der Sprungtemperatur $T_\mathrm{C}$ sagt die BCS-Theorie eine Zunahme der Wärmekapazität um folgenden Betrag voraus:
+$$\frac{\Delta c_p}{\gamma T_\mathrm{C}} = 1,\!43$$
 
                                       {{4}}
-Das molare Dipolmoment ergibt sich andererseits über das molare Volumen $V_\mathrm{m}$ und die Sättigungspolarisation $P_\mathrm{S}$ gemäß:
-$$p_\mathrm{m} = V_\mathrm{m} \cdot P_\mathrm{S}$$
+Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}$ ein deutlicher Sprung im Verlauf der Wärmekapazität, der bei vielen Metallen entsprechend der Vorhersage der BCS-Theorie beobachtet werden kann.
+
 
                                       {{5}}
-Für die Gitterverschiebung $\Delta x$ folgt also:
-$$\Delta x = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{Q} = \frac{V_\mathrm{m} \cdot P_\mathrm{S}}{6 N_\mathrm{A} e} = 1,\!7 \cdot 10^{-11}~\mathrm{m} = 0,\!17~\mathrm{\AA}$$
+![Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al](Bilder/Molare-Wärmekapazität.png "Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al. Um die spezifische Wärme im normalleitenden Zustand zu messen, wurde die Supraleitung mit einem äußeren Magnetfeld von $50~\mathrm{mT}$ unterdrückt (runde Symbole). Der Gitterbeitrag zur spezifischen Wärme ist in dem gezeigten Temperaturbereich vernachlässigbar klein. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
