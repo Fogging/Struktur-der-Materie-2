@@ -128,20 +128,21 @@ Ein derart kleiner Widerstand wäre mit einer klassischen Strom-Spannungs-Messun
 > Worin besteht der Unterschied zwischen einem Supraleiter vom Typ I und einem Supraleiter vom Typ II? Was versteht man unter einer Shubnikov-Phase?
 
                                       {{1}}
-Das elektrische Feld in der Umgebung eines Dipols $\vec{p}$ ist:
-$$\vec{E} (\vec{r}) = \frac{1}{4 \pi \varepsilon_0} \left( 3 \, \frac{\vec{p} \cdot \vec{r}}{r^5} \, \vec{r} - \frac{1}{r^3} \, \vec{p} \right)$$
+Oberhalb einer **kritischen Feldstärke** $B_\mathrm{C}$ geht ein Typ-I-Supraleiter abrupt in den normalleitenden Zustand über. Ein Typ-II-Supraleiter geht oberhalb einer ersten kritischen Feldstärke $B_\mathrm{C,1}$ zunächst in einen Mischzustand über, bevor er bei $B_\mathrm{C,2}$ vollständig normalleitend wird.
 
                                       {{2}}
-Wir betrachten die zwei Atome als zwei parallele Dipolmomente $\vec{p}_1$ und $\vec{p}_2$ mit dem Abstand $r=a$. Für die Feldstärke des ersten Dipolmoments gilt entlang der Verbindungslinie (entlang der Dipolachse):
-$$E_1(a) = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{3 p_1 - p_1}{a^3} = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{2 p_1}{a^3}$$
+Der **Meißner-Effekt** tritt bei Typ-I-Supraleitern immer vollständig auf. Bei Typ-II-Supraleitern ist dies nur unterhalb $B_\mathrm{C,1}$ der Fall. Zwischen $B_\mathrm{C,1}$ und $B_\mathrm{C,2}$ kann das Magnetfeld teilweise in den Supraleiter vom Typ II eindringen.
 
                                       {{3}}
-Nutzen wir die Definition der Polarisierbarkeit $\alpha$, erhalten wir für die Größe des zweiten Dipolmoments:
-$$p_2 = \alpha \cdot E_1(a) = \frac{\alpha \cdot p_1}{2 \pi \varepsilon_0 a^3}$$
+Die **Shubnikov-Phase** tritt nur in Typ-II-Supraleitern auf. Sie stellt den Mischzustand dar, in dem supraleitende und normalleitende Bereiche koexistieren. Dadurch kann ein äußeres Magnetfeld eindringen und bildet regelmäßig angeordnete Fluss-Schläuche (in den normalleitenden Bereichen).
 
                                       {{4}}
-Da es sich um zwei gleiche Atome handelt, müssen auch die Dipolmomente gleich sein, d. h. $p_1 = p_2$. Daraus folgt:
-$$\alpha = 2 \pi \varepsilon_0 a^3$$
+![Temperaturverlauf des kritischen Feldes eines Typ-I-Supraleiters](Bilder/Kritisches-Feld_Typ-I.png "Temperaturverlauf des kritischen Feldes $B_\mathrm{C}$ eines **Typ-I-Supraleiters** (Blei). *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Temperaturverlauf des unteren und des oberen kritischen Feldes sowie des daraus berechneten thermodynamischen kritischen Feldes eines Typ-II-Supraleiters](Bilder/Kritisches-Feld_Typ-II.png "Temperaturverlauf des unteren und des oberen kritischen Feldes sowie des daraus berechneten thermodynamischen kritischen Feldes eines **Typ-II-Supraleiters** (In mit 4 at.-% Bi). Die durchgezogenen Linien geben den empirischen $1-(T/T_\mathrm{C})^2$ Temperaturverlauf wieder. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+
+                                      {{5}}
+![Schematische Darstellung der magnetische Flussdichte im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter](Bilder/Typ-I-II_Magnetfeld.png "Schematische Darstellung der **magnetischen Flussdichte** im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter als Funktion des von außen angelegten Magnetfelds. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+![Schematische Darstellung der Magnetisierung im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter](Bilder/Typ-I-II_Magnetisierung.png "Schematische Darstellung der **Magnetisierung** im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter als Funktion des von außen angelegten Magnetfelds. Die beiden grau hinterlegten Flächen sind gleich. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
 
 ## Aufgabe 5
@@ -158,8 +159,7 @@ In einer Elementarzelle der Perowskit-Struktur von BaTiO<sub>3</sub> befinden si
 ************************************
 
                                       {{2}}
-Es gibt also 6 positive und 6 negative Ladungen. In einer Stoffmenge von $1~\mathrm{mol}$ befindet sich also die Ladung: 
-$$Q = 6 N_\mathrm{A} e$$
+![Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al](Bilder/Molare-Wärmekapazität.png "Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al. Um die spezifische Wärme im normalleitenden Zustand zu messen, wurde die Supraleitung mit einem äußeren Magnetfeld von $50~\mathrm{mT}$ unterdrückt (runde Symbole). Der Gitterbeitrag zur spezifischen Wärme ist in dem gezeigten Temperaturbereich vernachlässigbar klein. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
                                       {{3}}
 Das molare Dipolmoment ist damit:
