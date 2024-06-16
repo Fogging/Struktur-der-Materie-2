@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 12
+comment:  Struktur der Materie 2 - Übung 13
 
 @style
 .lia-toc__bottom {
@@ -18,11 +18,18 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 12
+# Übung 13
 
 ## Aufgabe 1
 
-> Was sagt die BCS-Theorie für die Temperaturabhängigkeit der Wärmekapazität der Elektronen für Temperaturen unterhalb $T_\mathrm{C}$ voraus?
+> a) Erklären Sie, wie ein NMR-Spektrum zustande kommt. 
+>
+> b) Welche Eigenschaften eines Atomkerns führen zu einer großen NMR-Empfindlichkeit?
+>
+> c) In welcher Einheit wird die $x$-Achse im NMR-Spektrum angegeben und wie ist sie definiert?
+>
+> d) Welchen Vorteil bietet in der NMR-Spektrometrie ein möglichst starkes Magnetfeld?
+
 
                                       {{1}}
 Die spezifische Wärmekapazität bei tiefen Temperaturen folgt im Normalzustand einer $T^3$-Abhängigkeit für den phononischen Anteil und einem linearen Anstieg für den elektronischen Anteil. Dabei ist $\gamma$ der Sommerfeld-Koeffizient:
@@ -46,7 +53,10 @@ Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}
 
 ## Aufgabe 2
 
-> Ein Supraleiter hat eine kritische Temperatur von $T_\mathrm{C} = 20~\mathrm{K}$. Bei $4,\!2~\mathrm{K}$ beträgt das kritische Feld $B_\mathrm{C} = 30~\mathrm{T}$. Bei welcher maximalen Arbeitstemperatur kann der Supraleiter für einen supraleitenden Magneten von $10~\mathrm{T}$ eingesetzt werden?
+> a) Was ist die Kopplungskonstante $J$ in der NMR-Spektroskopie und welche Informationen lassen sich aus der Feinstruktur eines NMR-Signals ableiten?
+>
+> b) Sie sehen nebenstehend ein Triplett aus einem $\mathrm{250~MHz}$-Spektrum, in dem die Bandenmaxima in $\mathrm{ppm}$ beschriftet sind. Geben Sie die Kopplungskonstante $J$ in $\mathrm{Hz}$ an.
+
 
                                       {{1}}
 Der Zusammenhang zwischen kritischer Feldstärke $B_\mathrm{C}(T)$ und kritischer Temperatur $T_\mathrm{C}$ lautet:
@@ -63,7 +73,7 @@ $$T = T_\mathrm{C} \cdot \sqrt{1 - \frac{B_\mathrm{C}(T)}{B_\mathrm{C}(0)}} = 16
 
 ## Aufgabe 3 
 
-> In einem Draht aus Blei mit dem Radius von $3~\mathrm{mm}$ fließt im supraleitenden Zustand ein Strom von $100~\mathrm{A}$. Die London’sche Eindringtiefe für Blei ist $\lambda_\mathrm{L} = 37~\mathrm{nm}$. Angenommen die Zahl der Cooper-Paare beträgt $5 \cdot 10^{27}~\mathrm{m^{-3}}$, wie groß ist dann die mittlere Geschwindigkeit der Paare? Vergleichen Sie das Ergebnis mit der Fermi-Geschwindigkeit der Elektronen in Blei ($E_\mathrm{F} = 9,\!37~\mathrm{eV}$).
+> Was besagt die Multiplizität in der NMR-Spektroskopie? Bestimmen Sie die Multiplizität der abgebildeten ^1^H-Signale der gegebenen Molekülfragmente. Hinweis: Das betrachtete Proton ist blau markiert. Die Unterscheidung von H<sub>A</sub> und H<sub>B</sub> meint ungleiche Bindungspartner.
 
                                       {{1}}
 Für den elektrischen Strom gilt:
@@ -92,7 +102,10 @@ Die mittlere Geschwindigkeit der Cooper-Paare ist also viel kleiner als die Ferm
 
 ## Aufgabe 4
 
-> Temperatur- und feldabhängige Messungen des elektrischen Widerstands haben gezeigt, dass Nb<sub>3</sub>Ge bei $22,\!3~\mathrm{K}$ in den supraleitenden Zustand übergeht. Das kritische Feld $B_\mathrm{C2}$ beträgt $7,\!3~\mathrm{T}$. Die direkte Messung der Eindringtiefe ergab $\lambda_\mathrm{L} = 2250~\mathrm{\AA}$. Die Energielücke wurde aus dem Verlauf der elektronischen spezifischen Wärme zu $\Delta = 5~\mathrm{meV}$ ermittelt. Zu welchem Supraleiter-Typ gehört Nb<sub>3</sub>Ge? Kann Nb<sub>3</sub>Ge als konventioneller BCS-Supraleiter betrachtet werden?
+> a) Welche Multipletts ergeben sich für (i) die Methylengruppe und (ii) die Methylgruppe von Chlorethan (CH<sub>3</sub>–CH<sub>2</sub>–Cl)?
+>
+>b) Welche Multipletts sind für (i) die Methylengruppe und (ii) die Methingruppe von 1,1,2-Trichlorethan (Cl–CH<sub>2</sub>–CH–Cl<sub>2</sub>) zu erwarten?
+
 
                                       {{1}}
 Die Kohärenzlänge $\xi_\mathrm{GL}$ erhalten wir aus dem Zusammenhang mit dem kritischen Feld $B_\mathrm{C2}$:
@@ -119,7 +132,10 @@ Damit ist Nb<sub>3</sub>Ge ein **unkonventioneller Supraleiter**.
 
 ## Aufgabe 5
 
-> Bis zu welcher maximalen Stromdichte bleibt ein Blei-Draht von $4~\mathrm{mm}$ Durchmesser bei $4,\!2~\mathrm{K}$ supraleitend? Die kritische Temperatur für Blei liegt bei $7,\!2~\mathrm{K}$ und das kritische Feld $B_\mathrm{C}$ beträgt $8,\!0 \cdot 10^{-2}~\mathrm{T}$.
+> a) Wie groß ist die Resonanzfrequenz eines Protons in einem Magnetfeld von $B = 14,\!1~\mathrm{T}$? Der Landé-Faktor für das Proton ist mit $g = 5,\!5857$ gegeben und sein magnetisches Moment entspricht einem Kernmagneton $\mu_\mathrm{N} = 5,\!0508 \cdot {10}^{-27}~\mathrm{J/T}$.
+>
+> b) In welchem der folgenden Systeme ist die Aufspaltung der Energieniveaus größer: (i) in einem Proton in einem $\mathrm{600~MHz}$-Spektrometer oder (ii) in einem Deuteron in demselben Spektrometer ($g_I = 0,\!8575$)?
+
 
                                       {{1}}
 Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
@@ -144,3 +160,40 @@ $$j_\mathrm{C} = \frac{I_\mathrm{C}}{A} = \frac{I_\mathrm{C}}{\frac{\pi}{4} d^2}
                                       {{6}}
 Aufgrund des Meißner-Effekts darf das Magnetfeld aber nicht ins Innere des Supraleiters 1. Art eindringen. Daher kann auch der supraleitende Strom nur direkt an der Oberfläche des Supraleiters fließen. Er klingt mit der London’schen Eindringtiefe $\lambda_\mathrm{L}$ exponentiell von der Mantelfläche des Drahtes her ab. Für Blei ist $\lambda_\mathrm{L} = 37~\mathrm{nm}$. Die stromdurchflossene Fläche ist also viel kleiner und kann mit $A = \pi d \cdot \lambda_\mathrm{L}$ abgeschätzt werden. Dann folgt für die kritische Stromdichte:
 $$j_\mathrm{C} = \frac{I_\mathrm{C}}{A} = \frac{I_\mathrm{C}}{\pi d \lambda_\mathrm{L}} = 1,\!1 \cdot 10^{12}~\mathrm{\frac{A}{m^2}}$$
+
+
+## Aufgabe 6
+
+> a) Die chemische Verschiebung der CH<sub>3</sub>-Protonen in Acetaldehyd (Ethanal) ist $\delta = 2,\!20~\mathrm{ppm}$, die des Aldehydprotons (−CHO) ist $\delta = 9,\!80~\mathrm{ppm}$. Wie groß ist die Differenz der lokalen Feldstärken für diese beiden Protonen bei einem äußeren Feld von (i) $\mathrm{1,\!5~T}$ und (ii) $\mathrm{15~T}$?
+>
+> b) Skizieren Sie das Aussehen des ^1^H-NMR-Spektrums von Acetaldehyd (i) in einem $\mathrm{250~MHz}$ und (ii) $\mathrm{500~MHz}$-Spektrometer. Verwenden Sie dazu $J = 2,\!9~\mathrm{Hz}$ sowie die Daten aus Teilaufgabe (a).
+
+
+                                      {{1}}
+Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
+$$B = \frac{\mu_0 I}{2 \pi r}$$
+
+
+## Aufgabe 7
+
+> Die Abbildung zeigt das ^1^H-NMR-Spektrum von Ethanol (CH<sub>3</sub>CH<sub>2</sub>OH). Die stufenartigen Kurven zeigen das integrierte Signal.
+>
+> a) Ordnen Sie die Signale der H-Gruppen von Ethanol den Signalen im Spektrum zu.
+>
+> b) Erklären Sie die Feinstruktur der C-H-Protonen im Spektrum.
+
+
+
+                                      {{1}}
+Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
+$$B = \frac{\mu_0 I}{2 \pi r}$$
+
+
+## Aufgabe 8
+
+> Gegeben ist ein ^1^H-NMR-Spektrum von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>). Ermitteln Sie die chemischen Verschiebungen, alle vicinalen Kopplungen $^3J$ und ordnen Sie die Protongruppen im Spektrum der Molekülstruktur zu.
+
+
+                                      {{1}}
+Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
+$$B = \frac{\mu_0 I}{2 \pi r}$$
