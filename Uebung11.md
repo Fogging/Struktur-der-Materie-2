@@ -147,7 +147,7 @@ Die **Shubnikov-Phase** tritt nur in Typ-II-Supraleitern auf. Sie stellt den Mis
 
 ## Aufgabe 5
 
-> Erklären Sie, warum die BCS-Theorie für die Temperaturabhängigkeit der Wärmekapazität der Elektronen für Temperaturen unterhalb $T_\mathrm{C}$ eine exponentielle Abhängigkeit anstelle der üblichen linearen Abhängigkeit voraussagt.
+> Was sagt die BCS-Theorie für die Temperaturabhängigkeit der Wärmekapazität der Elektronen für Temperaturen unterhalb $T_\mathrm{C}$ voraus?
 
                                       {{1}}
 Die spezifische Wärmekapazität bei tiefen Temperaturen folgt im Normalzustand einer $T^3$-Abhängigkeit für den phononischen Anteil und einem linearen Anstieg für den elektronischen Anteil. Dabei ist $\gamma$ der Sommerfeld-Koeffizient:
@@ -162,7 +162,7 @@ Direkt bei der Sprungtemperatur $T_\mathrm{C}$ sagt die BCS-Theorie eine Zunahme
 $$\frac{\Delta c_p}{\gamma T_\mathrm{C}} = 1,\!43$$
 
                                       {{4}}
-Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}$ ein deutlicher Sprung im Verlauf der Wärmekapazität, der bei vielen Metallen entsprechend der Vorhersage der BCS-Theorie beobachtet werden kann.
+Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}$ ein deutlicher Sprung im Verlauf der Wärmekapazität, der bei vielen Metallen entsprechend der Vorhersage der BCS-Theorie real beobachtet werden kann.
 
 
                                       {{5}}
