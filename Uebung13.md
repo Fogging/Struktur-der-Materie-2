@@ -199,7 +199,7 @@ $$B = \frac{\mu_0 I}{2 \pi r}$$
 
 > Gegeben ist ein ^1^H-NMR-Spektrum von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>). Ermitteln Sie die chemischen Verschiebungen, alle vicinalen Kopplungen $^3J$ und ordnen Sie die Protongruppen im Spektrum der Molekülstruktur zu.
 >
-> ![1H-NMR-Spektrum von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester.png)
+> ![1H-NMR-Spektrum von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester.png)<!-- style = "width: 500px;" -->
 
 
                                       {{1}}
