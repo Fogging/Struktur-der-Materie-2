@@ -56,6 +56,8 @@ Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}
 > a) Was ist die Kopplungskonstante $J$ in der NMR-Spektroskopie und welche Informationen lassen sich aus der Feinstruktur eines NMR-Signals ableiten?
 >
 > b) Sie sehen nebenstehend ein Triplett aus einem $\mathrm{250~MHz}$-Spektrum, in dem die Bandenmaxima in $\mathrm{ppm}$ beschriftet sind. Geben Sie die Kopplungskonstante $J$ in $\mathrm{Hz}$ an.
+>
+> ![Triplett aus einem 250 MHz-Spektrum, in dem die Bandenmaxima in ppm beschriftet sind](Bilder/NMR_Triplett.png)
 
 
                                       {{1}}
@@ -74,6 +76,8 @@ $$T = T_\mathrm{C} \cdot \sqrt{1 - \frac{B_\mathrm{C}(T)}{B_\mathrm{C}(0)}} = 16
 ## Aufgabe 3 
 
 > Was besagt die Multiplizität in der NMR-Spektroskopie? Bestimmen Sie die Multiplizität der abgebildeten ^1^H-Signale der gegebenen Molekülfragmente. Hinweis: Das betrachtete Proton ist blau markiert. Die Unterscheidung von H<sub>A</sub> und H<sub>B</sub> meint ungleiche Bindungspartner.
+>
+> ![1H-Signale verschiedener Molekülfragmente](Bilder/NMR_Molekülfragmente.png)
 
                                       {{1}}
 Für den elektrischen Strom gilt:
@@ -181,6 +185,8 @@ $$B = \frac{\mu_0 I}{2 \pi r}$$
 > a) Ordnen Sie die Signale der H-Gruppen von Ethanol den Signalen im Spektrum zu.
 >
 > b) Erklären Sie die Feinstruktur der C-H-Protonen im Spektrum.
+>
+> ![1H-NMR-Spektrum von Ethanol](Bilder/NMR_Ethanol.png)
 
 
 
@@ -192,6 +198,8 @@ $$B = \frac{\mu_0 I}{2 \pi r}$$
 ## Aufgabe 8
 
 > Gegeben ist ein ^1^H-NMR-Spektrum von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>). Ermitteln Sie die chemischen Verschiebungen, alle vicinalen Kopplungen $^3J$ und ordnen Sie die Protongruppen im Spektrum der Molekülstruktur zu.
+>
+> ![1H-NMR-Spektrum von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester.png)
 
 
                                       {{1}}
