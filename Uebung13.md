@@ -134,26 +134,22 @@ $$M = (n_1 + 1) \cdot (n_2 + 1) \cdot (n_3 + 1) = 3 \cdot 2 \cdot 2 = 12 \quad \
 
 
                                       {{1}}
-Die Kohärenzlänge $\xi_\mathrm{GL}$ erhalten wir aus dem Zusammenhang mit dem kritischen Feld $B_\mathrm{C2}$:
-$$B_\mathrm{C2} = \frac{\hbar}{q_\mathrm{S} \xi_\mathrm{GL}^2} = \frac{\Phi_0}{2 \pi \xi_\mathrm{GL}^2}$$
+************************************
+**a)** Chlorethan (CH<sub>3</sub>–CH<sub>2</sub>–Cl)
+
+**(i)** Das Signal der Methylengruppe (–CH<sub>2</sub>–) wird durch die drei Wasserstoff-Atome der benachbarten Methylgruppe (–CH<sub>3</sub>) in ein Quartett aufgespalten.
+
+**(ii)** Das Signal der Methylgruppe (–CH<sub>3</sub>) wird durch die beiden H-Atome der Methylengruppe (–CH<sub>2</sub>–) in ein Triplett aufgespalten.
+************************************
 
                                       {{2}}
-Dabei beträgt die Ladung $q_\mathrm{S} = 2 e$ und die Konstante $\Phi_0$ ergibt sich aus $\Phi_0 = h / q_\mathrm{S} = 2,\!07 \cdot 10^{-15}~\mathrm{Vs}$. Die Ginzburg-Landau-Kohärenzlänge ist damit:
-$$\xi_\mathrm{GL} = \sqrt{\frac{\Phi_0}{2 \pi B_\mathrm{C2}}} = 6,\!7~\mathrm{nm}$$
+************************************
+**b)** 1,1,2-Trichlorethan (Cl–CH<sub>2</sub>–CH–Cl<sub>2</sub>)
 
-                                      {{3}}
-Das thermodynamische kritische Feld berechnet sich zu:
-$$B_\mathrm{C,th} = \frac{\Phi_0}{2 \pi \sqrt{2} \xi_\mathrm{GL} \lambda_\mathrm{L}} = 0,\!15~\mathrm{T}$$
+**(i)** Das Methylen-Signal (–CH<sub>2</sub>–) wird durch die benachbarte Methingruppe (–CH–) in ein Dublett aufgespalten. 
 
-                                      {{4}}
-Der Ginzburg-Landau-Parameter ergibt sich zu:
-$$\kappa_\mathrm{GL} = \frac{\lambda_\mathrm{L}}{\xi_\mathrm{GL}} = \frac{B_\mathrm{C2}}{\sqrt{2} \cdot B_\mathrm{C,th}} = 34 \gg \frac{1}{\sqrt{2}}$$
-Damit handelt es sich bei Nb<sub>3</sub>Ge um einen Supraleiter vom **Typ II**.
-
-                                      {{5}}
-Das Energielückenverhältnis ist:
-$$\frac{\Delta(0)}{k_\mathrm{B} T_\mathrm{C}} = 2,\!6 > 1,\!764$$
-Damit ist Nb<sub>3</sub>Ge ein **unkonventioneller Supraleiter**.
+**(ii)** Das Signal der Methingruppe (–CH–) wird durch die Methylengruppe (–CH<sub>2</sub>–) wieder zu einem Triplett.
+************************************
 
 
 ## Aufgabe 5
