@@ -32,23 +32,31 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
                                       {{1}}
-Die spezifische Wärmekapazität bei tiefen Temperaturen folgt im Normalzustand einer $T^3$-Abhängigkeit für den phononischen Anteil und einem linearen Anstieg für den elektronischen Anteil. Dabei ist $\gamma$ der Sommerfeld-Koeffizient:
-$$c_p = A T^3 + \gamma T$$
+************************************
+**a)** NMR-Signale entstehen durch die Wechselwirkung der Kernspins mit einem externen Magnetfeld, die Anregung durch HF-Pulse und die anschließende Relaxation, die ein messbares elektrisches Signal in einer Spule erzeugt. Die Analyse dieses Signals durch Fourier-Transformation liefert ein Spektrum, das Informationen über die chemische Struktur und Umgebung der Atome in der Probe enthält.
+![Signalentstehung bei der NMR-Spektroskopie](Bilder/NMR_Signalentstehung.png "Signalentstehung bei der NMR-Spektroskopie. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+************************************
 
                                       {{2}}
-In klassischen Supraleitern verringert sich die Wärmekapazität im supraleitenden Zustand exponentiell mit der Temperatur, da Cooper-Paare keine Wärme aufnehmen können und so nur noch Elektronen zur Wärmekapazität beitragen, die über die Energielücke angeregt werden. Die Wärmekapazität der Phononen (Gitterschwingungen) bleibt beim Übergang in den supraleitenden Zustand unverändert. Für Supraleiter gilt daher für den elektonischen Anteil unterhalb $T_\mathrm{C}$:
-$$c_p \sim \exp \left(-\frac{\Delta(0)}{k_\mathrm{B} T} \right)$$
+************************************
+**b)** Ein Isotop eines Elements wird empfindlich genannt, wenn es zu einem starken Signal im NMR-Spektrum führt. Dazu muss das Isotop:
+
+- im natürlichen Isotopengemisch mit großer Häufigkeit vorkommen,
+- ein großes magnetogyrisches Verhältnis besitzen,
+- eine Kernspinquantenzahl von ungleich Null haben, da die Atomkerne dieses Isotops sonst kein magnetisches Moment besitzen.
+************************************
 
                                       {{3}}
-Direkt bei der Sprungtemperatur $T_\mathrm{C}$ sagt die BCS-Theorie eine Zunahme der Wärmekapazität um folgenden Betrag voraus:
-$$\frac{\Delta c_p}{\gamma T_\mathrm{C}} = 1,\!43$$
+**c)** Die Energieeinheit im NMR-Spektrum ist die chemische Verschiebung $\delta$. Die chemische Verschiebung ist der Unterschied der Resonanzfrequenz der Atome einer Probe zu der der Atome des Standards TMS (Tetramethylsilan), also bezogen auf die TMS-Frequenz (bzw. $f_0$). Da die Unterschiede der Resonanzfrequenzen sehr klein sind, wird $\delta$ in $\mathrm{ppm}$ angegeben. Die chemische Verschiebung ist ein Relativmaß und daher unabhängig von der Magnetfeldstärke $B_0$.
 
                                       {{4}}
-Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}$ ein deutlicher Sprung im Verlauf der Wärmekapazität, der bei vielen Metallen entsprechend der Vorhersage der BCS-Theorie real beobachtet werden kann.
+************************************
+**d)** Je stärker das Magnetfeld ist, desto größer ist der Energieunterschied der verschiedenen Orientierungen eines atomaren magnetischen Moments im Magnetfeld. Je stärker das Magnetfeld ist, desto:
 
-
-                                      {{5}}
-![Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al](Bilder/Molare-Wärmekapazität.png "Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al. Um die spezifische Wärme im normalleitenden Zustand zu messen, wurde die Supraleitung mit einem äußeren Magnetfeld von $50~\mathrm{mT}$ unterdrückt (runde Symbole). Der Gitterbeitrag zur spezifischen Wärme ist in dem gezeigten Temperaturbereich vernachlässigbar klein. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+- mehr unterscheiden sich die Resonanzenergien verschiedener Atomkerne,
+- intensiver werden die Absorptionen, weil weniger Atomkerne thermisch angeregt sind,
+- einfacher interpretierbar werden die NMR-Spektren.
+************************************
 
 
 ## Aufgabe 2
