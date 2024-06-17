@@ -32,10 +32,8 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
                                       {{1}}
-************************************
 **a)** NMR-Signale entstehen durch die Wechselwirkung der Kernspins mit einem externen Magnetfeld, die Anregung durch HF-Pulse und die anschließende Relaxation, die ein messbares elektrisches Signal in einer Spule erzeugt. Die Analyse dieses Signals durch Fourier-Transformation liefert ein Spektrum, das Informationen über die chemische Struktur und Umgebung der Atome in der Probe enthält.
 ![Signalentstehung bei der NMR-Spektroskopie](Bilder/NMR_Signalentstehung.png "Signalentstehung bei der NMR-Spektroskopie. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
-************************************
 
                                       {{2}}
 ************************************
@@ -100,28 +98,32 @@ $$J = 0,\!0273~\mathrm{ppm} \cdot 250~\mathrm{MHz} = 6,\!8~\mathrm{Hz}$$
 > ![1H-Signale verschiedener Molekülfragmente](Bilder/NMR_Molekülfragmente.png)
 
                                       {{1}}
-Für den elektrischen Strom gilt:
-$$I = \frac{Q}{t} = e n_\mathrm{S} A v_\mathrm{S}$$
+Durch Kopplung mit $n$ magnetisch äquivalenten Kernen spaltet sich das Signal in $n + 1$ Linien auf ($n+1$-Regel). Die **Multiplizität** $M$ gibt also an, wie viele Linien zu einem Signal gehören und gleichzeitig auch wie viele Kopplungspartner zu diesem Signal beitragen.
 
                                       {{2}}
-Umstellen nach der gesuchten Geschwindigkeit $v_\mathrm{S}$ der Cooper-Paare liefert:
-$$v_\mathrm{S} = \frac{I}{e A n_\mathrm{S}}$$
-
+**a)** Das betrachtete, blau markierte Proton koppelt an $n=3$ äquivalente H-Kerne, die sich am benachbarten C-Atom befinden:
+$$M = n+1 = 4 \quad \mathrm{(Quartett)}$$
 
                                       {{3}}
-Würde die gesamte Querschnittsfläche $A$ des Blei-Drahts vom Strom durchflossen, wäre $A = \pi r^2 = 2,\!83 \cdot 10^{-5}~\mathrm{m^2}$ und die Rechnung ergäbe:
-$$v_\mathrm{S} = 0,\!0044~\mathrm{\frac{m}{s}}$$
+**b)** Falls nicht alle Kopplungspartner eines Kerns gleichartig sind, können die Kopplungskonstanten verschieden sein (AMX-System). Dann gilt die $n+1$-Regel nicht mehr, da die Signale nicht mehr zusammenfallen. Wir benötigen die erweiterte $n + 1$-Regel: $(n_1 + 1) \cdot (n_2 + 1)$ und erhalten für dieses Fragment ein Dublett vom Dublett (dd):
+$$M = (n_1 + 1) \cdot (n_2 + 1) = 2 \cdot 2 = 4 \quad \mathrm{(dd)}$$
 
                                       {{4}}
-Aufgrund des Meißner-Effekts darf das Magnetfeld aber nicht ins Innere des Supraleiters 1. Art eindringen. Daher kann auch der supraleitende Strom nur direkt an der Oberfläche des Supraleiters fließen. Er klingt mit der London’schen Eindringtiefe $\lambda_\mathrm{L}$ exponentiell von der Mantelfläche des Drahtes her ab. Die stromdurchflossene Fläche ist also viel kleiner und kann aus dem Umfang des Drahtes mit $A = 2 \pi r \cdot \lambda_\mathrm{L} = 6,\!97 \cdot 10^{-10}~\mathrm{m^2}$ abgeschätzt werden. Daraus folgt für die Geschwindigkeit der Cooper-Paare:
-$$v_\mathrm{S} = 179~\mathrm{\frac{m}{s}}$$
+**c)** Das betrachtete, blau markierte Proton koppelt an $n=8$ äquivalente H-Kerne, die sich an den benachbarten C-Atomen befinden:
+$$M = n+1 = 9 \quad \mathrm{(Nonett)}$$
 
                                       {{5}}
-Die Fermi-Geschwindigkeit $v_\mathrm{F}$ der Elektronen in Blei erhalten wir aus dem Zusammenhang $E_\mathrm{F} = \frac{m}{2} v_\mathrm{F}^2$ als:
-$$v_\mathrm{F} = \sqrt{\frac{2 E_\mathrm{F}}{m}} = 1,\!82 \cdot 10^6~\mathrm{\frac{m}{s}}$$
+**d)** Das betrachtete, blau markierte Proton koppelt an $n=7$ äquivalente H-Kerne, die sich an den benachbarten C-Atomen befinden:
+$$M = n+1 = 8 \quad \mathrm{(Oktett)}$$
 
                                       {{6}}
-Die mittlere Geschwindigkeit der Cooper-Paare ist also viel kleiner als die Fermi-Geschwindigkeit der Elektronen.
+**e)** Da zwei verschiedene Kopplungspartner auftreten, benötigen wir die erweiterte $n + 1$-Regel und erhalten für dieses Fragment ein Dublett vom Triplett (dt):
+$$M = (n_1 + 1) \cdot (n_2 + 1) = 3 \cdot 2 = 6 \quad \mathrm{(dt)}$$
+![AMX-System mit Dublett vom Triplett (dt)](Bilder/NMR_AMX-System.png "AMX-System mit Dublett vom Triplett (dt). Die beiden inneren Linien liegen im Spektrum fast übereinander. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+
+                                      {{7}}
+**f)** Da drei verschiedene Kopplungspartner auftreten, benötigen wir die erweiterte $n + 1$-Regel für drei Partner: $(n_1 + 1) \cdot (n_2 + 1) \cdot (n_3 + 1)$. Wir erhalten für dieses Fragment ein Dublett Dublett Triplett (ddt):
+$$M = (n_1 + 1) \cdot (n_2 + 1) \cdot (n_3 + 1) = 3 \cdot 2 \cdot 2 = 12 \quad \mathrm{(ddt)}$$
 
 
 ## Aufgabe 4
