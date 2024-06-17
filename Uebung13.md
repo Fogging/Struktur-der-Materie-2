@@ -69,16 +69,28 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
                                       {{1}}
-Der Zusammenhang zwischen kritischer Feldstärke $B_\mathrm{C}(T)$ und kritischer Temperatur $T_\mathrm{C}$ lautet:
-$$B_\mathrm{C}(T) = B_\mathrm{C}(0) \cdot \left[1 - \left( \frac{T}{T_\mathrm{C}} \right)^2 \right]$$
+**a)** Die in der Protonenresonanz gemessenen Signale zeigen häufig eine Feinstruktur. Nach der Anzahl der Teilbanden im Signal spricht man von einem Singulett, einem Dublett, einem Triplett, einem Quartett, einem Quintett usw. (bei vielen Linien: Multiplett). Ursache für die Aufspaltung von Signalen ist die Wechselwirkung eines Kerns mit Nachbarkernen. Diese Spin-Spin-Kopplung tritt zwischen Kernen derselben Sorte auf (homonuklear) und zwischen Kernen verschiedener Elemente (heteronuklear). Sie wird durch die Beeinflussung der Resonanz eines Kerns A durch das lokale Magnetfeld des koppelnden Kerns X verursacht.
 
                                       {{2}}
-Umstellen liefert $B_\mathrm{C}(0)$, also die kritische Feldstärke bei $T = 0~\mathrm{K}$:
-$$B_\mathrm{C}(0) = \frac{B_\mathrm{C}(T)}{1 - \left( \frac{T}{T_\mathrm{C}} \right)^2} = 31,\!4~\mathrm{T}$$
+Vereinfacht kann man den Effekt folgendermaßen erklären: Sind zwei Kerne A und X so weit voneinander entfernt, dass sie sich gegenseitig nicht beeinflussen, beobachtet man für beide Kerne Singuletts bei den charakteristischen Resonanzfrequenzen. Ist allerdings der Abstand klein genug und die beiden lokalen Magnetfelder von A und X beeinflussen einander, sind die Signale der beiden Kerne zu jeweils einem Dublett aufgespalten. Ursache hierfür ist, dass die Anregungsenergie beider Kerne vom Zustand des jeweilig anderen abhängt. Ist Kern X z. B. im α-Zustand, so führt das lokale Feld von X zur Verringerung der zur Anregung von A vom α- in den β-Zustand notwendigen Energie, da X das Feld von A verstärkt. Umgekehrt ist, wenn sich X im β-Zustand befindet, das Feld von X dem von A entgegengerichtet, so dass zur Resonanz von A ein höherer Energiebetrag notwendig ist und sich das entsprechende Signal zu höherer Feldstärke verschiebt. Als Ergebnis erhält man also zwei Dubletts, in dem die beiden Linien jeweils denselben Abstand besitzen. Dieses einfache Spinsystem wird AX-System genannt. Es handelt sich um ein Spektrum erster Ordnung.
 
                                       {{3}}
-Damit können wir nun die gleiche Formel nach der Temperatur $T$ umstellen, bei der $B_\mathrm{C}$ gerade den Wert $10~\mathrm{T}$ erreicht:
-$$T = T_\mathrm{C} \cdot \sqrt{1 - \frac{B_\mathrm{C}(T)}{B_\mathrm{C}(0)}} = 16,\!5~\mathrm{K}$$
+Das Ausmaß der Kopplung wird quantitativ durch Angabe der Kopplungskonstante $J$ beschrieben, die in $\mathrm{Hertz}$ angegeben wird. Die Kopplungskonstante ergibt sich bei dem obigen AX-System aus den Abständen der beiden Linien in den Dubletts, welche jeweils gleich sein müssen. In Abhängigkeit der Anzahl der Bindungen zwischen zwei miteinander koppelnden Kernen unterscheidet man $^1J$-Kopplungen (direkte heteronukleare Kopplungen), $^2J$-Kopplungen (geminale Kopplungen, $8...18~\mathrm{Hz}$) und $^3J$-Kopplungen (vicinale Kopplungen, $6...8~\mathrm{Hz}$). Kopplungen über mehr als drei Bindungen sind meist vernachlässigbar außer in speziellen Systemen, in denen solche sogenannten Fernkopplungen signifikante Kopplungskonstanten besitzen können.
+
+                                      {{4}}
+Neben der Linienanzahl ist für ein Signal mit Feinstruktur auch die Intensitätsverteilung der einzelnen Linien charakteristisch. In der ^1^H-NMR-Spektroskopie entsprechen die relativen Intensitäten von Multipletts den Binominalkoeffizienten, welche dem Pascal’schen-Dreieck zu entnehmen sind. Bei Spektren erster Ordnung ergibt sich die chemische Verschiebung eines Kerns aus dem Schwerpunkt (Mittelpunkt) des Signals und die Kopplungskonstante aus dem Abstand zweier Linien.
+
+                                      {{5}}
+Die Feinstruktur eines NMR-Signals spiegelt die Kopplungen eines Atomkernes mit anderen Kernen des Moleküls wider. Es lassen sich deshalb Zahl, Art und Abstand von Atomen in der Umgebung eines Atomkernes ableiten.
+
+                                      {{6}}
+**b)** Wir berechnen als erstes die Differenzen:
+$$3,\!4141~\mathrm{ppm} - 3,\!3868~\mathrm{ppm} = 0,\!0273~\mathrm{ppm}$$
+$$3,\!3868~\mathrm{ppm} - 3,\!3595~\mathrm{ppm} = 0,\!0273~\mathrm{ppm}$$
+
+                                      {{7}}
+Beide Differenzen sind gleich! Es handelt sich also tatsächlich um ein Triplett. Die Kopplungskonstante beträgt:
+$$J = 0,\!0273~\mathrm{ppm} \cdot 250~\mathrm{MHz} = 6,\!8~\mathrm{Hz}$$
 
 
 ## Aufgabe 3 
