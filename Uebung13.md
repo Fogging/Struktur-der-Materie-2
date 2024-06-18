@@ -237,7 +237,23 @@ Mit Ausnahme der einmaligen parallelen und antiparallelen Orientierung der Koppl
 >
 > ![1H-NMR-Spektrum von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester.png)<!-- style = "width: 500px;" -->
 
-
                                       {{1}}
-Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
-$$B = \frac{\mu_0 I}{2 \pi r}$$
+Zur Berechnung der chemischen Verschiebung $\delta$ der Banden mitteln wir zunächst die gegebenen Linien der einzelnen Banden. Am Beispiel der ersten Bande:
+$$\delta = \frac{1}{2} \cdot (7,\!977 + 7,\!885)~\mathrm{ppm} \approx 7,\!93~\mathrm{ppm}$$
+
+                                      {{2}}
+Um die Kopplungskonstanten zu berechnen, mitteln wir (wenn möglich) die Abstände zwischen den einzelnen Linien einer Bande, um möglichst genaue Werte zu erhalten. Dann wird der Abstand mit der Frequenz der Messung multipliziert. Am Beispiel der ersten Bande:
+$$^3J = (7,\!977 - 7,\!885)~\mathrm{ppm} \cdot 89,\!56~\mathrm{MHz} = 8,\!24~\mathrm{Hz}$$
+
+                                      {{3}}
+************************************
+| Signal | $\delta$              | Multiplizität | $^3J$                | Zuordnung                             |
+|--------|-----------------------|---------------|----------------------|---------------------------------------|
+| 1      | $7,\!93~\mathrm{ppm}$ | Dublett       | $8,\!24~\mathrm{Hz}$ | aromatische Protonen in Position 1    |
+| 2      | $7,\!21~\mathrm{ppm}$ | Dublett       | $7,\!88~\mathrm{Hz}$ | aromatische Protonen in Position 2    |
+| 3      | $4,\!35~\mathrm{ppm}$ | Quartett      | $7,\!16~\mathrm{Hz}$ | CH<sub>2</sub>-Gruppe der Ethylgruppe |
+| 4      | $2,\!39~\mathrm{ppm}$ | Singulett     |                      | Methylgruppe am aromatischen Ring     |
+| 5      | $1,\!38~\mathrm{ppm}$ | Triplett      | $7,\!12~\mathrm{Hz}$ | CH<sub>3</sub>-Gruppe der Ethylgruppe |
+
+![Struktur von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester_Struktur.png "Struktur von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>). *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 200px;" -->
+************************************
