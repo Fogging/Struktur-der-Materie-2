@@ -161,28 +161,23 @@ $$M = (n_1 + 1) \cdot (n_2 + 1) \cdot (n_3 + 1) = 3 \cdot 2 \cdot 2 = 12 \quad \
 
                                       {{1}}
 **a)** Für das Proton ist die Resonanzfrequenz $\nu$ gleich der Larmor-Frequenz $\nu_\mathrm{L}$. Entsprechend gilt:
-  mit
-Damit folgt für
+$$\nu = \nu_\mathrm{L} = \frac{\gamma B_0}{2\pi} \quad \mathrm{mit} \quad \gamma = \frac{g_I \cdot \mu_\mathrm{N}}{\hbar}$$
 
                                       {{2}}
-Wird der Strom so stark, dass das dadurch erzeugte Magnetfeld $B$ die kritische Feldstärke $B_\mathrm{C}$ übersteigt, bricht die Supraleitung zusammen. Dann ist der kritische Strom $I_\mathrm{C}$ erreicht:
-$$I_\mathrm{C} = \frac{2 \pi r B_\mathrm{C}}{\mu_0}$$
+Damit folgt:
+$$\nu = \frac{g_I \cdot \mu_\mathrm{N} \cdot B_0}{h} = 600~\mathrm{MHz}$$
 
                                       {{3}}
-Nun benötigen wir noch die kritische Feldstärke $B_\mathrm{C}(T)$ für $T = 4,\!2~\mathrm{K}$. Dazu nutzen wir die gleiche Formel wie in Aufgabe 1:
-$$B_\mathrm{C}(T) = B_\mathrm{C}(0) \cdot \left[1 - \left( \frac{T}{T_\mathrm{C}} \right)^2 \right] = 5,\!28 \cdot 10^{-2}~\mathrm{T}$$
+**b)** Wie in a) gezeigt, hat ein $600~\mathrm{MHz}$-Spektrometer ein Magnetfeld von $14,\!1~\mathrm{T}$. Daher gilt für die Resonanz des (i) Protons: 
+$$\Delta E = \gamma B_0 \hbar = h \nu_\mathrm{L} = h \nu = 0,\!25~\mathrm{meV}$$
 
                                       {{4}}
-Anhand der vorherigen Formel können wir nun den kritischen Strom $I_\mathrm{C}$ berechnen. Wenn wir noch den Durchmesser $d = 2r$ einsetzen, erhalten wir:
-$$I_\mathrm{C} = \frac{\pi d B_\mathrm{C}}{\mu_0} = 528~\mathrm{A}$$
+(ii) Bei einem $600~\mathrm{MHz}$-Spektrometer ist die Resonanz für Protonen bei $600~\mathrm{MHz}$ erfüllt und das Magnetfeld beträgt $14,\!1~\mathrm{T}$. Bei Geräten mit starken Feldern ist das Feld konstant, nicht die Frequenz. Für das Deuteron gilt also:
+$$\nu = \frac{g_I \cdot \mu_\mathrm{N} \cdot B_0}{h} = 92,\!2~\mathrm{MHz}$$
+$$\Delta E = h \nu = 0,\!038~\mathrm{meV}$$
 
                                       {{5}}
-Die Stromdichte $j$ ergibt sich aus dem Strom $I$ geteilt durch die Querschnittsfläche $A$. Nähme man an, dass die gesamte Querschnittsfläche des Blei-Drahts vom Strom durchflossen wird, würde sich ergeben:
-$$j_\mathrm{C} = \frac{I_\mathrm{C}}{A} = \frac{I_\mathrm{C}}{\frac{\pi}{4} d^2} = 4,\!2 \cdot 10^7~\mathrm{\frac{A}{m^2}}$$
-
-                                      {{6}}
-Aufgrund des Meißner-Effekts darf das Magnetfeld aber nicht ins Innere des Supraleiters 1. Art eindringen. Daher kann auch der supraleitende Strom nur direkt an der Oberfläche des Supraleiters fließen. Er klingt mit der London’schen Eindringtiefe $\lambda_\mathrm{L}$ exponentiell von der Mantelfläche des Drahtes her ab. Für Blei ist $\lambda_\mathrm{L} = 37~\mathrm{nm}$. Die stromdurchflossene Fläche ist also viel kleiner und kann mit $A = \pi d \cdot \lambda_\mathrm{L}$ abgeschätzt werden. Dann folgt für die kritische Stromdichte:
-$$j_\mathrm{C} = \frac{I_\mathrm{C}}{A} = \frac{I_\mathrm{C}}{\pi d \lambda_\mathrm{L}} = 1,\!1 \cdot 10^{12}~\mathrm{\frac{A}{m^2}}$$
+Die Energieaufspaltung ist also für das Proton größer.
 
 
 ## Aufgabe 6
@@ -255,5 +250,5 @@ $$^3J = (7,\!977 - 7,\!885)~\mathrm{ppm} \cdot 89,\!56~\mathrm{MHz} = 8,\!24~\ma
 | 4      | $2,\!39~\mathrm{ppm}$ | Singulett     |                      | Methylgruppe am aromatischen Ring     |
 | 5      | $1,\!38~\mathrm{ppm}$ | Triplett      | $7,\!12~\mathrm{Hz}$ | CH<sub>3</sub>-Gruppe der Ethylgruppe |
 
-![Struktur von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester_Struktur.png "Struktur von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>). *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 200px;" -->
+![Struktur von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester_Struktur.png "Struktur von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>). *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 150px;" -->
 ************************************
