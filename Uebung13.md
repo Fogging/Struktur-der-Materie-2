@@ -160,8 +160,9 @@ $$M = (n_1 + 1) \cdot (n_2 + 1) \cdot (n_3 + 1) = 3 \cdot 2 \cdot 2 = 12 \quad \
 
 
                                       {{1}}
-Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
-$$B = \frac{\mu_0 I}{2 \pi r}$$
+**a)** Für das Proton ist die Resonanzfrequenz $\nu$ gleich der Larmor-Frequenz $\nu_\mathrm{L}$. Entsprechend gilt:
+  mit
+Damit folgt für
 
                                       {{2}}
 Wird der Strom so stark, dass das dadurch erzeugte Magnetfeld $B$ die kritische Feldstärke $B_\mathrm{C}$ übersteigt, bricht die Supraleitung zusammen. Dann ist der kritische Strom $I_\mathrm{C}$ erreicht:
@@ -206,11 +207,28 @@ $$B = \frac{\mu_0 I}{2 \pi r}$$
 >
 > ![1H-NMR-Spektrum von Ethanol](Bilder/NMR_Ethanol.png)
 
-
-
                                       {{1}}
-Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
-$$B = \frac{\mu_0 I}{2 \pi r}$$
+**a)** Die Existenz der chemischen Verschiebung erklärt bereits die allgemeinen Eigenschaften des Spektrums. Die CH<sub>3</sub>-Protonen bilden eine Gruppe von Kernen mit $\delta \sim 1~\mathrm{ppm}$. Die beiden CH<sub>2</sub>-Protonen befinden sich in einer anderen Umgebung, spüren dort ein anderes lokales Feld und erscheinen daher bei $\delta \sim 3,\!5~\mathrm{ppm}$. Das OH-Proton liegt wieder in einem anderen Bereich des Moleküls und besitzt eine chemische Verschiebung von $\delta \sim 4,\!8~\mathrm{ppm}$. Der Anstieg von $\delta$ (d. h. die Abnahme der Abschirmung) passt zur Elektron-anziehenden Wirkung des Sauerstoffatoms: Die Elektronendichte am Hydroxyl-Wasserstoffatom wird am stärksten reduziert, so dass dieses Proton stark entschirmt wird. Die Elektronendichte an den weit entfernten Methylprotonen kann es am wenigsten beeinflussen, daher werden sie am wenigsten entschirmt und befinden sich nahe dem TMS-Signal.
+
+                                      {{2}}
+Die relativen Intensitäten der Signale (Fläche unter der Absorptionslinie – Integration) kann als Hilfe dienen, um die einzelnen Signale bestimmten Gruppen von Protonen zuzuordnen. Im Spektrum des Ethanols zeigen die Stufen ein Intensitätsverhältnis von $3:2:1$, da es 3 Methylprotonen, 2 CH<sub>2</sub>-Protonen und ein OH-Proton im Molekül gibt. **Merke:** Integration der Spektren gemeinsam mit der chemischen Verschiebung hilft bei der Identifikation unbekannter Substanzen.
+![1H-NMR-Spektrum von Ethanol mit zugeordneten Banden](Bilder/NMR_Ethanol_Lösung.png "^1^H-NMR-Spektrum von Ethanol mit zugeordneten Banden. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 400px;" -->
+
+                                      {{3}}
+**b)** Wir erkennen im Spektrum 3 Linien für die CH<sub>3</sub>-Gruppe und 4 Linien für die CH<sub>2</sub>-Gruppe mit den Intensitätsverhältnissen $1:2:1$ bzw. $1:3:3:1$.
+
+                                      {{4}}
+Aber betrachten wir diese Aussage genauer! Sie ist nachvollziehbar über die Formel zur Multiplizität: $M = n + 1$. Trägt also der „Nachbar-Kohlenstoff“ zwei H-Atome (wie etwa die Methylengruppe CH<sub>2</sub>–), ergibt sich entsprechend: $M = 2+1 = 3$, also ein Triplett mit der Intensität $1:2:1$ mit dem jeweils gleichen Abstand $J$.
+
+                                      {{5}}
+Und ist an das Kohlenstoff-Atom, das unser gerade betrachtetes H-Atom trägt (das also für das betreffende Signal verantwortlich ist), eine Methylgruppe –CH<sub>3</sub> gebunden, führt dies zu einem Quartett (mit den relativen Intensitäten $1:3:3:1$ im jeweiligen Abstand $J$), denn $M = n + 1 = 3 + 1 = 4$.
+
+                                      {{6}}
+Die drei Protonen der CH<sub>3</sub>-Gruppe koppeln also über drei Bindungen mit den beiden Protonen der CH<sub>2</sub>-Gruppe. Betrachten wir jeweils dazu die möglichen Orientierungen des ^1^H-Spins:
+![Mögliche Orientierungen des 1H-Spins im Ethanol-Molekül](Bilder/NMR_Orientierungen-H-Spin.png "Mögliche Orientierungen des ^1^H-Spins im Ethanol-Molekül. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 600px;" -->
+
+                                      {{7}}
+Mit Ausnahme der einmaligen parallelen und antiparallelen Orientierung der Kopplungspartner (relative Intensitäten je $1$) bestimmt die Anzahl der Kopplungspartner wechselseitig, wie viele Spinkombinationen das gleiche $B_\mathrm{eff}$ generieren (z. B. jene von 1 Spin der CH<sub>3</sub>-Protonen antiparallel und 2 CH<sub>3</sub>-Spins parallel). Diese Zahl bestimmt die relative Häufigkeit, mit der Kopplungspartner im jeweiligen $B_\mathrm{eff}$ energetisch entarteter Spinkombination gemessen werden. Die Resonanz der CH<sub>2</sub>-Protonen im $B_\mathrm{eff}$ der CH<sub>3</sub>-Spinkombination einmal antiparallel und zweimal parallel ist also dreimal wahrscheinlicher als jene im $B_\mathrm{eff}$ der Spinkombination dreimal antiparallel bzw. parallel. Es sind also dreimal mehr Moleküle im ersten Spinzustand vorhanden – daher beträgt das Intensitätsverhältnis zwischen den 4 Linien des Quadrupletts der CH<sub>2</sub>-Gruppe $1:3:3:1$ und jene des Tripletts $1:2:1$.
 
 
 ## Aufgabe 8
