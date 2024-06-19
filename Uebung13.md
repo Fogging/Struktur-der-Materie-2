@@ -188,8 +188,58 @@ Die Energieaufspaltung ist also für das Proton größer.
 
 
                                       {{1}}
-Fließt durch einen geraden, langen Leiter ein elektrischer Strom $I$, dann bilden die magnetischen Feldlinien Kreise um den Leiterquerschnitt. Der Betrag der magnetischen Flussdichte $B$ im Abstand $r$ ist:
-$$B = \frac{\mu_0 I}{2 \pi r}$$
+**a)** Die magnetischen Momente der Kerne in der Probe spüren lokale Magnetfelder an ihrem Ort. Das lokale Feld kann sich vom angelegten Feld unterscheiden, da dieses einen elektronischen Bahndrehimpuls induziert, welcher am Kern ein kleines zusätzliches Magnetfeld $\Delta B$ erzeugt:
+$$\Delta B = -\sigma B_0$$
+
+                                      {{2}}
+Dabei ist $\sigma$ die Abschirmungskonstante. Das gesamte lokale Feld am Ort eines betrachteten Kerns ist somit:
+$$B_\mathrm{lokal} = B_0 + \Delta B = (1 - \sigma) B_0$$
+
+                                      {{3}}
+Der Betrag der Abschirmungskonstante $\sigma$ entspricht der chemischen Verschiebung $\delta$, die allerdings auf die TMS-Frequenz als Referenz bezogen wird. Betrachtet man die Differenz der lokalen Feldstärken von zwei Protonen, dann ist die Differenz der jeweiligen Abschirmungskonstanten gleich der Differenz der chemischen Verschiebungen:
+$$|\Delta \sigma| = |\Delta \delta|$$
+
+                                      {{4}}
+Für die Differenz der lokalen Feldstärken ergibt sich:
+$$|\Delta B_\mathrm{lokal}| = |\Delta \sigma| \cdot B_0 = |\Delta \delta| \cdot B_0 = |\delta(\mathrm{CHO}) - \delta(\mathrm{CH_3})| \cdot B_0$$
+
+                                      {{5}}
+************************************
+Mit den gegebenen Werten erhalten wir:
+
+(i) $|\Delta B_\mathrm{lokal}| = 11~\mathrm{µT}$
+
+(ii) $|\Delta B_\mathrm{lokal}| = 110~\mathrm{µT}$
+************************************
+
+                                      {{6}}
+**b)** Wir müssen zunächst den Abstand der beiden Protonengruppen CH<sub>3</sub> und CHO berechnen. Die chemische Verschiebung ist definiert als:
+$$\delta = \frac{\nu - \nu_0}{\nu_0}$$
+
+                                      {{7}}
+Die Differenz der Resonanzfrequenz eines Kerns und der Referenz beträgt also:
+$$\nu - \nu_0 = \nu_0 \cdot \delta$$
+
+                                      {{8}}
+Der gesuchte Frequenzabstand ist also:
+$$\Delta \nu = [\nu(\mathrm{CHO}) - \nu_0] - [\nu(\mathrm{CH_3}) - \nu_0] = \nu(\mathrm{CHO}) - \nu(\mathrm{CH_3})$$
+$$\Delta \nu = \nu_0 \cdot [\delta(\mathrm{CHO}) - \delta(\mathrm{CH_3})] = \nu_0 \cdot 7,\!60~\mathrm{ppm}$$
+
+                                      {{9}}
+************************************
+Mit den gegebenen Werten erhalten wir:
+
+(i) $\Delta \nu = 1,\!9~\mathrm{kHz}$
+
+(ii) $\Delta \nu = 3,\!8~\mathrm{kHz}$
+************************************
+
+                                      {{10}}
+Was wissen wir noch: CHO wird aufgrund der Multiplizität zu einem Quartett und CH<sub>3</sub> zu einem Dublett aufspalten, wobei $J = 2,\!9~\mathrm{Hz}$ gegeben ist. Wir können also nun das Spektrum zeichnen:
+![Abgeleitetes 1H-NMR-Spektrum von Acetaldehyd mit zugeordneten Banden](Bilder/NMR_Acetaldehyd.png "Abgeleitetes ^1^H-NMR-Spektrum von Acetaldehyd mit zugeordneten Banden. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+
+                                      {{11}}
+Wenn man die Frequenz auf $\mathrm{500~MHz}$ ändert, ändert sich $\Delta \nu$ auf $3,\!8~\mathrm{kHz}$. Die Feinstruktur, d. h. die Aufspaltung innerhalb der Gruppen, bleibt jedoch gleich, da die Spin-Spin-Aufspaltung durch die Stärke des angelegten Feldes nicht beeinflusst wird. Allerdings steigt wegen $\frac{\Delta N}{N} \sim \nu$ die Intensität der Linien um den Faktor $2$!
 
 
 ## Aufgabe 7
