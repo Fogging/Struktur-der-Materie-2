@@ -300,5 +300,5 @@ $$^3J = (7,\!977 - 7,\!885)~\mathrm{ppm} \cdot 89,\!56~\mathrm{MHz} = 8,\!24~\ma
 | 4      | $2,\!39~\mathrm{ppm}$ | Singulett     |                      | Methylgruppe am aromatischen Ring     |
 | 5      | $1,\!38~\mathrm{ppm}$ | Triplett      | $7,\!12~\mathrm{Hz}$ | CH<sub>3</sub>-Gruppe der Ethylgruppe |
 
-![Struktur von 4-Methyl-Benzoesäureethylester](Bilder/NMR_4-Methyl-Benzoesäureethylester_Struktur.png "Struktur von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>). *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 150px;" -->
+![Struktur von 4-Methyl-Benzoesäureethylester mit Nummerierung der Protonen](Bilder/NMR_4-Methyl-Benzoesäureethylester_Struktur.png "Struktur von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>) mit Nummerierung der Protonen. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 150px;" -->
 ************************************
