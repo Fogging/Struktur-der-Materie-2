@@ -76,12 +76,16 @@ Wenn ein statisches elektrisches Feld angelegt wird, ergibt sich eine Polarisati
 $$P_0 = (\varepsilon_\mathrm{r} - 1) \varepsilon_0 E = 4,\!4 \cdot 10^{-5}~\mathrm{C/m^2}$$
 
                                       {{6}}
-Das elektrische Dipolmoment beträgt:
-$$p = \frac{P_0}{n} = \frac{P_0 M}{\varrho N_\mathrm{A}} = 3,\!2 \cdot 10^{-33}~\mathrm{Cm}$$
+Das vom elektrischen Feld $E$ induzierte Dipolmoment können wir aus der Polarisierbarkeit berechnen:
+$$p_\mathrm{ind} = \alpha_0 E = 1,\!2 \cdot 10^{-33}~\mathrm{Cm}$$
 
                                       {{7}}
+Das gesamte Dipolmoment, das noch weitere Beiträge enthält, erhalten wir aus der Polarisation:
+$$p_\mathrm{ges} = \frac{P_0}{n} = \frac{P_0 M}{\varrho N_\mathrm{A}} = 3,\!2 \cdot 10^{-33}~\mathrm{Cm}$$
+
+                                      {{8}}
 Die entsprechende Dipollänge ist:
-$$r = \frac{p}{e} = 2,\!0 \cdot 10^{-14}~\mathrm{m} = 2,\!0 \cdot 10^{-4}~\mathrm{\AA}$$
+$$r = \frac{p_\mathrm{ges}}{e} = 2,\!0 \cdot 10^{-14}~\mathrm{m} = 2,\!0 \cdot 10^{-4}~\mathrm{\AA}$$
 Dies ist also weniger als ein Tausendstel der Gitterkonstante!
 
 
