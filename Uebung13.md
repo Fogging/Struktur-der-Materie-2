@@ -169,12 +169,12 @@ $$\nu = \frac{g_I \cdot \mu_\mathrm{N} \cdot B_0}{h} = 600~\mathrm{MHz}$$
 
                                       {{3}}
 **b)** Wie in a) gezeigt, hat ein $600~\mathrm{MHz}$-Spektrometer ein Magnetfeld von $14,\!1~\mathrm{T}$. Daher gilt für die Resonanz des (i) Protons: 
-$$\Delta E = \gamma B_0 \hbar = h \nu_\mathrm{L} = h \nu = 0,\!25~\mathrm{meV}$$
+$$\Delta E = \gamma B_0 \hbar = h \nu_\mathrm{L} = h \nu = 2,\!5~\mathrm{µeV}$$
 
                                       {{4}}
 (ii) Bei einem $600~\mathrm{MHz}$-Spektrometer ist die Resonanz für Protonen bei $600~\mathrm{MHz}$ erfüllt und das Magnetfeld beträgt $14,\!1~\mathrm{T}$. Bei Geräten mit starken Feldern ist das Feld konstant, nicht die Frequenz. Für das Deuteron gilt also:
 $$\nu = \frac{g_I \cdot \mu_\mathrm{N} \cdot B_0}{h} = 92,\!2~\mathrm{MHz}$$
-$$\Delta E = h \nu = 0,\!038~\mathrm{meV}$$
+$$\Delta E = h \nu = 0,\!38~\mathrm{µeV}$$
 
                                       {{5}}
 Die Energieaufspaltung ist also für das Proton größer.
