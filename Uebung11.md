@@ -104,7 +104,7 @@ $$B(x) = B_0 \frac{\cosh(\frac{x}{\lambda_\mathrm{L}})}{\cosh(\frac{d}{2 \lambda
 $$\oint \vec{B} \, \mathrm{d} \vec{l} = \mu_0 I_\mathrm{S}$$
 
                                       {{2}}
-Wir integrieren entlang des supraleitenden Rings mit Radius $r_0 = 1~\mathrm{mm}$ und erhalten für den Strom:
+Wir integrieren entlang eines Kreises um den supraleitenden Draht im Abstand $r_0 = 1~\mathrm{mm}$ und erhalten für den Strom:
 $$I_\mathrm{S} = \frac{2 \pi r_0 B}{\mu_0} = 5~\mathrm{A}$$
 
                                       {{3}}
