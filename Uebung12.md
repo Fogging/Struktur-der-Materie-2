@@ -67,20 +67,20 @@ $$T = T_\mathrm{C} \cdot \sqrt{1 - \frac{B_\mathrm{C}(T)}{B_\mathrm{C}(0)}} = 16
 
                                       {{1}}
 Für den elektrischen Strom gilt:
-$$I = \frac{Q}{t} = e n_\mathrm{S} A v_\mathrm{S}$$
+$$I = \frac{Q}{t} = 2e n_\mathrm{S} A v_\mathrm{S}$$
 
                                       {{2}}
 Umstellen nach der gesuchten Geschwindigkeit $v_\mathrm{S}$ der Cooper-Paare liefert:
-$$v_\mathrm{S} = \frac{I}{e A n_\mathrm{S}}$$
+$$v_\mathrm{S} = \frac{I}{2e A n_\mathrm{S}}$$
 
 
                                       {{3}}
 Würde die gesamte Querschnittsfläche $A$ des Blei-Drahts vom Strom durchflossen, wäre $A = \pi r^2 = 2,\!83 \cdot 10^{-5}~\mathrm{m^2}$ und die Rechnung ergäbe:
-$$v_\mathrm{S} = 0,\!0044~\mathrm{\frac{m}{s}}$$
+$$v_\mathrm{S} = 0,\!0022~\mathrm{\frac{m}{s}}$$
 
                                       {{4}}
 Aufgrund des Meißner-Effekts darf das Magnetfeld aber nicht ins Innere des Supraleiters 1. Art eindringen. Daher kann auch der supraleitende Strom nur direkt an der Oberfläche des Supraleiters fließen. Er klingt mit der London’schen Eindringtiefe $\lambda_\mathrm{L}$ exponentiell von der Mantelfläche des Drahtes her ab. Die stromdurchflossene Fläche ist also viel kleiner und kann aus dem Umfang des Drahtes mit $A = 2 \pi r \cdot \lambda_\mathrm{L} = 6,\!97 \cdot 10^{-10}~\mathrm{m^2}$ abgeschätzt werden. Daraus folgt für die Geschwindigkeit der Cooper-Paare:
-$$v_\mathrm{S} = 179~\mathrm{\frac{m}{s}}$$
+$$v_\mathrm{S} = 89~\mathrm{\frac{m}{s}}$$
 
                                       {{5}}
 Die Fermi-Geschwindigkeit $v_\mathrm{F}$ der Elektronen in Blei erhalten wir aus dem Zusammenhang $E_\mathrm{F} = \frac{m}{2} v_\mathrm{F}^2$ als:
