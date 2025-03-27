@@ -28,6 +28,26 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 1
 
+                                      {{1}}
+************************************
+**Frage 1: Welche Eigenschaften kennzeichnen einen Halbleiter?**
+
+- [[X]] Die Leitfähigkeit liegt zwischen der von Metallen und Isolatoren.
+- [[X]] Die Leitfähigkeit steigt mit der Temperatur stark an.
+- [[X]] Die Leitfähigkeit ändert sich durch Beimischung von Fremdatomen.
+- [[X]] Die Leitfähigkeit wird durch das elektronische System bestimmt.
+************************************
+
+                                      {{2}}
+************************************
+**Frage 2: Was sind dotierte Halbleiter?**
+
+- [[X]] Es werden gezielt Fremdatome in das Kristallgitter eingebracht.
+- [[ ]] Das Kristallgitter wird von zwei oder mehr verschiedenen Atomen gebildet.
+- [[X]] Die Leitfähigkeit wird durch die Dotierung absichtlich erhöht.
+- [[ ]] Die Bandlücke wird gezielt vergrößert oder verkleinert.
+************************************
+
 
 ## Aufgabe 1
 
