@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 02
@@ -139,7 +139,7 @@ Für $m_\mathrm{h}^\mathrm{eff} < m_\mathrm{e}^\mathrm{eff}$ ist das Valenzband 
 
 - Bei $T = 0~\mathrm{K}$ liegt die Fermi-Energie genau in der Mitte der Bandlücke: $E_\mathrm{F} = \frac{E_\mathrm{g}}{2}$.
 - Bei höheren Temperaturen verschiebt sich die Fermi-Energie leicht nach oben oder unten (je nach dem Verhältnis der effektiven Massen).
-- Der Zusammenhang lautet (siehe Aufgabe 7):
+- Der Zusammenhang lautet (siehe Aufgabe 2):
 $$E_\mathrm{F} = \frac{E_\mathrm{g}}{2} + \frac{3}{4} k_\mathrm{B} T \cdot \ln \left( \frac{m_\mathrm{h}^\mathrm{eff}}{m_\mathrm{e}^\mathrm{eff}} \right)$$
 ************************************
 
@@ -199,7 +199,7 @@ $$n_i = p_i = \sqrt{N_\mathrm{L} N_\mathrm{V}} \cdot \exp \left( - \frac{E_\math
 > Die Temperatur eigenleitenden Siliziums wird von -20 °C auf 200 °C erhöht. Wie ändert sich die Elektronenkonzentration (Quotient beider Konzentrationen)?
 
                                       {{1}}
-Gemäß Aufgabe 1 gilt:
+Gemäß Aufgabe 4 gilt:
 $$n_i = \sqrt{N_\mathrm{L} N_\mathrm{V}} \cdot \exp \left( - \frac{E_\mathrm{g}}{2 k_\mathrm{B} T} \right) = 2 \left( \frac{k_\mathrm{B} T}{2 \pi \hbar^2} \right)^{3/2} \left( m_\mathrm{e}^\mathrm{eff} m_\mathrm{h}^\mathrm{eff} \right)^{3/4} \cdot \exp \left( - \frac{E_\mathrm{g}}{2 k_\mathrm{B} T} \right)$$
 
                                       {{2}}
