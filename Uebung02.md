@@ -20,6 +20,14 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 2
 
+Welche Größen sind jeweils für die Berechnung notwendig?
+
+- [[$m_\mathrm{e}^\mathrm{eff}$] [$m_\mathrm{h}^\mathrm{eff}$] [$E_\mathrm{L}$] [$E_\mathrm{V}$] ]
+- [ [X]  [ ]  [X]  [ ]  ]  Elektronenkonzentration $n$
+- [ [ ]  [X]  [ ]  [X]  ]  Löcherkonzentration $p$
+- [ [X]  [X]  [X]  [X]  ]  Fermi-Niveau $E_\mathrm{F}(T)$ bei Eigenleitung
+- [ [X]  [X]  [X]  [X]  ]  Massenwirkungsgesetz $n \cdot p$
+
 
 ## Aufgabe 1 
 
