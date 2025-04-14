@@ -4,7 +4,7 @@ email:    hartmut.stoecker@physik.tu-freiberg.de
 version:  0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 7
+comment:  Struktur der Materie 2 - Übung 07
 
 @style
 .lia-toc__bottom {
