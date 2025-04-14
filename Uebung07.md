@@ -1,10 +1,10 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.0.1
+version:  0.1
 language: de
 narrator: Deutsch Female
-comment:  Struktur der Materie 2 - Übung 10
+comment:  Struktur der Materie 2 - Übung 7
 
 @style
 .lia-toc__bottom {
@@ -18,7 +18,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 10
+# Übung 7
 
 
 ## Aufgabe 1
