@@ -103,8 +103,24 @@ Um die Dichte $n_\mathrm{A}$ der Akzeptoren in einem p-Typ-Halbleiter zu bestimm
 > Betrachten Sie p-Typ Germanium mit einer Akzeptorkonzentration von $n_\mathrm{A} = {10}^{14}\, \mathrm{cm}^{-3}$ bei einer Temperatur von $T = 400\, \mathrm{K}$. Dominiert die intrinsche oder die extrinsische Leitfähigkeit? Folgende Werte für Germanium sind gegeben: $E_\mathrm{g} = 0,\!64 \, \mathrm{eV}$; $m_\mathrm{e}^\ast = 0,\!55 \, m_0$; $m_\mathrm{h}^\ast = 0,\!37 \, m_0$; $\mu_\mathrm{e} = 0,\!39 \, \mathrm{m^2/Vs}$; $\mu_\mathrm{h} = 0,\!19 \, \mathrm{m^2/Vs}$.
 
                                       {{1}}
-Aus einer temperaturabhängigen Messung des Hall-Koeffizienten $R_\mathrm{H}$ erhält man den Temperaturverlauf der Ladungsträgerdichte $n$ (siehe auch Aufgabe 6). Dieser ist schematisch in der nachfolgenden Abbildung gezeigt:
-![Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter](Bilder/Fermienergie_n-Typ_Temperatur.png "Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+Für den extrinsischen Fall nehmen wir an, dass alle Störstellen ionisiert vorliegen:
+$$p \approx n_\mathrm{A} = {10}^{14}\, \mathrm{cm}^{-3}$$
+
+                                      {{2}}
+Die Minoritäten können näherungsweise vernachlässigt werden ($n \approx 0$). Für die Leitfähigkeit folgt:
+$$\sigma = e p \mu_\mathrm{h} = 3,\!04 \, \mathrm{(\Omega m)^{-1}} = 0,\!0304 \, \mathrm{(\Omega cm)^{-1}}$$
+
+                                      {{3}}
+Für den intrinsischen Fall gilt gemäß Übung 2, Aufgabe 4:
+$$n_i = p_i = 2 \left( \frac{k_\mathrm{B} T}{2 \pi \hbar^2} \right)^{3/2} \left( m_\mathrm{e}^\mathrm{eff} m_\mathrm{h}^\mathrm{eff} \right)^{3/4} \cdot \exp \left( - \frac{E_\mathrm{g}}{2 k_\mathrm{B} T} \right)$$
+$$n_i = p_i = 1,\!09 \cdot 10^{21} \, \mathrm{m}^{-3} = 1,\!09 \cdot 10^{15} \, \mathrm{cm}^{-3}$$
+
+                                      {{4}}
+Für die Leitfähigkeit folgt hier:
+$$\sigma = e(n \mu_\mathrm{e} + p \mu_\mathrm{h}) = 101 \, \mathrm{(\Omega m)^{-1}} = 1,\!01 \, \mathrm{(\Omega cm)^{-1}}$$
+
+                                      {{5}}
+Damit ist die intrische Leitfähigkeit deutlich höher und dominiert den Beitrag der Dotieratome.
 
 
 ## Aufgabe 5 
