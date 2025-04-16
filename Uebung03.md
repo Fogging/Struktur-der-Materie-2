@@ -37,44 +37,29 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 $$E_n = -\frac{1}{2} \frac{m^\mathrm{eff} e^4}{(4 \pi \varepsilon_0 \varepsilon_r \hbar)^2} \frac{1}{n^2}$$
 
                                       {{2}}
-Für die Hauptquantenzahl wird $n=1$ eingesetzt. Mit den gegebenen Werten erhält man:
-$$E_1 = E_\mathrm{d} = -0,\!63~\mathrm{meV}$$
+Für die Hauptquantenzahl wird $n=1$ eingesetzt. Die Ionisierungsenergie $E_\mathrm{D}$ entspricht der negativen Bindungsenergie, sodass man mit den gegebenen Werten erhält:
+$$E_\mathrm{D} = -E_1 = 0,\!63~\mathrm{meV}$$
 
                                       {{3}}
 **b)** Das Wasserstoffmodell ergibt weiterhin einen skalierten Bohrradius:
-$$a_\mathrm{d} = \frac{4 \pi \varepsilon_0 \varepsilon_r \hbar^2}{m^\mathrm{eff} e^2}$$
+$$a_\mathrm{D} = \frac{4 \pi \varepsilon_0 \varepsilon_r \hbar^2}{m^\mathrm{eff} e^2}$$
 
                                       {{4}}
 Mit den gegebenen Werten erhält man:
-$$a_\mathrm{d} = 63,\!5~\mathrm{nm}$$
+$$a_\mathrm{D} = 63,\!5~\mathrm{nm}$$
 
                                       {{5}}
 **c)** Nimmt man kugelförmige Orbitale der Elektronen um die Donatoren an, erhält man die maximal mögliche Konzentration aus:
-$$n_\mathrm{d} = \frac{1}{V} = \frac{1}{\frac{4}{3} \pi a_\mathrm{d}^3}$$
+$$n_\mathrm{D} = \frac{1}{V} = \frac{1}{\frac{4}{3} \pi a_\mathrm{D}^3}$$
 
                                       {{6}}
 Mit dem vorherigen Ergebnis erhält man:
-$$n_\mathrm{d} = 9,\!3 \cdot 10^{14}~\mathrm{cm^{-3}}$$
+$$n_\mathrm{D} = 9,\!3 \cdot 10^{14}~\mathrm{cm^{-3}}$$
 
 
 ## Aufgabe 2
 
 > Lässt sich durch Messung des Hall-Effekts die Dichte $n_\mathrm{D}$ der Donatoren in einem n-Typ-Halbleiter bzw. die Dichte $n_\mathrm{A}$ der Akzeptoren in einem p-Typ-Halbleiter bestimmen? Wenn ja, in welchem Temperaturbereich muss die Messung stattfinden?
-
-                                      {{1}}
-Aus einer temperaturabhängigen Messung des Hall-Koeffizienten $R_\mathrm{H}$ erhält man den Temperaturverlauf der Ladungsträgerdichte $n$ (siehe auch Aufgabe 6). Dieser ist schematisch in der nachfolgenden Abbildung gezeigt:
-![Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter](Bilder/Fermienergie_n-Typ_Temperatur.png "Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
-
-                                      {{2}}
-Um die Dichte $n_\mathrm{D}$ der Donatoren in einem n-Typ-Halbleiter zu bestimmen, muss also die Ladungsträgerdichte $n$ im Bereich mittlerer Temperaturen (Störstellenerschöpfung) gemessen werden. In diesem Bereich gilt $n \approx n_\mathrm{D}$.
-
-                                      {{3}}
-Um die Dichte $n_\mathrm{A}$ der Akzeptoren in einem p-Typ-Halbleiter zu bestimmen, wird analog die Ladungsträgerdichte $n$ im Bereich mittlerer Temperaturen (Störstellenerschöpfung) gemessen. In diesem Bereich gilt $n \approx n_\mathrm{A}$.
-
-
-## Aufgabe 3 
-
-> Wie lassen sich durch Messung der Temperaturabhängigkeit des Hall-Koeffizienten die Energielücke $E_\mathrm{g}$ eines Halbleiters sowie bei einem n-Typ-Halbleiter der Abstand $E_\mathrm{d}$ des Donatorniveaus von der Leitungsbandkante bzw. bei einem p-Typ-Halbleiter der Abstand $E_\mathrm{a}$ des Akzeptorniveaus von der Valenzbandkante bestimmen?
 
                                       {{1}}
 Wenn die elektrische Leitfähigkeit nur von einer Ladungsträgerart bestimmt wird, also z. B. von Elektronen in einem n-dotierten Halbleiter, so kann der Hall-Koeffizient $R_\mathrm{H}$ aus der Ladungsträgerdichte $n$ und der Ladung $q$ berechnet werden:
@@ -85,16 +70,31 @@ Für einen n-Typ-Halbleiter ist $q=-e$; für einen p-Typ-Halbleiter gilt $q = +e
 $$n = \frac{1}{q R_\mathrm{H}}$$
 
                                       {{3}}
-Aus einer temperaturabhängigen Messung von $R_\mathrm{H}$ erhält man also den Temperaturverlauf von $n$. Dieser ist schematisch in der nachfolgenden Abbildung gezeigt:
+Aus einer temperaturabhängigen Messung von $R_\mathrm{H}$ erhält man somit den Temperaturverlauf von $n$. Dieser ist schematisch in der nachfolgenden Abbildung gezeigt:
 ![Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter](Bilder/Fermienergie_n-Typ_Temperatur.png "Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
 
                                       {{4}}
-**Bei hohen Temperaturen** steigt $\ln n$ mit $-E_\mathrm{g} / (2 k_\mathrm{B} T)$ an. Aus dem Anstieg kann also direkt die Bandlücke $E_\mathrm{g}$ berechnet werden.
+Um die Dichte $n_\mathrm{D}$ der Donatoren in einem n-Typ-Halbleiter zu bestimmen, muss also die Ladungsträgerdichte $n$ im Bereich mittlerer Temperaturen (Störstellenerschöpfung) gemessen werden. In diesem Bereich gilt $n \approx n_\mathrm{D}$.
 
                                       {{5}}
+Um die Dichte $n_\mathrm{A}$ der Akzeptoren in einem p-Typ-Halbleiter zu bestimmen, wird analog die Ladungsträgerdichte $n$ im Bereich mittlerer Temperaturen (Störstellenerschöpfung) gemessen. In diesem Bereich gilt $n \approx n_\mathrm{A}$.
+
+
+## Aufgabe 3 
+
+> Wie lassen sich durch Messung der Temperaturabhängigkeit des Hall-Koeffizienten die Energielücke $E_\mathrm{g}$ eines Halbleiters sowie bei einem n-Typ-Halbleiter der Abstand $E_\mathrm{d}$ des Donatorniveaus von der Leitungsbandkante bzw. bei einem p-Typ-Halbleiter der Abstand $E_\mathrm{a}$ des Akzeptorniveaus von der Valenzbandkante bestimmen?
+
+                                      {{1}}
+Aus einer temperaturabhängigen Messung des Hall-Koeffizienten $R_\mathrm{H}$ erhält man den Temperaturverlauf der Ladungsträgerdichte $n$ (siehe auch Aufgabe 2). Dieser ist schematisch in der nachfolgenden Abbildung gezeigt:
+![Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter](Bilder/Fermienergie_n-Typ_Temperatur.png "Temperaturverlauf der Ladungsträgerdichte $n$ und des chemischen Potenzials $\mu$ in einem dotierten n-Typ-Halbleiter. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+
+                                      {{2}}
+**Bei hohen Temperaturen** steigt $\ln n$ mit $-E_\mathrm{g} / (2 k_\mathrm{B} T)$ an. Aus dem Anstieg kann also direkt die Bandlücke $E_\mathrm{g}$ berechnet werden.
+
+                                      {{3}}
 **Bei niedrigen Temperaturen** (ohne Kompensation) steigt $\ln n$ mit $-E_\mathrm{d} / (2 k_\mathrm{B} T)$ an. Aus dem Anstieg kann bei einem n-Typ-Halbleiter also direkt das Donatorniveau $E_\mathrm{d}$ berechnet werden.
 
-                                      {{6}}
+                                      {{4}}
 **Für p-Typ-Halbleiter** steigt bei niedrigen Temperaturen (ohne Kompensation) die Ladungsträgerdichte $\ln n$ mit $-E_\mathrm{a} / (2 k_\mathrm{B} T)$ an. Aus dem Anstieg kann hier das Akzeptorniveau $E_\mathrm{a}$ berechnet werden.
 
 
@@ -104,7 +104,7 @@ Aus einer temperaturabhängigen Messung von $R_\mathrm{H}$ erhält man also den 
 
                                       {{1}}
 Für den extrinsischen Fall nehmen wir an, dass alle Störstellen ionisiert vorliegen:
-$$p \approx n_\mathrm{A} = {10}^{14}\, \mathrm{cm}^{-3}$$
+$$p \approx n_\mathrm{A} = {10}^{14}\, \mathrm{cm}^{-3} = 10^{20} \, \mathrm{m}^{-3}$$
 
                                       {{2}}
 Die Minoritäten können näherungsweise vernachlässigt werden ($n \approx 0$). Für die Leitfähigkeit folgt:
@@ -120,7 +120,7 @@ Für die Leitfähigkeit folgt hier:
 $$\sigma = e(n \mu_\mathrm{e} + p \mu_\mathrm{h}) = 101 \, \mathrm{(\Omega m)^{-1}} = 1,\!01 \, \mathrm{(\Omega cm)^{-1}}$$
 
                                       {{5}}
-Damit ist die intrische Leitfähigkeit deutlich höher und dominiert den Beitrag der Dotieratome.
+Damit ist die intrinsische Leitfähigkeit deutlich höher und dominiert den Beitrag der Dotieratome.
 
 
 ## Aufgabe 5 
@@ -133,20 +133,25 @@ Damit ist die intrische Leitfähigkeit deutlich höher und dominiert den Beitrag
 
 
                                       {{1}}
-**a)** Aus dem Wasserstoffmodell eines Dotieratoms erhält man:
-$$E_n = -\frac{1}{2} \frac{m^\mathrm{eff} e^4}{(4 \pi \varepsilon_0 \varepsilon_r \hbar)^2} \frac{1}{n^2}$$
+Da $\Phi_\mathrm{H} > \Phi_\mathrm{M}$, ergibt sich folgendes Bandschema vor und nach dem Kontakt:
+![Schematische Zeichnung der Energiebänder für ein Metall und einen p-Typ-Halbleiter](Bilder/metal_p-type.png "Energiebänder für ein Metall und einen p-Typ-Halbleiter (a) vor und (b) nach dem Kontakt. *Quelle: Rolf E. Hummel, Electronic Properties of Materials, Springer, 2011*")
 
                                       {{2}}
-Für die Hauptquantenzahl wird $n=1$ eingesetzt. Mit den gegebenen Werten erhält man:
-$$E_1 = E_\mathrm{d} = -0,\!63~\mathrm{meV}$$
+**a)** Die Breite der Raumladungszone berechnet sich folgendermaßen:
+$$d = \sqrt{\frac{2 \varepsilon_0 \varepsilon_r}{e^2 n_\mathrm{A}} (\Phi_\mathrm{H} - \Phi_\mathrm{M})} = 3,\!3~\mathrm{µm}$$
+Bei dieser Version der Formeln ist zu beachten, dass $\Phi_\mathrm{H}$ und $\Phi_\mathrm{M}$ in $\mathrm{eV}$ eingesetzt werden; sie gilt nur für Akzeptoren $n_\mathrm{A}$ und ohne äußere Spannung.
 
                                       {{3}}
-**b)** Das Wasserstoffmodell ergibt weiterhin einen skalierten Bohrradius:
-$$a_\mathrm{d} = \frac{4 \pi \varepsilon_0 \varepsilon_r \hbar^2}{m^\mathrm{eff} e^2}$$
+**b)** Der Strom durch den Schottky-Kontakt wird mit Hilfe der Shockley-Gleichung berechnet:
+$$I = I_\mathrm{S} \cdot \left[ \exp \left( \frac{e U}{k_\mathrm{B} T} \right) - 1 \right]$$
 
                                       {{4}}
-Mit den gegebenen Werten erhält man:
-$$a_\mathrm{d} = 63,\!5~\mathrm{nm}$$
+Für die positive Spannung von $+1 \, \mathrm{V}$ ergibt sich ein sehr hoher Strom:
+$$I(+1 \, \mathrm{V}) = 9938 \, \mathrm{A}$$
+
+                                      {{5}}
+Für die negative Spannung von $-1 \, \mathrm{V}$ fließt nur der Sperrstrom:
+$$I(-1 \, \mathrm{V}) \approx -I_\mathrm{S} = -2,\!5 \, \mathrm{nA}$$
 
 
 ## Aufgabe 6 
