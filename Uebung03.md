@@ -20,6 +20,15 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 3
 
+                                      {{1}}
+Donatoren erzeugen einen [[ (n-Typ) | p-Typ ]] Halbleiter, bei dem die Fermi-Energie [[ (nahe des Leitungsbandes) | etwa mittig in der Bandlücke | nahe des Valenzbandes ]] liegt.
+
+                                      {{2}}
+Akzeptoren erzeugen einen [[ n-Typ | (p-Typ) ]] Halbleiter, bei dem die Fermi-Energie [[ nahe des Leitungsbandes | etwa mittig in der Bandlücke | (nahe des Valenzbandes) ]] liegt.
+
+                                      {{3}}
+Intrinsische Halbleiter enthalten [[ viele | (wenige) ]] Dotieratome, sodass die Fermi-Energie [[ nahe des Leitungsbandes | (etwa mittig in der Bandlücke) | nahe des Valenzbandes ]] liegt.
+
 
 ## Aufgabe 1 
 
