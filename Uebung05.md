@@ -20,6 +20,26 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 5
 
+                                      {{1}}
+************************************
+**Frage 1: Was beschreibt der Imaginärteil der dielektrischen Funktion $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ in einem Material?**
+
+- [( )] Die Streuung von Licht.
+- [(X)] Die Absorption von Licht.
+- [( )] Die Reflexion von Licht.
+- [( )] Die Transmission von Licht.
+************************************
+
+                                      {{2}}
+************************************
+**Frage 2: Der Realteil des Brechungsindex $n' = n + \mathrm{i} k$ hängt ab ...**
+
+- [(X)] von Real- und Imaginärteil der dielektrischen Funktion.
+- [( )] vom Betragsquadrat der dielektrischen Funktion.
+- [( )] nur vom Realteil der dielektrischen Funktion.
+- [( )] nur vom Imaginärteil der dielektrischen Funktion.
+************************************
+
 
 ## Aufgabe 1
 
