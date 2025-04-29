@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 06
@@ -22,38 +22,6 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
 ## Aufgabe 1
-
-> Was sagen die Kramers-Kronig-Relationen aus und wozu werden sie verwendet?
-
-                                      {{1}}
-Die Kramers-Kronig-Relationen setzen Real- und Imaginärteil der dielektrischen Funktion in Form einer Integralgleichung miteinander in Beziehung. Auf diese Weise hängt die Absorption elektromagnetischer Wellen in einem Medium mit dem Brechungsindex zusammen. Es reicht also, die Abhängigkeit einer der beiden Größen von der Frequenz zu kennen, um die andere berechnen zu können.
-
-                                      {{2}}
-************************************
-Mathematische Grundlage ist der Satz von Cauchy über komplexe analytische Funktionen unter den Bedingungen: 
-
-- Die Funktion $f(x)$ hat in der oberen Halbebene keine Singularitäten.
-- $f(x) \rightarrow 0$ für $x \rightarrow \infty$
-- $\mathrm{Re}[f(x)]$ ist eine gerade Funktion.
-- $\mathrm{Im}[f(x)]$ ist eine ungerade Funktion.
-************************************
-
-                                      {{3}}
-Die Kramers-Kronig-Relationen haben die allgemeine Form:
-$$\mathrm{Im}[f(x)] = -\frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{x \cdot \mathrm{Re}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
-$$\mathrm{Re}[f(x)] = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{t \cdot \mathrm{Im}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
-Dabei bezeichnet $\mathcal{P}$ den Cauchyschen Hauptwert des auftretenden Integrals.
-
-                                      {{4}}
-Für die dielektrische Funktion $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ wird als Realteil $\chi = \varepsilon_1 - 1$ betrachtet, um die Voraussetzung $\varepsilon'(\omega) \rightarrow 0$ für $\omega \rightarrow \infty$ zu erfüllen:
-$$\chi(\omega) = \varepsilon_1(\omega) - 1 = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\omega' \cdot \varepsilon_2(\omega')}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
-$$\varepsilon_2(\omega) = - \frac{2 \omega}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\varepsilon_1(\omega') - 1}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
-
-                                      {{5}}
-Eine wichtige Anwendung ist die Bestimmung von optischen Konstanten aus Reflexionsmessungen, wenn Transmissionsmessungen nicht möglich sind, z. B. oberhalb der Bandkante von Halbleitern.
-
-
-## Aufgabe 2 
 
 > Wie hängen die optischen Konstanten $n$ und $k$ vom Realteil $\varepsilon_1$ und Imaginärteil $\varepsilon_2$ der dielektrischen Funktion ab (Herleitung)?
 
@@ -88,6 +56,37 @@ Mit $k^2 = n^2 - \varepsilon_1$ folgt noch:
 $$k^2 = -\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}$$
 $$k = \sqrt{-\frac{\varepsilon_1}{2} + \frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2}}{2}}$$
 
+
+## Aufgabe 2
+
+> Was sagen die Kramers-Kronig-Relationen aus und wozu werden sie verwendet?
+
+                                      {{1}}
+Die Kramers-Kronig-Relationen setzen Real- und Imaginärteil der dielektrischen Funktion in Form einer Integralgleichung miteinander in Beziehung. Auf diese Weise hängt die Absorption elektromagnetischer Wellen in einem Medium mit dem Brechungsindex zusammen. Es reicht also, die Abhängigkeit einer der beiden Größen von der Frequenz zu kennen, um die andere berechnen zu können.
+
+                                      {{2}}
+************************************
+Mathematische Grundlage ist der Satz von Cauchy über komplexe analytische Funktionen unter den Bedingungen: 
+
+- Die Funktion $f(x)$ hat in der oberen Halbebene keine Singularitäten.
+- $f(x) \rightarrow 0$ für $x \rightarrow \infty$
+- $\mathrm{Re}[f(x)]$ ist eine gerade Funktion.
+- $\mathrm{Im}[f(x)]$ ist eine ungerade Funktion.
+************************************
+
+                                      {{3}}
+Die Kramers-Kronig-Relationen haben die allgemeine Form:
+$$\mathrm{Im}[f(x)] = -\frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{x \cdot \mathrm{Re}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
+$$\mathrm{Re}[f(x)] = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{t \cdot \mathrm{Im}[f(t)]}{t^2 - x^2} \, \mathrm{d}t$$
+Dabei bezeichnet $\mathcal{P}$ den Cauchyschen Hauptwert des auftretenden Integrals.
+
+                                      {{4}}
+Für die dielektrische Funktion $\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$ wird als Realteil $\chi = \varepsilon_1 - 1$ betrachtet, um die Voraussetzung $\varepsilon'(\omega) \rightarrow 0$ für $\omega \rightarrow \infty$ zu erfüllen:
+$$\chi(\omega) = \varepsilon_1(\omega) - 1 = \frac{2}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\omega' \cdot \varepsilon_2(\omega')}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
+$$\varepsilon_2(\omega) = - \frac{2 \omega}{\pi} \, \mathcal{P} \! \int_0^\infty \frac{\varepsilon_1(\omega') - 1}{\omega'^2 - \omega^2} \, \mathrm{d}\omega'$$
+
+                                      {{5}}
+Eine wichtige Anwendung ist die Bestimmung von optischen Konstanten aus Reflexionsmessungen, wenn Transmissionsmessungen nicht möglich sind, z. B. oberhalb der Bandkante von Halbleitern.
 
 
 ## Aufgabe 3
@@ -135,6 +134,27 @@ $$\varepsilon_2(\omega) \rightarrow 0$$
 
 ## Aufgabe 5
 
+> Warum kann man die Lage der Plasmafrequenz von Metallen mit Hilfe der „Energieverlustfunktion“ $-\mathrm{Im}(1/\varepsilon')$ ausfindig machen?
+
+                                      {{1}}
+Die verallgemeinerte Permittivität setzt sich zusammen aus:
+$$\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$$
+
+                                      {{2}}
+Das Reziproke ist:
+$$\frac{1}{\varepsilon'} = \frac{\varepsilon_1 - \mathrm{i} \varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
+
+                                      {{3}}
+Der negative Imaginärteil dieser Funktion ist:
+$$-\mathrm{Im}\left(\frac{1}{\varepsilon'}\right) = \frac{\varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
+
+                                      {{4}}
+Diese sogenannte „Energieverlustfunktion“ wird also maximal für $\varepsilon_1 \rightarrow 0$. Genau bei der Plasmafrequenz wird ebenfalls $\varepsilon_1 = 0$. Damit kennzeichnet ein Maximum in der Energieverlustfunktion gerade die Lage der Plasmafrequenz.
+
+
+
+## Aufgabe 6
+
 > Man bestimme den Zusammenhang zwischen Absorptionskoeffizient $\alpha$, Absorptionsindex $k$ und Eindringtiefe $w$ einer ebenen elektromagnetischen Welle beim Eindringen in ein absorbierendes Medium. Die Eindringtiefe $w$ soll die Entfernung von der Oberfläche beschreiben, bei der die Intensität der Welle auf den Wert $\mathrm{1/e}$ abfällt.
 
                                       {{1}}
@@ -146,7 +166,7 @@ Dabei ist $\alpha$ der Absorptionskoeffizient und es folgt:
 $$w = \frac{1}{\alpha}$$
 
                                       {{3}}
-Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet (siehe Übung 8, Aufgabe 1):
+Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet (siehe Übung 5, Aufgabe 1):
 $$E_{x,0} = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
 
                                       {{4}}

@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 05
@@ -183,23 +183,3 @@ Der Literaturwert für die spezifische Leitfähigkeit von Kupfer (bei $\omega = 
 
                                       {{7}}
 Es ist wichtig, sich klar zu machen, dass eine klare Unterscheidung zwischen freien und gebundenen Ladungsträgern in zeitlich oszillierenden Feldern (z. B. für die Wellenlänge von $600~\mathrm{nm}$) nicht mehr möglich ist. In beiden Fällen haben wir es mit periodischen Verschiebungen von Ladungen zu tun. Nur für $\omega = 0$ können wir das Verhalten von freien und gebundenen Ladungen klar unterscheiden und eine Trennung von Phänomenen, die $\sigma$ bzw. $\varepsilon_2$ zugeordnet werden können, ist evident. Für zeitlich und räumlich variierende Felder ist dies dagegen nicht mehr möglich.
-
-
-## Aufgabe 5
-
-> Warum kann man die Lage der Plasmafrequenz von Metallen mit Hilfe der „Energieverlustfunktion“ $-\mathrm{Im}(1/\varepsilon')$ ausfindig machen?
-
-                                      {{1}}
-Die verallgemeinerte Permittivität setzt sich zusammen aus:
-$$\varepsilon' = \varepsilon_1 + \mathrm{i} \varepsilon_2$$
-
-                                      {{2}}
-Das Reziproke ist:
-$$\frac{1}{\varepsilon'} = \frac{\varepsilon_1 - \mathrm{i} \varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
-
-                                      {{3}}
-Der negative Imaginärteil dieser Funktion ist:
-$$-\mathrm{Im}\left(\frac{1}{\varepsilon'}\right) = \frac{\varepsilon_2}{\varepsilon_1^2 + \varepsilon_2^2}$$
-
-                                      {{4}}
-Diese sogenannte „Energieverlustfunktion“ wird also maximal für $\varepsilon_1 \rightarrow 0$. Genau bei der Plasmafrequenz wird ebenfalls $\varepsilon_1 = 0$. Damit kennzeichnet ein Maximum in der Energieverlustfunktion gerade die Lage der Plasmafrequenz.
