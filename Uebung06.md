@@ -20,6 +20,14 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 6
 
+Ordnen Sie richtig zu!
+
+<!-- data-type="none" -->
+|                           | Formelzeichen                          | Realteil                                                 | Imaginärteil                |
+|---------------------------|----------------------------------------|----------------------------------------------------------|-----------------------------|
+| komplexer Brechnungsindex | [[ $n$ | ($n'$) ]]                     | [[ ($n$) | $n_1$ | $n'$ ]]                               | [[ $n_2$ | $n''$ | ($k$) ]] |
+| dielektrische Funktion    | [[ $\varepsilon$ | ($\varepsilon'$) ]] | [[ $\varepsilon'$ | ($\varepsilon_1$) | $\varepsilon$ ]] | [[ $\varepsilon''$ | $\varepsilon_k$ | ($\varepsilon_2$) ]] |
+
 
 ## Aufgabe 1
 
