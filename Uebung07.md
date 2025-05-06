@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 07
@@ -20,6 +20,15 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 7
 
+Ordnen Sie richtig zu!
+
+<!-- data-type="none" -->
+|                            | Formelzeichen                          | Einheit                                                 |
+|----------------------------|----------------------------------------|---------------------------------------------------------|
+| dielektrische Verschiebung | [[ ($D$) | $E$ | $P$ ]]                | [[ $\mathrm{C \cdot m^2}$ | $\mathrm{C \cdot m}$ | $\mathrm{C/m}$ | ($\mathrm{C/m^2}$) ]]   |
+| elektrische Polarisation   | [[ $D$ | $E$ | ($P$) ]]                | [[ $\mathrm{C \cdot m^2}$ | $\mathrm{C \cdot m}$ | $\mathrm{C/m}$ | ($\mathrm{C/m^2}$) ]]   |
+| elektrisches Dipolmoment   | [[ $\alpha$ | $\sigma$ | ($p$) ]]      | [[ $\mathrm{C \cdot m^2}$ | ($\mathrm{C \cdot m}$) | $\mathrm{C/m}$ | $\mathrm{C/m^2}$ ]]   |
+| Polarisierbarkeit          | [[ ($\alpha$) | $\sigma$ | $p$ ]]      | [[ ($\mathrm{C \cdot m^2 / V}$) | $\mathrm{C \cdot m / V}$ | $\mathrm{C/(m \cdot V)}$ | $\mathrm{C/(m^2 \cdot V)}$ ]]   |
 
 ## Aufgabe 1
 
