@@ -31,7 +31,7 @@ Ein kurzer Einstieg ins Thema Magnetismus:
 >
 > $\Psi = (\pi a_0^3)^{-1/2} \exp \left( -\frac{r}{a_0} \right)$ mit $a_0 = \frac{4 \pi \varepsilon_0 \hbar^2}{m_\mathrm{e} e^2} = 0,\!529 \cdot 10^{-10}~\mathrm{m}$.
 >
-> Entsprechend der statistischen Interpretation der Wellenfunktion ist dann die Ladungsdichte $\rho(x,y,z)=-e|\Psi|^2$. Zeigen Sie, dass in diesem Zustand $\langle r^2 \rangle = 3a_0^2$ ist und berechnen Sie die molare diamagnetische Suszeptibilität von atomarem Wasserstoff.
+> Zeigen Sie, dass der Erwartungswert in diesem Zustand $\langle r^2 \rangle = 3a_0^2$ ist und berechnen Sie die molare diamagnetische Suszeptibilität von atomarem Wasserstoff.
 
 
                                       {{1}}
