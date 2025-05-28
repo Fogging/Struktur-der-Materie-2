@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 09
@@ -20,8 +20,158 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 9
 
+                                      {{1}}
+************************************
+**Frage 1: Was besagt die erste Hundsche Regel?**
 
-## Aufgabe 1
+- [(X)] Der Gesamtspin $S$ nimmt den maximal möglichen Wert an.
+- [( )] Die Spins der einzelnen Elektronen stehen möglichst antiparallel.
+- [( )] Ist die Schale halb gefüllt, so gilt $S = 0$.
+- [( )] Die Spins richten sich so aus, dass die Coulomb-Abstoßung maximiert wird.
+************************************
+
+                                      {{2}}
+************************************
+**Frage 2: Was besagt die zweite Hundsche Regel?**
+
+- [( )] Der Gesamtdrehimpuls $L$ wird durch paarweise Elektronen maximiert.
+- [( )] Den Elektronen müssen möglichst gleiche Werte für $m_L$ vergeben werden.
+- [(X)] Wenn die Schale halb oder voll gefüllt ist, wird $L = 0$.
+- [( )] Der Gesamtbahndrehimpuls $L$ nimmt den minimal möglichen Wert an.
+************************************
+
+                                      {{3}}
+************************************
+**Frage 3: Was besagt die dritte Hundsche Regel?**
+
+- [( )] Der Gesamtdrehimpuls $J$ nimmt den maximal möglichen Wert an.
+- [( )] Ist die Schale genau halbgefüllt, so ist $J$ maximal.
+- [(X)] Volle Schalen haben den Gesamtdrehimpuls $J = 0$.
+- [( )] Ist die Schale weniger als halbvoll, so ist $J = L + S$.
+************************************
+
+
+## Aufgabe 1 
+
+> Skizzieren Sie mit Hilfe eines symbolischen Kästchenschemas die Besetzung der $\mathrm{4f}$-Orbitale im Grundzustand der Ionen Eu^2+^, Eu^3+^ und Yb^3+^. Wie lauten die entsprechenden Termbezeichnungen des Grundzustands in spektroskopischer Notation?
+
+                                      {{1}}
+***********************************
+Alle genannten Elemente gehören zu den Lanthanoiden (bzw. Seltenen Erden) und haben damit eine abgeschlossene Xenon-Konfiguration, zwei Elektronen im Zustand $\mathrm{6s}$ sowie unterschiedlich viele $\mathrm{4f}$-Elektronen. 
+
+![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
+************************************
+
+                                      {{2}}
+Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei den Lanthanoiden werden durch Ionisation zunächst die $\mathrm{6s}$-Elektronen entfernt.
+
+                                      {{3}}
+************************************
+Bei der Besetzung beachten wir vor allem die 1. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $m_s$ stehen also möglichst parallel.“ Daraus ergibt sich:
+
+<!-- data-type="none" -->
+| Ion    | Konfiguration                      | Kästchenschema für die $\mathrm{4f}$-Orbitale |
+|--------|------------------------------------|----------------|
+| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ |
+| Eu^3+^ | $\mathrm{[Xe] \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  |
+| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ |
+************************************
+
+                                      {{4}}
+************************************
+Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
+
+- Gesamtspin $S = |\sum m_s|$: Ergibt sich aus der 1. Hundschen Regel, d. h. er nimmt den maximal möglichen Wert an.
+- Gesamtbahndrehimpuls $L = |\sum m_l|$: Nach der 2. Hundschen Regel werden die Unterzustände mit der Magnetquantenzahl $m_l$ so besetzt, dass $L$ maximal wird.
+- Gesamtdrehimpuls $J$: Folgt aus der 3. Hundschen Regel: Ist die Schale weniger als halbvoll, so ist $J=|L-S|$. Ist die Schale mehr als halbvoll, so ist $J=L+S$.
+************************************
+
+                                      {{5}}
+************************************
+Erläuterung zum Wert für $L$ nach der 2. Hundschen Regel: 
+
+- Das erste Elektron einer neuen Schale erhält den maximalen Wert von $|m_l|=l$. Für eine $\mathrm{f}$-Schale ist $l=3$. 
+- Das zweite Elektron darf wegen der 1. Hundschen Regel nicht denselben Wert für $m_l$ bekommen, da beide Elektronen bereits den gleichen Spin $m_s$ besitzen. Gemäß Pauli-Prinzip müssen die zwei Elektronen unterschiedliche Zustände einnehmen. Das 2. Elektron bekommt also den zweitgrößten Wert $|m_l|=l-1$. 
+- Ist die Schale halbgefüllt, so müssen nach der 2. Hundschen Regel alle $m_l = -l, ..., +l$ einmal vergeben sein, d. h. $L$ ist dann gleich Null. 
+- Bei der Befüllung der zweiten Hälfte der Schale werden die $m_l$ in der gleichen Reihenfolge wie bei Befüllung der ersten Hälfte vergeben.
+************************************
+
+                                      {{6}}
+************************************
+Beispiel Eu^2+^: 
+
+- Das neutrale Eu-Atom hat zwei $\mathrm{6s}$-Elektronen und sieben $\mathrm{4f}$-Elektronen. Das Eu^2+^-Ion behält nur die sieben $\mathrm{4f}$-Elektronen.
+- Der Gesamtspin nimmt den maximal möglichen Wert $S = \frac{7}{2}$ an, wenn alle $m_s = +\frac{1}{2}$ parallel ausgerichtet sind.
+- Die Bahndrehimpulse werden beginnend mit dem größten Wert $m_l=l=3$ an die einzelnen Elektronen verteilt. Die 7 Elektronen besitzen also die Werte $m_l = +3, +2, +1, 0, -1, -2, -3$. Der Gesamtbahndrehimpuls ist also $L = |\sum m_l| = 0$, wie für eine genau halbvolle Schale erwartet. 
+- Da die Schale halbvoll und $L=0$ ist, ergibt $J=|L-S|$ denselben Wert wie $J=L+S=\frac{7}{2}$.
+************************************
+
+                                      {{7}}
+************************************
+Termbezeichnung: 
+
+- Die spektroskopische Termbezeichnung folgt dem Schema: $^{2S+1}(L)_J$.
+- Für $2S+1$ und $J$ werden direkt Zahlen eingesetzt, für $L$ kommen aufrechte Großbuchstaben zum Einsatz: $\mathrm{0 = S, 1 = P, 2 = D, 3 = F, 4 = G, 5 = H, 6 = I}$.
+- Für das Beispiel Eu^2+^ ergibt sich also: $\mathrm{^8S_{7/2}}$
+************************************
+
+                                      {{8}}
+************************************
+Lösungsübersicht: 
+
+<!-- data-type="none" -->
+| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
+|--------|------------------------------------|----------------|-----|-----|-----|------------|
+| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{7}{2}$ | $0$ | $\frac{7}{2}$ | $\mathrm{^8S_{7/2}}$ |
+| Eu^3+^ | $\mathrm{[Xe] \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  | $3$ | $3$ | $0$ | $\mathrm{^7F_0}$ |
+| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ | $\frac{1}{2}$ | $3$ | $\frac{7}{2}$ | $\mathrm{^2F_{7/2}}$ |
+************************************
+
+
+## Aufgabe 2
+
+> Berechnen Sie den Landé-Faktor $g$ und das effektive magnetische Moment der $\mathrm{4f}$-Ionen La^3+^, Pr^3+^ und Tb^3+^. Vergleichen Sie die Ergebnisse mit den experimentell ermittelten Werten. Weshalb liefern abgeschlossene Schalen eines Atoms keinen Beitrag zum Langevin-Paramagnetismus?
+
+                                      {{1}}
+************************************
+Zunächst bestimmen wir die Quantenzahlen und gehen dabei wie in Aufgabe 1 vor:
+
+![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
+
+<!-- data-type="none" -->
+| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
+|--------|------------------------------------|----------------|-----|-----|-----|------------|
+| La^3+^ | $\mathrm{[Xe]}$    | $\fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $0$ | $0$ | $0$ | $\mathrm{^1S_0}$ |
+| Pr^3+^ | $\mathrm{[Xe] \, 4f^2}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$  | $1$ | $5$ | $4$ | $\mathrm{^3H_4}$ |
+| Tb^3+^ | $\mathrm{[Xe] \, 4f^8}$    | $\fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$  | $3$ | $3$ | $6$ | $\mathrm{^7F_6}$ |
+************************************
+
+                                      {{2}}
+Der Landé-Faktor $g$ folgt aus:
+$$g = 1+\frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}$$
+
+                                      {{3}}
+Das effektive magnetische Moment ist dann:
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B}$$
+
+                                      {{4}}
+************************************
+Übersicht der berechneten Werte und Vergleich mit experimentellen Werten (*Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*):
+
+<!-- data-type="none" -->
+| Ion    | Landé-Faktor                      | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Theorie) | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Experiment)  |
+|--------|------------------------------------|----------------|-----|
+| La^3+^ | $0$ (definiert)   | $0$ | $0$ |
+| Pr^3+^ | $\frac{4}{5}$ | $3,\!58$ | $3,\!5$ |
+| Tb^3+^ | $\frac{3}{2}$ | $9,\!72$ | $9,\!5$ | 
+************************************
+
+
+                                      {{5}}
+Für vollständig gefüllte Unterschalen ergibt sich ein $\mathrm{^1S_0}$-Zustand und es ist $\mu_\mathrm{eff} = 0$.
+
+
+## Aufgabe 3
 
 > Die magnetische Suszeptibilität eines kristallinen Materials kann bestimmt werden, indem eine zylindrische Probe an einem Balkenende der Gouy’schen Waage aufgehängt wird, die sich vor dem Versuchsbeginn im Gleichgewicht befindet. Das untere Ende der Probe wird in ein Magnetfeld gebracht. Um die Waage wieder ins Gleichgewicht zu bringen, muss ein Ausgleichsgewicht am anderen Balkenende aufgelegt werden.
 >
@@ -67,125 +217,6 @@ $$\chi_2 = 6,\!3 \cdot 10^{-4}$$
 
                                       {{10}}
 Dieser Wert stellt eine einheitenlose Volumensuszeptibilität dar. Aufgrund des Vorzeichens (positiv) und der Größe des Wertes (zwischen $0$ und $1$) handelt es sich um eine paramagnetische Probe.
-
-## Aufgabe 2 
-
-> Skizzieren Sie mit Hilfe eines symbolischen Kästchenschemas die Besetzung der $\mathrm{4f}$-Orbitale im Grundzustand der Ionen Eu^2+^, Eu^3+^ und Yb^3+^. Wie lauten die entsprechenden Termbezeichnungen des Grundzustands in spektroskopischer Notation?
-
-                                      {{1}}
-***********************************
-Alle genannten Elemente gehören zu den Lanthanoiden (bzw. Seltenen Erden) und haben damit eine abgeschlossene Xenon-Konfiguration, zwei Elektronen im Zustand $\mathrm{6s}$ sowie unterschiedlich viele $\mathrm{4f}$-Elektronen. 
-
-![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
-************************************
-
-                                      {{2}}
-Ausgehend vom voll besetzten Atom werden je nach Ionisationsgrad Elektronen entnommen. Bei den Lanthanoiden werden durch Ionisation zunächst die $\mathrm{6s}$-Elektronen entfernt.
-
-                                      {{3}}
-************************************
-Bei der Besetzung beachten wir vor allem die 2. Hundsche Regel: „Der Gesamtspin $S$ nimmt den maximal möglichen Wert an, die Spins der einzelnen Elektronen $m_s$ stehen also möglichst parallel.“ Daraus ergibt sich:
-
-<!-- data-type="none" -->
-| Ion    | Konfiguration                      | Kästchenschema für die $\mathrm{4f}$-Orbitale |
-|--------|------------------------------------|----------------|
-| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ |
-| Eu^3+^ | $\mathrm{[Xe] \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  |
-| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ |
-************************************
-
-                                      {{4}}
-************************************
-Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
-
-- Gesamtspin $S = |\sum m_s|$: Ergibt sich aus der 2. Hundschen Regel, d. h. er nimmt den maximal möglichen Wert an.
-- Gesamtbahndrehimpuls $L = |\sum m_l|$: Nach der 3. Hundschen Regel werden die Unterzustände mit der Magnetquantenzahl $m_l$ so besetzt, dass $L$ maximal wird.
-- Gesamtdrehimpuls $J$: Folgt aus der 4. Hundschen Regel: Ist die Schale weniger als halbvoll, so ist $J=|L-S|$. Ist die Schale mehr als halbvoll, so ist $J=L+S$.
-************************************
-
-                                      {{5}}
-************************************
-Erläuterung zum Wert für $L$ nach der 3. Hundschen Regel: 
-
-- Das erste Elektron einer neuen Schale erhält den maximalen Wert von $|m_l|=l$. Für eine $\mathrm{f}$-Schale ist $l=3$. 
-- Das zweite Elektron darf wegen der 2. Hundschen Regel nicht denselben Wert für $m_l$ bekommen, da beide Elektronen bereits den gleichen Spin $m_s$ besitzen. Gemäß Pauli-Prinzip müssen die zwei Elektronen unterschiedliche Zustände einnehmen. Das 2. Elektron bekommt also den zweitgrößten Wert $|m_l|=l-1$. 
-- Ist die Schale halbgefüllt, so müssen nach der 2. Hundschen Regel alle $m_l = -l, ..., +l$ einmal vergeben sein, d. h. $L$ ist dann gleich Null. 
-- Bei der Befüllung der zweiten Hälfte der Schale werden die $m_l$ in der gleichen Reihenfolge wie bei Befüllung der ersten Hälfte vergeben.
-************************************
-
-                                      {{6}}
-************************************
-Beispiel Eu^2+^: 
-
-- Das neutrale Eu-Atom hat zwei $\mathrm{6s}$-Elektronen und sieben $\mathrm{4f}$-Elektronen. Das Eu^2+^-Ion behält nur die sieben $\mathrm{4f}$-Elektronen.
-- Der Gesamtspin nimmt den maximal möglichen Wert $S = \frac{7}{2}$ an, wenn alle $m_s = +\frac{1}{2}$ parallel ausgerichtet sind.
-- Die Bahndrehimpulse werden beginnend mit dem größten Wert $m_l=l=3$ an die einzelnen Elektronen verteilt. Die 7 Elektronen besitzen also die Werte $m_l = +3, +2, +1, 0, -1, -2, -3$. Der Gesamtbahndrehimpuls ist also $L = |\sum m_l| = 0$, wie für eine genau halbvolle Schale erwartet. 
-- Da die Schale halbvoll und $L=0$ ist, ergibt $J=|L-S|$ denselben Wert wie $J=L+S=\frac{7}{2}$.
-************************************
-
-                                      {{7}}
-************************************
-Termbezeichnung: 
-
-- Die spektroskopische Termbezeichnung folgt dem Schema: $^{2S+1}(L)_J$.
-- Für $2S+1$ und $J$ werden direkt Zahlen eingesetzt, für $L$ kommen aufrechte Großbuchstaben zum Einsatz: $\mathrm{0 = S, 1 = P, 2 = D, 3 = F, 4 = G, 5 = H, 6 = I}$.
-- Für das Beispiel Eu^2+^ ergibt sich also: $\mathrm{^8S_{7/2}}$
-************************************
-
-                                      {{8}}
-************************************
-Lösungsübersicht: 
-
-<!-- data-type="none" -->
-| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
-|--------|------------------------------------|----------------|-----|-----|-----|------------|
-| Eu^2+^ | $\mathrm{[Xe] \, 4f^7}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$ | $\frac{7}{2}$ | $0$ | $\frac{7}{2}$ | $\mathrm{^8S_{7/2}}$ |
-| Eu^3+^ | $\mathrm{[Xe] \, 4f^6}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}}$  | $3$ | $3$ | $0$ | $\mathrm{^7F_0}$ |
-| Yb^3+^ | $\mathrm{[Xe] \, 4f^{13}}$ | $\fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑↓} \fbox{↑\phantom{↓}}$ | $\frac{1}{2}$ | $3$ | $\frac{7}{2}$ | $\mathrm{^2F_{7/2}}$ |
-************************************
-
-
-## Aufgabe 3
-
-> Berechnen Sie den Landé-Faktor $g$ und das effektive magnetische Moment der $\mathrm{4f}$-Ionen La^3+^, Pr^3+^ und Tb^3+^. Vergleichen Sie die Ergebnisse mit den experimentell ermittelten Werten. Weshalb liefern abgeschlossene Schalen eines Atoms keinen Beitrag zum Langevin-Paramagnetismus?
-
-                                      {{1}}
-************************************
-Zunächst bestimmen wir die Quantenzahlen und gehen dabei wie in Aufgabe 2 vor:
-
-![Periodensystem der Elemente](Bilder/Periodensystem-der-elemente_1280x720.png "Periodensystem der Elemente. *Quelle: https://www.joqora.de/blog/das-periodensystem-der-elemente *") <!-- style = "width: 600px;" -->
-
-<!-- data-type="none" -->
-| Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
-|--------|------------------------------------|----------------|-----|-----|-----|------------|
-| La^3+^ | $\mathrm{[Xe]}$    | $\fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$ | $0$ | $0$ | $0$ | $\mathrm{^1S_0}$ |
-| Pr^3+^ | $\mathrm{[Xe] \, 4f^2}$    | $\fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}} \fbox{\phantom{↑↓}}$  | $1$ | $5$ | $4$ | $\mathrm{^3H_4}$ |
-| Tb^3+^ | $\mathrm{[Xe] \, 4f^8}$    | $\fbox{↑↓} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}} \fbox{↑\phantom{↓}}$  | $3$ | $3$ | $6$ | $\mathrm{^7F_6}$ |
-************************************
-
-                                      {{2}}
-Der Landé-Faktor $g$ folgt aus:
-$$g = 1+\frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}$$
-
-                                      {{3}}
-Das effektive magnetische Moment ist dann:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B}$$
-
-                                      {{4}}
-************************************
-Übersicht der berechneten Werte und Vergleich mit experimentellen Werten (*Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*):
-
-<!-- data-type="none" -->
-| Ion    | Landé-Faktor                      | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Theorie) | $\mu_\mathrm{eff}/\mu_\mathrm{B}$ (Experiment)  |
-|--------|------------------------------------|----------------|-----|
-| La^3+^ | $0$ (definiert)   | $0$ | $0$ |
-| Pr^3+^ | $\frac{4}{5}$ | $3,\!58$ | $3,\!5$ |
-| Tb^3+^ | $\frac{3}{2}$ | $9,\!72$ | $9,\!5$ | 
-************************************
-
-
-                                      {{5}}
-Für vollständig gefüllte Unterschalen ergibt sich ein $\mathrm{^1S_0}$-Zustand und es ist $\mu_\mathrm{eff} = 0$.
 
 
 ## Aufgabe 4 
