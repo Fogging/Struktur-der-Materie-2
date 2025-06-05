@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 11
@@ -21,7 +21,39 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 # Übung 11
 
 
-## Aufgabe 1
+## Aufgabe 1 
+
+> Das makroskopische magnetische Feld $H$ im Inneren einer Probe, deren Entmagnetisierungsfaktor den Wert $N$ besitzt, ergibt sich zu $H = H_\mathrm{a} - N \cdot M$, wobei $H_\mathrm{a}$ das äußere Magnetfeld und $M$ die in der Probe vorhandene Magnetisierung bedeuten. Berechnen Sie für den Fall einer linearen Magnetisierungskurve ($M = \chi \cdot H$) die Stärke des makroskopischen Feldes $H$ sowie der magnetischen Induktion $B$ im Probeninneren in Abhängigkeit von der Stärke des äußeren Feldes $H_\mathrm{a}$. Ergibt sich ein merklicher Fehler, wenn der Unterschied zwischen $H$ und $H_\mathrm{a}$ bei der Untersuchung dia- und paramagnetischer Proben vernachlässigt wird?
+
+                                      {{1}}
+Der Zusammenhang zwischen dem externen angelegten Magnetfeld $H_\mathrm{a}$ und dem Magnetfeld $H$ im Inneren einer Probe mit Entmagnetisierungsfaktor $N$ lautet gemäß Aufgabenstellung:
+$$H = H_\mathrm{a} - N \cdot M = H_\mathrm{a} - N \cdot \chi \cdot H$$
+
+                                      {{2}}
+Durch Umstellen erhalten wir:
+$$H_\mathrm{a} = H + N \cdot \chi \cdot H = H \cdot (1 + N \cdot \chi)$$
+
+                                      {{3}}
+Für das Magnetfeld im Probeninneren ergibt sich:
+$$H = \frac{H_\mathrm{a}}{1 + N \cdot \chi}$$
+
+                                      {{4}}
+Für die magnetische Induktion folgt:
+$$B = \mu_0 (H + M) = \mu_0 H \cdot (1 + \chi) = \mu_0 H_\mathrm{a} \cdot \frac{1 + \chi}{1 + N \cdot \chi}$$
+
+                                      {{5}}
+Da nur $H_\mathrm{a}$ messbar ist, bezieht man üblicherweise die Suszeptibilität auf das externe Feld $H_\mathrm{a}$ anstatt auf $H$ im Probeninneren:
+$$\chi ' = \frac{M}{H_\mathrm{a}} = \frac{\chi \cdot H}{H_\mathrm{a}} = \frac{\chi}{1 + N \cdot \chi}$$
+
+                                      {{6}}
+Typische Werte für $\chi$ für dia- und paramagnetische Proben liegen im Bereich von $-10^{-6}$ bis $+10^{-2}$ und für $N = \frac{1}{3}$ (Kugel) folgt:
+$$N \cdot \chi \ll 1$$
+
+                                      {{7}}
+Es ist also $\chi ' \approx \chi$, d. h. der Unterschied zwischen $H$ und $H_\mathrm{a}$ kann bei der Untersuchung dia- und paramagnetischer Proben vernachlässigt werden.
+
+
+## Aufgabe 2
 
 > Die magnetische Suszeptibilität einer ferro- bzw. antiferromagnetischen Substanz wird durch das Curie-Weiss-Gesetz $\chi = C/(T-\theta)$ beschrieben. Erklären Sie die Bedeutung der Parameter, welche in dieser Formel auftreten. Welches Vorzeichen besitzt die Größe $\theta$, wenn zwischen den magnetischen Momenten der Substanz eine ferromagnetische bzw. antiferromagnetische Wechselwirkung herrscht? Skizzieren Sie die entsprechenden Graphen in Abhängigkeit von der Temperatur.
 
@@ -54,38 +86,6 @@ In diesem Fall „divergiert“ die Suszeptibilität der Hochtemperaturphase sch
 
                                       {{7}}
 ![Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Antiferromagneten (b)](Bilder/Antiferromagnetismus_chi.png "Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Antiferromagneten (b). Das Curie-Weiss-Gesetz (gepunktete Linie in (b)) ist nur weit oberhalb von $T_\mathrm{N}$ eine gute Näherung. Die Extrapolation von $\chi^{-1}(T)$ auf $\chi^{-1} = 0$ ergibt die paramagnetische Néel-Temperatur $\theta$. Der Betrag von $\theta$ ist meist größer als $T_\mathrm{N}$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 400px;" -->
-
-
-## Aufgabe 2 
-
-> Das makroskopische magnetische Feld $H$ im Inneren einer Probe, deren Entmagnetisierungsfaktor den Wert $N$ besitzt, ergibt sich zu $H = H_\mathrm{a} - N \cdot M$, wobei $H_\mathrm{a}$ das äußere Magnetfeld und $M$ die in der Probe vorhandene Magnetisierung bedeuten. Berechnen Sie für den Fall einer linearen Magnetisierungskurve ($M = \chi \cdot H$) die Stärke des makroskopischen Feldes $H$ sowie der magnetischen Induktion $B$ im Probeninneren in Abhängigkeit von der Stärke des äußeren Feldes $H_\mathrm{a}$. Ergibt sich ein merklicher Fehler, wenn der Unterschied zwischen $H$ und $H_\mathrm{a}$ bei der Untersuchung dia- und paramagnetischer Proben vernachlässigt wird?
-
-                                      {{1}}
-Der Zusammenhang zwischen dem externen angelegten Magnetfeld $H_\mathrm{a}$ und dem Magnetfeld $H$ im Inneren einer Probe mit Entmagnetisierungsfaktor $N$ lautet gemäß Aufgabenstellung:
-$$H = H_\mathrm{a} - N \cdot M = H_\mathrm{a} - N \cdot \chi \cdot H$$
-
-                                      {{2}}
-Durch Umstellen erhalten wir:
-$$H_\mathrm{a} = H + N \cdot \chi \cdot H = H \cdot (1 + N \cdot \chi)$$
-
-                                      {{3}}
-Für das Magnetfeld im Probeninneren ergibt sich:
-$$H = \frac{H_\mathrm{a}}{1 + N \cdot \chi}$$
-
-                                      {{4}}
-Für die magnetische Induktion folgt:
-$$B = \mu_0 (H + M) = \mu_0 H \cdot (1 + \chi) = \mu_0 H_\mathrm{a} \cdot \frac{1 + \chi}{1 + N \cdot \chi}$$
-
-                                      {{5}}
-Da nur $H_\mathrm{a}$ messbar ist, bezieht man üblicherweise die Suszeptibilität auf das externe Feld $H_\mathrm{a}$ anstatt auf $H$ im Probeninneren:
-$$\chi ' = \frac{M}{H_\mathrm{a}} = \frac{\chi \cdot H}{H_\mathrm{a}} = \frac{\chi}{1 + N \cdot \chi}$$
-
-                                      {{6}}
-Typische Werte für $\chi$ für dia- und paramagnetische Proben liegen im Bereich von $-10^{-6}$ bis $+10^{-2}$ und für $N = \frac{1}{3}$ (Kugel) folgt:
-$$N \cdot \chi \ll 1$$
-
-                                      {{7}}
-Es ist also $\chi ' \approx \chi$, d. h. der Unterschied zwischen $H$ und $H_\mathrm{a}$ kann bei der Untersuchung dia- und paramagnetischer Proben vernachlässigt werden.
 
 
 ## Aufgabe 3
