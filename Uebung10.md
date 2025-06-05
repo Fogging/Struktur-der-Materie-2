@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 10
@@ -19,6 +19,16 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
 # Übung 10
+
+Ordnen Sie richtig zu!
+
+<!-- data-type="none" -->
+|                            | Formel                          | Einheit                                                 |
+|----------------------------|----------------------------------------|---------------------------------------------------------|
+| Volumensuszeptibilität     | [[ ($\chi_V = \frac{\varrho}{M} \chi_\mathrm{mol}$) | $\chi_V = \frac{1}{\varrho} \chi_\mathrm{g}$ ]] | [[ ($1$) | $\mathrm{m^3}$ | $\mathrm{m^3/mol}$ | $\mathrm{m^3/kg}$ ]] |
+| Massensuszeptibilität      | [[ $\chi_\mathrm{g} = M \cdot \chi_\mathrm{mol}$ | ($\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V$) ]] | [[ $1$ | $\mathrm{m^3}$ | $\mathrm{m^3/mol}$ | ($\mathrm{m^3/kg}$) ]] |
+| Molare Suszeptibilität     | [[ $\chi_\mathrm{mol} = M \cdot \chi_V$ | ($\chi_\mathrm{mol} = M \cdot \chi_\mathrm{g}$) ]] | [[ $1$ | $\mathrm{m^3}$ | ($\mathrm{m^3/mol}$) | $\mathrm{m^3/kg}$ ]] |
+
 
 
 ## Aufgabe 1
@@ -136,14 +146,18 @@ $$\chi = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
 
 ## Aufgabe 3
 
-> Die Fermi-Energie von Kupfer beträgt $E_\mathrm{F} = 7,\!00~\mathrm{eV}$. Berechnen Sie den Beitrag des Elektronengases zur molaren magnetischen Suszeptibilität von Kupfer in der Näherung freier Elektronen. Außer diesem Beitrag trägt auch noch der diamagnetische Anteil der abgeschlossenen Elektronenschalen der Ionenrümpfe (Cu^+^) von $-15 \cdot {10}^{-11}~\mathrm{m^3/mol}$ zum Gesamtwert bei. Vergleichen Sie das Ergebnis mit dem experimentell bestimmten Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$.
+> Die Fermi-Energie von Kupfer beträgt $E_\mathrm{F} = 7,\!00~\mathrm{eV}$. Weiterhin sind Dichte $\varrho = 8,\!93~\mathrm{g/cm^3}$ und molare Masse $M = 63,\!5~\mathrm{g/mol}$ gegeben.
+>
+> a) Berechnen Sie den Beitrag des Elektronengases zur molaren magnetischen Suszeptibilität von Kupfer in der Näherung freier Elektronen. Außer diesem Beitrag trägt auch noch der diamagnetische Anteil der abgeschlossenen Elektronenschalen der Ionenrümpfe (Cu^+^) von $-15 \cdot {10}^{-11}~\mathrm{m^3/mol}$ zum Gesamtwert bei. Vergleichen Sie das Ergebnis mit dem experimentell bestimmten Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$.
+>
+> b) Wandeln Sie den experimentellen Messwert von Kupfer auch in die entsprechenden Werte für die Massensuszeptibilität und Volumensuszeptibilität um.
 
                                       {{1}}
-Gemäß Aufgabe 2 besteht der Beitrag des Elektronengases zur magnetischen Suszeptibilität aus einem paramagnetischen Anteil (Pauli-Spinsuszeptibilität) und einem diamagnetischen Anteil (Landau-Spinsuszeptibilität). Für die gesamte magnetische Suszeptibilität hatten wir erhalten:
+**a)** Gemäß Aufgabe 2 besteht der Beitrag des Elektronengases zur magnetischen Suszeptibilität aus einem paramagnetischen Anteil (Pauli-Spinsuszeptibilität) und einem diamagnetischen Anteil (Landau-Spinsuszeptibilität). Für die gesamte magnetische Suszeptibilität hatten wir erhalten:
 $$\chi_\mathrm{el} = \mu_0 \mu_\mathrm{B}^2 \frac{n}{E_\mathrm{F}}$$
 
                                       {{2}}
-Hierbei handelt es sich um eine Volumensuszeptibilität. Gesucht ist aber die molare Suszeptibilität, die wir aus $\chi_\mathrm{mol} = \frac{M}{\varrho} \chi_V$ erhalten. Für die Elektronendichte pro Volumen setzen wir noch $n = \frac{\varrho \cdot N_\mathrm{A}}{M}$ ein (siehe Übung 3, Aufgabe 1). Für die molare Suszeptibilität folgt:
+Hierbei handelt es sich um eine Volumensuszeptibilität. Gesucht ist aber die molare Suszeptibilität, die wir aus $\chi_\mathrm{mol} = \frac{M}{\varrho} \chi_V$ erhalten. Für die Elektronendichte pro Volumen setzen wir noch $n = \frac{\varrho \cdot N_\mathrm{A}}{M}$ ein (siehe Übung 1, Aufgabe 6). Für die molare Suszeptibilität folgt:
 $$\chi_\mathrm{el,mol} = \frac{M}{\varrho} \chi_\mathrm{el} = \frac{M}{\varrho} \cdot \mu_0 \mu_\mathrm{B}^2 \frac{\varrho \cdot N_\mathrm{A}}{M \cdot E_\mathrm{F}} = \mu_0 \mu_\mathrm{B}^2 \frac{N_\mathrm{A}}{E_\mathrm{F}} = 5,\!8 \cdot 10^{-11}~\mathrm{m^3/mol}$$
 
                                       {{3}}
@@ -153,22 +167,17 @@ $$\chi_\mathrm{mol} = \chi_\mathrm{el,mol} + \chi_\mathrm{dia,mol} = -9,\!2 \cdo
                                       {{4}}
 Insgesamt liegt also diamagnetisches Verhalten vor. Der Messwert von $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ wird ungefähr bestätigt.
 
-
-## Aufgabe 4 
-
-> Wandeln Sie den experimentellen Messwert von Kupfer auch in die entsprechenden Werte für die Massensuszeptibilität und Volumensuszeptibilität um (Dichte $\varrho = 8,\!93~\mathrm{g/cm^3}$, molare Masse $M = 63,\!5~\mathrm{g/mol}$).
-
-                                      {{1}}
-Der Messwert beträgt $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ und rechnet sich wie folgt in eine Volumensuszeptibilität (ohne Einheit) um:
+                                      {{5}}
+**b)** Der Messwert beträgt $\chi_\mathrm{mol} = -6,\!9\cdot{10}^{-11}~\mathrm{m^3/mol}$ und rechnet sich wie folgt in eine Volumensuszeptibilität (ohne Einheit) um:
 $$\chi_V = \frac{\varrho}{M} \chi_\mathrm{mol} = -9,\!70 \cdot 10^{-6}$$
 
-                                      {{2}}
+                                      {{6}}
 Die Massensuszeptibilität $\chi_\mathrm{g}$ ergibt sich folgendermaßen:
 $$\chi_\mathrm{g} = \frac{1}{\varrho} \chi_V = \frac{1}{M} \chi_\mathrm{mol} = -1,\!09 \cdot 10^{-12}~\mathrm{m^3/g}$$
 
 
 
-## Aufgabe 5 
+## Aufgabe 4 
 
 > Berechnen Sie für die Übergangsmetallionen Ti^2+^, Cr^3+^, Fe^3+^ und Cu^2+^ den Landéfaktor und das effektive magnetische Moment und vergleichen Sie diese Werte mit dem Experiment. Wie fällt der Vergleich aus, wenn reiner Spinmagnetismus ($g=2$) angenommen wird?
 
