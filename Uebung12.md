@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 12
@@ -125,6 +125,21 @@ Ein derart kleiner Widerstand wäre mit einer klassischen Strom-Spannungs-Messun
 
 ## Aufgabe 4
 
+> Ein Magnet mit einer Masse von $5~\mathrm{g}$ und einem magnetischen Moment $\mu$ von $0,\!3~\mathrm{J/T}$ schwebt über einer Scheibe aus einem Supraleiter vom Typ I (Meißner-Effekt). In welcher Höhe $h$ schwebt der Magnet, wenn sich die potentielle magnetische Energie des Magneten wie folgt berechnet:
+> $$E_\mathrm{mag} = \frac{\mu_0 \mu^2}{32 \pi h^3}$$
+
+
+                                      {{1}}
+Wir setzen die potentielle Lage-Energie gleich der magnetischen Energie:
+$$E_\mathrm{pot} = m g h = \frac{\mu_0 \mu^2}{32 \pi h^3} = E_\mathrm{mag}$$
+
+                                      {{2}}
+Umstellen nach der Höhe $h$ liefert: 
+$$h = \left( \frac{\mu_0 \mu^2}{32 \pi m g} \right)^\frac{1}{4} = 1,\!23~\mathrm{cm}$$
+
+
+## Aufgabe 5
+
 > Die Sprungtemperaturen für die Quecksilber-Isotope ^200^Hg und ^204^Hg betragen $4,\!185~\mathrm{K}$ und $4,\!146~\mathrm{K}$. Für den funktionellen Zusammenhang zwischen der Sprungtemperatur und der Isotopenmasse gilt: $T_\mathrm{C} = c \cdot M^{-\alpha}$ mit den Konstanten $c$ und $\alpha$. Bestimmen Sie den Wert der Konstante $\alpha$. Vergleichen Sie das Ergebnis mit der Masseabhängigkeit der Frequenz eines harmonischen Oszillators.
 
                                       {{1}}
@@ -147,40 +162,3 @@ $$T_\mathrm{C} \approx \frac{c}{\sqrt{M}}$$
                                       {{5}}
 Dies entspricht der Masseabhängigkeit der Kreisfrequenz eines harmonischen Oszillators mit der Federkonstante $k$ und der Masse $M$:
 $$\omega = \sqrt{\frac{k}{M}}$$
-
-
-## Aufgabe 5
-
-> Ein Magnet mit einer Masse von $5~\mathrm{g}$ und einem magnetischen Moment $\mu$ von $0,\!3~\mathrm{J/T}$ schwebt über einer Scheibe aus einem Supraleiter vom Typ I (Meißner-Effekt). In welcher Höhe $h$ schwebt der Magnet, wenn sich die potentielle magnetische Energie des Magneten wie folgt berechnet:
-> $$E_\mathrm{mag} = \frac{\mu_0 \mu^2}{32 \pi h^3}$$
-
-
-                                      {{1}}
-Wir setzen die potentielle Lage-Energie gleich der magnetischen Energie:
-$$E_\mathrm{pot} = m g h = \frac{\mu_0 \mu^2}{32 \pi h^3} = E_\mathrm{mag}$$
-
-                                      {{2}}
-Umstellen nach der Höhe $h$ liefert: 
-$$h = \left( \frac{\mu_0 \mu^2}{32 \pi m g} \right)^\frac{1}{4} = 1,\!23~\mathrm{cm}$$
-
-
-## Aufgabe 6
-
-> Worin besteht der Unterschied zwischen einem Supraleiter vom Typ I und einem Supraleiter vom Typ II? Was versteht man unter einer Shubnikov-Phase?
-
-                                      {{1}}
-Oberhalb einer **kritischen Feldstärke** $B_\mathrm{C}$ geht ein Typ-I-Supraleiter abrupt in den normalleitenden Zustand über. Ein Typ-II-Supraleiter geht oberhalb einer ersten kritischen Feldstärke $B_\mathrm{C,1}$ zunächst in einen Mischzustand über, bevor er bei $B_\mathrm{C,2}$ vollständig normalleitend wird.
-
-                                      {{2}}
-Der **Meißner-Effekt** tritt bei Typ-I-Supraleitern immer vollständig auf. Bei Typ-II-Supraleitern ist dies nur unterhalb $B_\mathrm{C,1}$ der Fall. Zwischen $B_\mathrm{C,1}$ und $B_\mathrm{C,2}$ kann das Magnetfeld teilweise in den Supraleiter vom Typ II eindringen.
-
-                                      {{3}}
-Die **Shubnikov-Phase** tritt nur in Typ-II-Supraleitern auf. Sie stellt den Mischzustand dar, in dem supraleitende und normalleitende Bereiche koexistieren. Dadurch kann ein äußeres Magnetfeld eindringen und bildet regelmäßig angeordnete Fluss-Schläuche (in den normalleitenden Bereichen).
-
-                                      {{4}}
-![Temperaturverlauf des kritischen Feldes eines Typ-I-Supraleiters](Bilder/Kritisches-Feld_Typ-I.png "Temperaturverlauf des kritischen Feldes $B_\mathrm{C}$ eines **Typ-I-Supraleiters** (Blei). *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
-![Temperaturverlauf des unteren und des oberen kritischen Feldes sowie des daraus berechneten thermodynamischen kritischen Feldes eines Typ-II-Supraleiters](Bilder/Kritisches-Feld_Typ-II.png "Temperaturverlauf des unteren und des oberen kritischen Feldes sowie des daraus berechneten thermodynamischen kritischen Feldes eines **Typ-II-Supraleiters** (In mit 4 at.-% Bi). Die durchgezogenen Linien geben den empirischen $1-(T/T_\mathrm{C})^2$ Temperaturverlauf wieder. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
-
-                                      {{5}}
-![Schematische Darstellung der magnetische Flussdichte im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter](Bilder/Typ-I-II_Magnetfeld.png "Schematische Darstellung der **magnetischen Flussdichte** im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter als Funktion des von außen angelegten Magnetfelds. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
-![Schematische Darstellung der Magnetisierung im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter](Bilder/Typ-I-II_Magnetisierung.png "Schematische Darstellung der **Magnetisierung** im Inneren eines Typ-II-Supraleiters im Vergleich zum Typ-I-Supraleiter als Funktion des von außen angelegten Magnetfelds. Die beiden grau hinterlegten Flächen sind gleich. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
