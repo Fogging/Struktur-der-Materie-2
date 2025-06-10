@@ -20,6 +20,15 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 11
 
+                                      {{1}}
+Zur [[ (Minimierung) | Maximierung ]] der magnetischen Feldenergie zerfällt ein Ferromagnet in Domänen.
+
+                                      {{2}}
+Oberhalb der Curie-Temperatur [[ verstärkt sich | (verschwindet) | dreht sich ]] die magnetische Ordnung in einem Ferromagneten.
+
+                                      {{3}}
+Die spontane Magnetisierung eines ferromagnetischen Materials [[ verschwindet | (verbleibt) | verstärkt sich ]] ohne äußeres Magnetfeld.
+
 
 ## Aufgabe 1 
 
