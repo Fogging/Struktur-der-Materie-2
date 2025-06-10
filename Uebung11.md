@@ -55,41 +55,6 @@ Es ist also $\chi ' \approx \chi$, d. h. der Unterschied zwischen $H$ und $H_\ma
 
 ## Aufgabe 2
 
-> Die magnetische Suszeptibilität einer ferro- bzw. antiferromagnetischen Substanz wird durch das Curie-Weiss-Gesetz $\chi = C/(T-\theta)$ beschrieben. Erklären Sie die Bedeutung der Parameter, welche in dieser Formel auftreten. Welches Vorzeichen besitzt die Größe $\theta$, wenn zwischen den magnetischen Momenten der Substanz eine ferromagnetische bzw. antiferromagnetische Wechselwirkung herrscht? Skizzieren Sie die entsprechenden Graphen in Abhängigkeit von der Temperatur.
-
-                                      {{1}}
-Das erweiterte Curie-Weiss-Gesetz hat die Form:
-$$\chi = \chi_0 + \frac{C}{T - \theta}$$
-Dabei ist $\chi_0$ ein temperaturunabhängiger Anteil (z. B. der diamagnetische Anteil abgeschlossener Elektronenschalen, van Vleck-Paramagnetismus, Paramagnetismus eines Elektronengases u. a.) und soll hier nicht weiter betrachtet werden.
-
-                                      {{2}}
-Das Curie-Weiss-Gesetz hat dann die Form:
-$$\chi = \frac{C}{T-\theta}$$
-Hierbei sind $C$ die Curie-Konstante und $\theta$ die paramagnetische Curie-Temperatur (bzw. der Ordnungsparameter).
-
-                                      {{3}}
-**Für $\theta = 0$** liegen keine magnetischen Kooperativ-Effekte vor (d. h. idealer Spin-Paramagnetismus, siehe Übung 4, Aufgabe 4) und man erhält das Curie-Gesetz:
-$$\chi = \frac{C}{T}$$
-
-                                      {{4}}
-**Für $\theta > 0$** existiert eine ferromagnetische Wechselwirkung (parallele Ausrichtung der Spins):
-$$\chi = \frac{C}{T - \theta} \approx \frac{C}{T - T_\mathrm{C}}$$
-Das Curie-Weiss-Gesetz beschreibt hier die Temperaturabhängigkeit der magnetischen Suszeptibilität eines Ferromagneten in der Hochtemperaturphase, d. h. oberhalb der Curie-Temperatur $T_\mathrm{C}$. Experimentell findet man, dass im paramagnetischen Bereich für $T \gg T_\mathrm{C}$ die gemessene Suszeptibilität sehr gut durch ein Curie-Weiss-Gesetz beschrieben werden kann, allerdings mit der paramagnetischen Curie-Temperatur $\theta$, die stets höher ist als die ferromagnetische Curie-Temperatur $T_\mathrm{C}$, oberhalb der die spontane Magnetisierung verschwindet. Die Gleichung besagt, dass die magnetische Suszeptibilität in der paramagnetischen Phase bei Annäherung der Temperatur $T$ von oben an die Curie-Temperatur $\theta$ divergiert.
-
-                                      {{5}}
-![Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Ferromagneten (b)](Bilder/Ferromagnetismus_chi.png "Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Ferromagneten (b). Das Curie-Weiss-Gesetz (gestrichelte Linie in (b)) ist nur weit oberhalb von $T_\mathrm{C}$ eine gute Näherung. Die Extrapolation von $\chi^{-1}(T)$ auf $\chi^{-1} = 0$ ergibt die paramagnetische Curie-Temperatur $\theta$. Diese ist immer größer als $T_\mathrm{C}$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 400px;" -->
-
-                                      {{6}}
-**Für $\theta < 0$** existiert eine antiferromagnetische Wechselwirkung (antiparallele Ausrichtung der Spins):
-$$\chi = \frac{C}{T - \theta} \approx \frac{C}{T + T_\mathrm{N}}$$
-In diesem Fall „divergiert“ die Suszeptibilität der Hochtemperaturphase scheinbar gegen eine negative Temperatur $\theta$. Die Gleichung beschreibt aber nur die Temperaturabhängigkeit der magnetischen Suszeptibilität in der Hochtemperaturphase oberhalb der Néel-Temperatur $T_\mathrm{N}$, wobei $T_\mathrm{N} < | \theta |$. Unterhalb von $T_\mathrm{N}$ ist $\chi$ richtungsabhängig (also ein Tensor).
-
-                                      {{7}}
-![Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Antiferromagneten (b)](Bilder/Antiferromagnetismus_chi.png "Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Antiferromagneten (b). Das Curie-Weiss-Gesetz (gepunktete Linie in (b)) ist nur weit oberhalb von $T_\mathrm{N}$ eine gute Näherung. Die Extrapolation von $\chi^{-1}(T)$ auf $\chi^{-1} = 0$ ergibt die paramagnetische Néel-Temperatur $\theta$. Der Betrag von $\theta$ ist meist größer als $T_\mathrm{N}$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 400px;" -->
-
-
-## Aufgabe 3
-
 > Aus welchem Grund weisen ferromagnetische Stoffe nichtlineare Magnetisierungskurven auf? Welche Unterschiede bestehen zwischen der gemessenen Magnetisierungskurve $M(H_\mathrm{a})$ und der auf das innere Magnetfeld bezogenen Magnetisierungskurve $M(H)$ einer ferromagnetischen Substanz?
 
                                       {{1}}
@@ -108,6 +73,41 @@ Gegenüber der Magnetisierungskurve $M(H)$ weist eine auf das äußere Magnetfel
 - Die Koerzitivfeldstärke $H_\mathrm{K}$ (für $M = 0$) bleibt für beide Kurven erhalten.
 - Die wirkliche Remanenz $M_\mathrm{R}$ (für $H = 0$) lässt sich nur aus $M(H)$ bestimmen!
 - Die Fläche innerhalb der Hysteresekurve entspricht der Magnetisierungsenergie: $\oint M \, \mathrm{d}H = E_\mathrm{mag}$
+
+
+## Aufgabe 3
+
+> Die magnetische Suszeptibilität einer ferro- bzw. antiferromagnetischen Substanz wird durch das Curie-Weiss-Gesetz $\chi = C/(T-\theta)$ beschrieben. Erklären Sie die Bedeutung der Parameter, welche in dieser Formel auftreten. Welches Vorzeichen besitzt die Größe $\theta$, wenn zwischen den magnetischen Momenten der Substanz eine ferromagnetische bzw. antiferromagnetische Wechselwirkung herrscht? Skizzieren Sie die entsprechenden Graphen in Abhängigkeit von der Temperatur.
+
+                                      {{1}}
+Das erweiterte Curie-Weiss-Gesetz hat die Form:
+$$\chi = \chi_0 + \frac{C}{T - \theta}$$
+Dabei ist $\chi_0$ ein temperaturunabhängiger Anteil (z. B. der diamagnetische Anteil abgeschlossener Elektronenschalen, van Vleck-Paramagnetismus, Paramagnetismus eines Elektronengases u. a.) und soll hier nicht weiter betrachtet werden.
+
+                                      {{2}}
+Das Curie-Weiss-Gesetz hat dann die Form:
+$$\chi = \frac{C}{T-\theta}$$
+Hierbei sind $C$ die Curie-Konstante und $\theta$ die paramagnetische Curie-Temperatur (bzw. der Ordnungsparameter).
+
+                                      {{3}}
+**Für $\theta = 0$** liegen keine magnetischen Kooperativ-Effekte vor (d. h. idealer Spin-Paramagnetismus, siehe Übung 9, Aufgabe 4) und man erhält das Curie-Gesetz:
+$$\chi = \frac{C}{T}$$
+
+                                      {{4}}
+**Für $\theta > 0$** existiert eine ferromagnetische Wechselwirkung (parallele Ausrichtung der Spins):
+$$\chi = \frac{C}{T - \theta} \approx \frac{C}{T - T_\mathrm{C}}$$
+Das Curie-Weiss-Gesetz beschreibt hier die Temperaturabhängigkeit der magnetischen Suszeptibilität eines Ferromagneten in der Hochtemperaturphase, d. h. oberhalb der Curie-Temperatur $T_\mathrm{C}$. Experimentell findet man, dass im paramagnetischen Bereich für $T \gg T_\mathrm{C}$ die gemessene Suszeptibilität sehr gut durch ein Curie-Weiss-Gesetz beschrieben werden kann, allerdings mit der paramagnetischen Curie-Temperatur $\theta$, die stets höher ist als die ferromagnetische Curie-Temperatur $T_\mathrm{C}$, oberhalb der die spontane Magnetisierung verschwindet. Die Gleichung besagt, dass die magnetische Suszeptibilität in der paramagnetischen Phase bei Annäherung der Temperatur $T$ von oben an die Curie-Temperatur $\theta$ divergiert.
+
+                                      {{5}}
+![Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Ferromagneten (b)](Bilder/Ferromagnetismus_chi.png "Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Ferromagneten (b). Das Curie-Weiss-Gesetz (gestrichelte Linie in (b)) ist nur weit oberhalb von $T_\mathrm{C}$ eine gute Näherung. Die Extrapolation von $\chi^{-1}(T)$ auf $\chi^{-1} = 0$ ergibt die paramagnetische Curie-Temperatur $\theta$. Diese ist immer größer als $T_\mathrm{C}$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 400px;" -->
+
+                                      {{6}}
+**Für $\theta < 0$** existiert eine antiferromagnetische Wechselwirkung (antiparallele Ausrichtung der Spins):
+$$\chi = \frac{C}{T - \theta} \approx \frac{C}{T + T_\mathrm{N}}$$
+In diesem Fall „divergiert“ die Suszeptibilität der Hochtemperaturphase scheinbar gegen eine negative Temperatur $\theta$. Die Gleichung beschreibt aber nur die Temperaturabhängigkeit der magnetischen Suszeptibilität in der Hochtemperaturphase oberhalb der Néel-Temperatur $T_\mathrm{N}$, wobei $T_\mathrm{N} < | \theta |$. Unterhalb von $T_\mathrm{N}$ ist $\chi$ richtungsabhängig (also ein Tensor).
+
+                                      {{7}}
+![Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Antiferromagneten (b)](Bilder/Antiferromagnetismus_chi.png "Temperaturabhängigkeit der Suszeptibilität (durchgezogen) und der inversen Suszeptibilität (gestrichelt) eines Paramagneten (a) und eines Antiferromagneten (b). Das Curie-Weiss-Gesetz (gepunktete Linie in (b)) ist nur weit oberhalb von $T_\mathrm{N}$ eine gute Näherung. Die Extrapolation von $\chi^{-1}(T)$ auf $\chi^{-1} = 0$ ergibt die paramagnetische Néel-Temperatur $\theta$. Der Betrag von $\theta$ ist meist größer als $T_\mathrm{N}$. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")<!-- style = "width: 400px;" -->
 
 
 ## Aufgabe 4 
@@ -136,16 +136,13 @@ Aus der gegebenen Sättigungsmagnetisierung erhalten wir:
 $$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 2,\!22 \, \mu_\mathrm{B}$$
 
                                       {{4}}
-In Übung 5, Aufgabe 5 hatten wir für Fe^3+^ allerdings einen Wert von $\mu_\mathrm{eff} = 5,\!92 \, \mu_\mathrm{B}$ berechnet.
+Das Ion Fe^3+^ besitzt die Konfiguration $\mathrm{[Ar] \, 3d^5}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 5/2$, $L = 0$ und $J = 5/2$ (siehe Übung 10, Aufgabe 5). Daraus folgt $g=2$ und:
+$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 5,\!92 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 5 \, \mu_\mathrm{B}$$
 
                                       {{5}}
-Aus der Temperaturabhängigkeit der spontanen Magnetisierung kann man $J = 1/2$ ableiten. Mit diesem Wert und $g=2$ folgt:
-$$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 1,\!73 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 1 \, \mu_\mathrm{B}$$
+Wir erhalten für Eisen also keine Übereinstimmung zwischen dem theoretischen Wert für Fe^3+^ und den in der Aufgabenstellung gegebenen experimentellen Werten. Ursache ist der vorliegende **Bandferromagnetismus**! Ursache des Ferromagnetismus sind hier keine lokalisierten Elektronen, sondern die Leitungselektronen.
 
                                       {{6}}
-Wir erhalten für Eisen also keine Übereinstimmung zwischen dem theoretischen Wert für Fe^3+^ und den in der Aufgabenstellung gegebenen experimentellen Werten. Ursache ist der vorliegende Bandferromagnetismus!
-
-                                      {{7}}
 ************************************
 **b) Gadolinium**
 
@@ -153,17 +150,17 @@ Die Teilchendichte $n$ erhalten wir aus der Anzahl der Atome pro Elementarzellvo
 $$n = \frac{2}{\frac{\sqrt{3}}{2} a^2 c} = 3,\!02 \cdot 10^{22}~\mathrm{cm^{-3}}$$
 ************************************
 
-                                      {{8}}
+                                      {{7}}
 Für das effektive magnetische Moment gilt:
 $$\mu_\mathrm{eff} = \sqrt{\frac{3 k_\mathrm{B} C}{\mu_0 n}} = 7,\!96 \, \mu_\mathrm{B}$$
 
-                                      {{9}}
+                                      {{8}}
 Aus der gegebenen Sättigungsmagnetisierung erhalten wir:
 $$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 7,\!35 \, \mu_\mathrm{B}$$
 
-                                      {{10}}
-Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$ und $J = 7/2$. Mit diesem Wert und $g=2$ folgt:
+                                      {{9}}
+Das Ion Gd^3+^ besitzt die Konfiguration $\mathrm{[Xe]\,4f^7}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 7/2$, $L = 0$ und $J = 7/2$. Daraus folgt $g=2$ und:
 $$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 7,\!94 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 7 \, \mu_\mathrm{B}$$
 
-                                      {{11}}
-Wir erhalten für Gadolinium also eine gute Übereinstimmung zwischen Theorie und Experiment. Es liegt reiner Spin-Magnetismus vor!
+                                      {{10}}
+Wir erhalten für Gadolinium also eine gute Übereinstimmung zwischen Theorie und Experiment. Es liegt reiner **Spin-Magnetismus** vor (weil Bahndrehimpuls $L=0$), der von lokalisierten Elektronen ausgeht.
