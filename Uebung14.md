@@ -42,3 +42,41 @@ Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}
 
                                       {{5}}
 ![Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al](Bilder/Molare-Wärmekapazität.png "Temperaturverlauf der spezifischen Wärme von supraleitendem und normalleitendem Al. Um die spezifische Wärme im normalleitenden Zustand zu messen, wurde die Supraleitung mit einem äußeren Magnetfeld von $50~\mathrm{mT}$ unterdrückt (runde Symbole). Der Gitterbeitrag zur spezifischen Wärme ist in dem gezeigten Temperaturbereich vernachlässigbar klein. *Quelle: Rudolf Gross und Achim Marx, Vorlesungsskript Festkörperphysik, 2008*")
+
+
+## Aufgabe 2
+
+> Gallium ist ein BCS-Supraleiter mit schwacher Elektron-Phonon-Kopplung. Wie groß ist die supraleitende Energielücke (in $\mathrm{meV}$) bei diesem Element, wenn der Sprung in der spezifischen Wärme beim Übergang in den supraleitenden Zustand $78,\!29~\mathrm{mJ\,mol^{-1}\,K^{-1}}$ beträgt und der Sommerfeld-Koeffizient den Wert $7,\!5~\mathrm{mJ\,mol^{-1}\,K^{-2}}$ besitzt?
+
+
+## Aufgabe 3
+
+> Berechnen Sie für $T = 0~\mathrm{K}$ das zweite kritische Feld und den Ginzburg-Landau-Parameter eines Supraleiters, dessen Energielücke $0,\!2~\mathrm{meV}$ beträgt. Bei $T = 3~\mathrm{K}$ sind die Ginzburg-Landau-Kohärenzlänge $4,\!5~\mathrm{nm}$ und die Eindringtiefe $100~\mathrm{nm}$.
+
+
+
+## Aufgabe 4
+
+> Temperatur- und feldabhängige Messungen des elektrischen Widerstands haben gezeigt, dass Nb<sub>3</sub>Ge bei $22,\!3~\mathrm{K}$ in den supraleitenden Zustand übergeht. Das kritische Feld $B_\mathrm{C2}$ beträgt $7,\!3~\mathrm{T}$. Die direkte Messung der Eindringtiefe ergab $\lambda_\mathrm{L} = 2250~\mathrm{\AA}$. Die Energielücke wurde aus dem Verlauf der elektronischen spezifischen Wärme zu $\Delta = 5~\mathrm{meV}$ ermittelt. Zu welchem Supraleiter-Typ gehört Nb<sub>3</sub>Ge? Kann Nb<sub>3</sub>Ge als konventioneller BCS-Supraleiter betrachtet werden?
+
+                                      {{1}}
+Die Kohärenzlänge $\xi_\mathrm{GL}$ erhalten wir aus dem Zusammenhang mit dem kritischen Feld $B_\mathrm{C2}$:
+$$B_\mathrm{C2} = \frac{\hbar}{q_\mathrm{S} \xi_\mathrm{GL}^2} = \frac{\Phi_0}{2 \pi \xi_\mathrm{GL}^2}$$
+
+                                      {{2}}
+Dabei beträgt die Ladung $q_\mathrm{S} = 2 e$ und die Konstante $\Phi_0$ ergibt sich aus $\Phi_0 = h / q_\mathrm{S} = 2,\!07 \cdot 10^{-15}~\mathrm{Vs}$. Die Ginzburg-Landau-Kohärenzlänge ist damit:
+$$\xi_\mathrm{GL} = \sqrt{\frac{\Phi_0}{2 \pi B_\mathrm{C2}}} = 6,\!7~\mathrm{nm}$$
+
+                                      {{3}}
+Das thermodynamische kritische Feld berechnet sich zu:
+$$B_\mathrm{C,th} = \frac{\Phi_0}{2 \pi \sqrt{2} \xi_\mathrm{GL} \lambda_\mathrm{L}} = 0,\!15~\mathrm{T}$$
+
+                                      {{4}}
+Der Ginzburg-Landau-Parameter ergibt sich zu:
+$$\kappa_\mathrm{GL} = \frac{\lambda_\mathrm{L}}{\xi_\mathrm{GL}} = \frac{B_\mathrm{C2}}{\sqrt{2} \cdot B_\mathrm{C,th}} = 34 \gg \frac{1}{\sqrt{2}}$$
+Damit handelt es sich bei Nb<sub>3</sub>Ge um einen Supraleiter vom **Typ II**.
+
+                                      {{5}}
+Das Energielückenverhältnis ist:
+$$\frac{\Delta(0)}{k_\mathrm{B} T_\mathrm{C}} = 2,\!6 > 1,\!764$$
+Damit ist Nb<sub>3</sub>Ge ein **unkonventioneller Supraleiter**.

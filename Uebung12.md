@@ -136,29 +136,3 @@ $$E_\mathrm{pot} = m g h = \frac{\mu_0 \mu^2}{32 \pi h^3} = E_\mathrm{mag}$$
                                       {{2}}
 Umstellen nach der Höhe $h$ liefert: 
 $$h = \left( \frac{\mu_0 \mu^2}{32 \pi m g} \right)^\frac{1}{4} = 1,\!23~\mathrm{cm}$$
-
-
-## Aufgabe 5
-
-> Die Sprungtemperaturen für die Quecksilber-Isotope ^200^Hg und ^204^Hg betragen $4,\!185~\mathrm{K}$ und $4,\!146~\mathrm{K}$. Für den funktionellen Zusammenhang zwischen der Sprungtemperatur und der Isotopenmasse gilt: $T_\mathrm{C} = c \cdot M^{-\alpha}$ mit den Konstanten $c$ und $\alpha$. Bestimmen Sie den Wert der Konstante $\alpha$. Vergleichen Sie das Ergebnis mit der Masseabhängigkeit der Frequenz eines harmonischen Oszillators.
-
-                                      {{1}}
-Gemäß des gegebenen Zusammenhangs zwischen der Sprungtemperatur und der Isotopenmasse gilt für die zwei zu betrachtenden Isotope:
-$$T_\mathrm{C,1} = c \cdot M_1^{-\alpha}$$
-$$T_\mathrm{C,2} = c \cdot M_2^{-\alpha}$$
-
-                                      {{2}}
-Für das Verhältnis der zwei Sprungtemperaturen folgt: 
-$$\frac{T_\mathrm{C,1}}{T_\mathrm{C,2}} = \frac{M_1^{-\alpha}}{M_2^{-\alpha}} = \left( \frac{M_1}{M_2} \right)^{-\alpha}$$
-
-                                      {{3}}
-Um den Exponenten zu erhalten, nutzen wir den Logarithmus:
-$$\alpha = - \frac{\ln ( T_\mathrm{C,1} / T_\mathrm{C,2} )}{\ln (M_1 / M_2)} = 0,\!473$$
-
-                                      {{4}}
-Wir erhalten also $\alpha \approx \frac{1}{2}$, d. h. die Isotopenmasse beeinflusst nur die Phononenfrequenz und nicht das gesamte Phononenspektrum. Es gilt näherungsweise:
-$$T_\mathrm{C} \approx \frac{c}{\sqrt{M}}$$
-
-                                      {{5}}
-Dies entspricht der Masseabhängigkeit der Kreisfrequenz eines harmonischen Oszillators mit der Federkonstante $k$ und der Masse $M$:
-$$\omega = \sqrt{\frac{k}{M}}$$
