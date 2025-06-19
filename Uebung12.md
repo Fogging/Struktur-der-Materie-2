@@ -23,10 +23,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
 
-> Gegeben sei eine Kugel aus einem Supraleiter erster Art mit einem kritischen Feld $H_\mathrm{C}$. Zeigen Sie, dass im Bereich des Meißner-Effekts die effektive Magnetisierung innerhalb der Kugel durch $M = -\frac{3}{2} H_\mathrm{a}$ gegeben ist und dass das Magnetfeld an der Oberfläche der Kugel in der Äquatorebene $\frac{3}{2} B_\mathrm{a}$ ist.
+> Gegeben sei eine Kugel (Entmagnetisierungsfaktor $N = \frac{1}{3}$) aus einem Supraleiter erster Art mit einem kritischen Feld $H_\mathrm{C}$. Zeigen Sie, dass im Bereich des Meißner-Effekts die effektive Magnetisierung innerhalb der Kugel durch $M = -\frac{3}{2} H_\mathrm{a}$ gegeben ist und dass das Magnetfeld an der Oberfläche der Kugel in der Äquatorebene $\frac{3}{2} B_\mathrm{a}$ ist.
 
                                       {{1}}
-In Übung 6, Aufgabe 2 hatten wir gezeigt, dass für das Magnetfeld $H$ und die magnetische Induktion $B$ im Probeninneren gilt:
+In Übung 11, Aufgabe 1 hatten wir gezeigt, dass für das Magnetfeld $H$ und die magnetische Induktion $B$ im Probeninneren gilt:
 $$H = \frac{1}{1 + N \cdot \chi} \cdot H_\mathrm{a}$$
 $$B = \frac{1 + \chi}{1 + N \cdot \chi} \cdot B_\mathrm{a}$$
 
@@ -41,11 +41,11 @@ $$M = -H = - \frac{3}{2} H_\mathrm{a}$$
 
                                       {{4}}
 Das obige Ergebnis $B = 0$ gilt tatsächlich nur im Inneren der Kugel. Da die Tangentialkomponente von $\vec{H}$ stetig sein muss, folgt für $B$ an der Oberfläche der Kugel in der Äquatorebene:
-$$B_\mathrm{Äquator} = \frac{3}{2} B_\mathrm{a}$$
+$$B_\mathrm{Äquator} = \mu_0 H = \mu_0 \frac{3}{2} H_\mathrm{a} = \frac{3}{2} B_\mathrm{a}$$
 
                                       {{5}}
 Da die Normalkomponente von $\vec{B}$ stetig sein muss, folgt für die Pole auf der Kugeloberfläche:
-$$B_\mathrm{Pole} = 0$$
+$$B_\mathrm{Pole} = B_\mathrm{a}$$
 
 
 ## Aufgabe 2 
