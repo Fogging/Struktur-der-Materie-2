@@ -20,6 +20,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 12
 
+Ein kurzer Einstieg ins Thema Supraleitung:
+
+!?[Lexus Hoverboard: The Story](https://www.youtube.com/watch?v=MdERHsDxAMU)
+
 
 ## Aufgabe 1
 
