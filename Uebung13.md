@@ -20,6 +20,16 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 13
 
+                                      {{1}}
+Oberhalb einer kritischen Feldstärke geht ein Typ-I-Supraleiter abrupt in den [[ (normalleitenden) | supraleitenden ]] Zustand über. Bei Typ-II-Supraleitern geschieht dies oberhalb von [[ $B_\mathrm{C,1}$ | ($B_\mathrm{C,2}$) | $B_\mathrm{C,th}$ ]].
+
+                                      {{2}}
+Der Meißner-Effekt tritt bei Typ-I-Supraleitern immer [[ (vollständig) | unvollständig ]] auf. Bei Typ-II-Supraleitern ist dies nur unterhalb [[ ($B_\mathrm{C,1}$) | $B_\mathrm{C,2}$ | $B_\mathrm{C,th}$ ]] der Fall.
+
+                                      {{3}}
+Die Shubnikov-Phase tritt nur in  [[ Typ-I-Supraleitern | (Typ-II-Supraleitern) ]] auf. Sie stellt den Mischzustand dar, in dem [[ polarisierte und dielektrische | paramagnetische und diamagnetische | (supraleitende und normalleitende) ]] Bereiche koexistieren.
+
+
 ## Aufgabe 1
 
 > Worin besteht der Unterschied zwischen einem Supraleiter vom Typ I und einem Supraleiter vom Typ II? Was versteht man unter einer Shubnikov-Phase?
@@ -127,7 +137,7 @@ Wird der Strom so stark, dass das dadurch erzeugte Magnetfeld $B$ die kritische 
 $$I_\mathrm{C} = \frac{2 \pi r B_\mathrm{C}}{\mu_0}$$
 
                                       {{3}}
-Nun benötigen wir noch die kritische Feldstärke $B_\mathrm{C}(T)$ für $T = 4,\!2~\mathrm{K}$. Dazu nutzen wir die gleiche Formel wie in Aufgabe 1:
+Nun benötigen wir noch die kritische Feldstärke $B_\mathrm{C}(T)$ für $T = 4,\!2~\mathrm{K}$. Dazu nutzen wir die gleiche Formel wie in Aufgabe 3:
 $$B_\mathrm{C}(T) = B_\mathrm{C}(0) \cdot \left[1 - \left( \frac{T}{T_\mathrm{C}} \right)^2 \right] = 5,\!28 \cdot 10^{-2}~\mathrm{T}$$
 
                                       {{4}}
