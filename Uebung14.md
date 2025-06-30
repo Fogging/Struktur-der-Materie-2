@@ -48,6 +48,18 @@ Durch den Übergang in den normalleitenden Zustand ergibt sich bei $T_\mathrm{C}
 
 > Gallium ist ein BCS-Supraleiter mit schwacher Elektron-Phonon-Kopplung. Wie groß ist die supraleitende Energielücke (in $\mathrm{meV}$) bei diesem Element, wenn der Sprung in der spezifischen Wärme beim Übergang in den supraleitenden Zustand $78,\!29~\mathrm{mJ\,mol^{-1}\,K^{-1}}$ beträgt und der Sommerfeld-Koeffizient den Wert $7,\!5~\mathrm{mJ\,mol^{-1}\,K^{-2}}$ besitzt?
 
+                                      {{1}}
+Direkt bei der Sprungtemperatur $T_\mathrm{C}$ sagt die BCS-Theorie eine Zunahme der Wärmekapazität voraus (siehe Aufgabe 1):
+$$\frac{\Delta c_p}{\gamma T_\mathrm{C}} = 1,\!43$$
+
+                                      {{2}}
+Mit den gegebenen Werten $\Delta c_p = 78,\!29~\mathrm{mJ\,mol^{-1}\,K^{-1}}$ und $\gamma = 7,\!5~\mathrm{mJ\,mol^{-1}\,K^{-2}}$ erhalten wir also die Übergangstemperatur:
+$$T_\mathrm{C} = \frac{\Delta c_p}{1,\!43 \cdot \gamma} = 7,\!3~\mathrm{K}$$
+
+                                      {{3}}
+Für die supraleitende Energielücke folgt aus der BCS-Theorie weiterhin:
+$$\Delta(0) = 1,\!764 \cdot k_\mathrm{B} T_\mathrm{C} = 1,\!11~\mathrm{meV}$$
+
 
 ## Aufgabe 3
 
