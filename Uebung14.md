@@ -25,8 +25,8 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Frage 1: Was kann die BCS-Theorie korrekt beschreiben?**
 
 - [[X]] Existenz einer Energielücke
-- [[X]] Isotopeneffekt der Sprungtemperatur
 - [[ ]] Hochtemperatur-Supraleiter
+- [[X]] Isotopeneffekt der Sprungtemperatur
 - [[X]] Magnetische Flussquantisierung
 - [[X]] Meißner-Ochsenfeld-Effekt
 - [[X]] Wärmekapazitätssprung bei der Sprungtemperatur
