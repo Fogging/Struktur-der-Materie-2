@@ -24,20 +24,20 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 ************************************
 **Frage 1: Welche Zusammenhänge zwischen dielektrischer Verschiebung $D$ und elektrischem Feld $E$ sind korrekt?**
 
-- [[X]] $$D = \varepsilon_0 \varepsilon_r E$$
-- [[ ]] $$D = \varepsilon_0 \chi E$$
-- [[ ]] $$D = \varepsilon_0 \varepsilon_r E + P$$
-- [[X]] $$D = \varepsilon_0 E + P$$
+- [[X]] $D = \varepsilon_0 \varepsilon_r E$
+- [[ ]] $D = \varepsilon_0 \chi E$
+- [[ ]] $D = \varepsilon_0 \varepsilon_r E + P$
+- [[X]] $D = \varepsilon_0 E + P$
 ************************************
 
                                       {{2}}
 ************************************
 **Frage 2: Wie lautet die korrekte Definition der Polarisierbarkeit $\alpha$?**
 
-- [(X)] $$p = \alpha \cdot E$$
-- [( )] $$p = \alpha \cdot D$$
-- [( )] $$p = \alpha \cdot P$$
-- [( )] $$p = \alpha \cdot \chi$$
+- [(X)] $p = \alpha \cdot E$
+- [( )] $p = \alpha \cdot D$
+- [( )] $p = \alpha \cdot P$
+- [( )] $p = \alpha \cdot \chi$
 ************************************
 
 

@@ -1,7 +1,7 @@
 <!--
 author:   Hartmut Stöcker
 email:    hartmut.stoecker@physik.tu-freiberg.de
-version:  0.1
+version:  0.2
 language: de
 narrator: Deutsch Female
 comment:  Struktur der Materie 2 - Übung 14
@@ -19,6 +19,29 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
 # Übung 14
+
+                                      {{1}}
+************************************
+**Frage 1: Was kann die BCS-Theorie korrekt beschreiben?**
+
+- [[X]] Existenz einer Energielücke
+- [[X]] Isotopeneffekt der Sprungtemperatur
+- [[ ]] Hochtemperatur-Supraleiter
+- [[X]] Magnetische Flussquantisierung
+- [[X]] Meißner-Ochsenfeld-Effekt
+- [[X]] Wärmekapazitätssprung bei der Sprungtemperatur
+************************************
+
+                                      {{2}}
+************************************
+**Frage 2: Wie berechnet sich der Ginsburg-Landau-Parameter $\kappa$ aus Eindringtiefe $\lambda$ und Kohärenzlänge $\xi$?**
+
+- [( )] $\kappa = \lambda \cdot \xi$
+- [( )] $\kappa = \sqrt{\lambda \cdot \xi}$
+- [(X)] $\kappa = \frac{\lambda}{\xi}$
+- [( )] $\kappa = \frac{\xi}{\lambda}$
+************************************
+
 
 ## Aufgabe 1
 
