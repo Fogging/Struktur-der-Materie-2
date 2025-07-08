@@ -233,19 +233,22 @@ Mit den gegebenen Werten erhalten wir:
 ************************************
 
                                       {{6}}
+Die Differenz der lokalen Feldstärken liegt also in der Größenordnung des Erdmagnetfeldes. Daher ist der Probenraum eines NMR-Spektrometers durch eine Ummantelung aus µ-Metall magnetisch abgeschirmt. Zusätzlich gibt es Kompensationsspulen, die ein Magnetfeld erzeugen, das dem Erdmagnetfeld entgegenwirkt.
+
+                                      {{7}}
 **b)** Wir müssen zunächst den Abstand der beiden Protonengruppen CH<sub>3</sub> und CHO berechnen. Die chemische Verschiebung ist definiert als:
 $$\delta = \frac{\nu - \nu_0}{\nu_0}$$
 
-                                      {{7}}
+                                      {{8}}
 Die Differenz der Resonanzfrequenz eines Kerns und der Referenz beträgt also:
 $$\nu - \nu_0 = \nu_0 \cdot \delta$$
 
-                                      {{8}}
+                                      {{9}}
 Der gesuchte Frequenzabstand ist also:
 $$\Delta \nu = [\nu(\mathrm{CHO}) - \nu_0] - [\nu(\mathrm{CH_3}) - \nu_0] = \nu(\mathrm{CHO}) - \nu(\mathrm{CH_3})$$
 $$\Delta \nu = \nu_0 \cdot [\delta(\mathrm{CHO}) - \delta(\mathrm{CH_3})] = \nu_0 \cdot 7,\!60~\mathrm{ppm}$$
 
-                                      {{9}}
+                                      {{10}}
 ************************************
 Mit den gegebenen Werten erhalten wir:
 
@@ -254,11 +257,11 @@ Mit den gegebenen Werten erhalten wir:
 (ii) $\Delta \nu = 3,\!8~\mathrm{kHz}$
 ************************************
 
-                                      {{10}}
+                                      {{11}}
 Was wissen wir noch: CHO wird aufgrund der Multiplizität zu einem Quartett und CH<sub>3</sub> zu einem Dublett aufspalten, wobei $J = 2,\!9~\mathrm{Hz}$ gegeben ist. Wir können also nun das Spektrum zeichnen:
 ![Abgeleitetes 1H-NMR-Spektrum von Acetaldehyd mit zugeordneten Banden](Bilder/NMR_Acetaldehyd.png "Abgeleitetes ^1^H-NMR-Spektrum von Acetaldehyd mit zugeordneten Banden. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-                                      {{11}}
+                                      {{12}}
 Wenn man die Frequenz auf $\mathrm{500~MHz}$ ändert, ändert sich $\Delta \nu$ auf $3,\!8~\mathrm{kHz}$. Die Feinstruktur, d. h. die Aufspaltung innerhalb der Gruppen, bleibt jedoch gleich, da die Spin-Spin-Aufspaltung durch die Stärke des angelegten Feldes nicht beeinflusst wird. Allerdings steigt wegen $\frac{\Delta N}{N} \sim \nu$ die Intensität der Linien um den Faktor $2$!
 
 
@@ -295,6 +298,9 @@ Die drei Protonen der CH<sub>3</sub>-Gruppe koppeln also über drei Bindungen mi
                                       {{7}}
 Mit Ausnahme der einmaligen parallelen und antiparallelen Orientierung der Kopplungspartner (relative Intensitäten je $1$) bestimmt die Anzahl der Kopplungspartner wechselseitig, wie viele Spinkombinationen das gleiche $B_\mathrm{eff}$ generieren (z. B. jene von 1 Spin der CH<sub>3</sub>-Protonen antiparallel und 2 CH<sub>3</sub>-Spins parallel). Diese Zahl bestimmt die relative Häufigkeit, mit der Kopplungspartner im jeweiligen $B_\mathrm{eff}$ energetisch entarteter Spinkombination gemessen werden. Die Resonanz der CH<sub>2</sub>-Protonen im $B_\mathrm{eff}$ der CH<sub>3</sub>-Spinkombination einmal antiparallel und zweimal parallel ist also dreimal wahrscheinlicher als jene im $B_\mathrm{eff}$ der Spinkombination dreimal antiparallel bzw. parallel. Es sind also dreimal mehr Moleküle im ersten Spinzustand vorhanden – daher beträgt das Intensitätsverhältnis zwischen den 4 Linien des Quadrupletts der CH<sub>2</sub>-Gruppe $1:3:3:1$ und jene des Tripletts $1:2:1$.
 
+                                      {{8}}
+Die Kopplung zwischen OH- und CH<sub>2</sub>-Protonen ist nicht messbar. Das liegt daran, dass das OH-Proton im Ethanol nur locker gebunden ist und tatsächlich ständig zwischen Molekülen hin- und herwechselt (über Wasserstoffbrücken). Im Gegensatz dazu sind die H-Atome an Kohlenstoff kovalent und starr gebunden, also während der NMR-Messung fest an ihrem Platz. Durch diesen schnellen Protonenaustausch sind die OH- und CH<sub>2</sub>-Protonen während der Messzeit magnetisch nicht gekoppelt/verbunden. Das OH-Signal ist daher ein Singulett ohne erkennbare Feinstruktur.
+
 
 ## Aufgabe 8
 
@@ -310,8 +316,10 @@ $$\delta = \frac{1}{2} \cdot (7,\!977 + 7,\!885)~\mathrm{ppm} \approx 7,\!93~\ma
 Um die Kopplungskonstanten zu berechnen, mitteln wir (wenn möglich) die Abstände zwischen den einzelnen Linien einer Bande, um möglichst genaue Werte zu erhalten. Dann wird der Abstand mit der Frequenz der Messung multipliziert. Am Beispiel der ersten Bande:
 $$^3J = (7,\!977 - 7,\!885)~\mathrm{ppm} \cdot 89,\!56~\mathrm{MHz} = 8,\!24~\mathrm{Hz}$$
 
-                                      {{3}}
+                                      {{4}}
 ************************************
+Die Auswertung des gesamten Spektrums ergibt:
+
 | Signal | $\delta$              | Multiplizität | $^3J$                | Zuordnung                             |
 |--------|-----------------------|---------------|----------------------|---------------------------------------|
 | 1      | $7,\!93~\mathrm{ppm}$ | Dublett       | $8,\!24~\mathrm{Hz}$ | aromatische Protonen in Position 1    |
@@ -322,3 +330,6 @@ $$^3J = (7,\!977 - 7,\!885)~\mathrm{ppm} \cdot 89,\!56~\mathrm{MHz} = 8,\!24~\ma
 
 ![Struktur von 4-Methyl-Benzoesäureethylester mit Nummerierung der Protonen](Bilder/NMR_4-Methyl-Benzoesäureethylester_Struktur.png "Struktur von 4-Methyl-Benzoesäureethylester (C<sub>10</sub>H<sub>12</sub>O<sub>2</sub>) mit Nummerierung der Protonen. *Quelle: Thomas Köhler, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 150px;" -->
 ************************************
+
+                                      {{5}}
+Durch den Ringstromeffekt sind alle vier H-Atome am Benzol-Ring zu höheren ppm-Werten verschoben, also die Positionen 1, 1′, 2 und 2′. Die beiden äquivalenten Protonen an Position 1 und 1′ sind im Spektrum weiter links (also stärker verschoben) zu finden, da sie sich in direkter Nachbarschaft zum Sauerstoff befinden und dadurch stärker entschirmt sind. Das zweite beobachtete Dublett lässt sich daher den Protonen an Position 2 und 2′ zuordnen.
