@@ -204,7 +204,7 @@ Die Energieaufspaltung ist also für das Proton größer.
 
 > a) Die chemische Verschiebung der CH<sub>3</sub>-Protonen in Acetaldehyd (Ethanal) ist $\delta = 2,\!20~\mathrm{ppm}$, die des Aldehydprotons (−CHO) ist $\delta = 9,\!80~\mathrm{ppm}$. Wie groß ist die Differenz der lokalen Feldstärken für diese beiden Protonen bei einem äußeren Feld von (i) $\mathrm{1,\!5~T}$ und (ii) $\mathrm{15~T}$?
 >
-> b) Skizieren Sie das Aussehen des ^1^H-NMR-Spektrums von Acetaldehyd (i) in einem $\mathrm{250~MHz}$ und (ii) $\mathrm{500~MHz}$-Spektrometer. Verwenden Sie dazu $J = 2,\!9~\mathrm{Hz}$ sowie die Daten aus Teilaufgabe (a).
+> b) Skizzieren Sie das Aussehen des ^1^H-NMR-Spektrums von Acetaldehyd (i) in einem $\mathrm{250~MHz}$ und (ii) $\mathrm{500~MHz}$-Spektrometer. Verwenden Sie dazu $J = 2,\!9~\mathrm{Hz}$ sowie die Daten aus Teilaufgabe (a).
 
 
                                       {{1}}
@@ -227,9 +227,9 @@ $$|\Delta B_\mathrm{lokal}| = |\Delta \sigma| \cdot B_0 = |\Delta \delta| \cdot 
 ************************************
 Mit den gegebenen Werten erhalten wir:
 
-(i) $|\Delta B_\mathrm{lokal}| = 11~\mathrm{µT}$
+(i) $|\Delta B_\mathrm{lokal}| = 11,\!4~\mathrm{µT}$
 
-(ii) $|\Delta B_\mathrm{lokal}| = 110~\mathrm{µT}$
+(ii) $|\Delta B_\mathrm{lokal}| = 114~\mathrm{µT}$
 ************************************
 
                                       {{6}}
