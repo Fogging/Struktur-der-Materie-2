@@ -204,7 +204,7 @@ $$n_i = p_i = \sqrt{N_\mathrm{L} N_\mathrm{V}} \cdot \exp \left( - \frac{E_\math
 
 ## Aufgabe 5 
 
-> Die Temperatur eigenleitenden Siliziums wird von -20 °C auf 200 °C erhöht. Wie ändert sich die Elektronenkonzentration (Quotient beider Konzentrationen)?
+> Die Temperatur eigenleitenden Siliziums wird von $-20~\mathrm{^\circ C}$ auf $200~\mathrm{^\circ C}$ erhöht. Die Bandlücke von Silizium wird als konstant angenommen und beträgt $E_\mathrm{g} = 1,\!12~\mathrm{eV}$. Wie ändert sich die Elektronenkonzentration (Quotient beider Konzentrationen)?
 
                                       {{1}}
 Gemäß Aufgabe 4 gilt:
