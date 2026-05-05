@@ -120,7 +120,7 @@ $$R = \frac{(n - 1)^2 + k^2}{(n + 1)^2 + k^2} = \frac{(n + 1)^2 + k^2 - 4n}{(n +
 
                                       {{5}}
 Für $n = k \gg 1$ können wir die $1$ im Nenner näherungsweise weglassen und den Zusammenhang folgendermaßen vereinfachen:
-$$R \approx 1 - \frac{2}{n}$$
+$$R = 1 - \frac{4n}{(n + 1)^2 + n^2} \approx 1 - \frac{2}{n}$$
 
                                       {{6}}
 Setzen wir die oben erhaltene Formel für $n$ ein, ergibt sich die Hagen-Rubens-Relation:
