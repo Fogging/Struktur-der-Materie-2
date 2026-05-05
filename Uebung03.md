@@ -46,7 +46,7 @@ Intrinsische Halbleiter enthalten [[ viele | (wenige) ]] Dotieratome, sodass die
 $$E_n = -\frac{1}{2} \frac{m^\mathrm{eff} e^4}{(4 \pi \varepsilon_0 \varepsilon_r \hbar)^2} \frac{1}{n^2}$$
 
                                       {{2}}
-Für die Hauptquantenzahl wird $n=1$ eingesetzt. Die Ionisierungsenergie $E_\mathrm{D}$ entspricht der negativen Bindungsenergie, sodass man mit den gegebenen Werten erhält:
+Für die Hauptquantenzahl wird $n=1$ eingesetzt. Die Ionisierungsenergie $E_\mathrm{D}$ entspricht der negativen Bindungsenergie, also $E_\mathrm{D} = -E_1$. Für die Berechnung im Taschenrechner ist es günstig, direkt mit $e^3$ anstatt $e^4$ zu arbeiten, um das Ergebnis in $\mathrm{eV}$ zu erhalten und nicht mit zu kleinen Zahlen ($m_0 \cdot e^4 < 10^{-100}$) zu rechnen. Mit den gegebenen Werten erhält man:
 $$E_\mathrm{D} = -E_1 = 0,\!63~\mathrm{meV}$$
 
                                       {{3}}
