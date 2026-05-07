@@ -46,23 +46,27 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 > Bestimmen Sie den Reflexionskoeffizienten $R$ bei der senkrechten Reflexion. Betrachten Sie eine sich in $z$-Richtung ausbreitende elektromagnetische ebene Welle im Vakuum, welche bei $z=0$ auf die Oberfläche eines Mediums mit komplexem Brechungsindex $n' = n + \mathrm{i} k$ trifft (Herleitung). Berechnen Sie die Werte von $R$ für $n = 1,\!0$ und $1,\!5$ und $3,\!5$ wobei $k=0$ bzw. $10$ betragen soll.
 
                                       {{1}}
+************************************
 Wir betrachten eine einfallende ebene Welle, deren $E$-Feld in $x$-Richtung schwingt und die sich in $z$-Richtung ausbreitet:
 $$E_{x,0} = E_0 \cdot \exp [\mathrm{i} (k_0 z - \omega t)]$$
+
+![Grenzfläche zweier Medien mit einfallender, reflektierter und transmittierter Welle](Bilder/E-Feld_Grenzfläche.png "Grenzfläche zweier Medien mit einfallender, reflektierter und transmittierter Welle. *Quelle: Hartmut Stöcker, [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!-- style = "width: 450px;" -->
+************************************
 
                                       {{2}}
 Die reflektierte Welle besitzt eine veränderte Amplitude $E_2$ und breitet sich in entgegengesetzte Richtung aus:
 $$E_{x,2} = E_2 \cdot \exp [\mathrm{i} (-k_0 z - \omega t)]$$
 
                                       {{3}}
-Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle:
+Die ins Medium mit dem komplexen Brechungsindex $n' = n + i \cdot k$ eindringende Welle besitzt die Amplitude $E_1$ und die gleiche Ausbreitungsrichtung wie die einfallende Welle. Für die Wellenzahl gilt $k_1 = k_0 n'$ und es ergibt sich:
 $$E_{x,1} = E_1 \cdot \exp [\mathrm{i} (k_0 n' z - \omega t)]$$
 
                                       {{4}}
-Am Ort $z = 0$ und zur Zeit $t = 0$ gilt für die Amplituden:
+Direkt an der Grenzfläche überlagern sich im ersten Medium die einfallende und die reflektierte Welle. Im zweiten Medium existiert nur die transmittierte Welle. Da das zur Grenzfläche parallele elektrische Feld keine Sprungstelle haben darf (folgt aus Maxwell-Gleichungen), gilt am Ort $z = 0$ und zur Zeit $t = 0$ für die Amplituden:
 $$E_1 = E_0 + E_2$$
 
                                       {{5}}
-Für die 1. Ableitung nach $z$ bei $z = 0$ und $t = 0$ gilt:
+Die Bedingung für die Stetigkeit der tangentialen magnetischen Feldkomponente ist nach den Maxwell-Gleichungen äquivalent zu einer Bedingung an die Ortsableitung der elektrischen Welle. Für die 1. Ortsableitung nach $z$ bei $z = 0$ und $t = 0$ gilt also:
 $$n' E_1 = E_0 - E_2$$
 
                                       {{6}}
