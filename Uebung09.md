@@ -83,7 +83,7 @@ Für die Termbezeichnungen müssen wir die Quantenzahlen zuordnen:
 
 - Gesamtspin $S = |\sum m_s|$: Ergibt sich aus der 1. Hundschen Regel, d. h. er nimmt den maximal möglichen Wert an.
 - Gesamtbahndrehimpuls $L = |\sum m_l|$: Nach der 2. Hundschen Regel werden die Unterzustände mit der Magnetquantenzahl $m_l$ so besetzt, dass $L$ maximal wird.
-- Gesamtdrehimpuls $J$: Folgt aus der 3. Hundschen Regel: Ist die Schale weniger als halbvoll, so ist $J=|L-S|$. Ist die Schale mehr als halbvoll, so ist $J=L+S$.
+- Gesamtdrehimpuls $J$: Folgt aus der 3. Hundschen Regel. Ist die Schale weniger als halbvoll, so ist $J=|L-S|$. Ist die Schale mehr als halbvoll, so ist $J=L+S$.
 ************************************
 
                                       {{5}}
