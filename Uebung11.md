@@ -145,7 +145,7 @@ Aus der gegebenen Sättigungsmagnetisierung erhalten wir:
 $$\mu_\mathrm{m} = \frac{M_\mathrm{m}}{n} = 2,\!22 \, \mu_\mathrm{B}$$
 
                                       {{4}}
-Das Ion Fe^3+^ besitzt die Konfiguration $\mathrm{[Ar] \, 3d^5}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 5/2$, $L = 0$ und $J = 5/2$ (siehe Übung 10, Aufgabe 5). Daraus folgt $g=2$ und:
+Das Ion Fe^3+^ besitzt die Konfiguration $\mathrm{[Ar] \, 3d^5}$ und durch Anwenden der Hundschen Regeln erhalten wir: $S = 5/2$, $L = 0$ und $J = 5/2$ (siehe Übung 10, Aufgabe 4). Daraus folgt $g=2$ und:
 $$\mu_\mathrm{eff} = g \cdot \sqrt{J(J+1)} \cdot \mu_\mathrm{B} = 5,\!92 \, \mu_\mathrm{B} ~~ \text{und} ~~ \mu_\mathrm{m} = g \cdot J \cdot \mu_\mathrm{B} = 5 \, \mu_\mathrm{B}$$
 
                                       {{5}}
