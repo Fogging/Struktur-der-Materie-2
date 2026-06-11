@@ -190,7 +190,7 @@ Alle genannten Elemente gehören zu den Übergangsmetallen der 4. Periode und ha
 
                                       {{2}}
 ************************************
-Bei den $\mathrm{3d}$-Übergangsmetallen werden durch Ionisation zunächst die $\mathrm{4s}$-Elektronen entfernt. Wir bestimmen nun die Quantenzahlen und gehen dabei wie in Übung 4, Aufgabe 2 vor:
+Bei den $\mathrm{3d}$-Übergangsmetallen werden durch Ionisation zunächst die $\mathrm{4s}$-Elektronen entfernt. Wir bestimmen nun die Quantenzahlen und gehen dabei wie in Übung 9, Aufgabe 1 vor:
 
 <!-- data-type="none" -->
 | Ion    | Konfiguration                      | Kästchenschema | $S$ | $L$ | $J$ | Termsymbol |
@@ -225,3 +225,6 @@ $$\mu_{\mathrm{eff},S} = 2 \cdot \sqrt{S(S+1)} \cdot \mu_\mathrm{B}$$
 | Fe^3+^ | $2$           | $5,\!92$ | $5,\!92$ | $5,\!9$ |
 | Cu^2+^ | $\frac{6}{5}$ | $3,\!55$ | $1,\!73$ | $1,\!9$ |
 ************************************
+
+                                      {{7}}
+Für die $\mathrm{3d}$-Übergangsmetalle liegt also reiner Spinmagnetismus vor. Im Gegensatz zu den $\mathrm{4f}$-Elementen (Seltene Erden) tritt hier keine Spin-Bahn-Kopplung auf.
